@@ -1,0 +1,101 @@
+Based on the vignette provided, reference the provided guidelines (L1, L2, L3, L4, L5, L6, L7, L8, N1, P1, P2, Q1, Q2) and choose the vignette that matches the disorder among the following disorders: * L1 Single Episode Depressive Disorder  
+* L2 Recurrent Depressive Disorder  
+* L3 Dysthymic Disorder  
+* L4 Mixed Depressive and Anxiety Disorder  
+* L5 Bipolar Type I Disorder  
+* L6 Bipolar Type II Disorder  
+* L7 Cyclothymic Disorder  
+* L8 Other Mood Disorder  
+* N1 Generalized Anxiety Disorder  
+* P1 Prolonged Grief Disorder  
+* P2 Adjustment Disorder  
+* Q1 A different diagnosis not listed above  
+* Q2 No diagnosis; symptoms and behaviours are within normal limits. Explain your choice by referring to the symptoms of the disorder and how they relate to the vignette.
+
+# Diagnostic Guidelines for Mood Disorders:
+Mood Disorders include Depressive and Bipolar Disorders, characterized by mood episodes: Depressive, Manic, Mixed, Hypomanic. No standalone diagnostic codes for mood episodes; they constitute larger disorders. Depressive Disorders: Single Episode, Recurrent Depressive Disorder, Dysthymic Disorder, Mixed Depressive and Anxiety Disorder. Bipolar and Related Disorders: Bipolar Type I, Type II, Cyclothymic Disorder, Other Mood Disorder (L8). Consideration of overlapping features with other mental disorders crucial for accurate diagnosis. Diagnostic guidelines also cover disorders like Generalized Anxiety Disorder, Prolonged Grief Disorder, and Adjustment Disorder.
+
+## Depressive Episode:
+Features Affective, Cognitive-behavioral, and Neurovegetative clusters. Lasts at least two weeks, significantly impacting various life areas. Mood disturbance severe, not due to health conditions, substances, or bereavement. 
+Additional features include variations in mood expression, cultural influences, and associations with substances or psychological symptoms.
+A Depressive Episode is distinguished from normal mood fluctuations, normal grief, and other disorders such as Prolonged Grief Disorder and Dementia Syndrome by its severity, duration, and specific symptoms, including persistent depressive state, severe self-guilt, or cognitive issues not indicative of dementia.
+
+## Manic Episode:
+Involves profound mood elevation, increased energy, lasting at least a week. Accelerated speech, racing thoughts, inflated self-esteem, reduced need for sleep. Significantly impairs personal, familial, social, or professional functioning. May include psychotic features, hallucinations; requires medical attention.
+Periods of euphoric or irritable mood that are entirely contextually appropriate (e.g., euphoria after winning a lottery) should not be considered as meeting the definitional requirements of a Manic Episode. (Boundary with normality)
+
+## Mixed Episode:
+Combines prominent manic and depressive symptoms, lasting at least two weeks. Impairs functioning; not due to health conditions or substances. Depressive and manic symptoms may alternate rapidly.
+
+## Hypomanic Episode:
+Sustained elevation in mood or irritability, increased energy for several days. Recognizable by those who know the person; distinct from normal reactions. Symptoms not severe enough to disrupt work or social life, no psychosis. Can arise during antidepressant treatment, lasting beyond physiological effects.
+Boundaries with other disorders and normality in Hypomanic Episodes are distinguished by the noticeable change from normal moods, insufficient for a Mood Disorder diagnosis alone, and less severe than Manic Episodes which cause significant life impairment and may need intensive treatment.
+
+## DEPRESSIVE DISORDERS:
+* L1 Single Episode Depressive Disorder
+  * Essential Features: Presence or history of a single Depressive Episode.
+  * Severity, Psychotic Symptoms, and Remission Qualifiers: Classifications based on severity, with or without psychotic symptoms, and remission status.
+
+* L2 Recurrent Depressive Disorder
+  * Essential Features: A history of at least two Depressive Episodes.
+  * Severity, Psychotic Symptoms, and Remission Qualifiers: Classifications based on severity, with or without psychotic symptoms, and remission status.
+  * Single and Recurrent Depressive Disorders differ from Schizophrenia and Anxiety Disorders in severity, symptomatology, and diagnostic criteria.
+  * Individuals with Depressive Disorder often face higher suicide risk, co-existing mental conditions, and diagnostic challenges due to overlapping symptoms with disorders like Dementia.
+
+* L3 Dysthymic Disorder
+  * Essential Features: Persistent depressed mood lasting 2 years or more, accompanied by characteristic symptoms
+  * Additional Features: Higher suicide risk, common co-occurrence with other disorders
+  * Dysthymic Disorder features chronic low mood, distinct from mood changes in Bipolar Disorder, Schizophrenia, and Generalized Anxiety Disorder, and not related to other health issues or substances.
+
+* L4 Mixed Depressive and Anxiety Disorder
+  * Essential Features: Presence of both depressive and anxiety symptoms for at least two weeks
+  * Additional Features: Often seen in primary care, not always clinically recognized
+  * Diagnose Mixed Depressive and Anxiety Disorder carefully, distinguishing it from normal worry and other similar disorders like Depression, Bipolar, and Adjustment Disorders
+
+## BIPOLAR AND RELATED DISORDERS:
+* L5 Bipolar Type I Disorder
+  * For Bipolar Type I Disorder, a history of at least one Manic or Mixed Episode is required, with a typical course involving recurrent Depressive and Manic or Mixed Episodes.
+  * Current Episode, Psychotic Symptoms, Severity, and Remission Qualifiers: Classifications based on current mood episode and severity
+
+* L6 Bipolar Type II Disorder
+  * Essential Features: History of at least one Hypomanic Episode and one Depressive Episode.
+  * Current Episode, Severity, and Psychotic Symptoms in Current Depressive Episodes, and Remission Qualifiers: Classifications based on current mood episode and severity
+  * Diagnosis of Bipolar Type I or II may involve antidepressant-induced mood swings, a history of depression, genetic factors, and increased risk for other health issues
+  * Bipolar Type I and II Disorders are distinctively characterized by their specific mood episodes and symptoms, setting them apart from normal states and other mental disorders such as Cyclothymic, Schizophrenia, Anxiety, Personality, Substance-Induced, and Oppositional Defiant Disorders
+
+* L7 Cyclothymic Disorder
+  * Essential Features: Mood instability over at least 2 years, with periods of hypomanic and depressive symptomatology.
+  * Individuals initially diagnosed with Cyclothymic Disorder are at high risk for developing Bipolar Type I or Bipolar Type II Disorder during their lifetime. 
+  * Cyclothymic Disorder is characterized by chronic mood instability, distinct from normal mood variations and other disorders, and is not caused by substances, medications, or other health conditions.
+
+* L8 Other Mood Disorder
+  * Essential Features: Clinical presentation not satisfying criteria for other mood disorders.
+
+## ADDITIONAL FEATURES FOR DEPRESSIVE AND BIPOLAR DISORDERS:
+Suicide risk is higher.
+Recurrent panic attacks may indicate greater severity and suicide risk.
+Co-occurrence with various mental and behavioral disorders is common.
+Family history influences risk
+Anxiety and worry are normal responses to stress that can be beneficial but become problematic in Generalized Anxiety Disorder, where they are excessive and impairing, and should not be confused with intense anxiety appropriate to extreme situations like living in a war zone.
+
+## GENERALIZED ANXIETY DISORDER (N1):
+Marked symptoms of anxiety with additional features.
+Chronic symptoms persisting for several months, causing significant distress or impairment.
+Behavioral changes such as avoidance may occur.
+Generalized Anxiety Disorder is marked by persistent worry about life events, leading to somatic anxiety and behavioral changes, distinct from other anxiety disorders and normal stress responses
+
+## PROLONGED GRIEF DISORDER (P1):
+Persistent grief response exceeding expected norms.
+Long-lasting grief causing significant impairment.
+Additional Features: Persistent preoccupation, emotional reactions, increased substance use, and suicidal ideation.
+Grief reactions within 6 months or culturally normal are normal; Prolonged Grief Disorder, different from depression, focuses on unique symptoms related to the loss of a loved one, considering onset and prior mental health
+
+## ADJUSTMENT DISORDER (P2):
+Maladaptive reaction to identifiable psychosocial stressors.
+Preoccupation with stressor causing significant impairment.
+Symptoms may worsen with reminders of stressor, and recovery often occurs when stressor is removed or coping mechanisms develop.
+In Adjustment Disorders, symptoms like preoccupation worsen with reminders of the stressor, leading to avoidance and often depressive or anxiety symptoms. Recovery typically occurs with removal of the stressor, support, or improved coping strategies.
+Adjustment disorder is marked by an excessive stress response that significantly impairs functioning, typically resolving within 6 months, and should be differentiated from normal emotional reactions and other mental disorders with more specific or severe symptoms.
+
+# Vignette: 
+TR, a 28-year-old unmarried teacher of young children, is seeking treatment after an episode that resulted in her hospitalization.    ## Presenting Symptoms Her parents, with whom she currently resides, attend the appointment and stay for the interview. TR presents initially as withdrawn and irritable, having difficulty tolerating the structured interaction. After 15 minutes, she becomes very talkative, but rather than responding to questions directly she talks about her past romantic relationships in overly intimate detail despite her parent’s obvious discomfort. TR’s parents report that at her work, during the past 3 weeks she has had an increasing number of conflicts with coworkers, finally leaving abruptly during the middle of the school day and not returning even though no arrangement had been made with another teacher to care for her class. TR blames this incident on the attitude of her coworkers. TR’s parents report that, during the same 3 weeks, TR has had frequent bouts of extreme low mood, suicidal thoughts, feelings of worthlessness, and crying that typically last for several hours. According to her mother, TR is unable to sleep and during the night she spends several hours on the computer. She does not allow her parents to enter her room and if they try, she gets very angry. Her father relates that TR wanted to spend the previous week outside the country. Apparently, her plan was to take her father’s car and drive hundreds of kilometers to a popular vacation destination, even though she does not have a driver’s license or much experience driving. Her parents had a difficult time keeping her at home and finally had to hide the car keys from TR. For a few days afterward, TR expressed pessimistic thoughts about the impossibility of living with such suffering. She retreated into her room, refused to eat, and could be heard weeping throughout the day. TR does not appear to recognize the abnormal nature of her condition and is very reactive to the idea of taking new psychotropic medications, nearly leaving the interview when this is suggested in passing by the clinician.    ## Additional Background Information TR’s parents relate that TR had another episode when she was 23 years old that also resulted in hospitalization. She experienced a sudden onset of low mood, low self-esteem, marked difficulties in interpersonal relationships, difficulty falling and staying asleep, extreme fatigue and suicidal thoughts. She was unable to go to work for several weeks. After a month, her parents brought TR to the hospital, where she was admitted due to intense suicidal ideation. There is no familial history of mental disorder. A medical exam has ruled out other medical conditions that could be causing her symptoms. There is no evidence of past or present drug or alcohol use.

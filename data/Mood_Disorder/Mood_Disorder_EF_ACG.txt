@@ -1,0 +1,64 @@
+Diagnostic Guidelines for Mood Disorders:
+Mood Disorders include Depressive and Bipolar Disorders, characterized by mood episodes: Depressive, Manic, Mixed, Hypomanic. No standalone diagnostic codes for mood episodes; they constitute larger disorders. Depressive Disorders: Single Episode, Recurrent Depressive Disorder, Dysthymic Disorder, Mixed Depressive and Anxiety Disorder. Bipolar and Related Disorders: Bipolar Type I, Type II, Cyclothymic Disorder, Other Mood Disorder (L8). Consideration of overlapping features with other mental disorders crucial for accurate diagnosis. Diagnostic guidelines also cover disorders like Generalized Anxiety Disorder, Prolonged Grief Disorder, and Adjustment Disorder.
+Depressive Episode:
+Features Affective, Cognitive-behavioral, and Neurovegetative clusters. Lasts at least two weeks, significantly impacting various life areas. Mood disturbance severe, not due to health conditions, substances, or bereavement. Additional features include variations in mood expression, cultural influences, and associations with substances or psychological symptoms.
+Manic Episode:
+Involves profound mood elevation, increased energy, lasting at least a week. Accelerated speech, racing thoughts, inflated self-esteem, reduced need for sleep. Significantly impairs personal, familial, social, or professional functioning. May include psychotic features, hallucinations; requires medical attention.
+Mixed Episode:
+Combines prominent manic and depressive symptoms, lasting at least two weeks. Impairs functioning; not due to health conditions or substances. Depressive and manic symptoms may alternate rapidly.
+Hypomanic Episode:
+Sustained elevation in mood or irritability, increased energy for several days. Recognizable by those who know the person; distinct from normal reactions. Symptoms not severe enough to disrupt work or social life, no psychosis. Can arise during antidepressant treatment, lasting beyond physiological effects.
+
+DEPRESSIVE DISORDERS:
+L1 Single Episode Depressive Disorder
+	•	Essential Features: Presence or history of a single Depressive Episode.
+	•	Severity, Psychotic Symptoms, and Remission Qualifiers: Classifications based on severity, with or without psychotic symptoms, and remission status.
+
+L2 Recurrent Depressive Disorder
+	•	Essential Features: A history of at least two Depressive Episodes.
+	•	Severity, Psychotic Symptoms, and Remission Qualifiers: Classifications based on severity, with or without psychotic symptoms, and remission status.
+
+L3 Dysthymic Disorder
+	•	Essential Features: Persistent depressed mood lasting 2 years or more, accompanied by characteristic symptoms.
+	•	Additional Features: Higher suicide risk, common co-occurrence with other disorders.
+
+L4 Mixed Depressive and Anxiety Disorder
+	•	Essential Features: Presence of both depressive and anxiety symptoms for at least two weeks.
+	•	Additional Features: Often seen in primary care, not always clinically recognized.
+
+BIPOLAR AND RELATED DISORDERS:
+L5 Bipolar Type I Disorder
+	•	Essential Features: History of at least one Manic or Mixed Episode.
+	•	Current Episode, Psychotic Symptoms, Severity, and Remission Qualifiers: Classifications based on current mood episode and severity.
+
+L6 Bipolar Type II Disorder
+	•	Essential Features: History of at least one Hypomanic Episode and one Depressive Episode.
+	•	Current Episode, Severity, and Psychotic Symptoms in Current Depressive Episodes, and Remission Qualifiers: Classifications based on current mood episode and severity.
+
+L7 Cyclothymic Disorder
+	•	Essential Features: Mood instability over at least 2 years, with periods of hypomanic and depressive symptomatology.
+	•	Additional Features: High risk for developing Bipolar Type I or Type II Disorder.
+
+L8 Other Mood Disorder
+	•	Essential Features: Clinical presentation not satisfying criteria for other mood disorders.
+
+ADDITIONAL FEATURES FOR DEPRESSIVE AND BIPOLAR DISORDERS:
+	•	Suicide risk is higher.
+	•	Recurrent panic attacks may indicate greater severity and suicide risk.
+	•	Co-occurrence with various mental and behavioral disorders is common.
+	•	Family history influences risk.
+
+GENERALIZED ANXIETY DISORDER (N1):
+	•	Marked symptoms of anxiety with additional features.
+	•	Chronic symptoms persisting for several months, causing significant distress or impairment.
+	•	Behavioral changes such as avoidance may occur.
+
+PROLONGED GRIEF DISORDER (P1):
+	•	Persistent grief response exceeding expected norms.
+	•	Long-lasting grief causing significant impairment.
+	•	Additional Features: Persistent preoccupation, emotional reactions, increased substance use, and suicidal ideation.
+
+ADJUSTMENT DISORDER (P2):
+	•	Maladaptive reaction to identifiable psychosocial stressors.
+	•	Preoccupation with stressor causing significant impairment.
+	•	Symptoms may worsen with reminders of stressor, and recovery often occurs when stressor is removed or coping mechanisms develop.

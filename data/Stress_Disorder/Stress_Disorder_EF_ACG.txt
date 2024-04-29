@@ -1,0 +1,66 @@
+Based on the vignette provided, reference the provided guidelines (A1, A2, A3, A4, A5, A6, A7, A8, A9) and choose the vignette that matches the disorder among the following disorders: 
+A1 Post-Traumatic Stress Disorder
+A2 Complex Post-Traumatic Stress Disorder 
+A3 Prolonged Grief Disorder 
+A4 Adjustment Disorder 
+A5 Other Disorder Specifically Associated with Stress 
+A6 Acute Stress Reaction 
+A8: A diagnosis from a different diagnostic area (e.g., mood disorders, psychotic disorders, personality disorders)  
+Q9: No diagnosis; normal reaction to stressful event(s)  
+
+Explain your choice by referring to the symptoms of the disorder and how they relate to the vignette. 
+
+#A1 Post-Traumatic Stress Disorder
+          
+##Essential (Required) Features: 
+
+Exposure to an event or situation (either short- or long-lasting) of an extremely threatening or horrific nature.  Such events include, but are not limited to, natural or human-made disasters; combat; serious accidents; torture; sexual violence; terrorism; assault; acute life-threatening illness (such as a heart attack); witnessing the threatened or actual injury or death of others in a sudden, unexpected, or violent manner; and experiencing the sudden, unexpected or violent death of a loved one. Following the traumatic event or situation (generally within 1 month but nearly always within several months), the development of a characteristic syndrome consisting of three core elements:  Re-experiencing the traumatic event in the present, in which the event(s) is not just remembered but is experienced as occurring again in the here and now.  This typically occurs in the form of vivid intrusive images or memories; flashbacks, which can vary from mild (there is a transient sense of the event occurring again in the present) to severe (there is a complete loss of awareness of present surroundings); or repetitive dreams or nightmares that are thematically related to the traumatic event(s). Re-experiencing is typically accompanied by strong or overwhelming emotions, such as fear or horror, and physical sensations. Deliberate avoidance of reminders likely to produce re-experiencing of the traumatic event(s). This may take the form either of active internal avoidance of relevant thoughts and memories, or external avoidance of people, conversations, activities, or situations reminiscent of the event(s). In extreme cases the person may change his or her environment (e.g., move to a different city or change jobs) to avoid reminders. Persistent perceptions of heightened current threat, as indicated by hypervigilance or an enhanced startle reaction to events such as unexpected noises. Hypervigilant persons constantly guard themselves against danger and feel themselves or others close to them to be under immediate threat either in specific situations or more generally.  They may adopt new behaviours designed to ensure safety (e.g., only sit in certain places on trains, repeatedly check in vehicles’ rear-view mirror). 
+
+##Additional Features: 
+Common symptomatic presentations of PTSD may also include general dysphoria, dissociative symptoms, somatic complaints, suicidal ideation and behavior, social withdrawal, excessive alcohol or drug use to avoid re-experiencing or manage emotional reactions, anxiety symptoms (including panic and obsessions/compulsions) in response to memories or reminders of the trauma. The emotional experience of people with PTSD commonly includes anger, shame, sadness, humiliation, and guilt, including survivor guilt.   
+
+#A2 Complex Post-Traumatic Stress Disorder
+                   
+##Essential (Required) Features: 
+
+History of exposure to a stressor of an extreme and prolonged or repetitive nature from which escape is difficult or impossible.  Such events include, but are not limited to, torture, concentration camps, slavery, genocide campaigns and other forms of organized violence, prolonged domestic violence, and repeated childhood sexual or physical abuse. History of the following three core elements of PTSD that developed during or after the traumatic event (generally within one month but nearly always within several months) and lasting for at least several weeks: Re-experiencing the traumatic event after the traumatic event has occurred, in which the event(s) is not just remembered but is experienced as occurring again in the here and now.  This typically occurs in the form of vivid intrusive images or memories; flashbacks, which can vary from mild (there is a transient sense of the event occurring again in the present) to severe (there is a complete loss of awareness of present surroundings); or repetitive dreams or nightmares that are thematically related to the traumatic event(s). Re-experiencing is typically accompanied by strong or overwhelming emotions, such as fear or horror, and physical sensations. Deliberate avoidance of reminders likely to produce re-experiencing of the traumatic event(s). This may take the form either of active internal avoidance of relevant thoughts and memories, or external avoidance of people, conversations, activities, or situations reminiscent of the event(s). In extreme cases the person may change his or her environment (e.g., move house or change jobs) to avoid reminders. Persistent perceptions of heightened current threat, as indicated by hypervigilance or an enhanced startle reaction to events such as unexpected noises. Hypervigilant persons constantly guard themselves against danger and feel themselves or others close to them to be under immediate threat either in specific situations or more generally.  They may adopt new behaviours designed to ensure safety (e.g., only sit in certain places on trains, repeatedly check in vehicles’ rear-view mirror). Severe and pervasive problems in affect regulation.  Examples include heightened emotional reactivity to minor stressors, violent outbursts, reckless or self-destructive behavior, dissociative symptoms when under stress, and emotional numbing, particularly the inability to experience pleasure or positive emotions. Persistent beliefs about oneself as diminished, defeated or worthless, accompanied by deep and pervasive feelings of shame, guilt or failure related to the stressor.  For example, the individual may feel guilty about not having escaped from or succumbing to the adverse circumstance, or not having been able to prevent the suffering of others. Persistent difficulties in sustaining relationships and in feeling close to others. The person may consistently avoid, deride or have little interest in relationships and social engagement more generally. Alternatively, there may be occasional intense relationships, but the person has difficulty sustaining them.   
+
+##Additional Features: 
+Suicidal ideation and behavior, substance abuse, significant depression, psychotic episodes and somatic complaints may be present.   
+
+#A3 Prolonged Grief Disorder
+          
+##Essential (Required) Features:
+
+History of bereavement following the death of a partner, parent, child, or close other person. A persistent and severe grief response that includes severe separation distress, characterized by yearning, sadness, or longing for the deceased, and associated emotional pain (e.g., guilt; denial; blame; an inability to experience positive mood, emotional numbness). The grief response has persisted for an abnormally long period of time following the loss, clearly beyond the normative response for grieving within the individuals’ religious and cultural context.   
+
+##Additional Features: 
+Persistent preoccupation with the deceased (e.g., preservation of belongings) or circumstances of the death may occur, or there may be oscillation between excessive preoccupation and avoidance of reminders of the deceased. Other emotional reactions may include difficulty accepting the loss; problems coping without the loved one; difficulties in recalling positive memories of the deceased, difficulty in engaging with social or other activities; social withdrawal; and the feeling that life is meaningless; Increased tobacco, alcohol, and other substance use, as well as increased suicidal ideation and behaviour may be present.
+
+#A4 Adjustment Disorder
+            
+##Essential (Required) Features:       
+
+A maladaptive reaction to an identifiable psychosocial stressor or multiple stressors (e.g., single stressful event, ongoing psychosocial difficulty or a combination of stressful life situations) that usually emerges within a month of the stressor. Examples include divorce, illness or disability, socio-economic problems and conflicts at home or work. The reaction to the stressor is characterized by preoccupation with the stressor or its consequences, including excessive worry, recurrent and distressing thoughts about the stressor, or constant rumination about its implications. Failure to adapt to the stressor produces noticeable impairment in personal, social or occupational functioning, e.g., relationship conflict, performance problems at work or school, reduced ability to respond appropriately to normal stressors.  
+
+##Additional Features:
+Symptoms of preoccupation tend to worsen with any reminder of the stressor(s), resulting in avoidance of stimuli, thoughts, feelings or discussions associated with the stressor(s) to prevent preoccupation or suffering. Additional psychological symptoms of Adjustment Disorder may include depressive or anxiety symptoms as well as impulsive “externalizing” symptoms, particularly increased tobacco, alcohol, or other substance use.  
+
+#A5 Other Disorder Specifically Associated with Stress
+             
+A diagnosis of Other Disorder Specifically Associated with Stress should be used only in cases in which: 
+The clinical presentation does not satisfy the definitional requirements of any of the other disorders in this section or of Acute Stress Reaction; The symptoms are not better explained by another Mental and Behavioural Disorder (e.g., a depressive or anxiety disorder); The clinical presentation is judged to be a Mental and Behavioural Disorder occurring in specific association with an identifiable stressor; The symptoms cause distress or functional impairment in personal, family, social, educational, occupational or other important areas of functioning.  
+
+##Boundary with Other Disorders and Normality:
+The symptoms are not of sufficient specificity or severity to justify the diagnosis of another Mental and Behavioural Disorder (e.g., a Depressive or Anxiety Disorder).  If the definitional requirements are met for another disorder, that disorder should be diagnosed instead of Adjustment Disorder. (Boundary with other Mental and Behavioural Disorders) The symptoms typically resolve within 6 months, unless the stressor persists for a longer duration. If the symptoms persist longer than 6 months after the stressor has ended, it is usually appropriate to change the diagnosis. (Boundary with other Mental and Behavioural Disorders)  
+
+
+#A6 Acute Stress Reaction
+             
+Note:  Acute Stress Reaction is not considered to be a Mental and Behavioural Disorder, but rather appears in the section that lists reasons for clinical encounters that are not diseases or disorders.  It is listed here to assist in differential diagnosis.
+             
+##Essential (Required) Features:       
+Exposure to an event or situation (either short- or long-lasting) of an extremely threatening or horrific nature.  Such events include, but are not limited to, natural or human-made disasters; combat; serious accidents; torture; sexual violence; terrorism; assault; acute life-threatening illness (such as a heart attack); witnessing the threatened or actual injury or death of others in a sudden, unexpected, or violent manner; and experiencing the sudden, unexpected or violent death of a loved one. The development of a response to the stressor which is considered to be normal given the severity of the stressor. The response to the stressor may include transient emotional, somatic, cognitive, or behavioural symptoms, such as being in a daze, confusion, sadness, anxiety, anger, despair, overactivity, inactivity, social withdrawal, or stupor. Autonomic signs of anxiety (e.g., tachycardia, sweating, flushing) are commonly present and may be the presenting feature. Symptoms typically appear within hours to days following the stressful event, and usually begin to subside within a few days after the event or following removal from the threatening situation, when this is possible. In cases where the stressor continues or removal is not possible, symptoms may persist but are usually greatly reduced within approximately 1 month as the person adapts to the changed situation.  
+
+##Additional Features:
+Acute Stress Reaction in help-seeking individuals is usually, but not necessarily, accompanied by substantial subjective distress and/or interference with personal functioning.

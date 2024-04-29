@@ -1,0 +1,50 @@
+Q1 Generalized Anxiety Disorder
+
+Essential (Required) Features: 
+
+Marked symptoms of anxiety accompanied by either:
+general apprehensiveness that is not restricted to any particular environmental circumstance (i.e., “free-floating anxiety”); or worry (apprehensive expectation) about untoward events occurring in several different aspects of everyday life (e.g., work, finances, health, family). 
+
+Anxiety and general apprehensiveness or worry are accompanied by additional symptoms, such as: 
+Muscle tension or motor restlessness. Sympathetic autonomic overactivity as evidenced by frequent gastrointestinal symptoms such as nausea and/or abdominal distress, heart palpitations, sweating, trembling, shaking, and/or dry mouth. Subjective experience of nervousness, restlessness, or being “on edge”. Difficulties maintaining concentration. Irritability. Sleep disturbances (difficulty falling or staying asleep, or restless, unsatisfying sleep). 
+
+The symptoms are not transient and persist for at least several months, for more days than not. The symptoms are sufficiently severe to result in significant distress about experiencing persistent anxiety symptoms or result in significant impairment in personal, family, social, educational, occupational, or other important areas of functioning.
+
+Q2  Panic Disorder
+
+Essential (Required) Features: 
+Recurrent unexpected panic attacks that are not restricted to particular stimuli or situations. Panic attacks are discrete episodes of intense fear or apprehension also characterized by the rapid and concurrent onset of several characteristic symptoms. These symptoms may include, but are not limited to, the following: Palpitations or increased heart rate. Sweating. Trembling. Sensations of shortness of breath. Feelings of choking. Chest pain. Nausea or abdominal distress. Feelings of dizziness or lightheadedness. Chills or hot flushes. Tingling or lack of sensation in extremities (i.e., paresthesias). Depersonalization or derealization. Fear of losing control or going mad. Fear of imminent death. 
+
+Panic attacks are followed by persistent concern or worry (e.g., for several weeks) about their recurrence or their perceived negative significance (e.g., that the physiological symptoms may be those of a myocardial infarction), or behaviours intended to avoid their recurrence (e.g., only leaving the home with a trusted companion). The symptoms are sufficiently severe to result in significant impairment in personal, family, social, educational, occupational, or other important areas of functioning. Panic attacks can occur in other Anxiety and Fear-Related Disorders as well as other Mental and Behavioural Disorders and therefore the presence of panic attacks is not in itself sufficient to assign a diagnosis of Panic Disorder.
+ 
+Q3  Agoraphobia
+
+Essential (Required) Features: 
+Marked and excessive fear or anxiety that occurs in, or in anticipation of, multiple situations where escape might be difficult or help might not be available, such as using public transportation, being in crowds, being outside the home alone, in shops, theatres, or standing in line. The individual is consistently fearful or anxious about these situations due to a sense of danger or fear of specific negative outcomes such as panic attacks, symptoms of panic, or other incapacitating (e.g., falling) or embarrassing physical symptoms (e.g., incontinence). The situations are actively avoided, are entered only under specific circumstances (e.g., in the presence of a companion), or else are endured with intense fear or anxiety. The symptoms are not transient, that is, they persist for an extended period of time (e.g., at least several months). The symptoms are sufficiently severe to result in significant distress about experiencing persistent anxiety symptoms or significant impairment in personal, family, social, educational, occupational, or other important areas of functioning.
+
+Q4 Specific Phobia
+
+Essential (Required) Features:
+Marked and excessive fear or anxiety that consistently occurs when exposed to one or more specific objects or situations (e.g., proximity to certain kinds of animals, heights, closed spaces, sight of blood or injury) and that is out of proportion to the actual danger posed by the specific object or situation. The phobic object or situation is actively avoided or else endured with intense fear or anxiety. A pattern of fear, anxiety, or avoidance related to specific objects or situations is not transient, that is, it persists for an extended period of time (e.g., at least several months). The symptoms are sufficiently severe to result in significant distress about experiencing persistent anxiety symptoms or significant impairment in personal, family, social, educational, occupational, or other important areas of functioning.
+
+Q5  Social Anxiety Disorder
+
+Essential (Required) Features: 
+Marked and excessive fear or anxiety that occurs consistently in one or more social situations such as social interactions (e.g., having a conversation), being observed (e.g., while eating or drinking), or performing in front of others (e.g., giving a speech). The individual is concerned that he or she will act in a way, or show anxiety symptoms, that will be negatively evaluated by others (i.e., be humiliating, embarrassing, lead to rejection, or be offensive). Relevant social situations are consistently avoided or endured with intense fear or anxiety. The symptoms are not transient; that is, they persist for an extended period of time (e.g., at least several months). The symptoms are sufficiently severe to result in significant distress about experiencing persistent anxiety symptoms or result in significant impairment in personal, family, social, educational, occupational, or other important areas of functioning.
+
+Q6  Separation Anxiety Disorder
+
+Essential (Required) Features:
+Marked and excessive fear or anxiety about separation from those individuals to whom the person is attached (i.e., has a deep affective bond with). In children and youth, attachment figures are typically parents, caregivers, or other family members, whereas in adults, they are most often a romantic partner or children. Manifestations of fear or anxiety related to separation depend on the individual’s developmental level, but may include: Persistent thoughts that harm or some other untoward event (e.g., being kidnapped) will lead to separation. Reluctance or refusal to go to school or work. Recurrent excessive distress (e.g., tantrums, social withdrawal) related to being separated from the attachment figure. Reluctance or refusal to go to sleep without being near the attachment figure. Recurrent nightmares about separation. Physical symptoms such as nausea, vomiting, stomachache, headache, on occasions that involve separation from the attachment figure, such as leaving home to go to school or work. The symptoms are not transient, that is, they persist for an extended period of time (e.g., at least several months).
+
+The symptoms are sufficiently severe to result in significant distress about experiencing persistent anxiety symptoms or significant impairment in personal, family, social, educational, occupational, or other important areas of functioning.
+
+Q7  Selective Mutism
+
+Essential (Required) Features: Consistent selectivity in speaking, such that a child demonstrates adequate language competence in specific social situations, typically at home, but consistently fails to speak in others, typically at school. The duration of the disturbance is at least one month, not limited to the first month of school. The disturbance is not due to a lack of knowledge of, or comfort with, the spoken language demanded in the social situation. Selectivity of speech is sufficiently severe so as to interfere with educational achievement or with social communication or is associated with significant impairment in other important areas of functioning.
+
+Q8  Other Anxiety and Fear-Related Disorder
+
+Essential (Required) Features: The clinical presentation does not satisfy the definitional requirements of any other disorder in the Anxiety and Fear-Related Disorders grouping. The symptoms are not better explained by another Mental and Behavioural Disorder (e.g., a psychotic, mood, or obsessive-compulsive and related disorder). The clinical presentation is judged to be a Mental and Behavioural Disorder that shares primary clinical features with other Anxiety and Fear-Related Disorders (e.g., physiological symptoms of excessive arousal, apprehension, and avoidance behavior). The symptoms are not developmentally appropriate. The symptoms are in excess of what is normative for the individual’s specific cultural context. The symptoms and behaviors are not explained by another medical disorder that is not classified under Mental and Behavioural Disorders. The symptoms cause significant distress or significant impairment in personal, family, social, educational, occupational or other important areas of functioning.
+
+Q9  Unspecified Anxiety and Fear-Related Disorder: Essential (Required) Features: (No specific diagnostic guidance provided.)
