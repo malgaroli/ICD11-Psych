@@ -2,3 +2,5 @@ langchain
 langchain-community
 pypdf
 faiss-gpu
+datasets
+transformers
