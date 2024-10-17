@@ -1,0 +1,93 @@
+Set 1 ----- Initial diagnostic impressions
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+
+You can select from one of disorders, a different diagnosis, or no diagnosis.
+
+Type of disorders:
+Q1 Generalized Anxiety Disorder
+Q1 Generalized Anxiety Disorder and Q2 Panic Disorder
+Q2 Panic Disorder
+Q3 Agoraphobia
+Q3 Agoraphobia and Q2 Panic Disorder
+Q4 Specific Phobia
+Q4 Specific Phobia and Q2 Panic Disorder
+Q5 Social Anxiety Disorder
+Q5 Social Anxiety Disorderand Q2 Panic Disorder
+Q6 Separation Anxiety Disorder
+Q6 Separation Anxiety Disorder and Q2 Panic Disorder
+Q7 Selective Mutism
+Q8 Other Anxiety and Fear-Related Disorder
+Q9 Unspecified Anxiety and Fear-Related Disorder
+A different diagnosis
+No diagnosis
+
+If you select an anxiety disorder, proceed to Set 3.
+If you select a different diagnosis, proceed to Set 2.
+If you select no diagnosis, proceed to Set 6.
+
+
+Set 2  ----- Diagnosis from a different area
+Which diagnosis? Why do you feel that this is the most appropriate diagnosis? Then proceed to Set 6 directly. 
+
+
+Set 3 ----- Step-by-step diagnostic evaluation (Set 1)
+Please answer the following questions regarding the diagnosis of Q1 Generalized Anxiety Disorder for the person described in the vignette above.
+
+1.Is there evidence of marked symptoms of anxiety that are accompanied by one or more of the following?
+(a) General apprehensiveness that is not restricted to any particular environmental circumstance (i.e., “free-floating anxiety”).
+(b) Worry (apprehensive expectation) about untoward events occurring in several different aspects of everyday life (e.g., work, finances, health, family).
+
+2.Is there evidence that the anxiety and general apprehensiveness or worry are accompanied by additional symptoms, such as:
+(a) Muscle tension or motor restlessness.
+(b) Sympathetic autonomic overactivity as evidenced by frequent gastrointestinal symptoms such as nausea and/or abdominal distress, heart palpitations, sweating, trembling, shaking, and/or dry mouth.
+(c) Subjective experience of nervousness, restlessness, or being “on edge.”
+(d) Difficulties maintaining concentration.
+(e) Irritability.
+(f) Sleep disturbances (difficulty falling or staying asleep, or restless, unsatisfying sleep).
+
+3.Have the symptoms been present for at least several months, for more days than not?
+
+4.Are the symptoms sufficiently severe to result in significant distress about experiencing persistent anxiety symptoms or to result in significant impairment in personal, family, social, educational, occupational, or other important areas of functioning?
+
+5.Do the symptoms represent a normal or appropriate reaction to stress or environmental circumstances? If so, a diagnosis of Generalized Anxiety Disorder is not appropriate. A diagnosis of Adjustment Disorder may be appropriate if the symptoms represent a maladaptive reaction to an identifiable psychosocial stressor or multiple stressors characterized by preoccupation with the stressor or its consequences. Individuals with Adjustment Disorder typically have normal functioning prior to the onset of the stressor(s), and symptoms generally resolve within 6 months.
+
+
+Set 4 -----Evaluation of guidelines
+Please rate the EASE OF USE of the diagnostic guidelines for Generalized Anxiety Disorder based on how easy it was to apply them to the person in the vignette.
+
+Please rate the GOODNESS OF FIT of the diagnostic guidelines for Generalized Anxiety Disorder based on how accurate they were in describing the person in the vignette.
+
+In your regular clinical practice (direct service provision or supervision), how frequently do you encounter patients or clients with Generalized Anxiety Disorder?
+
+In your regular clinical practice (direct service provision or supervision), how similar are the symptoms of the patients or clients you see with Generalized Anxiety Disorder to the symptoms of the person described in the vignette?
+
+Do you have any comments regarding the diagnostic guidelines presented for Generalized Anxiety Disorder?
+
+Set 5 ----- Chance to select a difference diagnosis
+After reviewing the diagnostic guidelines for your initial selection of Generalized Anxiety Disorder, you decided that a different diagnosis would be more appropriate.  Which of the following diagnostic conclusions best corresponds to the person described in the vignette?
+
+After reviewing the diagnostic guidelines for your initial selection of Generalized Anxiety Disorder, you decided that a different diagnosis would be more appropriate.  Which of the following diagnostic conclusions best corresponds to the person described in the vignette? 
+
+Why did you decide to change your diagnostic conclusion? (Select all that apply.)
+Lack of clarity in the vignette (please explain). Lack of clarity in the diagnostic guidelines (please explain). Other (please explain). 
+
+
+Set 6 ----- Evaluation of person in vignette (all participants)
+Please rate the level of impairment in personal, family, social, educational, occupational or other important areas of function experienced by the person described in the vignette:
+Select from the following: No impairment, mild impairment, moderate impairment, severe impairment, or complete impairment 
+
+Please rate the severity of the symptoms experienced by the person described in the vignette:
+Select from the following: No symptoms, mild symptoms, moderate symptoms, severe symptoms, or extremely severe symptoms
+
+
+Set 7 -----Diagnostic confidence (all participants)
+How confident are you that Generalized Anxiety Disorder is the most appropriate diagnostic conclusion for the person described in the vignette?
+Select from the following: not at all, somewhat confident, quite confident, extremely confident 
+
+How clear were the diagnostic guidelines in helping you determine that Generalized Anxiety Disorder was the most appropriate conclusion?
+Select from the following: Not at all clear, somewhat clear, quite clear, extremely clear
+
+Set 8 ----- Differential diagnosis (if incorrect)
+If the final diagnosis is not correct, We are interested in understanding clinicians' thought processes about differential diagnosis. What was your rationale for selecting the diagnosis instead of Generalized Anxiety Disorder?
+
+
