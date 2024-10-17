@@ -1,0 +1,13 @@
+### Diagnostic Process - Step 1: Initial Diagnostic Impressions 
+1. Based on the symptoms described, which of the following diagnostic conclusions best corresponds to the person in the vignette? - Generalized Anxiety Disorder - Panic Disorder - Agoraphobia - Social Anxiety Disorder - Separation Anxiety Disorder - No Diagnosis 
+
+### Diagnostic Process - Step 2: Evaluation of Symptoms Please answer the following regarding the presence of symptoms: 
+1. Is there evidence of free-floating anxiety? 
+2. Is the worry generalized across different aspects of life (e.g., work, health, family)? 
+3. Are there additional symptoms (e.g., muscle tension, sleep disturbance, irritability)? 
+
+### Diagnostic Process - Step 3: Duration and Severity 
+1. Have the symptoms been present for several months? 
+2. Do they cause significant impairment in social, personal, or work life? 
+
+### Final Diagnostic Conclusion: Based on the steps above, what is the most likely diagnosis? Please rate your confidence in this diagnosis (1-4). 
