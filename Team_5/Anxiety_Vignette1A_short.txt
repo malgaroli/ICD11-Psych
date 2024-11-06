@@ -1,3 +1,21 @@
+Type of disorders:
+Q1 Generalized Anxiety Disorder
+Q1 Generalized Anxiety Disorder and Q2 Panic Disorder
+Q2 Panic Disorder
+Q3 Agoraphobia
+Q3 Agoraphobia and Q2 Panic Disorder
+Q4 Specific Phobia
+Q4 Specific Phobia and Q2 Panic Disorder
+Q5 Social Anxiety Disorder
+Q5 Social Anxiety Disorderand Q2 Panic Disorder
+Q6 Separation Anxiety Disorder
+Q6 Separation Anxiety Disorder and Q2 Panic Disorder
+Q7 Selective Mutism
+Q8 Other Anxiety and Fear-Related Disorder
+Q9 Unspecified Anxiety and Fear-Related Disorder
+A different diagnosis
+No diagnosis
+
 ### Diagnostic Process - Step 1: Initial Diagnostic Impressions 
 1. Based on the symptoms described, which of the following diagnostic conclusions best corresponds to the person in the vignette? - Generalized Anxiety Disorder - Panic Disorder - Agoraphobia - Social Anxiety Disorder - Separation Anxiety Disorder - No Diagnosis 
 
@@ -9,5 +27,3 @@
 ### Diagnostic Process - Step 3: Duration and Severity 
 1. Have the symptoms been present for several months? 
 2. Do they cause significant impairment in social, personal, or work life? 
-
-### Final Diagnostic Conclusion: Based on the steps above, what is the most likely diagnosis? Please rate your confidence in this diagnosis (1-4). 
