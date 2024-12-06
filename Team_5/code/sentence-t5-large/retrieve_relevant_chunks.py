@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 class GuidelineRetriever:
     def __init__(self, chunks_path="guideline_chunks.npy", embeddings_path="guideline_embeddings.npy",
-                 model_name='sentence-transformers/sentence-t5-large', top_k=20):
+                 model_name='sentence-transformers/sentence-t5-large', top_k=50):
         # error handling
         try:
             self.chunks = np.load(chunks_path, allow_pickle=True)

@@ -3,22 +3,36 @@ from langchain_community.llms.ollama import Ollama
 from retrieve_relevant_chunks import GuidelineRetriever
 import re
 
-mistral_model = Ollama(model='mistral')
-
-# Initialize model and retriever
 retriever = GuidelineRetriever()
 model = Ollama(model="llama3.2")
+mistral_model = Ollama(model ='mistral')
 
-# original intro:     You are a professional clinician tasked with diagnosing based on the following vignette.
-# original instruction:      Consider clinical guidelines carefully to reach a thoughtful diagnosis based on the vignette's details.
-#     If you don't know the answer, just say that you don't know; don't try to make up an answer.
-def diagnose_vignette(vignette, retriever, model):
+def load_cot_prompt(category):
+    # Map category to corresponding CoT file
+    cot_files = {
+        "Anxiety": "../cot_text/cot_all.txt",  # cot_anxiety.txt
+        "Mood": "../cot_text/cot_all.txt", # cot_mood.txt
+        "Stress": "../cot_text/cot_all.txt" # cot_stress.txt
+    }
+    # Load the CoT content for the given category
+    cot_file = cot_files.get(category)
+    if cot_file:
+        with open(cot_file, 'r') as file:
+            return file.read()
+    else:
+        return "No specific diagnostic steps for this category."
+
+
+def diagnose_vignette(vignette, retriever, model, category):
     # Retrieve relevant chunks from the guideline
     retrieved_chunks = retriever.retrieve(vignette)
     context_text = "\n\n---\n\n".join([chunk for chunk, _ in retrieved_chunks])
 
+    # Load the category-specific CoT
+    cot_text = load_cot_prompt(category)
+
     prompt = f"""
-    You are a telemedicine provider tasked with diagnosing based on the following vignette shared remotely by a patient. 
+    You are a professional clinician tasked with diagnosing based on the following vignette. 
 
     Clinical Guidelines:
     {context_text}
@@ -26,10 +40,14 @@ def diagnose_vignette(vignette, retriever, model):
     Vignette:
     {vignette}
 
-    Assess the available information critically and identify potential diagnoses. Suggest next steps, including in-person evaluation if necessary, to address any gaps in the remote assessment.
+    Chain of Thought:
+    {cot_text}
 
+    Consider clinical guidelines and chain of thought carefully to reach a thoughtful diagnosis based on the vignette's details.
+    If you don't know the answer, just say that you don't know; don't try to make up an answer.
     """
 
+    # print(prompt)
     response = model.invoke(prompt)
     return response
 
@@ -47,18 +65,16 @@ def compare_diagnosis(model_diagnosis, ground_truth_label, mistral_model):
         f"Given the diagnosis: '{model_diagnosis}'\n\n"
         f"The ground truth diagnosis is: '{ground_truth_label}'.\n\n"
         f"Does the final diagnosis match the ground truth? Give the similarity score (0-100) and provide reasoning."
-    )
+        f"Example: 'Score: 85. The diagnoses are very similar because...")
+
     response = mistral_model(prompt).strip()
 
     score_match = re.search(r"(\d+)", response)
     if score_match:
         score = int(score_match.group(1))
     else:
-        # Debugging: Log or print the raw response for inspection
-        print(f"Failed to extract score from response: {response}")
+        score = -1
         # raise ValueError("Unable to parse similarity score from the response.")
-        score = 0  # Default score in case of failure
-
     return response, score
 
 
@@ -76,7 +92,7 @@ def evaluate_model(data, retriever, model, llama_model, mistral_model):
                     f"Additional Background Information: {row['Additional Background Information']}")
         ground_truth_label = row["Label"]
 
-        model_diagnosis = diagnose_vignette(vignette, retriever, model)
+        model_diagnosis = diagnose_vignette(vignette, retriever, model, category)
         final_diag = extract_diagnosis(model_diagnosis, llama_model)
         similarity_response, score = compare_diagnosis(final_diag, ground_truth_label, mistral_model)
 
@@ -114,7 +130,7 @@ def main():
     data = pd.read_csv("../Data_final.csv")
 
     # Filter data to only include Anxiety / Stress / Mood
-    category_data = data[data["Category"] == "Stress"]
+    category_data = data[data["Category"] == "Mood"]
 
     # Store accuracies for averaging and highest accuracy
     accuracy_results = {
@@ -131,7 +147,7 @@ def main():
     }
 
     # Run evaluation multiple times
-    num_iterations = 1
+    num_iterations = 8
     for iteration in range(num_iterations):
         print(f"Iteration {iteration + 1}/{num_iterations}")
 
@@ -142,7 +158,7 @@ def main():
 
         # Evaluate the model
         evaluation_results = evaluate_model(
-            category_data,
+            data,
             retriever,
             model,
             llama_model=model.invoke,
