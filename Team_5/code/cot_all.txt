@@ -1,0 +1,32 @@
+Step 1: Identify Key Symptoms
+Carefully examine the vignette and extract all key symptoms experienced by the individual.
+Note the severity, duration, and onset of each symptom.
+Highlight any context, such as triggering events or stressors, that may contribute to these symptoms.
+
+Step 2: Broad Symptom Analysis
+Group the symptoms into possible related domains (e.g., mood symptoms, anxiety symptoms, stress symptoms).
+Maintain flexibility—do not decide on a specific category yet. Instead, keep all potential areas open for evaluation.
+
+Step 3: Compare Across Diagnostic Criteria
+Evaluate the identified symptoms against the diagnostic criteria across all categories (mood, anxiety, stress, etc.).
+For each relevant symptom group, assess if it meets the diagnostic criteria for any disorders in each domain.
+For example, if symptoms involve anxiety and mood disturbances, evaluate against both anxiety and mood disorder criteria.
+
+Step 4: Differential Analysis
+Consider overlapping symptoms across different diagnostic categories:
+Are any symptoms common to multiple disorders?
+Assess whether one category better explains the overall pattern of symptoms, considering the context and impact.
+Rule out conditions based on inconsistencies or lack of sufficient criteria.
+
+Step 5: Functional Impact
+Assess the overall impact of the symptoms on the individual's functioning:
+Consider personal, social, and occupational domains.
+Identify which symptoms have the most significant impact and whether they point toward a particular diagnosis.
+
+Step 6: final Diagnosis and Summary
+1. Based on the reasoning and analysis above, provide the final diagnosis. If no diagnosis is warranted, state that explicitly.
+2. List of Potential Diagnoses:
+2.1.Stress Disorders: Post-Traumatic Stress Disorder, Complex Post-Traumatic Stress Disorder, Prolonged Grief Disorder, Adjustment Disorder, Acute Stress Reaction, Other Disorder Specifically Associated with Stress.
+2.2.Mood Disorders: Bipolar type I, Bipolar type II, Cyclothymic Disorder, Single Episode Depressive Disorder, Recurrent Depressive Disorder, Dysthymic Disorder, Mixed Depressive and Anxiety Disorder, Other Specified Mood Disorder.
+2.3.Anxiety Disorders: Generalized Anxiety Disorder, Panic Disorder, Agoraphobia, Specific Phobia, Social Anxiety Disorder, Separation Anxiety Disorder, Selective Mutism, Other Anxiety and Fear-Related Disorder.
+3. Provide a summary of the reasoning that led to this diagnosis, emphasizing the key symptoms, context, and why they fit within a specific diagnostic category.
