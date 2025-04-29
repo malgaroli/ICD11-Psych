@@ -35,7 +35,7 @@ class GuidelineEmbedder:
 
 
 if __name__ == "__main__":
-    pdf_path = "../../Mood_Anxiety_Stress.pdf"
+    pdf_path = "Mood_Anxiety_Stress.pdf"
     output_chunks_path = "guideline_chunks.npy"
     output_embeddings_path = "guideline_embeddings.npy"
 

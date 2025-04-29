@@ -1,7 +1,19 @@
 import pandas as pd
-from langchain_community.llms.ollama import Ollama
+from langchain_ollama import OllamaLLM
 from retrieve_relevant_chunks import GuidelineRetriever
 import re
+from tqdm import tqdm
+
+# Model configuration parameters
+MODEL_CONFIG = {
+    "temperature": 0,
+    "top_k": 1,  # Only consider the most likely token
+    "top_p": 1,  # Disable nucleus sampling
+    "repeat_penalty": 1.0,# Set a fixed number of tokens to predict
+    #"num_predict": 128,
+    "seed": 42,  # Set a fixed seed if supported by the model
+    "do_sample": False  # Always choose the most likely token
+}
 
 prompts = [
     {
@@ -22,7 +34,7 @@ prompts = [
     },
     {
         "intro": "You are a healthcare provider tasked with evaluating the following patient case to provide a diagnosis based on clinical guidelines.",
-        "instruction": "Carefully analyze the details to provide a safe and thoughtful diagnosis. If the information is unclear or insufficient, respond with 'I don't know' and suggest next steps (e.g., additional tests or observations). Always prioritize the patient’s safety and best interest in your recommendations."
+        "instruction": "Carefully analyze the details to provide a safe and thoughtful diagnosis. If the information is unclear or insufficient, respond with 'I don't know' and suggest next steps (e.g., additional tests or observations). Always prioritize the patient's safety and best interest in your recommendations."
     },
     {
         "intro": "As a trusted expert in clinical diagnostics, you are tasked with analyzing the following vignette for a potential diagnosis.",
@@ -74,7 +86,7 @@ prompts = [
     },
     {
         "intro": "You are a mental health specialist tasked with analyzing the following vignette for a potential psychiatric diagnosis.",
-        "instruction": "Focus on evaluating mental health symptoms in the context of the patient’s history. If information is insufficient, recommend key areas to explore further."
+        "instruction": "Focus on evaluating mental health symptoms in the context of the patient's history. If information is insufficient, recommend key areas to explore further."
     },
     {
         "intro": "You are a pediatrician analyzing this vignette to diagnose a case in a young patient.",
@@ -156,7 +168,7 @@ def evaluate_model_with_prompts(data, retriever, model, llama_model, mistral_mod
     overall_correct = 0
     total_count = len(data)
 
-    for index, row in data.iterrows():
+    for index, row in tqdm(data.iterrows(), total=len(data), desc="Evaluating"):
         category = row["Category"]
         vignette = (f"Referral: {row['Referral']}\n"
                     f"Presenting Symptoms: {row['Presenting Symptoms']}\n"
@@ -211,7 +223,7 @@ def save_results_to_csv(results, output_file):
 
 
 def main():
-    data = pd.read_csv("../Data_final.csv")
+    data = pd.read_csv("Data_final.csv")
 
     # Filter data for all categories (adjust to your needs)
     category_data = data
@@ -237,8 +249,8 @@ def main():
 
     for i, prompt in enumerate(prompts_to_test):
         # Reinitialize models to ensure no leakage
-        model = Ollama(model="llama3.2")
-        mistral_model = Ollama(model="mistral")
+        model = OllamaLLM(model="llama3.2", **MODEL_CONFIG)
+        mistral_model = OllamaLLM(model="mistral", **MODEL_CONFIG)
 
         # Prompt details
         label = "Original" if i == 0 else f"Prompt {i}"  # Label the original prompt explicitly
@@ -261,7 +273,7 @@ def main():
         })
 
     # Save results to CSV
-    save_results_to_csv(results, "evaluate_different_prompts/evaluation_results.csv")
+    save_results_to_csv(results, "evaluate_different_prompts/evaluation_results_vicky.csv")
 
 
 if __name__ == "__main__":

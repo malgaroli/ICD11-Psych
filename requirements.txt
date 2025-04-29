@@ -1,6 +1,6 @@
 langchain
 langchain-community
 pypdf
-faiss-gpu
+#faiss-gpu
 datasets
 transformers

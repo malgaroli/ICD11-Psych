@@ -24,7 +24,7 @@ def diagnose_baseline(vignette, model):
 
 
 def main():
-    data = pd.read_csv("../Data_final.csv")
+    data = pd.read_csv("Data_final.csv")
 
     # Filter data to only include Anxiety / Stress / Mood
     # category_data = data[data["Category"] == "Stress"]

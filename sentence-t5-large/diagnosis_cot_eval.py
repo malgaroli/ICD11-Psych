@@ -1,48 +1,61 @@
 import pandas as pd
 from langchain_ollama import OllamaLLM
-from retrieve_relevant_chunks import GuidelineRetriever
 import re
-from tqdm import tqdm
+from tqdm import tqdm   
 
 # Model configuration parameters
 MODEL_CONFIG = {
     "temperature": 0,
     "top_k": 1,  # Only consider the most likely token
     "top_p": 1,  # Disable nucleus sampling
-    "repeat_penalty": 1.0,  # Neutral repeat penalty
-    #"num_predict": 128,  # Set a fixed number of tokens to predict
+    "repeat_penalty": 1.0, # Set a fixed number of tokens to predict
+    #"num_predict": 128,
     "seed": 42,  # Set a fixed seed if supported by the model
     "do_sample": False  # Always choose the most likely token
 }
 
-# Initialize model and retriever
-retriever = GuidelineRetriever()
-model = OllamaLLM(model="llama3.2", **MODEL_CONFIG)
+model = OllamaLLM(model="llama3.1", **MODEL_CONFIG)
 mistral_model = OllamaLLM(model='mistral', **MODEL_CONFIG)
 
-# original intro:     You are a professional clinician tasked with diagnosing based on the following vignette.
-# original instruction:      Consider clinical guidelines carefully to reach a thoughtful diagnosis based on the vignette's details.
-#     If you don't know the answer, just say that you don't know; don't try to make up an answer.
-def diagnose_vignette(vignette, retriever, model):  
-    # Retrieve relevant chunks from the guideline
-    retrieved_chunks = retriever.retrieve(vignette)
-    context_text = "\n\n---\n\n".join([chunk for chunk, _ in retrieved_chunks])
+def load_cot_prompt(category):
+    # Map category to corresponding CoT file
+    cot_files = {
+        "Anxiety": "cot_text_vicky_newS/cot_anxiety.txt",  # cot_anxiety.txt
+        "Mood": "cot_text_vicky_newS/cot_mood.txt", # cot_mood.txt
+        "Stress": "cot_text_vicky_newS/cot_stress.txt" # cot_stress.txt
+    }
+    # Load the CoT content for the given category
+    cot_file = cot_files.get(category)
+    if cot_file:
+        with open(cot_file, 'r') as file:
+            return file.read()
+    else:
+        return "No specific diagnostic steps for this category."
+
+
+def diagnose_vignette(vignette, model, category):
+    # Load the category-specific CoT
+    cot_text = load_cot_prompt(category)
 
     prompt = f"""
-    You are a telemedicine provider tasked with diagnosing based on the following vignette shared remotely by a patient. 
+    [ROLE]
+    You are a psychiatrist conducting a diagnostic assessment. Read the patient case and follow the instructions to provide a diagnosis. Note: Not all patients will have a diagnosis.
 
-    Clinical Guidelines:
-    {context_text}
-
-    Vignette:
+    [PATIENT CASE]
     {vignette}
 
-    Assess the available information critically and identify potential diagnoses. Suggest next steps, including in-person evaluation if necessary, to address any gaps in the remote assessment.
+    [INSTRUCTIONS]
+    {cot_text}
 
+    [OUTPUT FORMAT]
+    Complete these fields exactly as shown:
+    DIAGNOSIS: [single diagnosis/no diagnosis]
+    RATIONALE: [one sentence]
     """
 
+    # print(prompt)
     response = model.invoke(prompt)
-    return response, prompt  # Return both response and prompt
+    return response, prompt
 
 
 def extract_diagnosis(vignette_text, llama_model):
@@ -58,22 +71,20 @@ def compare_diagnosis(model_diagnosis, ground_truth_label, mistral_model):
         f"Given the diagnosis: '{model_diagnosis}'\n\n"
         f"The ground truth diagnosis is: '{ground_truth_label}'.\n\n"
         f"Does the final diagnosis match the ground truth? Give the similarity score (0-100) and provide reasoning."
-    )
+        f"Example: 'Score: 85. The diagnoses are very similar because...")
+
     response = mistral_model(prompt).strip()
 
     score_match = re.search(r"(\d+)", response)
     if score_match:
         score = int(score_match.group(1))
     else:
-        # Debugging: Log or print the raw response for inspection
-        print(f"Failed to extract score from response: {response}")
+        score = -1
         # raise ValueError("Unable to parse similarity score from the response.")
-        score = 0  # Default score in case of failure
-
     return response, score
 
 
-def evaluate_model(data, retriever, model, llama_model, mistral_model):         
+def evaluate_model(data, model, llama_model, mistral_model):
     """Evaluate model performance by comparing predictions with ground truth labels."""
     correct_counts = {"Mood": 0, "Anxiety": 0, "Stress": 0}
     total_counts = {"Mood": 0, "Anxiety": 0, "Stress": 0}
@@ -90,7 +101,7 @@ def evaluate_model(data, retriever, model, llama_model, mistral_model):
                     f"Additional Background Information: {row['Additional Background Information']}")
         ground_truth_label = row["Label"]
 
-        model_diagnosis, prompt = diagnose_vignette(vignette, retriever, model)  # Get both response and prompt
+        model_diagnosis, prompt = diagnose_vignette(vignette, model, category)
         final_diag = extract_diagnosis(model_diagnosis, llama_model)
         similarity_response, score = compare_diagnosis(final_diag, ground_truth_label, mistral_model)
 
@@ -99,7 +110,7 @@ def evaluate_model(data, retriever, model, llama_model, mistral_model):
             "Vignette_ID": f"{row['Category']} {row['Vignette ID']}",
             "Category": category,
             "Vignette_Text": vignette,
-            "Prompt": prompt,  # Add the prompt to results
+            "prompt": prompt,
             "Model_Diagnosis": model_diagnosis,
             "Extracted_Diagnosis": final_diag,
             "Ground_Truth_Label": ground_truth_label,
@@ -134,7 +145,7 @@ def save_results_to_csv(results, output_file):
         summary_rows.append(row)
 
     df_summary = pd.DataFrame(summary_rows)
-    df_summary.to_csv(output_file.replace('.csv', '_summary.csv'), index=False)
+    df_summary.to_csv(output_file.replace('.csv', '_summary_1.csv'), index=False)
 
     # Save detailed results
     detailed_rows = []
@@ -144,7 +155,7 @@ def save_results_to_csv(results, output_file):
             detailed_rows.append(detail)
 
     df_detailed = pd.DataFrame(detailed_rows)
-    df_detailed.to_csv(output_file, index=False)
+    df_detailed.to_csv(output_file.replace('.csv', '_detailed_1.csv'), index=False)
 
 
 def main():
@@ -169,8 +180,6 @@ def main():
     results = []
 
     for iteration in range(num_iterations):
-        print(f"\nStarting iteration {iteration + 1}")
-        
         # Initialize combined results for this iteration
         iteration_results = {
             "iteration": iteration + 1,
@@ -184,71 +193,54 @@ def main():
         }
         
         total_correct = 0
-        total_samples = 0
+        total_samples = 0       
 
-        # Process each category separately
-        for category in ["Mood"]:  # ["Mood", "Anxiety", "Stress"]
-            print(f"\nProcessing category: {category}")
+        # Reinitialize retriever and models in each iteration
+        for category in tqdm(["Mood", "Anxiety", "Stress"], desc="Evaluating categories"):
             category_data = data[data["Category"] == category]
             if len(category_data) == 0:
-                print(f"No data found for category: {category}")
                 continue
                 
-            # Initialize fresh instances for each category
-            retriever = GuidelineRetriever()
-            model = OllamaLLM(model="llama3.2", **MODEL_CONFIG)
+            model = OllamaLLM(model="llama3.1", **MODEL_CONFIG)
             mistral_model = OllamaLLM(model="mistral", **MODEL_CONFIG)
 
-            # Evaluate the model for this category
+            # Evaluate the model
             category_accuracies, category_overall_accuracy, detailed_results = evaluate_model(
                 category_data,
-                retriever,
                 model,
                 llama_model=model.invoke,
                 mistral_model=mistral_model.invoke
             )
 
-            # Store category accuracy
+            # Update iteration results
             iteration_results["category_accuracies"][category] = category_accuracies[category]
-            
-            # Add detailed results
             iteration_results["detailed_results"].extend(detailed_results)
             
-            # Update overall accuracy calculation
-            category_correct = int(category_accuracies[category] * len(category_data))
+            # Calculate overall accuracy across all categories
+            category_correct = int(category_overall_accuracy * len(category_data))
             total_correct += category_correct
             total_samples += len(category_data)
-            
-            print(f"{category} accuracy: {category_accuracies[category]:.2f}")
 
-        # Calculate overall accuracy for this iteration
-        if total_samples > 0:
-            iteration_results["overall_accuracy"] = total_correct / total_samples
-        
-        print(f"Overall accuracy for iteration {iteration + 1}: {iteration_results['overall_accuracy']:.2f}")
-        
-        # Store the results for this iteration
+        # Calculate combined overall accuracy for all categories
+        iteration_results["overall_accuracy"] = total_correct / total_samples if total_samples > 0 else 0
         results.append(iteration_results)
 
         # Update accuracy tracking
-        for category in ["Mood", "Anxiety", "Stress"]:
-            if category in iteration_results["category_accuracies"]:
-                accuracy_results[category].append(iteration_results["category_accuracies"][category])
-                highest_accuracies[category] = max(highest_accuracies[category], 
-                                                iteration_results["category_accuracies"][category])
-        
-        accuracy_results["Overall"].append(iteration_results["overall_accuracy"])
-        highest_accuracies["Overall"] = max(highest_accuracies["Overall"], 
-                                          iteration_results["overall_accuracy"])
+        for key in accuracy_results.keys():
+            if key in iteration_results["category_accuracies"]:
+                accuracy_results[key].append(iteration_results["category_accuracies"][key])
+                highest_accuracies[key] = max(highest_accuracies[key], iteration_results["category_accuracies"][key])
+            elif key == "Overall":
+                accuracy_results[key].append(iteration_results["overall_accuracy"])
+                highest_accuracies[key] = max(highest_accuracies[key], iteration_results["overall_accuracy"])
 
     # Calculate average accuracy
     average_results = {
-        key: (sum(values) / len(values) if values else 0) 
-        for key, values in accuracy_results.items()
+        key: (sum(values) / len(values) if values else 0) for key, values in accuracy_results.items()
     }
 
     # Save results to CSV
-    save_results_to_csv(results, "diagnosis_with_rag_eval_results.csv")
+    save_results_to_csv(results, "diagnosis_cot_eval_results_llama3.1_newS.csv")
 
     # Print summary statistics
     print("\nAverage Accuracy Across All Iterations:")
