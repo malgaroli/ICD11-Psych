@@ -1,3 +1,4 @@
+# PromptBuilder.py
 import json
 
 class PromptBuilder:
@@ -5,10 +6,9 @@ class PromptBuilder:
     Wrapper class for constructing diagnostic prompts using CoT instructions.
     """
     def __init__(self, df_vignettes=None, prompts_path=None):
-        self.prompt_anxiety = self.load_txt(prompts_path.joinpath("cot_text_vicky_ddx/cot_anxiety.txt"))
-        self.prompt_mood = self.load_txt(prompts_path.joinpath("cot_text_vicky_ddx/cot_mood.txt"))
-        self.prompt_stress = self.load_txt(prompts_path.joinpath("cot_text_vicky_ddx/cot_stress.txt"))
-
+        self.prompt_anxiety = self.load_txt(prompts_path.joinpath("cot_anxiety.txt"))
+        self.prompt_mood = self.load_txt(prompts_path.joinpath("cot_mood.txt"))
+        self.prompt_stress = self.load_txt(prompts_path.joinpath("cot_stress.txt"))
         self.df_vignettes = df_vignettes
 
     def load_txt(self, path):
@@ -25,8 +25,10 @@ class PromptBuilder:
             "Stress": self.prompt_stress
         }.get(category, "No specific diagnostic steps for this category.")
 
+        df_cat = self.df_vignettes[self.df_vignettes["Category"] == category]
+
         prompts = []
-        for _, row in self.df_vignettes.iterrows():
+        for _, row in df_cat.iterrows():
             vignette_id = row['Vignette ID']
             vignette = (f"Referral: {row['Referral']}\n"
                         f"Presenting Symptoms: {row['Presenting Symptoms']}\n"
@@ -41,17 +43,18 @@ You are a psychiatrist conducting a diagnostic assessment. Read the patient case
 [INSTRUCTIONS]
 {cot_text}
 
-[REQUIRED FORMAT]
-Provide EXACTLY 3 possible diagnoses in a descending order of likelihood:
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
 
-1. Most Likely Diagnosis: [diagnosis]
-   Reasoning: [2-3 sentences]
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
 
-2. Second Most Likely: [diagnosis]
-   Reasoning: [1-2 sentences]
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
 
-3. Third Most Likely: [diagnosis]
-   Reasoning: [1-2 sentences]"""
+**WARNING:** Any other output format is incorrect.
+"""
 
             prompts.append({
                 "id": f"{category}_{vignette_id}",

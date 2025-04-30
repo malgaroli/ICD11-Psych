@@ -5,8 +5,8 @@ Please carefully read the patient case and follow these steps:
 3. Provide a brief explanation (1 sentences) for why these diagnoses best fit the case, citing specific symptoms and criteria
 
 Potential stress-related diagnoses (ICD11):
-- Post-Traumatic Stress Disorder
-- Complex Post-Traumatic Stress Disorder
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
 - Prolonged Grief Disorder
 - Adjustment Disorder
 - Other Disorder Specifically Associated with Stress
