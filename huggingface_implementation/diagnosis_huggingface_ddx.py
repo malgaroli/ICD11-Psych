@@ -90,7 +90,7 @@ def evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, l
         for k in TOP_K:
             accuracy_results[category][f"top_{k}_accuracy"].append(accs[f"top_{k}_accuracy"])
 
-        pd.DataFrame(detailed).to_csv(f"results_{llm_model}_{category.lower()}.csv", index=False)
+        # pd.DataFrame(detailed).to_csv(f"results_{llm_model}_{category.lower()}.csv", index=False)
 
         print(f"\n{category} Accuracies:")
         for k in TOP_K:
@@ -101,7 +101,7 @@ def evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, l
 
 def main():
     data = pd.read_csv("Data_final_updated.csv")
-    prompt_path = Path("cot_text_vicky_ddx")
+    prompt_path = Path("cot_text_vicky_ddx_qualtrics")
     config_dict = load_config()
     llm_model = "llama31"
     model_path = Path(config_dict[f"{llm_model}_path"])
@@ -116,7 +116,7 @@ def main():
         data, model, all_prompts, responses, index_mapping, llm_model
     )
 
-    pd.DataFrame(all_detailed).to_csv(f"diagnosis_{llm_model}_ddx_results.csv", index=False)
+    pd.DataFrame(all_detailed).to_csv(f"diagnosis_{llm_model}_ddx_results_qualtrics.csv", index=False)
 
     print("\nAverage Accuracies Across Categories:")
     df_acc = pd.DataFrame(all_accuracies)
@@ -132,8 +132,8 @@ def main():
         stats[f"std_top_{k}_accuracy"] = vals.std()
         print(f"Top-{k} Average Accuracy: {vals.mean():.2f} (±{vals.std():.2f})")
 
-    df_acc.to_csv("mean_accuracies.csv", index=False)
-    pd.DataFrame([stats]).to_csv(f"{llm_model}_mean_accuracies_summary.csv", index=False)
+    # df_acc.to_csv("mean_accuracies_qualtrics.csv", index=False)
+    pd.DataFrame([stats]).to_csv(f"{llm_model}_mean_accuracies_summary_qualtrics.csv", index=False)
 
 
 if __name__ == "__main__":

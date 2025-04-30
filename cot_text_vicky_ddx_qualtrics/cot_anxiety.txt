@@ -1,0 +1,23 @@
+Please carefully read the patient case and follow these steps:
+1. Review the symptoms, their severity, their duration, whether they have occurred before (recurrence), and impact on functioning
+2. Review the list below of potential diagnoses from ICD11, focusing on understanding the key differences between each diagnosis
+3. Select the 3 most likely diagnoses from the list below in descending order, keeping in mind that the person may not have any diagnosis
+3. Provide a brief explanation (1 sentences) for why these diagnoses best fit the case, citing specific symptoms and criteria
+
+Potential anxiety-related diagnoses (ICD11):
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
