@@ -2,7 +2,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("mean_accuracies_summary.csv")
+df = pd.read_csv("mistral_mean_accuracies_summary.csv")
 
 top_n = [1, 2, 3]
 mood = df.iloc[0][['Mood_top_1_accuracy', 'Mood_top_2_accuracy', 'Mood_top_3_accuracy']].values

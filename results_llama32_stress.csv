@@ -1,0 +1,509 @@
+Vignette_ID,Category,Prompt,Model_Output,Model_Diagnoses,Ground_Truth_Label,Top_1_Accuracy,Top_2_Accuracy,Top_3_Accuracy
+Stress Vignette 1A FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment. Read the patient case and follow the instructions to provide a diagnosis. Note: Not all patients will have a diagnosis.
+
+[PATIENT CASE]
+Referral:  Mr. WM is a 45-year-old truck driver who was referred by his primary care physician.  Mr. WM mentioned that he was having difficulty on the job since having been in a road crash with his vehicle about one year ago. He spent a week in the hospital recovering from his injuries from the crash, and he stated that he felt lucky to be alive afterwards.
+Presenting Symptoms:  Since the crash, Mr. WM feels constantly nervous and jumps when he hears loud noises, particularly when walking along the roadway.  When he hears cars braking at high speeds, he feels his arms go forward and his foot involuntarily pushing on an imaginary brake.  Preceding a road trip, his sleep is severely disrupted, due to nightmares about the crash. He paces around the house and feels chest pains along his rib cage where he was pinned down by the steering wheel. He has avoided doing any driving during his off time at home and does not interact with his driving buddies because he cannot tolerate hearing stories of “near misses” on the road.  When it is time to get into his truck, he circles around the vehicle many times before he gets up the courage to go in.  A couple of times this past year, he could not get in and called in sick, losing the assignment and pay.
+Additional Background Information:  Mr. WM has had a generally good relationship with his wife of 20 years, although she is losing patience with his behavior, which has significantly reduced their income. His relationships with his children are somewhat distant due to his constant travel.  A neurological exam and CAT scan reveal nothing abnormal.   His ribs and other injuries have healed well, and should not be causing any further pain.
+
+[INSTRUCTIONS]
+Please carefully read the patient case and follow these steps:
+1. Review the symptoms, their severity, their duration, whether they have occurred before (recurrence), and impact on functioning
+2. Review the list below of potential diagnoses from ICD11, focusing on understanding the key differences between each diagnosis
+3. Select the 3 most likely diagnoses from the list below in descending order, keeping in mind that the person may not have any diagnosis
+3. Provide a brief explanation (1 sentences) for why these diagnoses best fit the case, citing specific symptoms and criteria
+
+Potential stress-related diagnoses (ICD11):
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- Other Diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.
+","Based on the patient case, here is the diagnosis:
+
+Most Likely Diagnosis: Post-Traumatic Stress Disorder (PTSD)
+Reasoning: Mr. WM's symptoms of excessive nervousness, jumping at loud noises, nightmares, and avoidance of driving due to fear of hearing stories of ""near misses"" are characteristic of PTSD. His avoidance of driving and social interactions with his driving buddies due to these fears also support this diagnosis.
+
+Second Most Likely: Complex Post-Traumatic Stress Disorder (CPTSD)
+Reasoning: Mr. WM's symptoms of anxiety, avoidance behaviors, and avoidance of social interactions with his family due to his condition suggest that his trauma may be more complex and prolonged, potentially meeting the criteria for CPTSD.
+
+Third Most Likely: Adjustment Disorder
+Reasoning: Although Mr. WM's symptoms are related to a specific traumatic event, his avoidance behaviors and anxiety symptoms are not necessarily related to a new stressor, making adjustment disorder a less likely diagnosis.","['Post-Traumatic Stress Disorder (PTSD)', 'Complex Post-Traumatic Stress Disorder (CPTSD)', 'Adjustment Disorder']",Post-Traumatic Stress Disorder (PTSD),True,True,True
+Stress Vignette 1B FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment. Read the patient case and follow the instructions to provide a diagnosis. Note: Not all patients will have a diagnosis.
+
+[PATIENT CASE]
+Referral: Mr. RV has worked for the post office delivering letters and parcels for the last 25 years. It has been his first and only job since leaving school. Over the last few months, his workmates have noticed that he comes in late, makes silly mistakes, and does not appear to enjoy the job any longer. Because this behaviour is so untypical of him, his manager has insisted he make an appointment with a mental health professional. 
+Presenting Symptoms: Mr. RV occasionally has to deliver valuable parcels to regular customers and during one of these deliveries six months ago, he was attacked and robbed at knifepoint by two armed men. He describes being overcome by panic and feeling rooted to the spot and unable to move. Now he has a tendency to get anxious and panicky when he has to make deliveries to certain parts of the town. He spends a lot of time thinking about the attack and wondering why it happened to him rather than someone else. He asks himself how he could have prevented it from happening. RV now senses danger in a number of situations, even simply crossing a busy road, that never used to concern him before the robbery. He has asked co-workers to take over his regular routes, stating that he cannot bear walking by the place he was attacked. He has found himself calling in sick to work on some days rather than facing his anxiety.
+Additional Background Information: Mr. RV lives with a long-term partner who stated that their relationship has become more strained over the past few months because he is reluctant to leave the house. Previously, they used to go dancing every Friday night as a couple. They have no children.
+
+[INSTRUCTIONS]
+Please carefully read the patient case and follow these steps:
+1. Review the symptoms, their severity, their duration, whether they have occurred before (recurrence), and impact on functioning
+2. Review the list below of potential diagnoses from ICD11, focusing on understanding the key differences between each diagnosis
+3. Select the 3 most likely diagnoses from the list below in descending order, keeping in mind that the person may not have any diagnosis
+3. Provide a brief explanation (1 sentences) for why these diagnoses best fit the case, citing specific symptoms and criteria
+
+Potential stress-related diagnoses (ICD11):
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- Other Diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.
+","Based on the patient case, here are my diagnoses:
+
+**Most Likely Diagnosis: Post-Traumatic Stress Disorder (PTSD)**
+Reasoning: Mr. RV's symptoms of anxiety, panic, and avoidance of situations that remind him of the attack, as well as his preoccupation with the attack and its circumstances, are characteristic of PTSD. His avoidance of his regular delivery routes and increased wariness of his surroundings, even in situations that were previously not concerning, also support this diagnosis.
+
+**Second Most Likely: Complex Post-Traumatic Stress Disorder (CPTSD)**
+Reasoning: The severity and duration of Mr. RV's symptoms, particularly his emotional numbing and avoidance of social activities (e.g., not wanting to leave the house), suggest that his symptoms may be more complex and pervasive than those typically seen in PTSD. His relationship with his partner has also become strained, which may indicate a broader impact on his daily life.
+
+**Third Likely: Adjustment Disorder**
+Reasoning: While Mr. RV's symptoms are primarily related to the traumatic event, his anxiety and avoidance of certain situations may also be related to the stress of adjusting to a new normal after the attack. His symptoms may be a response to the significant change in his life, rather than solely a reaction to the traumatic event itself.","['Post-Traumatic Stress Disorder (PTSD)', 'Complex Post-Traumatic Stress Disorder (CPTSD)', 'Adjustment Disorder']",Other Disorder Specifically Associated with Stress,False,False,False
+Stress Vignette 1C FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment. Read the patient case and follow the instructions to provide a diagnosis. Note: Not all patients will have a diagnosis.
+
+[PATIENT CASE]
+Referral: Mr. AT is a 27-year-old married farm laborer with a one year old daughter. He was referred to the community mental health team by the village leader. Five months ago, AT was injured when a land mine exploded while he was clearing some land. He was digging with a shovel in a field where there were many abandoned sentry outposts. The explosion injured his eye and many parts of his body. The other laborers working with him took him to hospital.
+Presenting Symptoms: Though he had been a hard-working farm laborer, he was not able to work for the three months following the explosion while he was recovering from his physical injuries. As he was unable to earn an income, his wife took his place in the fields to save the family. She encouraged him to go back to work as soon as he could, and he agreed.  He reports that when he attempted to return to work two months ago, as soon as he picked up a shovel he started to sweat profusely, felt weak and developed a severe headache. In addition, when he would see a shovel, even away from the fields, he could see himself digging as before, striking something and then the sudden explosion. He would feel himself lying on the ground, bleeding from the wounds. These scenes would recur in his mind, as if they were happening again. He would have similar experiences when his wife would tell him to go to work or when he went near the place where the landmine accident took place. When his wife would bring up the subject of the incident, he would refuse to talk about it. He felt tense and irritable. A sudden noise or the door banging would make him jump. He started to avoid going near the particular field where the explosion occurred or using certain farm implements. He had nightmares of digging with the shovel when a landmine would explode, injuring him badly. He would wake up suddenly, trembling and sweating profusely.
+Additional Background Information: There had been many landmine accidents with injuries and deaths in the area. After his initial treatment at the hospital following the explosion, Mr. AT returned home after several days. A follow-up appointment with his physician confirmed that his physical injuries were healed. His wife has been supportive throughout and their relationship remained strong.
+
+[INSTRUCTIONS]
+Please carefully read the patient case and follow these steps:
+1. Review the symptoms, their severity, their duration, whether they have occurred before (recurrence), and impact on functioning
+2. Review the list below of potential diagnoses from ICD11, focusing on understanding the key differences between each diagnosis
+3. Select the 3 most likely diagnoses from the list below in descending order, keeping in mind that the person may not have any diagnosis
+3. Provide a brief explanation (1 sentences) for why these diagnoses best fit the case, citing specific symptoms and criteria
+
+Potential stress-related diagnoses (ICD11):
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- Other Diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.
+","Based on the patient case, here are my diagnoses:
+
+**Most Likely Diagnosis: Post-Traumatic Stress Disorder (PTSD)**
+Reasoning: Mr. AT's symptoms of flashbacks (seeing himself digging with a shovel and striking a landmine, feeling himself lying on the ground, bleeding from the wounds) and nightmares, as well as his avoidance of triggers (the field where the explosion occurred and certain farm implements) and increased arousal (sweating profusely, trembling, and irritability) are characteristic of PTSD. These symptoms have been ongoing for several months, indicating a chronic condition.
+
+**Second Most Likely Diagnosis: Complex Post-Traumatic Stress Disorder (CPTSD)**
+Reasoning: Mr. AT's symptoms of avoidance, hypervigilance (jumping at sudden noises), and negative changes in relationships (refusing to talk about the incident and becoming tense and irritable) are also consistent with CPTSD. Additionally, the fact that his wife has been supportive but also evasive about the incident, and the lack of emotional expression about the trauma, may indicate a complex trauma history.
+
+**Third Most Likely Diagnosis: Adjustment Disorder**
+Reasoning: While Mr. AT's symptoms are primarily related to the traumatic event, his adjustment disorder diagnosis is less likely because his symptoms are not primarily related to a new stressor or adjustment to a change in life circumstances. His symptoms are more directly related to the traumatic event itself.","['Post-Traumatic Stress Disorder (PTSD)', 'Complex Post-Traumatic Stress Disorder (CPTSD)', 'Adjustment Disorder']",Post-Traumatic Stress Disorder (PTSD),True,True,True
+Stress Vignette 1D FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment. Read the patient case and follow the instructions to provide a diagnosis. Note: Not all patients will have a diagnosis.
+
+[PATIENT CASE]
+Referral: Mr. DB is a 47-year-old man who is a self-employed stock market trader.  He was referred by his family physician due to persistent symptoms that are having a serious negative impact on his life that began suddenly following an accident one year ago. Mr. DB is unable to understand why he cannot simply overcome the incident, and was reluctant to see a mental health specialist.
+Presenting Symptoms: One year ago, Mr. DB was carrying out repairs to a large walk-in cupboard in his house when the ceiling and part of the roof collapsed, leaving him trapped underneath and choking from the clouds of dust that were released. Since that time he has felt nervous most hours of the day, avoids being in public or crowded places, and avoids open cupboards. He is easily startled by unexpected noises. Despite being an avid cook, his fear has generalized to the kitchen. Whenever he enters the kitchen, he remembers the incident and feels like it is happening all over again. He demands that his wife now do all the cooking, although they used to share that responsibility. She says that she resents this new imposed mandate, and it has strained their relationship. He has nightmares at least once a week in which he dreams he is trapped and feels frightened and panicky. He wakes up from these dreams covered in sweat. When he enters a closed space like an elevator, he can feel pressure on his chest just like what happened in the accident. Because of his problems, he has been less active in his work and the family income has all but ceased, and he has become much less sociable.
+Additional Background Information: DB has no prior history of mental disorder and is proud of never having been ill in his life. He is known in his community as a very tough character who fears nobody. He has a wife and three children but nobody was at home when the ceiling collapsed. Although he yelled for help it was several hours before anyone raised the alarm and he was rescued. 
+
+[INSTRUCTIONS]
+Please carefully read the patient case and follow these steps:
+1. Review the symptoms, their severity, their duration, whether they have occurred before (recurrence), and impact on functioning
+2. Review the list below of potential diagnoses from ICD11, focusing on understanding the key differences between each diagnosis
+3. Select the 3 most likely diagnoses from the list below in descending order, keeping in mind that the person may not have any diagnosis
+3. Provide a brief explanation (1 sentences) for why these diagnoses best fit the case, citing specific symptoms and criteria
+
+Potential stress-related diagnoses (ICD11):
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- Other Diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.
+","Based on the patient case, here is the diagnosis:
+
+Most Likely Diagnosis: Post-Traumatic Stress Disorder (PTSD)
+Reasoning: Mr. DB's symptoms of avoidance of crowded places, triggers (open cupboards), and general anxiety, as well as his nightmares and panic-like symptoms when entering closed spaces, are characteristic of PTSD. His avoidance of activities and social withdrawal due to his symptoms also align with PTSD criteria. Additionally, the sudden onset of his symptoms following a traumatic event (the accident) is a key criterion for PTSD.
+
+Second Most Likely: Complex Post-Traumatic Stress Disorder (CPTSD)
+Reasoning: Mr. DB's symptoms of avoidance, anxiety, and nightmares, as well as his significant impact on his daily life and relationships, suggest that his symptoms may be more complex and pervasive than those typically seen in PTSD. His lack of prior history of mental disorder and his previous self-image as a ""tough character"" who fears nobody also suggest that his symptoms may be more complex and nuanced.
+
+Third Most Likely: Adjustment Disorder
+Reasoning: While Mr. DB's symptoms are certainly related to his traumatic experience, his symptoms do not seem to be directly related to a new stressor or adjustment. His symptoms have been ongoing for over a year, suggesting that they may be more chronic in nature, which is not typical of adjustment disorder.","['Post-Traumatic Stress Disorder (PTSD)', 'Complex Post-Traumatic Stress Disorder (CPTSD)', 'Adjustment Disorder']",Post-Traumatic Stress Disorder (PTSD),True,True,True
+Stress Vignette 2A FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment. Read the patient case and follow the instructions to provide a diagnosis. Note: Not all patients will have a diagnosis.
+
+[PATIENT CASE]
+Referral:  Mrs. SK is a 32-year-old student at a local university and mother of a 1.5-year-old child. She was referred to the clinic after the university counseling center advised her to undertake a more intense treatment than could be provided there, as she is currently unable to continue her studies. She has been in the country for 6 years, and is a refugee from a country with ongoing civil upheaval. Her whole family was arrested and persecuted in their home country before she and her brothers were able to immigrate to their current place.
+Presenting Symptoms:  She describes herself as totally exhausted. She claims not being able to sleep well since leaving her home country with only 2-3 hours sleep per night. She indicates that she suffers from reliving the several arrests (of herself, her father, and her brothers) and her own prison experiences. If she talks about these experiences, she gets agitated and cries heavily. Upon being asked about nightmares, she affirms having them multiple times a week but does not want to go into detail about her experiences, which she finds too difficult to discuss. She constantly feels irritated, finds no inner peace and is afraid that she continues to be followed. For this reason, she prefers not to be around strangers, as she feels they could be dangerous. Thus, she stays at home most days and has stopped attending classes at the university altogether. As a result, she is likely to fail all her classes and be expelled from the university. She reports that she feels no pleasure anymore. Instead, she says that she feels numb most of the time. She fears never being happy again and is fearful she will never succeed at anything again. She thinks she was a bad daughter because she could not save her beloved father who disappeared in prison and feels like a failure and very guilty at the thought of her father’s suffering.  Her current relationship to her mother is cold, although in the past this never was the case and there were no conflicts reported. The relationship with her husband also feels cold and without any emotion; consequently, he spends less time at home and more time with his friends from the old country. Her husband tries to be supportive of her but she does not accept his gestures or even see that he is making an effort. She says she is likely to yell at him over “the littlest thing” with very minimal provocation, further creating distance between them. She says that her husband is considering a divorce.
+Additional Background Information:  In her home country, she was imprisoned several times beginning at age 24, and spent a total of 18 months in prison. She talks in general terms about her experience of sexual abuse by the prison guards but does not want to give details. She says “It happened almost every day.” Her father was arrested shortly before her and has been missing ever since. She met her husband in her current country; he originally comes from a neighboring country. Her childhood and adolescence were well protected. She described herself as ambitious and capable. In her home country she had many friends; after emigration, her social network diminished exclusively to family contacts.
+
+[INSTRUCTIONS]
+Please carefully read the patient case and follow these steps:
+1. Review the symptoms, their severity, their duration, whether they have occurred before (recurrence), and impact on functioning
+2. Review the list below of potential diagnoses from ICD11, focusing on understanding the key differences between each diagnosis
+3. Select the 3 most likely diagnoses from the list below in descending order, keeping in mind that the person may not have any diagnosis
+3. Provide a brief explanation (1 sentences) for why these diagnoses best fit the case, citing specific symptoms and criteria
+
+Potential stress-related diagnoses (ICD11):
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- Other Diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.
+","Based on the provided case, here are the diagnoses:
+
+Most Likely Diagnosis: Complex Post-Traumatic Stress Disorder (CPTSD)
+Reasoning: The patient's symptoms of reliving traumatic experiences, nightmares, irritability, and avoidance of social interactions due to fear of being followed or harmed are characteristic of CPTSD. The patient's history of imprisonment, sexual abuse, and family persecution in her home country, as well as her current symptoms of numbness and fear of failure, suggest a complex and prolonged traumatic experience that has led to significant distress and impairment in daily life.
+
+Second Most Likely Diagnosis: Post-Traumatic Stress Disorder (PTSD)
+Reasoning: The patient's symptoms of flashbacks, nightmares, and avoidance of triggers (in this case, strangers) are classic symptoms of PTSD. However, the complexity and duration of her traumatic experiences, as well as her emotional numbing and feelings of guilt and shame, suggest that PTSD may not be the sole diagnosis.
+
+Third Most Likely Diagnosis: Adjustment Disorder
+Reasoning: The patient's symptoms of irritability, emotional numbing, and avoidance of social interactions due to fear of being followed or harmed may be related to the stress of adjusting to a new country and culture, as well as the ongoing threat of persecution in her home country. However, the severity and duration of her symptoms, as well as her history of traumatic experiences, suggest that adjustment disorder is not the primary diagnosis.","['Complex Post-Traumatic Stress Disorder (CPTSD)', 'Post-Traumatic Stress Disorder (PTSD)', 'Adjustment Disorder']",Complex Post-Traumatic Stress Disorder (CPTSD),True,True,True
+Stress Vignette 2B FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment. Read the patient case and follow the instructions to provide a diagnosis. Note: Not all patients will have a diagnosis.
+
+[PATIENT CASE]
+Referral:  FK is a 19-year-old college student. He currently lives in a college dormitory with two roommates. FK has a history of severe physical abuse by his stepfather, beginning when he was 12 years old. He has been hospitalized twice due to physical injuries from these beatings. At age 13, the stepfather broke FK’s arm when he tried to stop his mother from being beaten. Two years ago, the police arrested FK’s stepfather after his mother was brought to a hospital with life-threatening injuries.  The stepfather has been in jail ever since. FK’s current roommates have noticed some peculiar behaviors and referred FK to the school’s counselor.
+Presenting Symptoms:  During the talk with the counselor, FK was initially evasive about the nature of the visit. When the counselor replied that his roommates had mentioned that he had been beaten, FK started crying and admitted that he and his mother had often been beaten by his stepfather. FK said he did not want to talk about the past and started walking out of the room. He was asked to stay and talk about his problems in school. FK reported that it was difficult for him to concentrate during classes due to recurrent images of his stepfather flashing before his eyes. At school, he is often jumpy and irritable. During the night, he often has dreams in which he is defending himself from his stepfather. In the morning he waits until his roommates have left before emerging from his room. In the evening, FK is extremely alert and often frightened that his roommates might be drunk. He retreats to his room and locks the door. He rarely goes to visit his mother despite living only a few blocks away; he says that seeing the apartment upsets him too much. He is often confronted in his mind with images of fights between him and his stepfather or between his mother and his stepfather. He tries to distract himself by watching television and playing games on his computer. At the end of this academic year, he wants to leave school but he has no idea about what to do then. FK does not sleep well and his school grades are very poor. FK stated that he started experiencing these symptoms not long after his stepfather began beating him, and they have persisted past when his stepfather left the house. During the last two years, he has had a difficult time completing daily tasks because of his symptoms. He still has a few close relationships with classmates who know about his family situation. He had no difficulty expressing anger towards his stepfather, whom he blames for his current difficulties. He says that he feels he is a good person who has experienced very difficult circumstances, though no worse than many other people. He believes he will be able to overcome his background and have a successful professional and family life.
+Additional Background Information:  FK lost his father in a car accident at age 9. When he was 11, his mother decided to marry a former friend of his father.
+
+[INSTRUCTIONS]
+Please carefully read the patient case and follow these steps:
+1. Review the symptoms, their severity, their duration, whether they have occurred before (recurrence), and impact on functioning
+2. Review the list below of potential diagnoses from ICD11, focusing on understanding the key differences between each diagnosis
+3. Select the 3 most likely diagnoses from the list below in descending order, keeping in mind that the person may not have any diagnosis
+3. Provide a brief explanation (1 sentences) for why these diagnoses best fit the case, citing specific symptoms and criteria
+
+Potential stress-related diagnoses (ICD11):
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- Other Diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.
+","Based on the provided case, I will follow the instructions to provide a diagnosis.
+
+**Most Likely Diagnosis:** Complex Post-Traumatic Stress Disorder (CPTSD)
+Reasoning: FK's symptoms, such as the recurrent images of his stepfather flashing before his eyes, nightmares, and hypervigilance, indicate a complex trauma response. The duration and persistence of these symptoms, despite the absence of the traumatic event, suggest CPTSD. Additionally, FK's avoidance of his mother's apartment and his difficulty completing daily tasks due to his symptoms further support this diagnosis.
+
+**Second Most Likely:** Post-Traumatic Stress Disorder (PTSD)
+Reasoning: FK's symptoms, such as jumpy and irritable behavior, difficulty concentrating, and avoidance of triggers (in this case, his mother's apartment), are characteristic of PTSD. However, the complexity and duration of FK's symptoms, as well as his avoidance of his mother's apartment, suggest CPTSD.
+
+**Third Most Likely:** Adjustment Disorder
+Reasoning: FK's symptoms, such as difficulty concentrating and irritability, may be related to the stress of living in a college dormitory and navigating academic responsibilities. However, the presence of complex trauma symptoms, such as flashbacks and nightmares, and the duration of these symptoms suggest a more severe and complex response to stress, making CPTSD a more likely diagnosis.","['Complex Post-Traumatic Stress Disorder (CPTSD)', 'Post-Traumatic Stress Disorder (PTSD)', 'Adjustment Disorder']",Post-Traumatic Stress Disorder (PTSD),False,True,True
+Stress Vignette 3 FINAL   ,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment. Read the patient case and follow the instructions to provide a diagnosis. Note: Not all patients will have a diagnosis.
+
+[PATIENT CASE]
+Referral: Mr. CC is a 50-year-old father of three grown daughters whose wife was killed four months ago in a recent earthquake.  The oldest daughter brought him to the primary health care clinic because she was concerned that he still appeared to be ‘paralysed with grief’. Before the earthquake he had been an active energetic man who ran a small shop with his wife. He was out of the area at the time of the quake and the shop collapsed on her, killing her instantly. In the immediate aftermath he seemed to be coping well. They were able to bury their mother and hold a funeral. After repairs, his home is now safe. The daughters had hoped that he would have returned to work by now. However, CC says he cannot think about doing this at the moment, as it is unbearable to go to work without his wife. He sits at home most of the day, alone, sometimes listening to the radio. The daughters are also concerned by his loss of weight and the fact that sometimes they hear him talking with his dead wife as if she were still there. 
+Presenting Symptoms: In the interview, CC is polite but withdrawn. He is neatly dressed in clean shirt and trousers and sits calmly, speaking very softly, but at normal speed. He answers all questions asked. He agrees that he has not been himself since his wife died. He asks the doctor if any man could be ‘normal’ in such a situation. He thinks about his wife all the time and spends a lot of time remembering their life together. These are actually happy memories, and this is why he prefers not to be interrupted or distracted by others when he is thinking about her. He has no unpleasant intrusive memories of the earthquake or nightmares.  He dreams about his wife at night, but again these are good dreams and he finds it saddening to wake in the morning and find that she is not there. He cries when he is alone but does not let his daughters see. The thought of restarting the shop is too painful to contemplate at present, but he has saved enough money not to have to work for several years. He agrees he has not had much appetite in the last three months and has lost some weight (about 5 kilograms), but he is trying to make himself eat. In other respects he takes good care of himself. He denied having any suicidal ideation. When asked about talking to his wife, he explains that sometimes he feels as if her spirit is actually in the room with him. He knows in some way this is not true, but when it happens, it feels real, and he thinks she is visiting and looking after him, consistent with his religious beliefs. He likes to talk to her and does not see why he should not do so as it comforts him. 
+Additional Background Information: CC was married to his wife for 30 years and they were rarely apart. The shop was their joint creation and occupation. His daughters are all married and do not live at home although they are close by and visit often. All of them are religious, although not deeply conservative.  CC has never suffered from any serious illness (mental or physical). Physical examination and blood tests reveal no physical cause for the weight loss.
+
+[INSTRUCTIONS]
+Please carefully read the patient case and follow these steps:
+1. Review the symptoms, their severity, their duration, whether they have occurred before (recurrence), and impact on functioning
+2. Review the list below of potential diagnoses from ICD11, focusing on understanding the key differences between each diagnosis
+3. Select the 3 most likely diagnoses from the list below in descending order, keeping in mind that the person may not have any diagnosis
+3. Provide a brief explanation (1 sentences) for why these diagnoses best fit the case, citing specific symptoms and criteria
+
+Potential stress-related diagnoses (ICD11):
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- Other Diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.
+","Based on the provided case, here are my diagnoses:
+
+Most Likely Diagnosis: Prolonged Grief Disorder
+Reasoning: The patient's symptoms of intense grief, avoidance of work, and preoccupation with happy memories of his wife, as well as his denial of suicidal ideation and lack of intrusive memories or nightmares, suggest a diagnosis of Prolonged Grief Disorder. The duration of his grief, which has been ongoing for four months, and the fact that he is able to function in daily life, but is unable to return to work, support this diagnosis.
+
+Second Most Likely: Adjustment Disorder
+Reasoning: The patient's symptoms of grief, avoidance of work, and changes in appetite and weight, in the context of a significant life stressor (the loss of his wife), suggest an adjustment disorder. However, the intensity and duration of his grief, as well as his preoccupation with happy memories of his wife, make Prolonged Grief Disorder a more likely diagnosis.
+
+Third Most Likely: Acute Stress Reaction
+Reasoning: While the patient's symptoms of grief and avoidance of work are significant, the fact that he is able to function in daily life and has not exhibited any other symptoms of stress, such as anxiety or avoidance of people, makes Acute Stress Reaction a less likely diagnosis.","['Prolonged Grief Disorder', 'Adjustment Disorder', 'Acute Stress Reaction']",No Diagnosis,False,False,False
+Stress Vignette 4 FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment. Read the patient case and follow the instructions to provide a diagnosis. Note: Not all patients will have a diagnosis.
+
+[PATIENT CASE]
+Referral:  DD is a 16-year-old boy who was referred to the mental health clinic by his teacher.  She is concerned about his falling grades and his changed personality over the past 18 months, since the death of his brother JD. The older brother volunteered as a soldier at age 17 and was killed a few weeks later in an ongoing war. During the first few months after the loss, DD was often truant from school, and when present, appeared distracted and disinterested in class. Sometimes he was tearful and would not join in any recreation. Before his brother’s death, he had been a star pupil. The teacher said that DD’s reactions were understandable during the first few months following his brother’s death, but she expected him to recover over time and he has not done so. More than 18 months after his brother’s death, DD is still not back to his normal self.  Although he pays more attention in class and has stopped skipping school, his grades are still very poor. He no longer spends time with his usual group of friends, and seems quite isolated. DD has told the teacher he has thought of abandoning school and joining his brother’s military unit, but his father has forbidden it. DD sees JD as a hero and wishes he had joined up with him. He says that if he had done so, maybe he could have protected JD or they could have died together. DD watches a home video of the funeral at least once a week and has created a small shrine/memorial to JD in his bedroom. He has given up football which he loved, and plays basketball, which was his brother’s favourite game. DD often wears JD’s clothes to school because it comforts him.
+Presenting Symptoms:  DD is happy to attend and talk with the psychiatrist and comes across as an intelligent young man. He appears glad to have a chance to talk about his brother.  DD’s appearance, speech and behaviour are appropriate in the interview; however, it is difficult to get him off the subject of his brother’s heroism and death, and onto the subject of his own feelings. DD confirms all the information provided by the teacher and acknowledges that he has decided to be as much like his brother as possible, to compensate his parents for their loss.  He feels sad much of the time and finds watching the funeral comforting, although it makes him weep. He realises he is doing badly at school and recognises he might fail some important exams, but it does not seem very important any more. He cannot discuss his feelings with his old friends as he recognises they are bored with him by now, so he keeps to himself. He is not suicidal. His sleep and appetite are normal, although he feels tired most days. Background additional information DDs parents explain that DD and his brother were very close from DD’s birth. They always looked out for each other, and DD idolized JD. JD’s decision to join the military was a shock because JD kept it a secret until the night before he left. He was killed a few weeks later. His parents also idolized their eldest son. Both wept during the interview. They wanted advice as to how to help their younger son. They thought the funeral video and shrine had gone on too long, but did not want to challenge DD and upset him further.
+Additional Background Information: nan
+
+[INSTRUCTIONS]
+Please carefully read the patient case and follow these steps:
+1. Review the symptoms, their severity, their duration, whether they have occurred before (recurrence), and impact on functioning
+2. Review the list below of potential diagnoses from ICD11, focusing on understanding the key differences between each diagnosis
+3. Select the 3 most likely diagnoses from the list below in descending order, keeping in mind that the person may not have any diagnosis
+3. Provide a brief explanation (1 sentences) for why these diagnoses best fit the case, citing specific symptoms and criteria
+
+Potential stress-related diagnoses (ICD11):
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- Other Diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.
+","Based on the provided case, here are my diagnoses:
+
+**Most Likely Diagnosis:** Prolonged Grief Disorder
+Reasoning: DD's symptoms of persistent grief, avoidance of social interactions, and preoccupation with his brother's death and funeral video are characteristic of Prolonged Grief Disorder. The duration of his symptoms (18 months) and the intensity of his emotional response to the loss also support this diagnosis.
+
+**Second Most Likely:** Complex Post-Traumatic Stress Disorder (CPTSD)
+Reasoning: DD's symptoms of emotional numbing, avoidance of social interactions, and preoccupation with his brother's death, as well as his desire to emulate his brother's behavior, may indicate the presence of complex trauma. However, the lack of explicit traumatic events and the absence of other symptoms such as dissociation or self-destructive behaviors make CPTSD less likely.
+
+**Third Likely:** Adjustment Disorder
+Reasoning: DD's symptoms of decreased motivation, poor grades, and social withdrawal may be an adjustment reaction to the significant life stress of his brother's death. However, the duration and intensity of his symptoms, as well as his preoccupation with his brother's death, suggest that Prolonged Grief Disorder is a more likely diagnosis.","['Prolonged Grief Disorder', 'Complex Post-Traumatic Stress Disorder (CPTSD)', 'Adjustment Disorder']",Prolonged Grief Disorder,True,True,True
+Stress Vignette 5A FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment. Read the patient case and follow the instructions to provide a diagnosis. Note: Not all patients will have a diagnosis.
+
+[PATIENT CASE]
+Referral: Ms. SZ is a 46-year-old divorced woman who is referred for a psychiatric consultation by her general practitioner for disrupted mood and inability to cope with her household work.
+Presenting Symptoms: Ms. SZ complains of feeling extremely anxious and low since her divorce 4 months ago. She feels humiliated and cheated. She often breaks down in front of her children and feels really guilty afterwards. She describes a constant preoccupation with her marital disharmony and the humiliating experience of going through a nasty divorce where her husband accused her of having an affair. She is unable to sleep well but her appetite has not changed. She wakes repeatedly during the night feeling distressed and humiliated about the divorce. She is finding it difficult to look after her children and her household. Her 16-year-old daughter is frequently missing school to look after the household chores.
+Additional Background Information: Ms. SZ was unhappily married for 20 years and had three children. Her youngest child was 12-years-old and suffered from severe episodes of Asthma. Her husband was a banker who had a tendency to drink excessively. She described him as a short-tempered person who lacked a sense of responsibility. She did not have much support from her family and had no source of independent income. Therefore, despite marital disharmony, she did not consider leaving him. The divorce came as a shock for her, which was further aggravated because her husband publically accused her of having an affair. After her initial interview, she returned for two more sessions of supportive psychotherapy. She discontinued services after 3 weeks claiming that her symptoms were improving and she was able to return to her duties.
+
+[INSTRUCTIONS]
+Please carefully read the patient case and follow these steps:
+1. Review the symptoms, their severity, their duration, whether they have occurred before (recurrence), and impact on functioning
+2. Review the list below of potential diagnoses from ICD11, focusing on understanding the key differences between each diagnosis
+3. Select the 3 most likely diagnoses from the list below in descending order, keeping in mind that the person may not have any diagnosis
+3. Provide a brief explanation (1 sentences) for why these diagnoses best fit the case, citing specific symptoms and criteria
+
+Potential stress-related diagnoses (ICD11):
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- Other Diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.
+","Based on the provided case, here are the diagnoses:
+
+Most Likely Diagnosis: Complex Post-Traumatic Stress Disorder (CPTSD)
+Reasoning: Ms. SZ's symptoms of persistent feelings of anxiety, humiliation, and distress, particularly in relation to the divorce and public accusations, suggest a complex trauma response. The severity and duration of her symptoms, as well as her impact on daily functioning, are consistent with CPTSD. Additionally, the traumatic nature of the divorce, combined with the lack of support and independent income, increases the likelihood of CPTSD.
+
+Second Most Likely: Adjustment Disorder
+Reasoning: Ms. SZ's symptoms of anxiety, low mood, and difficulty coping with household responsibilities are indicative of an adjustment disorder, which is a reaction to a significant life stressor (in this case, the divorce). However, the complexity and duration of her symptoms, as well as the traumatic nature of the divorce, make CPTSD a more likely diagnosis.
+
+Third Most Likely: Post-Traumatic Stress Disorder (PTSD)
+Reasoning: While Ms. SZ's symptoms of anxiety and distress are consistent with PTSD, the lack of explicit traumatic events (e.g., combat, assault) and the presence of complex trauma symptoms (e.g., feelings of humiliation, preoccupation with the divorce) make PTSD less likely. Additionally, PTSD typically requires a specific traumatic event, which is not explicitly mentioned in the case.
+
+Note: The other options (Acute Stress Reaction, Other Disorder Specifically Associated with Stress, Prolonged Grief Disorder, and No Diagnosis) do not fit the case as well as CPTSD, Adjustment Disorder, and PTSD.","['Complex Post-Traumatic Stress Disorder (CPTSD)', 'Adjustment Disorder', 'Post-Traumatic Stress Disorder (PTSD)']",Adjustment Disorder,False,True,True
+Stress Vignette 5B FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment. Read the patient case and follow the instructions to provide a diagnosis. Note: Not all patients will have a diagnosis.
+
+[PATIENT CASE]
+Referral:  AH, a 45-year-old woman, was referred after meeting the school psychologist of her eight year old son one week ago. She describes herself as having suffered from a “nervous breakdown” after her husband was severely injured in an automobile accident three months ago. She was riding with him when they were hit by a much larger vehicle. The husband’s left arm and leg were crushed, and he is currently undergoing reconstructive surgeries. AH witnessed the event but was otherwise unharmed. Since the accident, she is only able to complete household necessities with strenuous effort but often is not able to manage it at all.
+Presenting Symptoms:  She reports that she is constantly thinking about the accident and her husband’s injuries. Her thoughts on these issues “circle constantly” in her mind. She often cries and is not able to stop. Being with her son does not keep her from despair. Her sleep is totally disturbed and she can get no rest. Her husband’s incapacitation left the family with serious financial problems. Currently she stated that she is unable to pursue any opportunities for employment because she is ‘too distracted’. She noted that she has had extreme difficulty completing any household chores. Her son was caught stealing the lunches of other children because she had forgotten to prepare one for him. She denies self-blame, self-degrading thoughts, suicidal tendencies or appetite problems.
+Additional Background Information:  AH reports no previous mental problems. She claims having had a very good childhood in a relatively wealthy family with normal academic opportunities. After the initial interview, she returned for a single follow-up session two weeks later. She noted that her concentration had improved and she was starting to feel “back to normal.”
+
+[INSTRUCTIONS]
+Please carefully read the patient case and follow these steps:
+1. Review the symptoms, their severity, their duration, whether they have occurred before (recurrence), and impact on functioning
+2. Review the list below of potential diagnoses from ICD11, focusing on understanding the key differences between each diagnosis
+3. Select the 3 most likely diagnoses from the list below in descending order, keeping in mind that the person may not have any diagnosis
+3. Provide a brief explanation (1 sentences) for why these diagnoses best fit the case, citing specific symptoms and criteria
+
+Potential stress-related diagnoses (ICD11):
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- Other Diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.
+","Based on the patient's symptoms and presentation, I have selected the following diagnoses:
+
+**Most Likely Diagnosis: Prolonged Grief Disorder**
+Reasoning: The patient's symptoms of intrusive thoughts about the accident and her husband's injuries, as well as her inability to complete household chores and her son's behavioral problems, are characteristic of prolonged grief disorder. The duration of her symptoms, which have persisted for three months, also supports this diagnosis. Additionally, her lack of suicidal tendencies and self-blame thoughts makes it less likely that she has PTSD or CPTSD.
+
+**Second Most Likely: Adjustment Disorder**
+Reasoning: The patient's symptoms of distress and impairment in social and occupational functioning, as well as her financial problems and inability to pursue employment opportunities, are indicative of an adjustment disorder. Her symptoms are also related to a specific stressor (her husband's accident and subsequent incapacitation), which is a key criterion for this diagnosis.
+
+**Third Most Likely: Acute Stress Reaction**
+Reasoning: The patient's initial presentation of symptoms, including her intense emotional distress, sleep disturbances, and difficulty concentrating, are consistent with an acute stress reaction. However, her symptoms have persisted for three months, which suggests that this diagnosis may not be the most appropriate choice.","['Prolonged Grief Disorder', 'Adjustment Disorder', 'Acute Stress Reaction']",Adjustment Disorder,False,True,True
+Stress Vignette 6 FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment. Read the patient case and follow the instructions to provide a diagnosis. Note: Not all patients will have a diagnosis.
+
+[PATIENT CASE]
+Referral:  OG, a 31-year-old man, sought a consultation due to having lost his job three months ago. After several years working as a manager at a financial institution, he was fired abruptly as a part of a company restructuring. He has tried to find a new job but failed. When he is not looking for a job, he spends his time exercising or doing things around the apartment.
+Presenting Symptoms:  He reports feelings of failure, loneliness and futility. He is concerned that having been fired from his job, even though it was not his fault, will make other financial institutions reluctant to hire him, and is afraid he will never be able to get another job in his chosen field.  He says that it has been difficult for him to reorganize his time, in particular during the day when other people are at work. In the previous three months, he often met with former co-workers who were discharged as well. They had been planning to claim additional financial compensation from their former employer, but OG has concluded that this vague plan is unlikely to be successful and prefers to move on.  OG’s financial resources are decreasing, and he is ashamed that he may have to ask his parents to help support him financially again. He reports fearing that his relationship with his girlfriend, who works in the same financial institution, will deteriorate. He fears she will leave him because he is a “jobless loser”.  She denies any such intention, or that there has been any change in their relationship.  She has encouraged him to seek mental health treatment before they do actually begin to experience problems. In the consultation interview, OG admits that his alcohol consumption has increased during the last three months, but it has not reached the level of harmful use. He reports with pride that he still carries out his daily routine and time schedule. He reports having experienced one panic attack (of indistinct duration) around ten days after being discharged from his job. It has not recurred and he denies fear of future attacks.  He reports feelings of failure and negative self-evaluation related to losing his job, but denies pervasive symptoms of depression.
+Additional Background Information: OG reports no previous mental problems. He claims having had a normal childhood in a relatively wealthy family and no academic problems during school or university. He describes himself as very sociable but occasionally vengeful when he feels he has been wronged.
+
+[INSTRUCTIONS]
+Please carefully read the patient case and follow these steps:
+1. Review the symptoms, their severity, their duration, whether they have occurred before (recurrence), and impact on functioning
+2. Review the list below of potential diagnoses from ICD11, focusing on understanding the key differences between each diagnosis
+3. Select the 3 most likely diagnoses from the list below in descending order, keeping in mind that the person may not have any diagnosis
+3. Provide a brief explanation (1 sentences) for why these diagnoses best fit the case, citing specific symptoms and criteria
+
+Potential stress-related diagnoses (ICD11):
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- Other Diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.
+","Based on the provided case, here are my diagnoses:
+
+**Most Likely Diagnosis:** Adjustment Disorder
+Reasoning: OG's symptoms of feelings of failure, loneliness, and futility, as well as his increased alcohol consumption, are indicative of an adjustment disorder, which is a reaction to a significant life stressor, in this case, the loss of his job. His difficulty in reorganizing his time and fear of being perceived as a ""jobless loser"" also suggest an adjustment disorder.
+
+**Second Most Likely:** Acute Stress Reaction
+Reasoning: OG's panic attack and his immediate reaction to the job loss, as well as his shame and fear of financial dependence on his parents, indicate an acute stress reaction, which is a short-term response to a specific stressor. His symptoms are intense and time-limited, and he has not exhibited persistent or recurring symptoms.
+
+**Third Likely:** Other Disorder Specifically Associated with Stress
+Reasoning: While OG's symptoms do not meet the full criteria for an adjustment disorder, his reaction to the job loss and fear of financial dependence on his parents, as well as his shame and fear of being perceived as a ""jobless loser"", suggest that his symptoms may be related to stress, but do not fit neatly into an adjustment disorder or acute stress reaction.","['Adjustment Disorder', 'Acute Stress Reaction', 'Other Disorder Specifically Associated with Stress']",No Diagnosis,False,False,False
