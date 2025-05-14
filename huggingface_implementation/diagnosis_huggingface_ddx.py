@@ -4,12 +4,27 @@ from pathlib import Path
 from LLMModel import LLMModel
 from PromptBuilder import PromptBuilder
 import json
+import torch
+import gc
 
-DEPLOYMENT_TYPE = "computer"
+DEPLOYMENT_TYPE = "hpc"
 
 CATEGORIES = ["Mood", "Anxiety", "Stress"]
 TOP_K = [1, 2, 3]
 
+def free_memory():
+    """Frees GPU memory if CUDA is available."""
+    if torch.cuda.is_available():
+        gc.collect()
+        torch.cuda.empty_cache()
+        reserved_memory = torch.cuda.memory_reserved(0)
+        allocated_memory = torch.cuda.memory_allocated(0)
+        free_memory = reserved_memory - allocated_memory
+
+        print(f"GPU Memory - Total: {torch.cuda.get_device_properties(0).total_memory / 1024**2:.2f} MB, "
+              f"Reserved: {reserved_memory / 1024**2:.2f} MB, "
+              f"Allocated: {allocated_memory / 1024**2:.2f} MB, "
+              f"Free: {free_memory / 1024**2:.2f} MB")
 
 def extract_ranked_diagnoses(response):
     diagnoses = []
@@ -51,8 +66,6 @@ def generate_prompts(data, prompt_builder):
 
 
 def evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm_model, results_folder):
-    import pandas as pd
-
     # Build base DataFrame
     df = pd.DataFrame(index_mapping, columns=["Category", "DataIndex"])
     df["Prompt"] = [all_prompts[i]["prompt"][0]["content"] for i in range(len(index_mapping))]
@@ -75,11 +88,15 @@ def evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, l
         "Model_Diagnoses", "Label"
     ] + [f"Top_{k}_Accuracy" for k in TOP_K]].rename(columns={"Response": "Model_Output", "Label": "Ground_Truth_Label"})
     
-    df_out.to_csv(results_folder.joinpath(f"ICD11_{llm_model}_ddx_results.csv"), index=False)
+    output_df_path = results_folder.joinpath(f"ICD11_{llm_model}_ddx_results_hpc.csv")
+    df_out.to_csv(output_df_path, index=False)
+    print("Detailed results saved to ", output_df_path)
 
     # Save overall performance across categories
     stats = calculate_performance_across_categories(df)
-    stats.to_csv(results_folder.joinpath(f"ICD11_{llm_model}_ddx_performance.csv", index=False))
+    performance_file_path = results_folder.joinpath(f"ICD11_{llm_model}_ddx_performance_hpc.csv")
+    stats.to_csv(performance_file_path, index=False)
+    print("Results saved to ", performance_file_path)
 
 
 
@@ -133,13 +150,13 @@ def main():
     all_prompts, index_mapping = generate_prompts(data, prompt_builder)
     
     # Initialize model & process prompts in batches
+    free_memory()
     model_path = Path(config_dict[f"{llm_model}_path"])
     model = LLMModel(model_path)
     responses = model.process_all_batches(all_prompts, batch_size=batch_size)
 
     # Evaluate model output for top 3 results
     evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm_model, results_folder)
-
 
 if __name__ == "__main__":
     main()
