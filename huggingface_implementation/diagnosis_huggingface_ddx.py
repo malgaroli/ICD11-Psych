@@ -50,90 +50,95 @@ def generate_prompts(data, prompt_builder):
     return all_prompts, index_mapping
 
 
-def evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm_model):
-    all_detailed = []
-    all_accuracies = []
-    accuracy_results = {cat: {f"top_{k}_accuracy": [] for k in TOP_K} for cat in CATEGORIES}
+def evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm_model, results_folder):
+    import pandas as pd
 
-    for category in CATEGORIES:
-        indices = [i for i, (cat, _) in enumerate(index_mapping) if cat == category]
-        df_cat = data.loc[[index_mapping[i][1] for i in indices]].reset_index(drop=True)
-        selected_prompts = [all_prompts[i] for i in indices]
-        selected_responses = [list(responses[i].values())[0] for i in indices]
+    # Build base DataFrame
+    df = pd.DataFrame(index_mapping, columns=["Category", "DataIndex"])
+    df["Prompt"] = [all_prompts[i]["prompt"][0]["content"] for i in range(len(index_mapping))]
+    df["Response"] = [list(responses[i].values())[0] for i in range(len(index_mapping))]
+    df["Model_Diagnoses"] = df["Response"].apply(extract_ranked_diagnoses)
 
-        correct_counts = {k: 0 for k in TOP_K}
-        detailed = []
+    # Merge with ground truth
+    data_subset = data.loc[df["DataIndex"]].reset_index(drop=True)
+    df = df.reset_index(drop=True)
+    df = pd.concat([df, data_subset[["Label", "Vignette ID"]].reset_index(drop=True)], axis=1)
+    df["Vignette_ID"] = df["Category"] + " " + df["Vignette ID"].astype(str)
 
-        for i, (_, row) in enumerate(df_cat.iterrows()):
-            response = selected_responses[i]
-            diagnoses = extract_ranked_diagnoses(response)
-            label = row["Label"]
-            top_n = {k: label in diagnoses[:k] for k in TOP_K}
-            for k in TOP_K:
-                correct_counts[k] += int(top_n[k])
-            detailed.append({
-                "Vignette_ID": f"{row['Category']} {row['Vignette ID']}",
-                "Category": category,
-                "Prompt": selected_prompts[i]['prompt'][0]['content'],
-                "Model_Output": response,
-                "Model_Diagnoses": diagnoses,
-                "Ground_Truth_Label": label,
-                **{f"Top_{k}_Accuracy": top_n[k] for k in TOP_K}
-            })
-
-        total = len(df_cat)
-        accs = {f"top_{k}_accuracy": correct_counts[k] / total for k in TOP_K}
-        accs["Category"] = category
-        all_accuracies.append(accs)
-        all_detailed.extend(detailed)
-
-        for k in TOP_K:
-            accuracy_results[category][f"top_{k}_accuracy"].append(accs[f"top_{k}_accuracy"])
-
-        # pd.DataFrame(detailed).to_csv(f"results_{llm_model}_{category.lower()}.csv", index=False)
-
-        print(f"\n{category} Accuracies:")
-        for k in TOP_K:
-            print(f"Top-{k}: {accs[f'top_{k}_accuracy']:.2f}")
-
-    return all_detailed, all_accuracies, accuracy_results
-
-
-def main():
-    data = pd.read_csv("Data_final_updated.csv")
-    prompt_path = Path("cot_text_vicky_ddx_qualtrics")
-    config_dict = load_config()
-    llm_model = "llama31"
-    model_path = Path(config_dict[f"{llm_model}_path"])
-
-    prompt_builder = PromptBuilder(df_vignettes=data, prompts_path=prompt_path)
-    all_prompts, index_mapping = generate_prompts(data, prompt_builder)
-
-    model = LLMModel(model_path)
-    responses = model.process_all_batches(all_prompts, batch_size=16)
-
-    all_detailed, all_accuracies, accuracy_results = evaluate_model_outputs(
-        data, model, all_prompts, responses, index_mapping, llm_model
-    )
-
-    pd.DataFrame(all_detailed).to_csv(f"diagnosis_{llm_model}_ddx_results_qualtrics.csv", index=False)
-
-    print("\nAverage Accuracies Across Categories:")
-    df_acc = pd.DataFrame(all_accuracies)
-    stats = {}
-    for category in CATEGORIES:
-        for k in TOP_K:
-            key = f"{category}_top_{k}_accuracy"
-            stats[key] = accuracy_results[category][f"top_{k}_accuracy"][0] if accuracy_results[category][f"top_{k}_accuracy"] else None
-
+    # Compute Top-k correctness flags
     for k in TOP_K:
-        vals = df_acc[f"top_{k}_accuracy"]
+        df[f"Top_{k}_Accuracy"] = df.apply(lambda row: row["Label"] in row["Model_Diagnoses"][:k], axis=1)
+
+    # Save detailed outputs
+    df_out = df[[
+        "Vignette_ID", "Category", "Prompt", "Response",
+        "Model_Diagnoses", "Label"
+    ] + [f"Top_{k}_Accuracy" for k in TOP_K]].rename(columns={"Response": "Model_Output", "Label": "Ground_Truth_Label"})
+    
+    df_out.to_csv(results_folder.joinpath(f"ICD11_{llm_model}_ddx_results.csv"), index=False)
+
+    # Save overall performance across categories
+    stats = calculate_performance_across_categories(df)
+    stats.to_csv(results_folder.joinpath(f"ICD11_{llm_model}_ddx_performance.csv", index=False))
+
+
+
+
+def calculate_performance_across_categories(df):
+    # Compute per-category accuracies
+    grouped = df.groupby("Category")
+    acc_summary = grouped[[f"Top_{k}_Accuracy" for k in TOP_K]].mean().reset_index()
+    acc_summary.columns = ["Category"] + [f"top_{k}_accuracy" for k in TOP_K]
+
+    for _, row in acc_summary.iterrows():
+        print(f"\n{row['Category']} Accuracies:")
+        for k in TOP_K:
+            print(f"Top-{k}: {row[f'top_{k}_accuracy']:.2f}")
+
+    # Compute global mean and std
+    stats = {}
+    for k in TOP_K:
+        col = f"top_{k}_accuracy"
+        vals = acc_summary[col]
         stats[f"mean_top_{k}_accuracy"] = vals.mean()
         stats[f"std_top_{k}_accuracy"] = vals.std()
         print(f"Top-{k} Average Accuracy: {vals.mean():.2f} (±{vals.std():.2f})")
 
-    # df_acc.to_csv("mean_accuracies_qualtrics.csv", index=False)
-    pd.DataFrame([stats]).to_csv(f"{llm_model}_mean_accuracies_summary_qualtrics.csv", index=False)
+    # Per-category individual scores also included
+    for _, row in acc_summary.iterrows():
+        for k in TOP_K:
+            stats[f"{row['Category']}_top_{k}_accuracy"] = row[f"top_{k}_accuracy"]
+
+    return pd.DataFrame([stats])
+
+    
+def main():
+    # set paths
+    config_dict = load_config()
+    base_bath = Path(config_dict['base_path'])
+    results_folder = base_bath.joinpath("results","results_ddx")
+    prompt_path = base_bath.joinpath("huggingface_implementation")
+    
+    # set prompt and pipeline parameters
+    llm_model = "llama31"
+    prompt_id = 'prompt_ddx'
+    language = "en"
+    batch_size = 16
+
+    # load vignettes with labels
+    data = pd.read_csv(base_bath.joinpath("data","Data_final_updated.csv"))
+    
+    # Generate prompts for each category
+    prompt_builder = PromptBuilder(df_vignettes=data, prompts_path=prompt_path, prompt_id=prompt_id, language=language)
+    all_prompts, index_mapping = generate_prompts(data, prompt_builder)
+    
+    # Initialize model & process prompts in batches
+    model_path = Path(config_dict[f"{llm_model}_path"])
+    model = LLMModel(model_path)
+    responses = model.process_all_batches(all_prompts, batch_size=batch_size)
+
+    # Evaluate model output for top 3 results
+    evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm_model, results_folder)
 
 
 if __name__ == "__main__":
