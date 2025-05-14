@@ -26,6 +26,7 @@ def free_memory():
               f"Allocated: {allocated_memory / 1024**2:.2f} MB, "
               f"Free: {free_memory / 1024**2:.2f} MB")
 
+#TODO: use similarity score (90) and not the hard-coded version
 def extract_ranked_diagnoses(response):
     diagnoses = []
     pattern1 = r"\*\*\s*(?:1\.|First|Most Likely) Diagnosis:\s*([^\*\n]+)\*\*"
@@ -65,8 +66,8 @@ def generate_prompts(data, prompt_builder):
     return all_prompts, index_mapping
 
 
-def evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm_model, results_folder):
-    # Build base DataFrame
+def evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm_model, results_folder, prompt_id):
+    # Build results DataFrame
     df = pd.DataFrame(index_mapping, columns=["Category", "DataIndex"])
     df["Prompt"] = [all_prompts[i]["prompt"][0]["content"] for i in range(len(index_mapping))]
     df["Response"] = [list(responses[i].values())[0] for i in range(len(index_mapping))]
@@ -88,17 +89,15 @@ def evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, l
         "Model_Diagnoses", "Label"
     ] + [f"Top_{k}_Accuracy" for k in TOP_K]].rename(columns={"Response": "Model_Output", "Label": "Ground_Truth_Label"})
     
-    output_df_path = results_folder.joinpath(f"ICD11_{llm_model}_ddx_results_hpc.csv")
+    output_df_path = results_folder.joinpath(f"ICD11_{llm_model}_{prompt_id}_detailed_results.csv")
     df_out.to_csv(output_df_path, index=False)
     print("Detailed results saved to ", output_df_path)
 
-    # Save overall performance across categories
+    # Calculate and save overall performance across categories
     stats = calculate_performance_across_categories(df)
-    performance_file_path = results_folder.joinpath(f"ICD11_{llm_model}_ddx_performance_hpc.csv")
+    performance_file_path = results_folder.joinpath(f"ICD11_{llm_model}_{prompt_id}_performance.csv")
     stats.to_csv(performance_file_path, index=False)
     print("Results saved to ", performance_file_path)
-
-
 
 
 def calculate_performance_across_categories(df):
@@ -137,8 +136,8 @@ def main():
     prompt_path = base_bath.joinpath("huggingface_implementation")
     
     # set prompt and pipeline parameters
-    llm_model = "llama31"
-    prompt_id = 'prompt_ddx'
+    llm_model = "llama31" #llama33_70B~25 min, mistral_large~30min
+    prompt_id = 'prompt_ddx_qualtrics_modified' #'prompt_ddx'
     language = "en"
     batch_size = 16
 
@@ -156,7 +155,7 @@ def main():
     responses = model.process_all_batches(all_prompts, batch_size=batch_size)
 
     # Evaluate model output for top 3 results
-    evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm_model, results_folder)
+    evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm_model, results_folder, prompt_id)
 
 if __name__ == "__main__":
     main()

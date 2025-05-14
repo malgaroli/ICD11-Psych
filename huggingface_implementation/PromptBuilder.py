@@ -41,7 +41,11 @@ class PromptBuilder:
             vignette_id = row['Vignette ID']
             vignette = self.prompt_dict['vignette_prompt'].replace('{referral}', row['Referral']).replace('{presenting_symptoms}', row['Presenting Symptoms']).replace('{add_background_info}', str(row['Additional Background Information']))
 
-            user_prompt = self.prompt_dict['instruction'].replace('{vignette}', vignette).replace('{cot_text}',cot_text)
+            if f"instruction_{category.lower()}" in self.prompt_dict.keys():
+                instruction_prompt = self.prompt_dict[f"instruction_{category.lower()}"]
+            else:
+                instruction_prompt = self.prompt_dict['instruction']
+            user_prompt = instruction_prompt.replace('{vignette}', vignette).replace('{cot_text}',cot_text)
 
             prompts.append({
                 "id": f"{category}_{vignette_id}",
