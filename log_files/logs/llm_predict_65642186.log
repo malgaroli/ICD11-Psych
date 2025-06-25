@@ -1,0 +1,21 @@
+GPU Memory - Total: 81155.75 MB, Reserved: 0.00 MB, Allocated: 0.00 MB, Free: 0.00 MB
+Detailed results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/mistral_7B/ICD11_mistral_7B_prompt_ddx_qualtrics_modified_detailed_results.csv
+
+Anxiety Accuracies:
+Top-1: 0.82
+Top-2: 1.00
+Top-3: 1.00
+
+Mood Accuracies:
+Top-1: 0.52
+Top-2: 0.62
+Top-3: 0.62
+
+Stress Accuracies:
+Top-1: 0.55
+Top-2: 0.73
+Top-3: 0.91
+Top-1 Average Accuracy: 0.63 (±0.16)
+Top-2 Average Accuracy: 0.78 (±0.20)
+Top-3 Average Accuracy: 0.84 (±0.20)
+Results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/mistral_7B/ICD11_mistral_7B_prompt_ddx_qualtrics_modified_performance.csv

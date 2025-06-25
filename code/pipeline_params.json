@@ -1,0 +1,7 @@
+{
+    "llm" : "llama31_8B",
+    "prompt_id" : "prompt_ddx_qualtrics_modified",
+    "language" : "en",
+    "batch_size" : 16,
+    "max_new_tokens" : 512
+}

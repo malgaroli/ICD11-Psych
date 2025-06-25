@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/huggingface_implementation/diagnosis_huggingface_ddx.py", line 162, in <module>
+    main()
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/huggingface_implementation/diagnosis_huggingface_ddx.py", line 155, in main
+    model = LLMModel(model_path)
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/huggingface_implementation/LLMModel.py", line 16, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(model_path, token=HF_TOKEN) #, use_fast=True)
+NameError: name 'HF_TOKEN' is not defined

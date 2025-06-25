@@ -1,0 +1,22 @@
+WARNING:accelerate.utils.other:Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+Fetching 37 files:   0%|          | 0/37 [00:00<?, ?it/s]Fetching 37 files:   3%|▎         | 1/37 [04:27<2:40:24, 267.35s/it]Fetching 37 files:   5%|▌         | 2/37 [04:54<1:13:37, 126.21s/it]Fetching 37 files:  16%|█▌        | 6/37 [05:06<16:08, 31.25s/it]   Fetching 37 files:  24%|██▍       | 9/37 [07:02<16:07, 34.54s/it]Fetching 37 files:  27%|██▋       | 10/37 [07:07<13:13, 29.39s/it]Fetching 37 files:  30%|██▉       | 11/37 [09:24<22:05, 50.98s/it]Fetching 37 files:  32%|███▏      | 12/37 [10:04<20:13, 48.52s/it]Fetching 37 files:  35%|███▌      | 13/37 [10:45<18:42, 46.76s/it]Fetching 37 files:  38%|███▊      | 14/37 [10:51<13:52, 36.20s/it]Fetching 37 files:  46%|████▌     | 17/37 [12:17<10:48, 32.41s/it]Fetching 37 files:  49%|████▊     | 18/37 [12:41<09:40, 30.55s/it]Fetching 37 files:  51%|█████▏    | 19/37 [13:07<08:54, 29.68s/it]Fetching 37 files:  51%|█████▏    | 19/37 [16:31<15:39, 52.21s/it]
+Traceback (most recent call last):
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/huggingface_implementation/diagnosis_huggingface_ddx.py", line 162, in <module>
+    main()
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/huggingface_implementation/diagnosis_huggingface_ddx.py", line 155, in main
+    model = LLMModel(model_path)
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/huggingface_implementation/LLMModel.py", line 39, in __init__
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 279, in _wrapper
+    return func(*args, **kwargs)
+  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4260, in from_pretrained
+    checkpoint_files, sharded_metadata = _get_resolved_checkpoint_files(
+  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 1152, in _get_resolved_checkpoint_files
+    checkpoint_files, sharded_metadata = get_checkpoint_shard_files(
+  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/utils/hub.py", line 1115, in get_checkpoint_shard_files
+    cached_filenames = cached_files(
+  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/utils/hub.py", line 517, in cached_files
+    raise EnvironmentError(
+OSError: Qwen/Qwen2.5-72B-Instruct does not appear to have files named ('model-00020-of-00037.safetensors', 'model-00023-of-00037.safetensors', 'model-00024-of-00037.safetensors', 'model-00025-of-00037.safetensors', 'model-00026-of-00037.safetensors', 'model-00027-of-00037.safetensors', 'model-00028-of-00037.safetensors', 'model-00029-of-00037.safetensors', 'model-00030-of-00037.safetensors', 'model-00031-of-00037.safetensors', 'model-00032-of-00037.safetensors', 'model-00033-of-00037.safetensors', 'model-00034-of-00037.safetensors', 'model-00035-of-00037.safetensors', 'model-00036-of-00037.safetensors', 'model-00037-of-00037.safetensors'). Checkout 'https://huggingface.co/Qwen/Qwen2.5-72B-Instruct/tree/main'for available files.

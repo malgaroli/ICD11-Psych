@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/huggingface_implementation/diagnosis_huggingface_ddx.py", line 162, in <module>
+    main()
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/huggingface_implementation/diagnosis_huggingface_ddx.py", line 155, in main
+    model = LLMModel(model_path)
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/huggingface_implementation/LLMModel.py", line 16, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(model_path, token=HF_TOKEN) #, use_fast=True)
+  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 1028, in from_pretrained
+    return tokenizer_class_fast.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2046, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load tokenizer for 'Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4' is the correct path to a directory containing all relevant files for a Qwen2TokenizerFast tokenizer.
