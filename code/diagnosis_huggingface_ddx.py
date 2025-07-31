@@ -134,6 +134,7 @@ def main():
     llm_model      = pipeline_params.get('llm_model', "llama31_8B")
     prompt_id      = pipeline_params.get('prompt_id','prompt_ddx_qualtrics_modified')
     language       = pipeline_params.get('language', 'en')
+    language_vignette = pipeline_params.get('language_vignette', 'en')
     batch_size     = pipeline_params.get('batch_size', 1)
     max_new_tokens = pipeline_params.get('max_new_tokens', 512)
 
@@ -141,11 +142,12 @@ def main():
     config_dict = load_config(file=Path(__file__).parent.joinpath("config_paths.json"))[DEPLOYMENT_TYPE]
     base_bath = Path(config_dict['base_path'])
     prompt_path = base_bath.joinpath("code")
-    results_folder = base_bath.joinpath("results",llm_model)
+    results_folder = base_bath.joinpath("results",llm_model,language_vignette)
     results_folder.mkdir(parents=True, exist_ok=True)
 
     # load vignettes with labels
-    data = pd.read_csv(base_bath.joinpath("data","Data_final_updated.csv"))
+    
+    data = pd.read_csv(base_bath.joinpath("data","multi-languages",f"{language_vignette}",f"Data_final_{language_vignette}.csv"), encoding='utf-8')
     
     # Generate prompts for each category
     prompt_builder = PromptBuilder(df_vignettes=data, prompts_path=prompt_path, prompt_id=prompt_id, language=language)

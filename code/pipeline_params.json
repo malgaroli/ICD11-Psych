@@ -1,7 +1,8 @@
 {
-    "llm" : "llama31_8B",
-    "prompt_id" : "prompt_ddx_qualtrics_modified",
+    "llm" : "llama33_70B",
+    "prompt_id" : "prompt_ddx_qualtrics_modified_translated",
     "language" : "en",
+    "language_vignette" : "japanese",
     "batch_size" : 16,
     "max_new_tokens" : 512
 }
