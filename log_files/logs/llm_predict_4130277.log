@@ -1,0 +1,85 @@
+GPU Memory - Total: 81152.75 MB, Reserved: 0.00 MB, Allocated: 0.00 MB, Free: 0.00 MB
+Detailed results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/Qwen25_32B/spanish/ICD11_Qwen25_32B_prompt_ddx_qualtrics_modified_translated_detailed_results.csv
+
+Anxiety Accuracies:
+Top-1: 0.64
+Top-2: 0.82
+Top-3: 0.91
+
+Mood Accuracies:
+Top-1: 0.67
+Top-2: 0.67
+Top-3: 0.67
+
+Stress Accuracies:
+Top-1: 0.55
+Top-2: 0.73
+Top-3: 0.91
+Top-1 Average Accuracy: 0.62 (±0.06)
+Top-2 Average Accuracy: 0.74 (±0.08)
+Top-3 Average Accuracy: 0.83 (±0.14)
+Results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/Qwen25_32B/spanish/ICD11_Qwen25_32B_prompt_ddx_qualtrics_modified_translated_performance.csv
+GPU Memory - Total: 81152.75 MB, Reserved: 12386.00 MB, Allocated: 8042.49 MB, Free: 4343.51 MB
+GPU Memory - Total: 81152.75 MB, Reserved: 12386.00 MB, Allocated: 8042.49 MB, Free: 4343.51 MB
+Detailed results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/Qwen25_32B/french/ICD11_Qwen25_32B_prompt_ddx_qualtrics_modified_translated_detailed_results.csv
+
+Anxiety Accuracies:
+Top-1: 0.64
+Top-2: 0.73
+Top-3: 0.91
+Top-1 Average Accuracy: 0.64 (±nan)
+Top-2 Average Accuracy: 0.73 (±nan)
+Top-3 Average Accuracy: 0.91 (±nan)
+Results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/Qwen25_32B/french/ICD11_Qwen25_32B_prompt_ddx_qualtrics_modified_translated_performance.csv
+GPU Memory - Total: 81152.75 MB, Reserved: 24772.00 MB, Allocated: 8042.37 MB, Free: 16729.63 MB
+GPU Memory - Total: 81152.75 MB, Reserved: 24772.00 MB, Allocated: 8042.37 MB, Free: 16729.63 MB
+Detailed results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/Qwen25_32B/chinese/ICD11_Qwen25_32B_prompt_ddx_qualtrics_modified_translated_detailed_results.csv
+
+Anxiety Accuracies:
+Top-1: 0.64
+Top-2: 0.73
+Top-3: 0.91
+Top-1 Average Accuracy: 0.64 (±nan)
+Top-2 Average Accuracy: 0.73 (±nan)
+Top-3 Average Accuracy: 0.91 (±nan)
+Results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/Qwen25_32B/chinese/ICD11_Qwen25_32B_prompt_ddx_qualtrics_modified_translated_performance.csv
+GPU Memory - Total: 81152.75 MB, Reserved: 24770.00 MB, Allocated: 8041.56 MB, Free: 16728.44 MB
+GPU Memory - Total: 81152.75 MB, Reserved: 24770.00 MB, Allocated: 8041.56 MB, Free: 16728.44 MB
+Detailed results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/Qwen25_32B/russian/ICD11_Qwen25_32B_prompt_ddx_qualtrics_modified_translated_detailed_results.csv
+
+Anxiety Accuracies:
+Top-1: 0.64
+Top-2: 0.73
+Top-3: 0.91
+
+Mood Accuracies:
+Top-1: 0.57
+Top-2: 0.62
+Top-3: 0.67
+Top-1 Average Accuracy: 0.60 (±0.05)
+Top-2 Average Accuracy: 0.67 (±0.08)
+Top-3 Average Accuracy: 0.79 (±0.17)
+Results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/Qwen25_32B/russian/ICD11_Qwen25_32B_prompt_ddx_qualtrics_modified_translated_performance.csv
+GPU Memory - Total: 81152.75 MB, Reserved: 24770.00 MB, Allocated: 8040.31 MB, Free: 16729.69 MB
+GPU Memory - Total: 81152.75 MB, Reserved: 24770.00 MB, Allocated: 8040.31 MB, Free: 16729.69 MB
+Detailed results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/Qwen25_32B/japanese/ICD11_Qwen25_32B_prompt_ddx_qualtrics_modified_translated_detailed_results.csv
+
+Anxiety Accuracies:
+Top-1: 0.64
+Top-2: 0.73
+Top-3: 0.91
+
+Mood Accuracies:
+Top-1: 0.48
+Top-2: 0.52
+Top-3: 0.52
+
+Stress Accuracies:
+Top-1: 0.64
+Top-2: 0.73
+Top-3: 0.82
+Top-1 Average Accuracy: 0.58 (±0.09)
+Top-2 Average Accuracy: 0.66 (±0.12)
+Top-3 Average Accuracy: 0.75 (±0.20)
+Results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/Qwen25_32B/japanese/ICD11_Qwen25_32B_prompt_ddx_qualtrics_modified_translated_performance.csv
+GPU Memory - Total: 81152.75 MB, Reserved: 24770.00 MB, Allocated: 8041.87 MB, Free: 16728.13 MB

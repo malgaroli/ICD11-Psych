@@ -1,0 +1,2176 @@
+Vignette_ID,Category,Prompt,Model_Output,Model_Diagnoses,Ground_Truth_Label,Top_1_Accuracy,Top_2_Accuracy,Top_3_Accuracy
+Mood Vignette 1A FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  KFは38歳男性で、建設関係のエンジニアをしており、地元のメンタルヘルスセンターを受診しに来た。過去2週間に渡って睡眠困難があり、そのために仕事で集中するのに支障をきたしているとのことであった。
+Presenting Symptoms: 面接時、KFは疲れた様子だが、身なりは整っている。この2週間夜中に目が覚めてしまい、その後再び眠りに就くのが難しいとのことであった。そのために、日中はくたくたで、やらなければいけないことに集中するのにとても苦労している。職務内容上、非常に細かな点まで気を配る必要があり、集中できないために今自分が設計を担当している橋で重大なミスを犯してしまうのではないかと心配している。仕事中、KFは緊張して神経が張り詰めており、いつも頭の中にはミスを犯しうる点が浮かんでくる。また同時に、彼自身にも理由のわからない緊張感がある。KFによると、家に帰ってもうまくリラックスできず、夜の間ずっと胃の調子が悪い。普段は帰宅後テレビを見たりビデオゲームをしたりして楽しんでいたのだが、最近ではそうするだけのエネルギーがないように感じられる。むしろ、これらのことは昔ほど楽しいものとは思えない。KFは妻と家事を分担しているのだが、最近では疲れすぎているのを理由に彼の分担の家事が片付かず溜まっていく一方で、妻は不満を募らせている。KFは家庭でも仕事でも自分の人生が崩壊し始めているように感じていると言い、涙ぐむ。この1週間、上司が期限を延長してくれたにも関わらず完了にこぎ着けなかった業務が2つあった。山積みの問題を前にKFは援助が必要だと判断し、今回の受診を決めたとのことである。
+Additional Background Information:    KFの結婚生活はこの15年順調であった。今回の件があるまで、仕事では常に好成績を収めてきた。これまで精神疾患の既往はなく、また今回のように感じた時期もこれまでに一度もなかった。飲酒や薬物使用はないとのことである。初診時に身体検査を行ったところ、現在の状態の原因になりうる異常は認められなかった。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder
+Reasoning: The patient's history of multiple episodes of depression, the presence of insomnia, and the impact on his work and personal life suggest recurrent depressive disorder.
+
+Second Most Likely: Single Episode Depressive Disorder
+Reasoning: The patient's history of no previous depressive episodes and the current episode's duration being less than 2 weeks make single episode depressive disorder a plausible diagnosis.
+
+Third Most Likely: Generalized Anxiety Disorder
+Reasoning: The patient's reported feeling of constant anxiety and worry, along with the impact on his work and personal life, suggest generalized anxiety disorder. However, the primary symptoms presented are more consistent with depression.","['Recurrent Depressive Disorder', 'Single Episode Depressive Disorder', 'Generalized Anxiety Disorder']",Single Episode Depressive Disorder,False,True,True
+Mood Vignette 1B FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: NSは43歳の女性教員で、夫、19歳の娘、14歳の息子と暮らしている。悲しくて働けないという主訴で受診したかかりつけのプライマリケア医から紹介を受け、今回の受診につながった。
+Presenting Symptoms: 面談中ずっとNSの感情は明らかに鈍麻しており、低いモノトーンの声で話すので聞き取りづらい。NSによれば、問題は7カ月前に始まり、まず5時間眠ったのち毎朝4時にいつも目が覚めてしまうようになり、その後眠りに就けなくなったとのことである。また、目が覚めてしまっても、朝食や出勤の準備をするエネルギーもなく、そんな気分にもなれない。NSは自分が「また負のサイクルに陥りつつある」のに気づき、そのサイクルに陥らないよう自分自身を普段通りの生活に引き戻そうと試みた。しかし、「負のサイクル」に抗うのは時間が経つにつれて難しくなっていった。ベッドの中で過ごす朝の時間は長くなる一方で、その時間に学校での仕事や娘の問題について反芻する。NSによると、この7カ月間、午後や夕方にエネルギーが戻ってくることがあり、その間に家事を多少はこなすことができている。約2カ月前にNSは午前の授業を休むようになり、最終的にはまったく出勤するのをやめてしまった。「何をしても意味がない」ように感じられるので、何もする気が起こらないとNSは言う。以前の彼女は、自由時間があるとショッピングや料理をしたり、友人に会ったりしていた。しかし、この数週間、以前なら楽しく生き生きとできていた友人との会話が今では退屈でつらいものに感じられるので、友人に会おうとするのをやめてしまった。また、以前の彼女は新しいレシピを試したり、家族のために料理したりするのに楽しみを見出していたのが、今ではそのように感じられない。NSによれば、現在の彼女の生活の中に、喜びをもたらしてくれるようなものは見つからない。彼女の診察にあたった医師は、面談の間中、彼女の動きや発話がふつうでないほどゆっくりで回りくどいものであることに気づいた。医師がいつもこれくらいのペースで話したり動いたりするのかとNSに尋ねたところ、NSはまるで水気のない泥の中を動いているように感じると答えた。NSの食事量は一年前と比較して大幅に減っており、最近の症状が始まった時点から計算して6.8kg痩せたとのことである。NSは、今回はもう治る見込みがなく、また職場復帰も叶わない気がする、という。他の人の重荷になることに罪悪感があり、こんなつらい時期を過ごすくらいなら死ねたらいいのにと頻繁に思う。ただし、罪悪感や希死念慮に基づき行動を起こすほどのエネルギーがない、とも言う。
+Additional Background Information: 過去15年間にNSは同様のエピソードを3回体験しており、そのうち2回は、19歳の娘の摂食障害が悪化したことがきっかけとなった。最初の2回のエピソードは治療を受けて2カ月以内に完全寛解に至ったが、2年前の直近のエピソードは6カ月続いた。これまで不適切な元気さ、活動性の亢進、自尊心の増大などのエピソードの既往はない。症状を引き起こしうる身体面の問題は、身体検査により除外されている。薬物やアルコールの使用は認められなかった。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder
+Reasoning: The patient's history of multiple depressive episodes, the significant impact on her daily life, and the presence of symptoms for a prolonged period suggest a recurrent depressive disorder.
+
+Second Most Likely: Single Episode Depressive Disorder
+Reasoning: The patient's description of a recent onset of symptoms and the significant impairment in her daily life could indicate a single episode depressive disorder. However, the history of multiple similar episodes in the past makes a recurrent disorder more likely.
+
+Third Most Likely: Dysthymic Disorder
+Reasoning: The patient's description of a persistent low mood and poor energy levels for a significant period, along with the presence of some improvement during the day, could suggest dysthymic disorder. However, the severity and impairment described in the vignette are more consistent with major depressive disorder.","['Recurrent Depressive Disorder', 'Single Episode Depressive Disorder', 'Dysthymic Disorder']",Recurrent Depressive Disorder,True,True,True
+Mood Vignette 1C FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: RVは39歳の専業主婦である。この3カ月間続いている悲しい気分と無気力を主訴に、夫と12歳の息子に付き添われ、地元のメンタルヘルスクリニックの外来を受診した。
+Presenting Symptoms: RVは約3カ月前の地元の選挙で接戦の末に敗北し、それに続いて現在の症状が出現した。当時の彼女は町議会の議員選挙に立候補しており、対立候補とはたった数票の差で落選してしまった。選挙終了後の数週間で、RVは自分の気分が下降の一途をたどっていることに気付いた。選挙が終わった後も、RVは自分の戦略を何度も振り返り、もっとうまくやれたことがあったはずだとの考えが頭から離れない。RVは一日のほとんどを落選の理由について考えることに費やしてしまっており、一日の終わりには疲れ切ったように感じる。夜中も何度も目を覚ましてしまい、眠りに就く時間も以前の習慣と比べて遅くなりがちである。夫は、RVが普段とても元気で活力に満ちていたので、落選のためにこんなに苦しんでいる妻を見るのはつらい、と言う。以前の様子とは異なり、今のRVは読書会や宗教上の集まりなど、自身が中心的役割を果たしていた地域の行事にまったく出なくなってしまった。普段RVが楽しんでいた余暇活動は今となってはまったく楽しめないので、すべてやめてしまった。外出することも稀になってしまったのだが、食品の買い出しや家庭内の細かなことはすべてRVが主に担っていたので、この点で家庭内に影響が及んでいた。RVは日中家にいることはいるのだが、家事を普段通りにできない、と言う。家事の代わりに、RVはソファでジャンクフードを食べ、何を見るということもなく壁を眺めて一日を過ごす。その結果体重が増え始め、RVはこれを自分の意思の弱さのせいだとして自分を責める。ごく最近では、選挙で負けたことについて、自分が「負け犬」であることを有権者がおそらく見破ったからだと思い、自分を責める。物事について家庭内で話し合おうとすると自分がもっと無能であるように感じられるので、今では家族とのやりとりを避けるようになっており、そのせいで夫や息子との関係も悪化している。時折RVは将来に希望を見いだせず、家族に自分の病気という重荷を背負わせるくらいなら、自分が死んだ方が家族のためだ、と思う。痛み止めの薬をボトル1本丸ごと飲んでしまおうかと考えたこともあるが、実行に移すには至っていない。
+Additional Background Information:  これほど深刻ではなかったが、同様のエピソードを5年前にRVは体験している。5年前、家族は新しい土地に引っ越したばかりだった。当時のエピソードでは、治療を受け2カ月以内に回復した。これまで不適切な元気さ、活動性の亢進、自尊心の増大などのエピソードの既往はない。症状を引き起こしうる身体面の問題は、身体検査により除外されている。薬物やアルコールの使用は認められなかった。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder
+Reasoning: The patient's symptoms, including a history of major depressive episodes, persistent low mood, and significant impairment in social and occupational functioning, suggest a recurrent depressive disorder.
+
+Second Most Likely: Single Episode Depressive Disorder
+Reasoning: The patient's symptoms align with those of a major depressive episode, but the length of the episode (3 months) and the history of similar episodes in the past suggest a recurrent disorder rather than a single episode.
+
+Third Most Likely: Adjustment Disorder
+Reasoning: The patient's symptoms may be a normal response to a significant life stressor (the election loss), but the severity and duration of the symptoms, as well as the impact on her relationships and functioning, suggest an adjustment disorder is less likely than a mood disorder.","['Recurrent Depressive Disorder', 'Single Episode Depressive Disorder', 'Adjustment Disorder']",Recurrent Depressive Disorder,True,True,True
+Mood Vignette 1D FINAL 2016 01 14,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  ICは36歳の薬剤師で、かかりつけの産婦人科の紹介で精神医学的治療を求めて受診した。5週間前にICは1人目の子どもを出産したばかりで、気分の落ち込みを感じ始めていた。面接は、クリニックの外来にて行われた。
+Presenting Symptoms:  ICは面接の間中静かに泣いている。彼女によると、妊娠は計画したものではなかったものの、ICと夫は子どもの誕生をとても心待ちにしていた。しかしいざ出産を終えてみると、ICは一日中理由もなく泣いてばかりいた。子どもと過ごす喜びに満ちた時間を期待していたのに、実際に感じるのは深い悲しみだった。３、４時間ごとの授乳の際、夫が赤ちゃんをICの元に連れてきてくれるのだが、出産の数日後には、その授乳の合間にも眠りに就けなくなった。眠れないせいで、一日中エネルギーはほとんどない。夫が仕事に出ている日はほとんど、子どもが泣くときにしかICは起き上がらない。起き上がったとしても、一日のうちにやらなければならないことにあまり集中できない。たとえば、先週息子のおむつを替えていた際、使ったおむつを捨てに外に出て、そのまま新しいおむつを履かせるのを忘れたまま15分が経っていた。以前は読書や音楽を聴くのが趣味だったが、今では楽しいと思えないためにどちらもやめてしまった。以前と変わらず決まった時間に空腹を感じ、以前と同じくらいの量の食事を摂ってはいるが、以前夫と共に食べていたような健康的な食事を考えたり準備したりするだけのエネルギーも集中力もない。ICの夫は、彼女を助けようと努力しているが、カバーしきれていない部分ばかりだ、と言う。ICは将来について悲観的で、ひどい母親になってしまうと心配している。長男の誕生をもっと喜ぶべきなのにこんな感じ方をしてしまっており、またそれを止められない自分に罪悪感を抱いている。自殺念慮について尋ねられると、自分や子どもを傷つけるようなことをする考えや衝動はない、と言う。ICの産婦人科医は、出産後に悲しい気分は起こりうるものだと彼女に説明したが、ICは問題が1カ月を過ぎても軽快しないため心配している。
+Additional Background Information:  ICによれば、これまでの人生を振り返って、気分は概ね安定して良かったとのことである。包括的な精神医学的病歴を聴取したところ、今回のような困難をこれまでに体験したことはなく、また他の種類の精神的問題を抱えたこともないとのことである。いかなる薬物使用のエビデンスもない。妊娠前、ICは週に2度ほどワインをグラス1杯程度飲むことがあったが、妊娠してからはアルコールをまったく飲んでおらず、現在も授乳中であるためアルコールを口にすることはない。ICの産婦人科医によれば、彼女の症状を説明しうる身体的要因は考えられないとのことである。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder
+Reasoning: The patient's symptoms of depression, including crying constantly, lack of energy, and insomnia, have persisted for over a month, which is indicative of recurrent depressive disorder.
+
+Second Most Likely: Single Episode Depressive Disorder
+Reasoning: The patient's history of having a generally stable mental health condition prior to this episode, as well as the absence of a known trigger or stressor, suggests that this may be a single episode of depression rather than recurrent.
+
+Third Most Likely: Adjustment Disorder
+Reasoning: The patient's symptoms began shortly after a significant life event (giving birth), and her symptoms may be a normal response to the stress of new motherhood. However, the persistence of symptoms beyond the expected timeframe suggests that this may be more than an adjustment disorder.","['Recurrent Depressive Disorder', 'Single Episode Depressive Disorder', 'Adjustment Disorder']",Recurrent Depressive Disorder,True,True,True
+Mood Vignette 1E FINAL 2016 01 14,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  ALは28歳の教員で、最近の夫婦間の衝突を理由にカウンセリングを希望し来所した。ALは4週間前に出産しており、出産の直後に悲しい気分が一時期続いた。悲しい気分は夫との衝突に繋がり、それを契機にALは今回の受診を決めた。
+Presenting Symptoms: 面接時、ALは「毎晩何度も起きなければならないので少し疲れているけれども、それ以外は大丈夫」だと言った。2人目の出産は特に問題なく済み、退院時のALの健康状態は良好であった。しかしその直後、特に2人の子育てに適応しようとする中、数日間気分の落ち込みが続いた。普段よりも苛立ちやすく、夫に対して些細なことでもかみつくように怒鳴る。また、疲労感は一人目の出産後と比べて強い。ALはエネルギーが底をついた感じや、新生児の娘と5歳の息子の面倒をみきれない感じを述べる。自分ひとりでは世話をこなしきれないので、もっと子どもの世話を手伝ってほしい、とALは夫に頼んだところ、夫は状況を重く見ようとせず、ひとりでも大丈夫そうではないかとALに言い返した。ALと夫は何度も意見がぶつかり合い、そのたびにALは感謝されていない感覚や理解されていない感覚を味わった。その後、ある晩ALが夫は寝ているものと思いこんで泣いているところを夫は気付いた。翌日、夫はALの母に、こちらに来て家の中のことを手伝ってくれるよう頼んだ。ALの母が到着して1週間すると、ALは自分らしさを取り戻し始めた。2人分の子育てにまだストレスを感じてはいるものの、彼女の気分や活力レベルは改善した。ALはセラピストに対し、2人目の出産がきっかけとなり、これまで夫婦間で解消されなかった問題が表面化したように感じており、子どもたちのために、問題が悪化する前に解決に向けて問題に取り組みたい、と語った。
+Additional Background Information:    5年前の1人目の出産後、ALは今回のような困難は体験しなかった。精神面での包括的な病歴を聴取したところ、過去にALは一度もこれといって精神的な問題を抱えたことはないとのことだった。アルコール乱用や他の薬物の使用のエビデンスはない。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder
+Reasoning: The patient's history of previous depressive episodes and the current episode's onset during a stressful life event suggest recurrent depressive disorder.
+
+Second Most Likely: Single Episode Depressive Disorder
+Reasoning: The patient's history of no previous depressive episodes and the current episode's onset during a stressful life event could also indicate a single episode depressive disorder.
+
+Third Most Likely: Adjustment Disorder
+Reasoning: The patient's symptoms could be considered a normal response to stress, and the improvement after one week of support from her mother suggests an adjustment disorder. However, the recurrent nature of her depressive episodes and the presence of symptoms beyond the normal range make this less likely.","['Recurrent Depressive Disorder', 'Single Episode Depressive Disorder', 'Adjustment Disorder']",No Diagnosis; symptoms and behaviours are within normal limits,False,False,False
+Mood Vignette 1F FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  MJは42歳の会計士で、15歳の息子と13歳の娘と共に暮らしている。MJは1年前、17年間連れ添った夫をガンで亡くしている。この1カ月間、自分が自分ではないような感じや、仕事で失敗し、子どもたちを育てられなくなる不安があり、紹介を経て今回の受診につながった。
+Presenting Symptoms: 夫の死後、集中力に大変な支障をきたしていたので、MJは会計士としての仕事を離れ、無給で長期休暇をとった。「素晴らしい自助グループの支えがあり、夫の死を十分に悼み、悲しんだ」後、現在は幸いなことに仕事に復帰している。今でもMJは夫のことを恋しく思うが、夫の死を嘆き悲しんだ時期を経て、今では起こったことについて心の整理がついていると話す。2人の子どもも父を失ってつらい思いをしたが、2人とも学校ではうまくやれており、スポーツに参加したり各々の友達と共に過ごしたりできているとのことである。
+  
+ １カ月前、MJは職場で難しい案件を振られ、この２週間は自分自身の能力への不信感に悩まされている。MJによれば、彼女は職場でちゃんと仕事がこなせておらず、その結果朝目覚めるのが怖くなっている。夫の死後に一旦は取り戻した集中力と目的意識は、また失われてしまっており、今では集中するのに大変な労力を要する。十代の子どもたちには苛立ってばかりで、楽しみとなるようなことをするのはごく稀である。また人生を振り返っては、自分が駄目な人間であると感じる。特に夜ベッドに横たわると、夫をがっかりさせたことや仕事でのミスについて考えてばかりいる。そのため、MJはなかなか寝付けない。夫がいれば、彼女はいろいろ考えすぎで新しい案件も十分こなせると言ってくれただろうと頭ではわかっているが、それも自己批判を止めるのにほとんど役立たない。このような状態にも関わらず、MJは全力で疲労感に抗い、職場でなんとか持ちこたえており、今のところ上司からの評価が下がったり、同僚から何か言われたりしたことはない。
+Additional Background Information:  MJは４人いる子どものうちの1人目として生まれた。彼女によれば、両親は衝突してばかりで、喧嘩することも頻繁にあった。彼女の父は容赦がなく批判的な人で、MJは一生何も成し遂げられない子だとしばしば言った。MJの母方の祖母もMJ家族と同居しており、MJが怖がったり絶望的になったりしているときには慰めてくれる存在で、MJはこの祖母と近しかった。15歳の時に祖母は亡くなり、MJは抑うつエピソードと診断された。高校を卒業し、働き始めた17歳のとき、MJには初めて真剣な交際相手ができた。自分自身でお金を稼ぎ、特別な人ができたそのとき、MJは生まれて初めて幸せだと感じた。彼女は短期大学に進み、会計学の学位を取った。しかし卒後すぐ、MJは交際相手にふられてしまい、再び数カ月間にわたり抑うつ的になった。この期間中、彼女は眠れず、活力もなく、興味を失い、何事にも集中できなかった。これに対し薬が処方され、薬は効いているようだった。それ以来、同様のエピソードはこれまでなかった。MKはアルコールや薬物の使用は否定している。身体検査の結果、症状を説明しうる身体的要因は除外された。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder
+Reasoning: The patient has experienced multiple episodes of depression, including one that occurred after her husband's death and another following a failed relationship. She also reports feeling guilty about her husband's death and her mistakes at work, which can be common in individuals with recurrent depressive disorder.
+
+Second Most Likely Diagnosis: Single Episode Depressive Disorder
+Reasoning: The patient's symptoms suggest a major depressive episode, which would be classified as a single episode depressive disorder if it is her first such episode. However, given her history of previous depressive episodes, it is more likely that she has recurrent depressive disorder.
+
+Third Most Likely Diagnosis: Generalized Anxiety Disorder
+Reasoning: The patient reports difficulty concentrating and sleeping, which can be symptoms of generalized anxiety disorder. However, her primary symptoms are depressive in nature, making this a less likely diagnosis.","['Recurrent Depressive Disorder', 'Single Episode Depressive Disorder', 'Generalized Anxiety Disorder']",Recurrent Depressive Disorder,True,True,True
+Mood Vignette 1G FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: RKは50歳のエンジニアで、強い絶望感のために紹介されてきた。一日のほとんどの時間何もやる気が起きず、自己嫌悪に悩まされ、RKは受診することにした。彼は5カ月前に妻を自動車事故で亡くしたが、現在のような状況に陥るよりも以前に妻の死については心の整理がついている、と語った。彼には2人の成人した子どもがおり、どちらも家庭を持ち、RKの近所に住んでいる。
+Presenting Symptoms: RKは妻の死後、しばらく仕事を休んでいたが、約3カ月前に復帰した。この1カ月間、気分はひどく落ち込んでいる。普段は社交的で情熱的な性格だが、今は空虚感や悲しみを感じている。RKが特に一緒にいて楽しいと思う友人たちでさえ、RKを外出に誘ってもRKが応じることはない。こういった誘いの声をかけてくれても気分が悪くなるだけなので、声をかけくれる人たちに対してRKはむしろ怒りを感じる。
+  
+ この1カ月間、RKは子どもたちや孫たちとのやりとりに困難を感じ、疲れてしまうので、一緒に過ごすのを一切やめてしまった。子どもや孫と顔を合わせるのをできるだけ言い訳をつくって避けるので、2人の子どもたちはRKについて心配している。子どもたちがRKのことを心配してあれこれ尋ねてくるのは自分を思ってのことだとわかっているが、それを煩わしく感じてしまい、電話が掛かってきても出ないことにした。
+  
+ また、この1カ月間で、職場でもRKの仕事ぶりは著しく悪化した。この20年間以上、定期的に昇進し勤め続けてきたにも関わらず、彼の上司が解雇の可能性を伝えるほどRKの生産性は落ちている。RK曰く、集中できずに何度も何度も同じページを読み返していることがあり、また仕事が無意味でどうでもよいものと思えてしまうとのことである。家ではテレビを見ていても、話の筋についていけない自分に気づく。RKは何をするにもどこに行くにも興味が起きず、簡単な家事を済ませるにも、以前は満足感を得られていたのに今ではそうするエネルギーもやる気も起きないと言う。1カ月間の間にRKの体重は4kg増え、そのせいでさらに以前よりも活動的でなくなっている。
+  
+ RKは強い疲労感を訴える。眠りになかなか就けない上に夜間に何度も目が覚めるので、一晩に合わせて2、3時間しか眠れず、朝起きても休めた気がしないし、爽快感もない。日中は落ち着かず神経質な感じがあり、同時に自分がスローモーションで動いているような感覚もある。自分の腕や脚に鉛の重りがついているように感じるとも訴える。また、最近は「癇癪を起こしてしまう」。たとえば、2週間前に珍しくRKが家族と会う機会があり、その際、ただ「子どもらしく」していた5歳になる孫娘に対してカッとなって怒鳴り、泣かせてしまった。
+  
+ RKは人生を振り返ってみて何も成し遂げられなかったように感じ、また未来に何の楽しみもないように感じている。考え事をしていると時折妻が生きていた頃の思い出に行きつくことを自覚しているが、彼の現在の人生に対する感じ方は妻とは関係がないと話す。彼は「眠りに就いて目が覚めなかったらいいのに」と強く望んでおり、そうなれば皆のためになると考えている。彼はかかりつけ医にジアゼパムを処方されており、それを過剰服薬してしまおうかと頻繁に考える。
+Additional Background Information: 彼によれば、以前に今のような悲しみが続く時期が何度かあった。10代の頃に1回、成人してからも数回、倦怠感と無気力が１、2カ月続く時期を体験しており、その際に食欲は減退し、集中力の低下もみられ、自分自身に対していつになく厳しかった。RKはこれまで興奮や活力の亢進が1週間も持続したことはない。RKが妻と出会ったのは大学4年生のときで、出会ってから8カ月で結婚した。しかし妻のアルコール乱用を巡り、二人はしばしば口論になった。5カ月前、妻は酩酊状態で車を運転しており、木に衝突した。RKは妻を恋しく思う一方、無責任なことをした妻に怒っており、また妻に飲酒をやめさせられなかった自分に罪悪感も抱いている。20代の頃は妻と共に飲酒していたが、「酒が彼女に与える影響」を見て彼自身は飲酒をやめた。現在RKはアルコールも他の薬物も使用していない。身体検査により、彼の症状を引き起こしうる身体的要因は除外されている。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Prolonged Grief Disorder
+Reasoning: The patient's symptoms, such as intense sadness, lack of interest in activities, withdrawal from social interactions, and difficulty sleeping, persist for over a month and are in response to the loss of a loved one. These symptoms are consistent with the criteria for Prolonged Grief Disorder.
+
+Second Most Likely: Recurrent Depressive Disorder
+Reasoning: The patient's history of multiple episodes of depression, each lasting for 1-2 months, and the current episode's persistence for over a month, suggest a diagnosis of Recurrent Depressive Disorder.
+
+Third Most Likely: Bipolar Type II Disorder
+Reasoning: The patient's history of major depressive episodes and hypomanic symptoms, such as increased energy and productivity, could suggest a diagnosis of Bipolar Type II Disorder. However, the current episode described in the vignette is primarily depressive in nature, making this a less likely diagnosis at the present time.","['Prolonged Grief Disorder', 'Recurrent Depressive Disorder', 'Bipolar Type II Disorder']",Recurrent Depressive Disorder,False,True,True
+Mood Vignette 1H FINAL 2016 01 14,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: GTは42歳の主婦で、子どもはおらず、新天地への引越しの後にメンタルヘルスサービスを求めて来院した。GTの夫は軍人であり、その関係で引越しは頻繁に行う。今回の引越し先では孤立感があり、社会的なサポートをもたらしてくれる人とのつながりをまだ見つけられていないため、今回は特に新たな環境への適応に苦労しているとのことである。
+Presenting Symptoms: GTは、新居に引っ越してきて以来、孤立感と寂しさを感じている。夫は一日中外にいるので、一人ですることもなく家にいるだけだと言う。以前住んでいた町では、年の近い友人たちと仲良しグループをつくり、定期的に一緒にランチに行ったり、軍人コミュニティのためにボランティア活動を行ったりしていた。また、友人の女性たちも軍人の妻であったため、GTにとって帰属感を得やすかった。しかし今回引っ越してきた町では、隣人たちはGTよりもはるかに若く、また幼い子連れの家庭が多いため、親近感を持ちづらい。GTは退屈でたまらず、楽しいと思えることが何もないと感じられるほどである。日中は昼寝をしてばかりで、朝もほとんどの日はアラームを無視して寝続けてしまう。この3週間、彼女自身が驚いたことに、日中これといった理由もないのに涙ぐんでしまうことがたびたびある。普段であればGTは夫が帰る時間までに料理や掃除などの家事を片づけていたのだが、最近では家事をきちんとこなさず、落ち込んで家の中をただウロウロするばかりなので、夫はそれが不満である。GTは、ひとつのことに数分以上集中出来ないように感じられる。一日中何かしら食べてばかりで、この2週間で約2kgも体重が増えてしまい、それをとても苦痛に感じている。
+Additional Background Information: GTは現在のエピソードに似たエピソードをこれまでにも数回経験しており、最も昔のものは彼女が10代の頃にさかのぼる。これらの「落ち込んだ」または「悲しい」エピソードは、短いときには2週間、長いときは数カ月にもわたるほど持続期間がばらばらで、過眠、過食、集中困難など今の彼女が体験しているのと同様の症状を伴っていた。しかしこれらのエピソードから彼女はいつも立ち直り、いつもの元気な自分に戻れてきたと言う。これまで体験した2つのエピソードの期間中、GTは軍の医療施設で心理療法を受けることがあった。治療は彼女にとってとても役立ったが、そのときにセラピストに教えてもらった対処法を今回はうまく実践することができずにいるとのことである。身体検査により、現在の症状を引き起こし得る身体的要因は除外されている。アルコールや薬物使用のエビデンスは認められない。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder
+Reasoning: The patient's history of multiple episodes of depression, some lasting for a short period and others for a longer duration, and her ability to recover from these episodes in the past, aligns with the description of Recurrent Depressive Disorder.
+
+Second Most Likely: Single Episode Depressive Disorder
+Reasoning: The patient's current episode of depression, which has lasted for several weeks, could be considered a Single Episode Depressive Disorder if it is her first such experience. However, given her history of similar episodes, it is more likely that this is another instance of Recurrent Depressive Disorder.
+
+Third Most Likely: Adjustment Disorder
+Reasoning: The patient's symptoms, such as sadness, social withdrawal, and difficulty concentrating, could be considered a reaction to a stressor, which is a key feature of Adjustment Disorder. However, the presence of multiple episodes and the patient's history of depression suggest that this is not her only diagnosis.","['Recurrent Depressive Disorder', 'Single Episode Depressive Disorder', 'Adjustment Disorder']",Recurrent Depressive Disorder,True,True,True
+Mood Vignette 1J FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  ELは61歳主婦で、夫には先立たれており、現在のエピソードより以前に精神障害の既往はない。彼女には3人の息子がおり、ELがこの数週間悲しそうな様子で、いつも従事していた活動に興味をなくし、普段よりも家で過ごす時間が増えたことには彼らが気付いた。息子たちがELをまず家族のかかりつけ医に連れて行き、そのかかりつけ医によりメンタルヘルスについて相談をするよう勧められてきた。
+Presenting Symptoms:  この1カ月間、ELは一日中とても悲しく、また心細く感じている。夜もまったく良く眠れず、眠りに就くのも難しく夜中に何度も目が覚めてしまう。ELには夜が「明けない」ように感じられ、また翌日は「疲れ果てて」いる。ELは家事をするのを諦めてしまっており、テレビを観る以外には何もしない。いつもエネルギーが枯れきってしまい、他に何もできないのだとELは言う。ELの家は彼女らしからぬほど片付いておらず、また普段のように身だしなみを整えなくなってしまったために、ELの息子たちは心配している。何かしようという気が起こっても、いざそれをやってみると、何の喜びも感じられなくなってしまっていることに彼女は気付く。以前のELはセーターを編んだり刺繍したりするのが、特に孫のためにそうするのが大好きだったが、この数週間は針仕事の道具をほとんど触ろうともしていない。ELの友人たちは、ELが彼らとの接触を避けるので、電話をするのをやめてしまった。
+  
+ 加えて、夫が4年前に他界して以来、ELは家族のお金の管理をきちんとできてこなかったと思い込んでいる。その証拠は、と訊かれると、ELは株価が下がったことや銀行の利率がずっと低いままだということを挙げる。面接者がこれらの要因はELのコントロールできる範囲を超えていると指摘しても、家計の状況が「悲惨な状況に陥りつつある」のは「ひとえに自分の責任」であると言い張る。また、ELは自分が家族にとって「役立たず」で、ひいては「誰にとっても訳に立たない」と言う。しかしELの息子によれば、家計は安定しており、実際のところそれはELの夫が亡くなって以来、ELが非常にうまく財産の管理を行ってきたおかげとのことである。さらに質問を重ねても、ELは家計が貧窮していることに間違いはないと強調し、ELの誤った判断がそうさせてしまったのだと述べる。息子たちの言い分については、自分の気を楽にさせたいがために嘘をついているのだと言う。家計状況に対する認識の違いから、ELと息子たちは何度か言い争いになっている。この状況を脱するには、自分が自殺し、保険金をもらうしかないとELは言う。息子たちは気付いていないが、自殺を事故に見せかけて保険金が満額支払われるよう、自宅近くの湖で入水自殺する計画を既に立てている、とELは語る。
+Additional Background Information: ELは亡くなった夫のことを今でもとても恋しく思うが、彼の死については自分の中で整理がついている、と言う。夫の死後数カ月は悲しみに暮れたが、徐々に家や地域での普段の活動レベルに戻ったとのことである。認知検査を行ったところ、ELは記憶面でも認知機能全般でも、年齢を考慮すれば平均より高めの結果であり、これはELの息子たちによる以前の機能状態の報告とも一致する。ELのかかりつけ医によれば、彼女の症状を引き起こし得る身体面での要因はない。ELはアルコールをほとんど口にせず、医薬品やその他の物質の乱用のエビデンスもない。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder
+Reasoning: The patient's history of multiple depressive episodes, persistent sadness and loss of interest in activities, insomnia, and feelings of worthlessness suggest recurrent depressive disorder.
+
+Second Most Likely: Single Episode Depressive Disorder
+Reasoning: The patient's current episode of depression, which is the first in her history, could be considered a single episode depressive disorder. However, the presence of previous episodes and the chronic nature of her symptoms make recurrent depressive disorder a more likely diagnosis.
+
+Third Most Likely: Generalized Anxiety Disorder
+Reasoning: The patient's symptoms of excessive worry and anxiety, particularly at night, could suggest generalized anxiety disorder. However, her primary complaint is depression, and her symptoms of sadness, loss of interest, and worthlessness are more consistent with mood disorders.","['Recurrent Depressive Disorder', 'Single Episode Depressive Disorder', 'Generalized Anxiety Disorder']",No Diagnosis; symptoms and behaviours are within normal limits,False,False,False
+Mood Vignette 1K FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: RGは35歳の公務員で、妻との間に2人の幼い子どもがいる。悲しみ、無気力、仕事をこなす能力への心配を主訴に、今回評価を受けることになった。6カ月前、RGは以前住んでいた遠方の町から、異動に伴い転勤することになった。自分と関わりのない金銭のスキャンダルに巻き込まれ、責任を負わされ逮捕されてしまうという思いこみを妻に話したところ、妻がRGをプライマリケア医に連れて行き、そのプライマリケア医に紹介されて今回の来院に至った。
+Presenting Symptoms: 面接のはじめ、RGは職務上の心配ばかりしている。とても人気のあった人物の後任となるかたちで現在の職位に異動となったので、新しい部署の人々は自分に反発し、また自分を嫌うのでないかとRGは非常に心配していた。新しい職場で仕事を始めてみてその心配は確信に変わり、それ以来仕事に集中するのに困難を来している。これ以前に彼は管理職に就いた経験がなく、前任者が広く同僚に尊敬され、慕われていたために、どうしても自分に対する周りの目を気にしてしまう。RGは自分が「凡人」であるために、周囲の期待に決して応えられないような気がしてしまう。RGは普段の自信を失っており、些細な決定事項にも他人を頼る場面が徐々に増えつつある。同時に、以前のRGは自身のことを野心家で成功者と認識していたため、現在の自分が自分らしくないとRG自身も気付いている。
+  
+ 面接が進むにつれて、RGは面接者に、同僚が彼を現在の職から引きずり降ろそうと画策しているとこの数カ月で確信するに至った旨を語った。RGによれば、同僚たちはRGが投資により得た財産についていずれ知り、収入に不相応な財産を持っていることを根拠に犯罪性をほのめかし、RGの逮捕にまで追い込むであろうと語る。RGがこれまでに耳にしたことがあるのは、前任者にまつわる噂や政府が彼を更迭に処した理由に関する噂だけで、それ以外に同僚の企みを示す証拠がないことをRGは認めるが、それでもRGは企みについて確信があるのだと主張する。「最後にこうなるだけだとしたら、人生こんなに頑張って働いてばかりいることに何の意味がありますか？」とRGは目に見えて悲しそうな様子で述べる。RGは、最終的に皆をがっかりさせ、家族の生活は台無しになってしまうだろうと言う。
+  
+ 家でのRGはとても落ち込んで悲しい様子で、簡単に涙ぐんでしまう。睡眠も食事も普段に比べてとれていないが、毎日なんとか仕事には出ている。特に何もない日でも、1日仕事を終えるとRGは尋常でない程に疲れ果てている。しかし、RGは定期的な運動をまだ続けており、家族との余暇活動や、以前の町に住む両親や兄弟姉妹と電話で話した後などには、RGの気分は上向く。
+Additional Background Information: RGの妻によれば、RGは昔から職場での責任感がとても強い人物であり、これほど悲しそうだったり気落ちしたりしたことはこれまでになく、また今回のような「不合理な」思い込みをしたこともない。RGはこれまでに深刻な精神疾患を患ったことはなく、身体検査では非常に良い健康状態との評価が出ている。RGの妻によればRGの飲酒量はごく控えめで（飲んだとしても、週に3、4回夕食時にワインをグラス一杯だけ）、薬物を使用したことは一度もない。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder
+Reasoning: The patient's history of multiple depressive episodes, including a current episode, and the presence of persistent symptoms despite treatment efforts suggest a recurrent depressive disorder.
+
+Second Most Likely: Single Episode Depressive Disorder
+Reasoning: The patient's current depressive episode, which is severe and disabling, is consistent with a single episode depressive disorder. However, the presence of a past history of similar episodes increases the likelihood of a recurrent disorder.
+
+Third Most Likely: Generalized Anxiety Disorder
+Reasoning: The patient's excessive worry and anxiety about work performance, as well as the fear of being judged and rejected by colleagues, could suggest generalized anxiety disorder. However, the primary diagnosis is more likely to be a mood disorder.","['Recurrent Depressive Disorder', 'Single Episode Depressive Disorder', 'Generalized Anxiety Disorder']",Single Episode Depressive Disorder,False,True,True
+Mood Vignette 2 FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: ACは24歳女性で、頭痛、腰痛、睡眠障害を主訴にかかりつけ医を受診した。彼女は地元のショッピングモールで販売員として働いており、厳しい上司のために職場で大変なストレスがあると訴えた。
+Presenting Symptoms: ACは、この4週間いつもよりも悲しい気分があると訴える。ただし、週末を楽しむことはできているとのことである。ACによれば、悲しい気分はあるときとないときがあり、一日中続くのは稀である。悲しい気分のほかに、職場ではかなりの不安感もあり、吐き気や落ち着かないといった症状もある。しかし、ショッピングモールがそれほど混んでいないときには、心配事は自分でコントロールできる。頭痛と腰痛は、ACが不安な時に悪化する。彼女によれば、彼女の上司は非常に厳しい人で、しばしばACの働きぶりを批判する。ひどい日には、ACは自分が解雇されるのではないかと何時間も心配する。高校を卒業しておらず、今以上の仕事に就ける見込みに悲観的な彼女にとって、解雇されるという心配は特につらいものである。モールがとても混雑していると、ACは圧倒されるように感じ、緊張性の頭痛のために仕事を休まなければいけないことも時々ある。食欲減退や自殺念慮については、ACは否定している。
+Additional Background Information: ACの思春期は、やや幸せに欠けるものであった。学校では常に不安があり、成績について心配したり、自分が望むほど交友関係がうまくいかないことについて思い悩んだりした。現在、彼女の心配事は仕事に関することが主で、生活の他の側面についての心配事はほとんどない。ACには親しい友人が何人かおり、現在親しく交際している男性との付き合いは2年になる。通常の身体検査では、腰痛も含め、彼女の症状は身体的原因によるものではないとの結果が出た。ACの飲酒量は週に2杯程度であり、飲酒するのはたいていデートのときである。他の薬物は使用していない。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Adjustment Disorder with Depressive Symptoms
+Reasoning: The patient's symptoms are primarily related to stressors at work and are not persistent enough to meet the criteria for a depressive disorder. Adjustment Disorder is the best fit for her current presentation.
+
+Second Most Likely: Dysthymic Disorder
+Reasoning: The patient's description of a persistent sad mood for most of her life, even before the current work-related stress, suggests the possibility of dysthymia. However, the current symptoms are more severe and work-related, making Adjustment Disorder a more likely diagnosis.
+
+Third Most Likely: Generalized Anxiety Disorder
+Reasoning: The patient's symptoms of anxiety and worry, particularly in relation to her job and fear of being fired, are consistent with Generalized Anxiety Disorder. However, her primary complaint is depression, making Adjustment Disorder with Depressive Symptoms a better fit.","['Adjustment Disorder with Depressive Symptoms', 'Dysthymic Disorder', 'Generalized Anxiety Disorder']",Mixed Depressive and Anxiety Disorder,False,False,False
+Mood Vignette 3 FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: CTは40歳の女性で、地元の小規模企業で経理を担当している。間歇性の下痢を含む様々な胃腸症状と、筋肉痛を主訴にかかりつけのプライマリケア医を受診した。  
+Presenting Symptoms: 診察中、CTは自分が心配性であることを認め、また心配事があると頭痛、肩や首の筋緊張、下痢といった様々な身体症状が出てくると話す。心配事は早朝に始まり、また、しばしば寝付けないときは夜も悩まされるとのことだった。CTは心配性な性分を自分の人となりの一部とみなしており、また見方によっては役立つものとも考えている。CTによれば、心配性な性分のおかげで自身や家族の健康を管理する上で慎重な対策を講じることができている。同様に、職場での自分の仕事や経済面について心配することで、会社の記録を正確に保つことができているし、計画的に家族の貯金もできていると感じている。
+ 
+ しかし、彼女の心配事のために対人関係にしばしば支障が出ることもCTは認める。具体的には、彼女は非常にイライラしがちで、結果的に夫や子どもと喧嘩になってしまうことがある。また、子どもたちが大丈夫か気になり何度も何度も声をかけ過ぎるので、子どもたちはCTを疎ましく感じるほどである。彼女の頭は、毎日数時間は心配事でいっぱいである。より責任の大きなポジションに昇進する話が最近出た際には、きちんと職務を果たせなかったらどうしようとか、心配性なせいできちんと集中できないのではないかと不安があったために、昇進の話を断った。心配が自分の人生においていかに障害物となるかをCTはときどき考え、そんなときに気分は悪い方に落ち込む。気分の落ち込みや機嫌の悪さは、数日間続く。この「落ち込み」期間はCTにとって大変つらいものだが、彼女によれば2、3日を超えて長引くことはない。
+Additional Background Information: CTの人生において、心配事をひとつも抱えていなかった時期は人生の中で一度もない。20代の頃、不安をコントロールしたくてときどき飲酒していたが、不安に効果はなく、結婚と出産を機にまったくアルコールを口にしなくなった。他の薬物の使用はない。身体検査の結果から、CTの症状を引き起こしうる身体的病因は除外されている。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Generalized Anxiety Disorder
+Reasoning: The patient's symptoms of excessive anxiety and worry, which interfere with her relationships and work, align with the diagnostic criteria for Generalized Anxiety Disorder.
+
+Second Most Likely: Recurrent Depressive Disorder
+Reasoning: The patient's history of chronic anxiety and depression, which has been present throughout her adult life and has caused her to avoid alcohol, suggests a recurrent depressive disorder.
+
+Third Most Likely: Adjustment Disorder
+Reasoning: The patient's symptoms, which are primarily related to her anxiety and worry, could also be considered as an adjustment disorder, as they are a response to stressors in her life. However, the chronic nature of her symptoms and their impact on her functioning suggest a more persistent disorder, such as Generalized Anxiety Disorder or Recurrent Depressive Disorder.","['Generalized Anxiety Disorder', 'Recurrent Depressive Disorder', 'Adjustment Disorder']",Generalized Anxiety Disorder,True,True,True
+Mood Vignette 4 FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: BCは67歳男性で、退職しており、妻を13カ月前に亡くしている。妻の死後急性の苦痛が続いており、またどんどん社会からひきこもってしまっているため、メンタルヘルスクリニックで評価を受けた。BCは、「どれだけ時間が経っても妻の死を乗り越えることはできない」と言う。
+Presenting Symptoms: BCは、人生がどうしようもなく空虚に感じられると訴える。毎朝目覚めるたびに、感覚が麻痺した感じがある。妻について考え始めると、どうしようもない悲しみに襲われる。BCは「打ちのめされた」感覚を訴え、またその状態から立ち直れていないと言う。BCは妻について考えるのを止められず、そのために大変つらい思いをしており、「心臓が抜き取られてしまった」かのように感じる。妻の生前は夫婦ともに数年来の付き合いをした友人や知人がいたが、妻の死後彼らのほとんどと連絡をとらなくなってしまったので、BCは家の中で過ごしてばかりいる。BCの友人たちは、最初はとても親身になってくれていたが、いい加減に前に進み、彼自身の人生を再び歩むべきだと思われる時期になっても悲しみを引きずるBCに対し、我慢の限界が来たようだった。またBCは、特に親しい友人たちに対し、彼らの妻がまだ存命であるのを理由に憤りの念を感じていると認めた。
+  
+ BCは妻の墓参りをほぼ毎日欠かさない。数時間そこで過ごし、妻に話しかけたり、ときには泣いたりする。慰めになる気がするので、夕食時は毎晩妻の席も用意する。毎晩BCは少なくとも1時間、その日の出来事をつぶさに妻に話し報告する。ときどき地元の教会に行くこともあるが、何年も妻と共に通った場所であるので行くと妻の死を嫌でも思い出してしまい、なるべく行くのを避けている。BCは自らの生活について、ただ死ぬのを待っているだけだと表現する。しかし、言葉ではそう言うものの、BCはまだ自分自身で料理もするし、新聞や食品を買いにほぼ毎日近くの店へ出かけたり、庭の手入れも続けたりしている。
+  
+ BCには成人で既に家を出た子どもが3人いる。そのうち2人には週に何度か会い、定期的に4人の孫にも会うが、妻を亡くしてからは会って楽しいと感じなくなったと言う。BCの子どもたちは、BCが母の死に対処しきれていない様子に懸念を示しており、また同時に、そろそろ気分が上向いても良い時期であるはずなのにそうならない父の様子にフラストレーションを感じてもいる。
+Additional Background Information:  BCは妻との関係について、非常に仲が良かったと語る。結婚生活は41年間続き、「妻は私にとってすべてだった」と言う。BCが仕事に出ている時間を除き、2人が別々の行動をとることはなく、一緒に過ごせる時間は常に一緒にいた。最近の健康診断で、BCの健康状態は極めて良いと診断された一方、BCの主治医はBCの情緒面での状態に懸念を示した。BCはアルコールや薬物の使用はしておらず、常用している薬もなく、精神障害の既往もない。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Prolonged Grief Disorder
+Reasoning: The patient's symptoms, such as persistent sadness, inability to move on, and avoidance of places and activities associated with his wife, suggest a prolonged and intense response to loss that goes beyond normal grieving.
+
+Second Most Likely: Recurrent Depressive Disorder
+Reasoning: The patient's history of major depressive episodes and persistent low mood, along with the presence of other depressive symptoms, suggest a recurrent depressive disorder.
+
+Third Most Likely: Generalized Anxiety Disorder
+Reasoning: The patient's feelings of frustration and irritation towards his friends, as well as his avoidance of places and activities, could indicate the presence of anxiety symptoms. However, these symptoms are secondary to his grief and do not fully meet the criteria for a primary anxiety disorder.","['Prolonged Grief Disorder', 'Recurrent Depressive Disorder', 'Generalized Anxiety Disorder']",Prolonged Grief Disorder,True,True,True
+Mood Vignette 5 FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: TMは58歳の男性で、高校で教員として働いている。プライマリケア医による定期健診の後、心理検査のために紹介されてきた。TMは妻を白血病との長い闘病生活の末に6週間前に亡くしており、プライマリケア医によると、TMは大変つらそうな様子である。
+Presenting Symptoms:  TMは6週間前に妻を亡くして以来、彼女の死のために極度の苦痛を感じている。彼は強烈な悲しみを訴えており、また彼女なしの人生に意味を見出せないと言う。妻について語る際、彼は目に見えてつらそうな様子で、面談中は頻繁に泣く。TMによれば妻は彼の人生において中心的な存在だったため、彼女が恋しくてたまらない。彼は彼女のことを「ほぼいつも」考えており、それは現在の彼にとって毎日の習慣となっている。妻のことを考えると最終的には彼女なしの人生について考えるに至り、そのためにいつも泣いてしまう。時折妻の声が聞こえることがあるが、それはTMにとって彼女の不在を強調し、また寂しさを増長させるだけである。妻を看取るまでの3年間、TMは彼女の介護にあたっていたため、TMは現在人生に目的が見いだせずにいることを自認しており、また、心に穴が空いたような感覚を抱いている。
+  
+ TMはしばしば妻のことを考えながら丸一日ベッドで過ごすことがあり、誰とも話したくないがために電話にも出ようとしない。周りの人は彼の喪失感を理解していない、とTMは訴え、「時が経てば傷も癒えるよ」などと決まりきった慰め文句を言ってくる人々に対して怒りを感じている。彼には子どもが5人おり、近所に住んでいてよく訪ねてきてくれるのだが、彼らが訪ねてきてくれる際には彼ら自身も悲しみに沈んでいるため、一緒にいても楽しいと感じることは難しい。食料品の買い物について、TMは子どもたちに頼りきりである。妻が生きていた頃は彼女のニーズに応えるのにとても忙しくしていたため、現在のライフスタイルは妻の介護をしていた頃と対照的である。
+  
+ TMは妻の死後1カ月にあたる2週間前に復帰を試みたが、授業を準備することも、実際に授業を行うのに集中することもできなかった。授業中、ある話題がきっかけとなり妻の記憶を思い出してしまったためにTMは泣き出してしまい、結果的にその学期の残りの期間を休職することに決めた。あたかも何もなかったかのように普段の生活に戻っていく自分自身の姿など想像できないため、学校に復帰できるかどうかもわからないと話す。「未来はただ真っ暗にしか見えない。妻なしにどう生きていけばいいのか、想像もつかない」とTMは言う。
+Additional Background Information: TMに精神障害の既往はなく、30年連れ添った妻とはとても仲が良く、幸せな結婚生活を送った。担当のプライマリケア医によれば、2.5kgの体重減少がみられるものの、TMの健康状態は良好とのことである。TMはアルコールも他の薬物も使用しない。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Prolonged Grief Disorder
+Reasoning: The patient's intense and persistent grief over the loss of his wife, which has lasted for several weeks, and his inability to find meaning in his life without her, suggest a prolonged and disabling response to a loss.
+
+Second Most Likely: Recurrent Depressive Disorder
+Reasoning: The patient's history of major depressive episodes in the past, including the current episode following his wife's death, and his previous inability to focus on his work due to intrusive thoughts of his wife, suggest a recurrent pattern of depressive episodes.
+
+Third Most Likely: Single Episode Depressive Disorder
+Reasoning: The patient's current episode of depression, which began shortly after his wife's death and has lasted for several weeks, may represent a single, non-recurrent episode of depression. However, the possibility of a recurrent pattern cannot be ruled out based on the information provided.","['Prolonged Grief Disorder', 'Recurrent Depressive Disorder', 'Single Episode Depressive Disorder']",No Diagnosis; symptoms and behaviours are within normal limits,False,False,False
+Mood Vignette 6 FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: BMは58歳の大学教授で、妻に最近出ていかれたのをきっかけに治療を求めて来院した。33年間の結婚生活を経て、妻はBMのネガティブな態度にもう我慢できないと言ってBMの元を去って行ったとのことである。
+Presenting Symptoms: BMの話すペースはゆっくりで、また長い間を空けながら話すので、面接はゆっくりしか進まない。BMの目の下には目立つクマができている。気分について訊かれると、BMは肩をすくめ、いつもと同じで「上がる」より「下がる」ことの方が多い、とのことだった。BMにはこれといって楽しめることが何もないと言う。自分はいつもとてもネガティブで一緒にいても楽しくないので、自分の元を去った妻についても責める気はない、とBMは話す。乗馬やゲームなどを自分がするとすれば、それは自分がそうするよう期待する人がいて、それをやるよりも断る方が面倒なことになるという理由からである。大学で学期末に学生から寄せられるBMへの評価では、何年にもわたり講義中の熱意やエネルギーの欠如が指摘されてきた。思い出せる限り昔からBMはずっとこの調子で、少なくとも20代前半から変わっていないとのことである。これまでに一度でももっと幸せだったり精力的だったりした時期がないか尋ねられると、今は10代になる娘が生まれたときをはじめ、人生において良い瞬間は何度かあったが、その感じが1日より長く続くことは稀であり、すぐに憂鬱な状態に戻ってしまうと言う。さらに面接を進めると、控えめで自分に厳しいBMの性格は、個人的な対人関係でも職務上の人間関係でも悪影響を及ぼしてきた、とBMは認める。誕生日パーティーや夜の飲み会など社交的な場に、BMが同僚と共に招かれることはほとんどない。妻に去られてしまった今、BMは自分の行動パターンのせいで自分にとって一番大切なものを失ってしまったことに気付いた。治療を受けることで人生をもっと楽しめるようになり、いずれは妻を取り戻せるようBMは願っている。
+Additional Background Information: 問題を抱えているにも関わらず、BMは学術的に成功を収めてきた。学科の中で最も人気がある教員とはいえないが、彼の研究領域においては研究者としてよく尊敬されている。身体検査ではBMの健康状態は良好であり、血液検査の結果もすべて正常の範囲内である。特別な事情があればシャンパンやビールを一杯飲むことはあるが、それを除けばふだんアルコールを飲むことはないし、他の薬物を使用することもない。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder
+Reasoning: The patient's description of experiencing depressive episodes for decades, with brief periods of happiness or energy, and the fact that they have never had a prolonged period of happiness or energy in their life, suggests a recurrent depressive disorder.
+
+Second Most Likely Diagnosis: Dysthymic Disorder
+Reasoning: The patient's description of a persistent low mood and lack of energy for most of their life, even if they have had some periods of normal mood, could suggest dysthymic disorder.
+
+Third Most Likely Diagnosis: Generalized Anxiety Disorder
+Reasoning: The patient's description of feeling uneasy and anxious in social situations, such as parties and social gatherings, could suggest generalized anxiety disorder. However, this is less likely than the other two diagnoses given the primary symptoms of depression.","['Recurrent Depressive Disorder', 'Dysthymic Disorder', 'Generalized Anxiety Disorder']",Dysthymic Disorder,False,True,True
+Mood Vignette 7 FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: SVは33歳の独身男性で、大型ショッピングセンターでカメラマンとして働いている。彼の怒りっぽさと最近見られる気分の移ろいやすさを心配した妹に勧められて精神科医を受診した。
+Presenting Symptoms: 2週間前、SVの妹は彼が普段よりもはるかに精力的であることに気付いた。SVはどこか異国の島への旅を計画しており、そこで希少な鳥の写真を撮り、その写真を雑誌や広告会社に持っていけば、相当な高値で売れるに違いないと妹に語った。お金に余裕があるわけでないのに、写真の買い手との契約もなしにそのようなお金のかかる旅行をするのは無責任だと妹がSVを問いただすと、SVは苛立った様子でこれ以上旅行のことについて彼女と話すことを拒んだ。「自分に何の問題もないと専門家の観点から明言してもらい、そのことを妹に伝えたい」がために今回の受診に同意したとのことである。面接を始めると、SVは「より幸せな人生」を送りたいとの意志を語った。SVは今の感覚に興奮しており、この新たに湧いてくるエネルギーを余すところなく活用したいと言う。良い写真の新たなアイデアは「次から次へとすごい速さで」彼の頭に浮かぶ。この目的のためにSVは異国への旅を計画しようと考えており、自然の中で暮らす鳥たちの魅力的かつ珍しい写真が撮れることを期待している。この2週間、彼は週に3、4回バーに出かけ、そこで出会う女性たちと話すのを楽しみにしている。普段の彼は、バーにはまったく行かない。この2週間にSVはバーで知り合った数人の女性たちとセックスをしており、これは普段であればまったく彼らしくないことである。ただしこの2週間、彼は職場での仕事を減らしてはおらず、いつも通りに出勤し、仕事をこなしている。
+  
+ SVは薬物の使用を否定するが、アルコールについては「ただお祝いしたい気分だから」という理由で普段よりも多く飲んでいるとのことである。これについてより詳細に話すよう求められると、彼にとって「普段よりも多い」アルコールの量は、バーにいる数時間に多くても3杯飲む程度を指すと言う。以前と比べて飲むようになったのは、自分が「新しくてより社交的」になった表れであり、また飲酒量の増加はSVにより自信がつき始めてからのことである。
+Additional Background Information: SVは過去に2回、経済的に困窮した時期があり、それに続いて悲しみ、不安、睡眠困難を特徴とするエピソードがあった。これらいずれの期間中にも、DVの食事量は減り、活力レベルは一日中低いままのように感じられた。また、いつもの自信はなくなり、自身の撮る写真がどれも駄目なように思われた。この2回のエピソードのうち、1回目は約2年前に起こった。各エピソードは約6週間持続し、その後は普段通りのSVに戻った。身体検査により現在の彼の症状を引き起こし得る医学的要因は除外されている。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Bipolar Type II Disorder
+Reasoning: The patient's description of hypomanic symptoms, such as increased energy, grandiosity, and excessive involvement in activities, along with depressive episodes, aligns with the criteria for Bipolar Type II Disorder.
+
+Second Most Likely: Major Depressive Disorder
+Reasoning: The patient's recent depressive episode, including feelings of sadness, loss of interest or pleasure, and sleep disturbances, are consistent with Major Depressive Disorder.
+
+Third Most Likely: No Diagnosis; symptoms and behaviors are within normal limits
+Reasoning: The patient's report of increased energy, socializing, and sexual activity, along with the absence of significant impairment in daily functioning, suggests that the symptoms described may not meet the threshold for a mental disorder.","['Bipolar Type II Disorder', 'Major Depressive Disorder', 'No Diagnosis; symptoms and behaviors are within normal limits']",Bipolar Type II Disorder,True,True,True
+Mood Vignette 8 FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: CDは45歳医師で、面接には妻を伴って訪れた。妻は、CDに何も悪いところがないか精神衛生面について専門家の判断を仰ぐよう強く勧めていた。CD本人は、援助が必要だとは思っておらず、むしろ、妻の懸念となっているのは「自分という人間のあり方そのもの」だと考えている。妻によればCDは気分屋であり、そのために息子との時間に支障をきたしているとのことである。彼の行動が最も問題となるのは、CDが仕事に行かず家にいる週末や祝日である。CDは自身の気分の変動について認めるが、CDは自分ではそれらをうまくコントロールできていると信じており、地域での診療行為も忙しい中きちんとこなせていると述べる。
+Presenting Symptoms: CDはきちんとした身なりで、インタビュー中は人当たりの良い感じであった。彼には落ち込む期間があり、それは彼にとってつらいものであるが、1回に数日、長くても1週間しか続かないため、わざわざそのために援助を求めようとしたことはなかった。このような落ち込む期間中は、特にこれといった理由がないのに疲労感があるために、やることをこなすよう自分で自分を奮い立たせなければならず、また朝ベッドから起き上がるのもつらい。このような状況でも、家業である診療については滞りなく責務を果たしている。また、非常に活力的で、睡眠をいつもほど取る必要がなく、いつも以上に仕事ができる期間もあるとCDは言う。これらの期間中、CDは短気かつイライラしがちである。ただしこれらの感情を他人、特に患者からはたいていうまく隠している。この数年かけてCDの同僚は一連のパターンに慣れ、彼に「アップ・ダウン先生」とあだ名をつけた。CDによれば、彼は成人して以来ずっと気分屋であり、20年連れ添った妻もこれを肯定する。CDが気分屋であるにもかかわらず、結婚生活はうまくいっていると言う。ただ、妻としては過去2年間でCDの気分の問題が悪化したように思われるため、心配である。CDも、年齢とともにエネルギーが低い時期も高い時期もより苦痛が大きくなっているように感じられるようになっていること、また妻や息子、職場の同僚との口論がより頻繁になり、対人関係においても問題が大きくなっていることを認める。気分の問題がCDの生活において他に何か影響を与えていないか尋ねられると、少しの間考えた後、CDは医師として自分の潜在能力を発揮できていない気がする、と答えた。
+Additional Background Information: CDは過去に精神医学的な治療を受けたことはない。身体的にCDは健康であり、アルコールや薬物の乱用は認められない。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Dysthymic Disorder
+Reasoning: The patient's description of experiencing low mood and fatigue for long periods of time, despite being able to function in daily life and work, aligns with the criteria for Dysthymic Disorder.
+
+Second Most Likely: Adjustment Disorder
+Reasoning: The patient's symptoms, such as irritability and increased arguments with family and colleagues, could be a reaction to stressors in their life, making Adjustment Disorder a plausible diagnosis.
+
+Third Most Likely: Generalized Anxiety Disorder
+Reasoning: The patient's description of feeling anxious and worried, particularly about their relationships and work, could suggest Generalized Anxiety Disorder. However, the primary symptoms in the vignette are more consistent with Dysthymic Disorder.","['Dysthymic Disorder', 'Adjustment Disorder', 'Generalized Anxiety Disorder']",Cyclothymic Disorder,False,False,False
+Mood Vignette 9A FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: SEは花屋で働く37歳で、13年連れ添った妻がいる。気分の落ち込みと「何をしても楽しめない」ことを主訴にメンタルヘルスクリニックを受診した。
+Presenting Symptoms: 診察時、SEはこの一カ月、友人とのトランプ遊びやSF小説の読書など、以前なら楽しめた活動のほとんどに興味がなくなってしまった、と訴えた。また、以前は仕事が楽しくて仕方なかったのが、今ではただ疲れて退屈なだけで、「どのブーケもフラワーアレンジも、毎回毎回同じオーダーだ」と言う。彼の雇い主はいつもSEが快活で元気が良いのを褒めていた。それが今では、一日中体を引きずる思いで過ごしている。最近では仕事を休むようになり、仕事に行かない日は一日家のベッドで過ごす。以前よりも毎晩の睡眠時間が長くなっており、朝起きるのは日増しにつらくなっている。また、妻によれば、SEは以前の自信を失ってしまっており、正しい判断をできているか自分自身を疑ったり、安心できるよう妻に同調を求めたりしてばかりいる。SEは自分が妻の愛情に値する人間ではないように思われ、妻が新しい夫を自分以外に見つけた方が幸せなのでないかと感じている。これらの考えが浮かんでくると、SEは過食、特に甘いものの過食をして凌ぎ、食べると少なくとも数分は気が休まるのだと言う。これらの症状は秋の終わりに始まった。それに先行して、初夏からの長期間、SEは精神的に過活動で、高揚気分と易怒性がみられ、睡眠時間は短く活力に溢れ、性欲の亢進もみられたとのことである。
+Additional Background Information: SEは普段とても活動的な人間で、話し好きで生産的であると自認している。不安と睡眠困難の症状を初めて体験したのは21歳のときで、これらの症状はその後数年間にわたり出現したり消退したりであった。24歳以降、秋から冬へと季節が変わる頃、著しい食欲の亢進、活力の減退、睡眠時間の増加、やる気の減退、自尊心の低下、集中と注意維持の困難が反復して出現するようになった。SEは自分のことを熊に例え、春夏に最高の状態でいられるように冬眠しているようだと言う。2、3カ月経つと状況はいつも改善し、活動的で生産的な彼に戻る。春や夏には、精神面の過活動、高揚気分と易怒性、睡眠欲求の減少と活力増大が出現する期間がときどきある。これらの「ハイ」な期間のうち1回は、短期間入院した。通常の血液検査、身体検査、心臓の検査では異常はみとめられなかった。アルコールの乱用はなく、他の薬物についても使用歴はない。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder
+Reasoning: The patient's history of experiencing depressive symptoms, including lack of interest in activities, fatigue, insomnia, and low self-esteem, which have recurred over several years, is consistent with Recurrent Depressive Disorder.
+
+Second Most Likely: Bipolar Type II Disorder
+Reasoning: The patient's history of experiencing hypomanic symptoms, such as increased energy and productivity, during certain periods, along with depressive episodes, is suggestive of Bipolar Type II Disorder.
+
+Third Most Likely: Generalized Anxiety Disorder
+Reasoning: The patient's report of excessive worry and seeking reassurance from their spouse could suggest Generalized Anxiety Disorder, although the primary symptoms in the vignette are depressive in nature.","['Recurrent Depressive Disorder', 'Bipolar Type II Disorder', 'Generalized Anxiety Disorder']",Bipolar Type I Disorder,False,False,False
+Mood Vignette 9B FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: EFは39歳の既婚男性で、「ひどい」気分を主訴に、自身で受診を希望してきた。EFの妻は数年前の出来事を「水に流すことができない」ために、離婚をEFに求めている。EFの妻は診察に同席しなかった。EFは現在夫婦カウンセラーの元にも通っているが、進展が乏しいように感じられ不満がある。夫婦両名でのカウンセリング自体は、妻がこれ以上通うのを拒否したため、最近終了となった。
+Presenting Symptoms: EFは面接のプロセスに参加する姿勢をみせるが、打ちのめされて悲しい様子である。服装はカジュアルで、身だしなみはほどほどに整えてある。EFは疲労と気分の落ち込みを訴える。何をしても元気になれず、いつもなら子どもと過ごす時間を楽しめるのに今は楽しいと思えない。一日中ベッドで眠って過ごしたいと思う。本来なら結婚生活を諦めようとしている妻に対して怒りを感じるべきだと思うのに、そうするだけのエネルギーもない、とEFは言う。この3週間「ジャンクフード」を食べ過ぎたために4kg体重が増えた。最近は数日仕事を休んでしまい、出社する日も、仕事ぶりが悪いので上司はEFに対して苛立っている。自分は世界に対して何も貢献できることがないのではないか、家族だって自分がいない方が幸せなのではないかとEFは考えてしまう。ただし、具体的な自殺の計画を立てているわけではなく、また前述の考えに基づいて行動しようという気もない。彼は24歳の頃から現在に似たエピソードをだいたい年に1回のペースで何度も経験しており、また同じようなつらい時期を耐えねばならないかと思うと絶望してしまう、と述べる。
+Additional Background Information: EFは3年前に「不幸な事故」の後に入院したことがある。ある日、子どもたちを学校に送って行く際、同じように子どもを送りに来た女性と目が合い、EFは彼女に夢中になった。EFは彼女をつけたり電話をかけたりするようになり、挙句の果てに彼女の家に現れ「彼女の注意を引くために」庭で洋服を脱いだ。その時期のEFはエネルギーに溢れており、何でもできるような気がして、1日の睡眠時間は2時間に満たなかった。入院期間中は気分安定薬を処方され、数か月かけて回復した。同じようなエピソードは大学時代にも入学1年目の後期に1度あった。彼の母と母方の祖父は、「ノイローゼ」のために入院歴がある。身体検査では彼の症状を引き起こし得る身体要因は除外された。アルコールや薬物使用歴は、現在にも過去にもない。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder
+Reasoning: The patient's history of multiple episodes of depression, each lasting for a significant period, is consistent with this diagnosis.
+
+Second Most Likely: Single Episode Depressive Disorder
+Reasoning: The patient's current episode of depression, which includes feelings of sadness, loss of interest in activities, and insufficient energy, is consistent with this diagnosis. However, the patient's history of multiple similar episodes suggests a more chronic and recurrent condition.
+
+Third Most Likely: Dysthymic Disorder
+Reasoning: The patient's description of persistent low mood and lack of energy, even during periods when they are not experiencing a major depressive episode, is consistent with this diagnosis. However, the patient's history of more distinct episodes of major depression suggests that this may be a secondary feature of recurrent depressive disorder rather than a primary diagnosis.","['Recurrent Depressive Disorder', 'Single Episode Depressive Disorder', 'Dysthymic Disorder']",Bipolar Type I Disorder,False,False,False
+Mood Vignette 9C FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: GHは44歳の既婚女性で、3人の10代の子どもがいる。行動が徐々に奇妙になっており、家族に病院に連れてこられた。家族によれば、彼女は家族に怒鳴ってばかりで、家の外では見知らぬ人と口論になるし、家の中では怒ってものを投げつけるという。彼女が一晩中起きていて家でバタバタしているので他の家族は疲れきっている。地域の精神科医に処方薬をもらっているが、それを飲むのも拒否している。先週だけで2回家を抜け出しており、喫茶店で赤の他人と地域の政治について討論しているところを発見された。彼女はそもそも政治的な事柄には興味のない性格である。
+Presenting Symptoms: GHの身なりはだらしなく、軽く興奮した様子で、経緯を説明しようとする家族の話を頻繁に遮る。会話中彼女は小さなことでも苛立つ様子だが、自身の気分については「とても良い、完璧」と語る。GHは今の自分がいつもの自分でないことは認めるものの、むしろ「今の方が良い」と主張する。彼女の話す声は大きく、彼女の思考についていくのは困難である。彼女の家族によればGHは年中困難を抱えており、同様の症状で入院となったことが2回ある。また、それとは別に、ひどく気分が沈み、閉じこもりがちになり、寝てばかりいて、食べることを拒否し、家族のあらゆる問題について自分を責め、自殺や死について話していた期間が何度かあったという。この「落ち込み」エピソードはだいたい2、3週間続くことが多い。家族によれば、「具合の悪いエピソードとエピソードの合間には数週間GHが普段の彼女に戻る期間があり、私たちの愛する母や妻として振舞う」。
+Additional Background Information: GHは薬物もアルコールも使用したことがない。GHは確かに困難を抱えた人ではあるが、 「調子のいいときには素晴らしい人であるから」家族としてはGHを支え続けるつもりでいる。GHは彼女の他に5人兄弟姉妹がおり、兄弟の1人は双極性障害診断を受けている。身体検査から彼女の症状を引き起こし得る身体因は除外されている。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder
+Reasoning: The patient's history of multiple depressive episodes, along with the presence of persistent symptoms and suicidal ideation, aligns with this diagnosis.
+
+Second Most Likely: Bipolar Type II Disorder
+Reasoning: The patient's description of mood swings, including periods of elevated mood and increased energy, could suggest this diagnosis. However, the absence of clear manic or hypomanic episodes in the vignette makes this a less likely diagnosis than Recurrent Depressive Disorder.
+
+Third Most Likely: Generalized Anxiety Disorder
+Reasoning: The patient's reported involvement in heated discussions and her family's description of her as argumentative could suggest anxiety symptoms. However, the primary symptoms described in the vignette are consistent with depression, making this a less likely diagnosis.","['Recurrent Depressive Disorder', 'Bipolar Type II Disorder', 'Generalized Anxiety Disorder']",Bipolar Type I Disorder,False,False,False
+Mood Vignette 9D FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: TRは28歳未婚で、低学年の教師をしている。入院にまで至ったエピソードの後に治療を求めて来院した。
+Presenting Symptoms:  TRは現在両親と同居しており、来院に際し両親が付き添い、面接にも同席した。面接の最初、TRは閉じこもりがちで怒りやすく、構造化されたやりとりに応じるのが難しい様子である。15分経つとTRはとてもおしゃべりになるが、面接者の質問に答える代わりに、両親が明らかに気まずそうにしているのに構わず過去の交際相手との関係を過剰に性的な詳細も含めて語る。両親によると、この3週間でTRと同僚との間での衝突が増えており、ついには代替の教員を手配してあるわけでもないのに担任のクラスを放置したまま授業日の昼間に突然学校を出ていってしまった日もあった。TRはこのことについて、同僚の態度が悪かったためだと言う。
+  
+ TRの両親によれば、同じ3週間の間に、激しい気分の落ち込み、自殺念慮、無価値観、泣くといった症状を呈することが頻繁にあり、それはたいてい数時間続いたとのことである。TRは夜眠れず、夜中に何時間もコンピューターに向かうと母親は話す。　彼女は両親を自室に入れようとせず、もし入ろうとすれば大変な剣幕で怒る。また父親によれば、その前の週にはTRは国外に旅行したがっていた。どうやらTRの計画は父親の車を借りて何百キロも先の人気のあるリゾート地までドライブしていくというものだったらしいが、TRは運転免許証も持っていなければ、運転の経験もほとんどない。両親はこの計画を止めさせるのに大変苦労し、最終的には車の鍵をTRから隠さなければならなかった。それから数日後、TRはこんな苦しみを抱えながら生きていくのは無理だと悲観的に語った。彼女は自室にこもり、食事を拒否し、部屋の外からは一日中すすり泣きが聞こえた。
+  
+ TRは、自分の状態が尋常ではないものだと認識していない様子で、医師が新しい向精神薬の使用をそれとなく提案したところ、強く反発して面接する部屋からもう少しで出ていってしまうほどだった。
+Additional Background Information: TRの両親によれば、TRが23歳の時にも一度エピソードを体験しており、その際にも入院に至った。その際には、気分の落ち込み、自尊心の低下、対人関係の著しい困難、入眠障害、中途覚醒、極度の疲労感、自殺念慮が突然出現し、何週間にもわたり出勤できなかった。1カ月後に両親がTRを病院に連れて行くと、強い自殺念慮のために入院となった。
+ 
+ 家族に精神障害の既往はない。身体検査により症状を引き起こし得る身体面の要因は除外されている。過去にも現在にも薬物やアルコール使用のエビデンスはない。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder
+Reasoning: The patient's history of multiple depressive episodes, including suicidal ideation and significant impairment in functioning, is consistent with this diagnosis.
+
+Second Most Likely: Bipolar Type II Disorder
+Reasoning: The patient's history of hypomanic symptoms, such as excessive involvement in activities, pressured speech, and inflated self-esteem, could suggest this diagnosis. However, the vignette does not provide clear evidence of depressive episodes with manic or hypomanic episodes lasting a week or more, which is a requirement for this diagnosis.
+
+Third Most Likely: Generalized Anxiety Disorder
+Reasoning: The patient's symptoms of excessive anxiety and worry, as well as avoidance behaviors, could suggest this diagnosis. However, the vignette does not provide clear evidence of symptoms persisting for at least six months, which is a requirement for this diagnosis. Additionally, the patient's symptoms of depression are more prominent in the vignette.","['Recurrent Depressive Disorder', 'Bipolar Type II Disorder', 'Generalized Anxiety Disorder']",Bipolar Type I Disorder,False,False,False
+Anxiety Vignette 1A Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: PKは36歳の女性で、夫と7歳と10歳の娘と暮らす公務員である。先週、慢性の腹痛を主訴に胃腸の専門医を受診し、潰瘍と診断された。考えうる潰瘍の原因を特定するため、医師がPKにストレスレベルを尋ねたところ、ここ数年何も異常なことや悪いことが起こったわけではないにもかかわらず、極度に神経質で心配ばかりしている、とPKは答えた。胃腸の専門医は、不安への対処に役立つかもしれないからという理由で、PKに精神保健の専門家を受診するよう勧めた。     
+Presenting Symptoms: 精神面についての初回評価で、PKはいつも心配ばかりしていること、また心配が自身の健康を損ねていることを認めた。PKは自分自身を昔から「心配性」だったと表現し、その性格のおかげで家庭内で気配りができたり、職場で細かなところまで気が付くことができたりしたのだと言う。しかし、その心配性な性格はここ数年で「自分自身の手に負えなく」なっており、心配事に圧倒され、疲れ切ってしまうほどひどいと言う。心配事の中身が何なのか尋ねられると、「何だって心配事の種になりうるのです―子どもが病気にならないか、玄関の鍵を閉めたか、仕事の報告書を期限までに書き終えられるか―頭に浮かぶことなら何だって心配の種になります」とPKは語る。その一例に、娘2人が軽い風邪をひいたときのことをPKは話した。PKは風邪がもっと深刻な事態に発展するのを恐れ、二人はおしなべて健康だし子どもは誰しも風邪をひくことがあると頭ではわかっているのに、病院に2人を連れて行った。また、もう一例、PKは夫の同僚とのディナーについても語った。PKの夫はとても社交的な人で、しばしば同僚を自宅の夕食に招くのだが、PKとしてはディナーが惨憺たる結果となり、夫のキャリアに傷がつくのではないかと心配になるので「ディナーは本当にストレスの種」と言う。     PKはベッドに横になると翌日こなさなければいけないことを考えてしまい、全部終えられなかったらどうしようと心配になり、ほとんどの夜はよく眠れない。PKはひどい緊張を感じ、この緊張のせいだと思われる痛みが肩や背中上部にしばしばある。     PKは夫との関係を良好だと表現するが、最近は自身があまりに緊張して常に張りつめた感じなので、夫とよく口論になる。長女は最近、PKに何を話しても「ぜんぶ大袈裟に捉えられてしまう」という理由で、もう何もPKには話さない、と言い出した。PKによれば、昔はうまく聞き流したりやりすごしたりして家族と楽しい時間を持てたのに、この数年はそれが不可能になっている。「私も自分自身の心配性で疲れているけど、家族も同じくらい疲弊しきっている」とPKは言う。     
+Additional Background Information: PKは一人っ子として育った。彼女の両親はPKがとても幼いときに離婚し、母親に引き取られ、母親と母方の祖父母のもとで育った。潰瘍のための制酸剤の他に、医薬品は飲んでいない。お酒を飲むことはほとんどなく―飲んだとしても、ワインをグラス一杯―で、ドラッグの類に手を出したことはない。最近の医学的所見では、潰瘍以外に異常は見つからなかった。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Generalized Anxiety Disorder
+Reasoning: The patient's persistent worry and anxiety about various events, which interferes with her daily functioning and causes significant distress, is consistent with the diagnostic criteria for Generalized Anxiety Disorder.
+
+Second Most Likely: Social Anxiety Disorder
+Reasoning: The patient's excessive self-consciousness and fear of social judgment, which leads to avoidance of social situations and significant distress, is consistent with the diagnostic criteria for Social Anxiety Disorder.
+
+Third Most Likely: No Diagnosis
+Reasoning: While the patient's symptoms suggest an anxiety disorder, the vignette does not provide sufficient information to make a definitive diagnosis beyond Generalized Anxiety Disorder or Social Anxiety Disorder. Additionally, the patient's symptoms may be related to other medical conditions, such as her gastrointestinal disorder, which could be contributing to her anxiety. Further evaluation and assessment would be necessary to rule out other potential diagnoses.","['Generalized Anxiety Disorder', 'Social Anxiety Disorder', 'No Diagnosis']",Generalized Anxiety Disorder,True,True,True
+Anxiety Vignette 1B Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: TSは44歳の女性弁護士で、３人の就学中の子どもがいる。「キャリアと家族のバランスを健全に保つアドバイス」を求めて、心理士に面接を申し込んだ。     
+Presenting Symptoms: 初回の面接で、TSは数年前に自身の働く法律事務所で昇進して以来、折にふれて「かなりストレスを感じる」ことがあると言う。TSは昇進を受けたこと自体は嬉しかったが、それに付随して大幅に増えた責任に圧倒された。仕事を高い基準で遂行し、すべて片づけることができるかどうか、「とても心配」だとTSは語る。また、自分自身を「何でも自分で把握・管理できていないと耐えられない性格」で、とても細かなところまで気になると表現するが、その性格のおかげで期限を守ったり、質の高い仕事をしたりできてきたのだと言う。しかし最近では、自らのストレスレベルのせいで、仕事に集中できなかったり、家族に負担をかけているのではないかと心配になったりすると語る。TSによると、職場での評価は継続してとても良好なままだが、夫と過ごす時間は少なくなり、仕事をこなしながら子どもの宿題の面倒を同時にみるなど、複数のことを並行してこなさなければいけなくなっている。     面接中、TSは時に強い緊張の高まりを感じることはあるが、「身体的な病気」を患うほどに心配をしたことはないと言う。緊張について尋ねられると、「身体の緊張というよりは、気持ちの面での緊張である 」と説明した。睡眠に困難はなく、「一日が終わると、あまりに疲れているのでベッド以外のことは考えられない」と言う。こなさなければいけないことを考えて「耐えがたく」なると、「深呼吸して乗り切ろう」と自分に言い聞かせ、たいていはこの方法で落ち着くことができるのだと言う。週末には仕事をせず、なるべく家族との時間を過ごそうと心がけているが、この数年、それも難しくなってきている。     仕事の量や不安は多いが、自分はいろいろと「おしなべてよくやっている」と語り、夫の手助けを以前よりも多く要するようにはなったが、仕事もきちんとできているし家のことも何とかできている、と話す。TSは夫との絆を「とても強い」と述べ、夫はとてもよく支えてくれていると言う。しかし一方、現在のポジションに就いて以来、夫をほったらかしにしてしまっていることについて悪く思っている。さらに、「自分のためだけの」時間を十分に持てないことについても不満がある。たとえば、以前には定期的に運動していたのだが、昇進してからは運動に割く時間がぐんと減った。現在のスケジュールがこのまま続けば、生活のバランスをうまくとったり、仕事関連の心配を減らしたりするのに「役に立つスキル」を身につけない限り、そのうち自分は疲れ果ててしまうだろうと不安に感じている。     
+Additional Background Information: TSは4人きょうだいの一番上として生まれた。母親は美術の教師で、父親は判事であり、父親のことを「とても頭がよくて野心家」と表現する。夜に夫とワインをグラス１杯飲むが、それ以外の物質使用歴はない。最近受けた血液検査を含む定期身体検査では、異常は見つからなかった。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Generalized Anxiety Disorder
+Reasoning: The patient expresses excessive anxiety and worry about various aspects of her life, including work and family responsibilities, which interferes with her ability to focus and manage her daily tasks. She also reports feeling ""overwhelmed"" and ""burdened"" by her responsibilities, and describes herself as having a ""detailed and meticulous"" personality that allows her to excel in her career but also causes her to worry excessively about meeting high standards and completing tasks. These symptoms are consistent with the diagnostic criteria for Generalized Anxiety Disorder.
+
+Second Most Likely Diagnosis: No Diagnosis
+Reasoning: The patient denies experiencing physical symptoms of anxiety to the degree that would indicate a panic disorder, and she reports that she is able to fall asleep at night and cope with her symptoms through deep breathing exercises.
+
+Third Most Likely Diagnosis: Social Anxiety Disorder
+Reasoning: The patient mentions feeling anxious in social situations, but this is not the primary focus of the vignette, and her symptoms do not meet the full diagnostic criteria for Social Anxiety Disorder. However, social anxiety can co-occur with Generalized Anxiety Disorder, so it is a possibility that should be considered.","['Generalized Anxiety Disorder', 'No Diagnosis', 'Social Anxiety Disorder']",No Diagnosis,False,True,True
+Anxiety Vignette 2 Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: MTは23歳の女性で、一人暮らしをしながら大学院に通っている。大学併設の大学病院の救急医に勧められて、精神医学的評価のために受診した。同救急センターに、MTはこの2カ月で2回訪れており、精神科医の受診を勧められたのは受診2回目のときである。院内の記録によれば、受診時の訴えは2回とも同じで、重度の胸痛、めまい、腕および脚のしびれ感があり、本人は心臓発作が起こったと思い込んだとのことであった。     
+Presenting Symptoms: 精神科医との面接時、MTは最近大きな生活上の変化があったと話し、４カ月前に付き合っていた男性と別れ、大学院進学のため今の町に引っ越してきたことを挙げた。しかし、「極度に恐ろしくて死につつあるような感覚」のエピソードは、彼氏との別れと引っ越しのさらに9カ月前に始まったと言う。最初に起きたのは、父親と散歩をしているときで、突然「特に理由もないのに」不安と恐怖がこみあげてきた。その感覚はその数分後さらに悪化し、めまいがし始めて呼吸が苦しくなってきた。さらに、心拍数が上がり指先にしびれを感じ、胸が苦しくなった。MTは心臓発作で自分は死にかけているのだと思い、父親は最寄りの救急病院まで急いで彼女を連れて行った。病院で30分ほどすると、「再び落ち着きを取り戻した」が、自分に起きたことにショックを受けた。検査の結果、MTの健康状態は良好で、症状を引き起こすような病因は、循環器系の異常を含め、何も見つからなかった。     それ以来、突然「世界の終わりがすぐそこまで来ているかのような」強烈な不安感を覚え、前回と同じ生理的反応を伴う同様のエピソードを複数回体験した。エピソードの誘因となるような出来事はMTには考え付かなかった。エピソードが起きるのは、たいてい散歩しているときか、勉強しているときである。エピソードが起こったときを振り返ると、特に何かこれといったテーマについて考えていたわけではない。エピソードがまた起きるのが不安で仕方なく、学業に集中するのが大変難しくなっている。     引っ越しについては、引っ越した後でエピソードが起きたら家族も親しい友人も近くにいてくれないので、次にまたエピソードが起きるのが余計に怖くなった、とMTは語る。そういうわけで、引っ越してから最初にエピソードが起きたときには、大学病院を受診した。「自分は死んでしまうんだと思って、他にどうしたらいいかわからなかった」とMTは言う。最近大学病院の救急センターを受診した際、彼女の担当医が過去にもMTが受診したことがあるのに気づき、MTの心臓には何の問題もないので精神科医を受診するように勧めた。エピソードが起こることへの不安で気持ちの面で疲弊しきっているのに加え、救急センターの受診でかさんでいく医療費のせいで大学の授業料を払えないところまできてしまっているので、MTは精神科医の受診を決めたとのことである。     
+Additional Background Information: MTによれば、お酒は週末に友人たちと２、３杯飲む程度であり、喫煙を含め他の物質の使用歴はない。学業面ではよくやっているが、エピソードが今後も続けば、大学院をやめて実家に戻らねばならないだろうと考えている。「とはいっても、エピソードのせいで死んでしまわなければの話だけど」とMTは付け加えた。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Panic Disorder
+Reasoning: The patient's description of sudden, recurring episodes of intense fear or discomfort, accompanied by physical symptoms such as increased heart rate, shortness of breath, and feelings of choking or smothering, is consistent with the diagnostic criteria for panic disorder.
+
+Second Most Likely Diagnosis: Generalized Anxiety Disorder
+Reasoning: The patient's ongoing feelings of excessive anxiety and worry about various aspects of her life, particularly her studies, suggest the possibility of generalized anxiety disorder. However, the presence of panic attacks is a more prominent feature in the vignette.
+
+Third Most Likely Diagnosis: No Diagnosis
+Reasoning: The patient's physical symptoms, such as chest pain and shortness of breath, could be due to a variety of causes, including cardiac conditions. While the vignette does not provide definitive evidence of a cardiac condition, it is important to consider the possibility of a medical condition as a potential explanation for the patient's symptoms before making a psychiatric diagnosis. Additionally, the patient's symptoms did not meet the diagnostic criteria for any of the other anxiety disorders listed.","['Panic Disorder', 'Generalized Anxiety Disorder', 'No Diagnosis']",Panic Disorder,True,True,True
+Anxiety Vignette 3A Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: PFは53歳の未婚男性で、精神科医による診察を求めて地元のメンタルヘルスクリニックを受診した。PFは現在無職で弟と住んでおり、受診の際には弟が同伴した。PFの主訴である一人で外出することに対するどうしようもない恐怖は、この6カ月間でさらに悪化し、これをみかねた弟がPFに受診を強く勧めた。
+Presenting Symptoms: PFは、だいぶ昔から、映画館や市場などの人ごみや、公共交通機関に、苦手意識と不安感を持っていた。1年前、仕事から帰る途中のバスの中で、他に大勢いる乗客に不安と緊張感を覚え、バス停とバス停の間であるにもかかわらず、降車させてくれるようバスの運転手に拝み倒して降ろしてもらった。その後も動揺はおさまらず、弟に電話して迎えに来てもらった。「みんなに白い目でみられ、頭のおかしいやつに違いないと思われた」この出来事は、彼にとってひどく屈辱的であった。それ以降、PFは公共交通機関の利用をやめた。     ６カ月前まで、PFは地元の企業でコンピュータ技師として働いていた。その当時、仕事の関係で大きな会議のために別の町まで出張に行くことが決まっていた。彼は弟に一緒に来てもらうよう説得を試みたが、弟にも自分の仕事があって抜けるわけにはいかなかった。PFは出張の何日も前から不安でたまらなくなった。人でいっぱいの会議場に閉じ込められ、出口もなく助けも呼べない状況に陥ることを考えると恐怖を感じた。PFは会議に出ず、仕事に行くこと自体をやめてしまい、最終的には解雇された。それ以来、PFは職に就いていない。     この数カ月間、PFの行動や活動の範囲はどんどん狭まってきている。PF自身いわく、人ごみに近づかない限り、家の近所なら一人でも外出できると言うのだが、PFの弟はこれに異論がある。PFの弟によれば、PFが家を出られるのは自分がPFに同伴するときだけで、それでもかなりの努力を要する。人ごみやよく知らない場所に行くことへの恐怖について尋ねられると、PFはこう答えた。「人が多すぎたり出口がわからなかったりして、外に出られなかったらどうしたらいいんです？閉じ込められてしまうんですよ、まるでネズミみたいに」     バスでのエピソード中や、人の多い場所にいることで不安になったときに体験した身体の感覚について、より詳細にPFに質問したところ、心拍数の上昇、発汗、息切れなどの症状は、一切感じたことがないとのことだった。     
+Additional Background Information: PFは煙草もアルコールもほどほどに嗜むが、他の種類のドラッグには手を出したことがない。PFと弟は、幼いころに父親をがんで亡くして以来、母親に育てられた。PFたちの母親は１０年前に亡くなり、その後も二人は同じ家に住み続けている。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Agoraphobia
+Reasoning: The patient's fear of being in public places and crowds, and the significant impairment in his ability to leave his home without his brother's accompaniment, are consistent with the diagnostic criteria for Agoraphobia.
+
+Second Most Likely: Generalized Anxiety Disorder
+Reasoning: The patient's history of anxiety symptoms, such as fear of movies, markets, and public transportation, dating back to his childhood, suggests the presence of a generalized anxiety disorder. However, the agoraphobic symptoms are more prominent and disabling in the current presentation.
+
+Third Most Likely: No Diagnosis
+Reasoning: The patient's use of drugs, such as tobacco and alcohol, while not excluding a diagnosis, does not provide sufficient information to make a definitive diagnosis. Additionally, the vignette does not provide enough information to make a definitive diagnosis of any other anxiety or fear-related disorder.","['Agoraphobia', 'Generalized Anxiety Disorder', 'No Diagnosis']",Agoraphobia,True,True,True
+Anxiety Vignette 3B Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: AMは25歳女性のウェブデザイナーである。重度の不安症状のためにこの2カ月間家にこもりきりになっており、それを心配したAMの親友に連れられて地元の地域保健センターを受診した。     
+Presenting Symptoms: AMは、心理士との面接に際し、一緒に来所した友人の同席も許可するよう要求した。友人が近くにいなかったらどうなってしまうのでしょうか、と尋ねると、AMはとたんに落ち着きを失い、顔を赤らめ、「この場所を知らないし、気分が悪くなって外に出なければいけなくなったら彼女だけが頼みの綱なの」と口走った。友人はただちにAMを大丈夫だとなだめ、家にこもってしまうようになった経緯を説明するようAMに促した。AMは落ち着きを取り戻し、バスターミナルやショッピングセンターなど、人の多いところに一人で行くのはいつも気が進まなかった、と話し始めた。     2年前、AMは重要な小包を受け取りに郵便局に行くことがあった。郵便局に着いてみると、「人がたくさんいた」。突然AMは「何か悪いことが起こりそうな」極度の不安を感じた。心拍数が上がり、めまいがして気が遠くなり、吐き気がして過呼吸になった。そのとき、自分はもう死んでしまうのだ、とAMは思った。AMは即座に泣きながら屋外に走り出て、近くに住むいとこに電話をかけて、迎えに来てもらって家まで送ってもらった。家に着いたら気分はよくなったが、この体験はAMを大いに動揺させた。     その後も同様の「ひどいエピソード」は数回起きた。起きたのはたいてい、AMが一人で公共の場に出かけざるを得ないときであった。あの「発作」がまた起きるのではなかろうかと、AMは常に神経質な状態になっていった。約2カ月前に近しい友人の誕生日パーティに招かれたとき、とても人が多いとAMは感じた。恐ろしい感覚があって、郵便局のときに体験したのと同じ身体症状が全部襲ってきた。「あれは今までの中で最悪だった」とAMは回想し、友人たちと一緒にいても安全ではなかったという事実に「うちのめされた」と語った。それ以来、AMは家にいることを好むようになった。家では同様のエピソードが起きたことはなく、大勢の人が訪ねてきたときでさえ、家の中であれば大丈夫であった。家から離れたところで気分が悪くなったりめまいがしたりしたら、誰に助けを求めたらいいのかわからず気絶したり死んだりしてしまうかもしれない、とAMは言う。（発作は）「世界中で最悪の感覚」で、「幸いなことに、仕事は家でできるし食料品も宅配してもらえるから、わざわざ発作が起きるリスクを抱えてまで外に出る理由はない」と言う。「どこにも行かなくても何の問題もない」とAMは言うが、実際には対面でのインタビューを要する仕事の機会をいくつかこれまでに失っており、経済的に困窮しつつあることをAMは認めた。     
+Additional Background Information: AMは独身で、真剣に付き合っていた人とは１年前に別れた。煙草やドラッグの類の使用はなく、週に何回かアルコールを飲む程度である。最近受けた身体検査では、健康状態は良好であるとの結果であった。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Agoraphobia and Panic Disorder
+Reasoning: The patient's description of experiencing intense anxiety and panic attacks in public places, as well as the fear of leaving home and being away from familiar surroundings, aligns with the symptoms of both Agoraphobia and Panic Disorder.
+
+Second Most Likely Diagnosis: Generalized Anxiety Disorder
+Reasoning: The patient's history of excessive anxiety and worry about various things, even when in the safety of her own home, suggests Generalized Anxiety Disorder.
+
+Third Most Likely Diagnosis: Social Anxiety Disorder
+Reasoning: The patient's description of feeling uncomfortable and anxious in social situations, particularly when there are many people present, is consistent with Social Anxiety Disorder. However, it is less prominent in the vignette compared to the other diagnoses.","['Agoraphobia and Panic Disorder', 'Generalized Anxiety Disorder', 'Social Anxiety Disorder']",Agoraphobia,False,False,False
+Anxiety Vignette 4 Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: MJは19歳の女子大生である。大学に入学して1年目で、大学キャンパス内にあるコーヒーショップでアルバイトをしている。稲妻や雷雨に対する「奇妙で強烈な恐怖に疲弊してしまって」クリニックを自ら受診した。MJによると、稲妻や雷、強風に対して神経質なのは昔からである。しかし、大学入学と同時に、海岸沿いの悪天候が頻発する町に引っ越して以来、この恐怖はこの10カ月間でより強まった。
+Presenting Symptoms: MJは協力的かつ積極的な態度で初回面接に臨んだ。彼女は、嵐への強烈な恐怖を何とかするのに「本格的な助けが必要」なのだと言う。本人によると、天気のことがいつも心配で、天気予報を1日に何回もチェックする。風が強すぎるように感じたり、稲妻が走ったり雷が鳴っていたりすると、大学の寮を「どうしても出られない」と言う。そのせいで、講義をこれまで何回か休まざるを得ず、現在、嵐の日にテストを受けられなかったクラス一つは、ほぼ単位を落としかけている。講義を休んだことについて話す間、MJはつらそうで不安な様子で、治療者と視線を合わせようとしなかった。     MJは女子サッカーのチームに高校で所属していた。天気予報を見て何回か試合を休もうとしたことがあったが、それほど悪天候になりそうな場合はどちらにしろ「試合が前もって中止されてしまうので」、結果的にそれほど目立った問題には発展しなかった。天気さえよければ、外に出るのは好きだとMJは言い、実際にランニングもするし、友人との外出を楽しむ。天気が悪い日の外出には友人がしばしば同伴してくれるが、「それでも（悪天候は）怖くて仕方ない」。約１週間前、嵐の最中に火災報知機が作動し、寮の外に出なければいけないことがあった。これはMJにとってひどく苦痛で、外にいる間中（約30分）とても怖い思いをした。約1時間後に自室に戻るとMJは多少落ち着いたが、眠りにつけるまでルームメイトにそばにいてもらう必要があった。MJは、友人たちは自分が嵐を怖がる理由をちゃんとわかっていないし、いつも自分を「子守り」しなければいけないことに苛立ちを感じ始めている人も何人かいるようだ、と語った。こういうことがどれくらいの頻度で起きるのか尋ねると、MJは視線を床に落とした。数秒の後、「怖がるのにもう疲れたの。ただよくなりたい」と答えた。
+Additional Background Information: MJは３人きょうだいの１番上である。両親は離婚している。悪天候はほとんどない町でMJは育った。自分も知人も含め、大嵐に巻き込まれたり、それでけがをしたりした人は一人もいない。学生健康相談所で最近受けた定期健診では、どこも異常なしとの結果だった。アルコールもドラッグもやらないが、週に何本か「神経を鎮めるために」煙草を吸うことはあるとのことである。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Specific Phobia (Strong fear of thunderstorms or wind)
+Reasoning: The patient's symptoms, such as fearing the weather, checking the weather frequently, and avoiding going outside during bad weather, are consistent with a specific phobia.
+
+Second Most Likely: Generalized Anxiety Disorder
+Reasoning: The patient's excessive anxiety and worry about various things, including her studies, could indicate generalized anxiety disorder.
+
+Third Most Likely: No Diagnosis
+Reasoning: The patient's symptoms do not clearly meet the diagnostic criteria for any other anxiety disorder, such as panic disorder, agoraphobia, social anxiety disorder, or separation anxiety disorder. Additionally, her physical symptoms, such as checking the weather frequently and feeling uncomfortable during bad weather, are not typical of these disorders. The patient's symptoms may be better explained by a specific phobia or a normal response to her environment.","['Specific Phobia (Strong fear of thunderstorms or wind)', 'Generalized Anxiety Disorder', 'No Diagnosis']",Specific Phobia,False,False,False
+Anxiety Vignette 5A Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: TMTMは16歳の男子学生で、母親と妹と暮らしている。TMが頻繁に学校を休むのを心配した母親に連れられて、大学病院の精神科に来院した。_16____________________TM______________________________________
+Presenting Symptoms: 面接中、TMは医師とすぐに目を合わせようとせず、面接開始からしばらく黙ったままだった。TMの母親によれば、TMはずっと「恥ずかしがり屋だけど好印象を持たれる子」だった。TMの学校への行き渋りは、引っ越しの後に転校先で新年度が始まってすぐ、8カ月前に始まった。     ほとんど毎朝、TMは母親に学校に行かず家にいさせてもらうよう懇願する。TMの母親は登校させようとするのだが、「息子と言い合いするのにときどき疲れすぎて」しまうこともある、と言う。登校したものだと思い込んでいた日も実はTMは欠席していた旨の連絡を学校から受けた際、母親はTMのことが真剣に心配になった。TMが学校でうまくやれていないのは、欠席日が多いからという理由だけではない。教師に指名されると、TMは「ただ固まってしまう。答えを知っているときにも、それを言えない。顔が真っ赤になって、バカみたいにみえる」と話す。     TMはずっと以前から、よく知らない人と話すのが苦手だった。前の学校では何人か友人がいたが、それは「同じ学校にずっと通っていて、生徒はみんなお互いのことをよく知っていたからだ」と言う。新しい学校では、他の生徒に「とことんみじめなやつ」と思われるのが怖いために、新しく友人をつくることに大変な困難を感じている。このことは片時もTMの頭を離れず、夜もこの悩みのために眠れない。友人も欲しいし人気者になれたらと思うし、新しく出会う人たちと気軽に会話できるくらいリラックスして自信を持てたらいいのに、とも思う。     TMの母親によると、TMは夜と週末はたいてい自室で読書やビデオゲームをして過ごす。これは、TMによれば心から楽しいと思えるそうである。TMは以前の学校ではサッカーをやっていて、上手な方だとみられていた。しかし転校先では、他の選手の前でプレーしなければいけないので、コーチに自己紹介に行くことも入部テストを受けるのもできずにいる。ナーバスなせいで入部テストの際にしくじりそうで、そうなったら他の選手たちに能力のないやつと見下されるだろうと考えてしまう。TMの母親は当初TMが学校でいじめられているのではないかと心配していたのだが、学校の先生や同級生の保護者と話してみて、TMが嫌がらせを受けているわけではないことがわかった。それを受けTMは、「他人のせいじゃない、自分のせいだ」と添えた。
+Additional Background Information: TMの両親は離婚しており、父親は別の町に住んでいる。ただしTMと父親とは、週に数回電話で話している。母親に面接から席を外してもらった後、TMはドラッグはやらないが、何度かアルコールを飲んだことはあるし、煙草も1回吸ったことがある、と認めた。最近の定期健診で、TMはかかりつけ医から健康であるとの診断を受けている。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Selective Mutism
+Reasoning: The patient's symptoms of not being able to speak in certain social situations, particularly in new environments and with new people, are consistent with selective mutism.
+
+Second Most Likely: Social Anxiety Disorder
+Reasoning: The patient's fear of being judged and disliked by others, as well as their difficulty making friends and feeling uncomfortable in social situations, suggest social anxiety disorder.
+
+Third Most Likely: Generalized Anxiety Disorder
+Reasoning: The patient's frequent absences from school, difficulty sleeping, and physical symptoms such as blushing and feeling stupid in the presence of others could be indicative of generalized anxiety disorder. However, these symptoms are not as prominent as those of selective mutism or social anxiety disorder.","['Selective Mutism', 'Social Anxiety Disorder', 'Generalized Anxiety Disorder']",Social Anxiety Disorder,False,True,True
+Anxiety Vignette 5B Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: JLは2人の幼い子どものいる28歳の女性である。極度の不安エピソードのために毎日の仕事をこなすのが難しくなっているとかかりつけ医に伝えたところ、精神医学的評価を勧められて来院に至った。     
+Presenting Symptoms: 面接時、JLは、結婚生活は順調だし、専業主婦として2歳と8歳の子どもを楽しく育てている、と語った。家族全員に世話がきちんとゆき渡るよう、思いやりと注意を持って家事をこなそうと頑張っている、と言う（たとえば、健康的な食材を選んで体によい食事をつくる、子どもが喜びそうな工作を調べる、毎日家をきちんと片づけて掃除する）。     現在JLが抱えている困難は、長男が2年前小学校に入学し、学校からのお迎えのために毎日の決まった流れが「乱される」ようになった際に始まった。精神科医は、なぜ「乱される」と感じるのかJLに尋ねた。すると、JLは、息子が出てくるのを待つ間、他の保護者としばしば「世間話」をしないといけないことを挙げた。自分の発言が他の保護者から「頭が悪い」と判断されているように感じ、何気ないやりとりをするのも「怖い」のだと言う。ただし、具体例を挙げるよう求められると、JLは実際に他の保護者から非難めいたことを言われた例を挙げられなかった。     JLの息子の通う学校は、保護者によるボランティア活動が当然のようになっており、JLも、「良い母親として」これに参加しようと思っていた。年度の途中から、JLは他の保護者に混じって週に2回、給食の手伝いを始めた。しかしJLはこのボランティア活動を「地球上の地獄」と表現し、「考えうる限り最悪の不安」を幾度となく体験したと言う。他の保護者と話している際に複数回、震え、めまい、動悸、「体の外にいるような感覚」を含む、多数の「つらい」症状をJLは突然体験した。今では、ボランティアの予定がある日の朝から、また同じエピソードが起こるのではないかととても不安になり、「こんな思いを自分自身に強いたくない」と言う。これまでに何度か、体調不良を理由にボランティアを欠席したこともある。欠席したせいで、周囲の保護者達の自分を見る目がさらに厳しくなると考えてしまう。なお、この極度の不安症状が出るのは、他の保護者とやりとりをしているときだけである。     JLは、家にいて子どもの世話をしている方がいい、と言う。何年も仲の良い少数の友人たちと過ごすのは楽しいと思えるが、パーティなど社交的な催し物に出るときは、「正直楽しいと思えない。知らない人たちと話すのは好きではない。何と言ったらいいかわからないし、きっと頭が悪いと思われる」と話す。
+Additional Background Information: JLは、10年前の虫垂炎の手術を除き、これまで常に健康である。喫煙や飲酒はせず、いかなる薬物も使用したことはない。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Social Anxiety Disorder AND Panic Disorder
+Reasoning: The patient's symptoms of anxiety and fear, particularly her fear of being judged by others and the onset of panic attacks during social interactions, suggest a combination of social anxiety disorder and panic disorder.
+
+Second Most Likely Diagnosis: Generalized Anxiety Disorder
+Reasoning: The patient's excessive anxiety and worry about various aspects of her life, such as her role as a mother and her interactions with other caregivers, could indicate generalized anxiety disorder.
+
+Third Most Likely Diagnosis: Separation Anxiety Disorder
+Reasoning: The patient's intense fear of being separated from her children and her fear of leaving them at school could suggest separation anxiety disorder. However, this diagnosis is less likely than social anxiety disorder and panic disorder based on the information provided.","['Social Anxiety Disorder AND Panic Disorder', 'Generalized Anxiety Disorder', 'Separation Anxiety Disorder']",Social Anxiety Disorder,False,False,False
+Anxiety Vignette 5C Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: JVは22歳の女子大学生である。これからとらなくてはいけないプレゼンテーション（人前で話す）のクラスのことで困って、大学のカウンセリングセンターに来所した。
+Presenting Symptoms: 面談時、JVはクラス全員の前でスピーチをしなければいけないのがとても気がかりだと語った。大学では、卒業要件として、プレゼンテーションのクラスをとらなければいけないと定められている。JVはそのクラスをとるのがたまらなく怖くて、卒業目前の大学4年目まで受講を延ばし延ばしにしてきた。しかし、卒業するためには何とかそのクラスの単位をとらなければいけないとわかっている。スピーチにまつわる不安と向き合う方法を見つけたくてJVはカウンセリングセンターを訪れた。JVは自分自身のことを昔から恥ずかしがり屋だったと表現し、人の注目を浴びると居心地が悪い、と語った。     JVを教えている教員たちは、JVのことを静かだが優秀な学生だとみている。めったに自ら挙手することはないが、指名されれば答える。これまでにとった他のクラスで短いプレゼンテーションをしなければいけないことが何度かあり、結果的に何とか切り抜けることはできたが、いつも居心地の悪い思いをした。人前で話す前、いつもJVはとてもナーバスになり、「そわそわする」のだが、話し終えるとすぐに落ち着く。ただ、これまでこなせたプレゼンテーションは、今度とらなければいけないクラスほど聴衆は多くなかったし、その結果もそれほど重要なものでもなかった。及第点のプレゼンテーションができず、卒業できなくなってしまうのではないかととても不安である。     JVには友人が何人かいるが、その中では決して「おしゃべりな」方ではない。JVはその友人たちといろいろするのは好きだが、会話の流れにうまく入っていけないので、めったに自分の意見を言うことはない。たいてい、JVは聞き手にまわる。今このカウンセリングのセッション中も不安を感じているか臨床家が尋ねると、大丈夫だとJVは答えた。JVによれば、一対一で話す場面はまったく大丈夫なのだが、「5、6人よりも」多くの人となると、居心地が悪くなると言う。JVには交際相手がおり、彼との関係はうまくいっていると言う。彼もJVと同様、少人数のグループや静かなのが好きだそうだ。恥ずかしがり屋な性格を変えたいか臨床家が尋ねると、恥ずかしがり屋なせいで困ることは普段ないし、自分自身の人柄を気に入っている、とJVは答えた。そして、あくまでもこのプレゼンテーションのコースを乗り切るのが課題であることを強調した。課題に取り組む心構えはできており、あとは後押しとアドバイスが欲しい、とのことである。
+Additional Background Information: JVは一人っ子で、両親がわりと高齢になってから生まれた子であった。現在両親は近くの町に住んでいる。JVによれば、家族との生活は「静かだけどふつう」であった。ドラッグの使用歴はなく、週末に彼とお酒を1、2杯飲む程度である。最近の健康診断では、異常は見つからなかった。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Social Anxiety Disorder
+Reasoning: The patient's symptoms of extreme nervousness and fear of being judged in front of others, avoiding social situations due to fear of embarrassment, and feeling more comfortable in smaller groups or one-on-one interactions align well with the diagnostic criteria for Social Anxiety Disorder.
+
+Second Most Likely: No Diagnosis
+Reasoning: While the patient's symptoms suggest anxiety, they do not meet the diagnostic criteria for any specific anxiety disorder with certainty. The patient's academic presentation anxiety could be a normal part of growing up and developing public speaking skills.
+
+Third Most Likely: Generalized Anxiety Disorder
+Reasoning: The patient's description of feeling anxious and uneasy about various things, including her inability to graduate due to her fear of presentations, could potentially indicate Generalized Anxiety Disorder. However, her symptoms do not meet the full diagnostic criteria for this disorder, making it a less likely diagnosis.","['Social Anxiety Disorder', 'No Diagnosis', 'Generalized Anxiety Disorder']",No Diagnosis,False,True,True
+Anxiety Vignette 6A Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: VKは10歳の女子生徒である。VKの母親がVKのそばを離れようとするとひどく動揺してかんしゃくを起こすので、母親がカウンセリングのためにクリニックに連れてきた。かんしゃくはこの１年間でだんだんとひどくなっており、VKの両親は疲れ切って娘がどうしたらよくなるのかわからない。VKの学校の看護師の勧めで、VKをカウンセリングに連れて行くことになった。
+Presenting Symptoms: VKの母親によれば、VKの問題行動は、就学した5歳のころから始まった。当時、母親から離れたくなくてVKは学校がある日はほとんど毎朝泣いていた。「泣きわめいて」いるVKを、母親はスクールバスまで担いでいかなければならなかった。学校が休みの日には祖父母が面倒をみてくれることがあったが、母親の職場までついていくと言ってきかなかった。祖父母と留守番するよう母親が厳しく言うと、VKは1時間も泣き叫び続けることがあり、また、日中にも何度か母親に電話をかけて話したがった。     現在、VKはスクールバスに乗り込む際に不安そうな様子をみせ、学校がある日の朝に吐き気や体調不良を訴えることがしばしばある。登校後も腹痛や吐き気を訴え保健室に行き、母親に迎えに来てほしいと言う。1日に2、3回は職員室から母親のいる職場に電話をかけたがる。学校が終わり、母親の迎えが数分でも遅れると、VKは極度の不安と恐怖をみせ、泣き出すこともしばしばある。最近の修学旅行にも、一晩家に帰れないので、結局行かなかった。母親がいないと公園で友達と遊ぼうとしないので、友達はいとこを除いてほとんどいない。母方のおばやいとこと過ごすのは好きなようだが、母親から離れて彼らの家にお泊りすることは決してない。     VKは父親も祖父母も好きだが、母親は「すごく仲良し」だと言う。なぜ母親から離れるのがそんなに嫌なのか訊かれると、「お母さんに何かあって、帰ってこなくなっちゃうかもしれないから」とVKは内緒話のようにささやき声で答えた。こういった恐怖は、母親がそばにいてくれると感じない。
+Additional Background Information: VKは一人っ子である。発達に問題はなかったが、「べったり甘えてばかり」の子どもだった。両親と一緒でないと寝ないと言い張るので、一人で寝る訓練は特に難しかった。VKに健康上の問題はなく、服薬もしていない。VKの両親も、ずっとこれまで健康である。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Separation Anxiety Disorder
+Reasoning: The patient's symptoms, such as extreme distress when separated from her mother, fear of being alone, and clinging to her mother even in public places, are consistent with Separation Anxiety Disorder.
+
+Second Most Likely: Social Anxiety Disorder
+Reasoning: The patient's reluctance to go to school and her difficulty making friends suggest Social Anxiety Disorder, although the symptoms described in the vignette are not as prominent as those of Separation Anxiety Disorder.
+
+Third Most Likely: Generalized Anxiety Disorder
+Reasoning: The patient's history of anxiety symptoms since early childhood, her difficulty sleeping alone, and her frequent calls to her mother during the day could be indicative of Generalized Anxiety Disorder. However, the symptoms described in the vignette are not as severe or pervasive as those of Separation Anxiety Disorder or Social Anxiety Disorder.","['Separation Anxiety Disorder', 'Social Anxiety Disorder', 'Generalized Anxiety Disorder']",Separation Anxiety Disorder,True,True,True
+Anxiety Vignette 6B Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: AGとその妻は、どちらも30代半ばで、結婚して9年になる。子供はいない。AGの妻は、夫といると「息が詰まる」ように感じるし「少しの自由も許してもらえない」ので、夫との関係は悪化の一途をたどっているとかかりつけ医に訴えた。そこでかかりつけ医は二人に夫婦カウンセリングを勧め、二人は紹介された心理士を訪ねてきた。
+Presenting Symptoms: AGとその妻は、初回面接に緊張した様子で現れた。AGの妻が夫の問題行動について語りだした。3年前にAGの妻は月に何度か出張のある営業職に就いたのだが、そのあたりから問題が出てきた。現職に就いてから最初の数回の出張中に何か事故や問題が起きたわけではなかったのだが、AGは目的地に着陸した際とさらにホテルに着いた直後、自分に電話をするよう妻に要求するようになった。また、出張に出る前には毎回、行かないでくれとAGが懇願することに妻は不満を感じている。現職に就く際に、出張が多くなるであろうことも含め夫婦間で話し合いを済ませたはずだったので、妻にとってはこれが非常に不公平な要求に思える。AGの行動は妻の仕事に大いに支障をきたしているので、出張のない別の仕事への転職を考えなければと妻は感じている。妻にとってAGの行動は理解できないものであり、ずっと欲しかったキャリアがせっかく手に入ったのに、その能力を発揮させてくれないAGに対して憎しみを感じている。     AGは心理士に対し、根拠のないことだと頭ではわかっているが、妻が出張中にけがをしたり殺されたりしてしまうのが恐ろしい、と話す。妻がそばにいないと夜はろくに眠れず、夜中に「冷や汗びっしょりで」起きることがしばしばあると言う。妻が生きていることを確認したくて、出張先のホテルに夜中に電話をかけたことも何度かある。妻が出張中でないときでさえ、一日に何度も妻に携帯メールを送り、無事を確認する。すぐに返信がないと、妻の職場と携帯電話に、妻が応答するまで何度も電話をかける。     AGの妻は、夫との関係を最初からとても情熱的だったと表現し、AGの行動について、最初は深い愛情のしるしだと思った、と語った。そこでAGは、「どれだけ僕が君を愛しているか知っているだろう。君を失いたくないんだ」と妻の話を遮った。それに対して妻は、「片時も目を離さないでいられたら、失うも何もないじゃないの！」とすぐさま反論した。AGの妻によれば、交際を始めて以来ずっと、AGは自由になる時間すべてを一緒に過ごしたがり、どこか不安定な感じはあったが、今ではもう度を越していると言う。同時に、AGは基本的に自分のことは自信を持って決められる人だし、彼から自分が離れている期間のことを除けば、自分の決断に口出しをしてくるような人ではないとも感じている。AGは、出張時の自分の行動のせいで妻がフラストレーションを感じているのはわかっている、と言う。妻を怒らせたくはないが、妻に何か起こってしまうのではないかと不安で自制が効かないのだと話す。彼自身としては妻との関係を良好なものと捉えているが、妻の出張にまつわる二人の間の緊迫感は、長期的にみて二人の関係性に悪影響を及ぼすのではないかと心配している。
+Additional Background Information: AGはプロの写真家である。自営のスタジオはうまくいっており、従業員にも十分好かれている。妻と出会う前には、真剣に交際した相手が二人いた。この二人について、妻ほど心配した記憶はないと言う。AGには付き合いの長い親しい友人が数名いる。AGはアルコールを飲まないし、他の物質使用歴もない。体重が標準を若干上回っていて高血圧だが、それについて特に服薬はしていない。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Social Anxiety Disorder AND Panic Disorder
+Reasoning: The patient's symptoms of intense fear or anxiety about social situations and fear of embarrassment or disapproval, as well as the presence of panic attacks, suggest both social anxiety disorder and panic disorder.
+
+Second Most Likely Diagnosis: Generalized Anxiety Disorder
+Reasoning: The patient's persistent and excessive anxiety and worry about various events and activities, as well as the physical symptoms such as insomnia and sweating, are consistent with generalized anxiety disorder.
+
+Third Most Likely Diagnosis: No Diagnosis
+Reasoning: The patient's symptoms do not clearly fit into any specific anxiety disorder diagnosis, and further evaluation and assessment may be necessary to determine if there is an underlying mental or physical condition contributing to their symptoms.","['Social Anxiety Disorder AND Panic Disorder', 'Generalized Anxiety Disorder', 'No Diagnosis']",Separation Anxiety Disorder,False,False,False
+Stress Vignette 1A FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+ Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Disorders Specifically Associated with Stress.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the stress-related diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood or anxiety disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: WM氏は、プライマリケア医に紹介された45歳のトラック運転手である。約1年前に、車を運転していて交通事故にあって以来、仕事に困難があると述べた。彼は事故で負傷し、回復のため1週間の入院を要し、後に「死ななかったのは幸運だった」と述べた。 
+Presenting Symptoms: 事故以来、WM氏は絶えず緊張を感じ、車道沿いを歩いているとき大きな音がするとびくっとし、速いスピードで走っている車のブレーキ音を聞くと、腕が前に上がり、いつの間にか足で想像上のブレーキを踏むような動作をしてしまう。長距離運転の前には、事故の悪夢のために睡眠がひどく妨げられる。家中を歩き回り、ハンドルで押さえつけられた胸郭に沿って、胸痛を感じる。 仕事がないときには、運転をすべて避けている。運転中に起きた「ニアミス」の話を聞くのに耐えられないので、同僚の運転手との交流も避けている。トラックに乗るときは、乗り込む勇気が出るまで、何回も車の周りを歩く。 過去1年の間に、2度ほどトラックに乗れず病欠をとったために、その分の仕事ができず収入が得られなかった。  
+Additional Background Information: WM氏と妻との関係は、20年間おおむね良好であったが、WF氏の振る舞いのために収入がかなり減少し、妻は耐えられなくなっている。子どもとの関係は、彼がいつも出かけているために、やや疎遠である。神経学的検査とCATスキャンでは異常は認められない。肋骨や他の傷はよく治っており、これらによる痛みはもうないはずである。 
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette?
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- A diagnosis from a different diagnostic area (e.g. mood disorders, psychotic disorders, personality disorders)
+- No Diagnosis; normal reaction to stressful event(s)
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Post-Traumatic Stress Disorder (PTSD)
+Reasoning: The patient's symptoms, such as intense anxiety when hearing loud noises, re-experiencing the traumatic event through nightmares, and avoidance of situations or people that remind him of the accident, are consistent with PTSD.
+
+Second Most Likely: Adjustment Disorder
+Reasoning: The patient's symptoms, such as difficulty sleeping and avoidance of work and social interactions due to the accident, could also be consistent with an adjustment disorder. However, the severity and persistence of the symptoms, as well as the presence of re-experiencing the traumatic event, suggest a more severe disorder like PTSD.
+
+Third Most Likely: No Diagnosis; normal reaction to stressful event(s)
+Reasoning: Some of the patient's symptoms, such as difficulty sleeping and avoidance of situations or people that remind him of the accident, could be considered a normal reaction to a stressful event. However, the severity and persistence of the symptoms, as well as the presence of re-experiencing the traumatic event, suggest a more severe disorder like PTSD.","['Post-Traumatic Stress Disorder (PTSD)', 'Adjustment Disorder', 'No Diagnosis; normal reaction to stressful event(s)']",Post-Traumatic Stress Disorder (PTSD),True,True,True
+Stress Vignette 1B FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+ Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Disorders Specifically Associated with Stress.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the stress-related diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood or anxiety disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: RV氏は、過去25年間郵便局に勤め、手紙や小包の配達をしてきた。学校を卒業してから、最初で唯一の仕事である。過去数ヵ月の間、RV氏が遅刻や単純なミスをし、今では仕事を楽しんでいないようにみえることに同僚が気づき、こういう行動は、RV氏には珍しいため、上司はメンタルヘルス専門家を受診するように指示した。       
+Presenting Symptoms: RV氏は時々貴重品小包を固定客に配達しなければならず、6ヵ月前の配達中に武装した2人の男にナイフをつきつけられて襲われ、強盗にあった。RV氏によれば、そのとき彼はパニックに陥り、その場に立ちすくんで動けなくなった。その後、街の特定の区域に配達しなければならないときには、不安やパニックを感じるようになった。襲われたこと、またどうして他人ではなく自分にそれが起こったのかについていく度となく考える。また、どうすれば防ぐことができたのかと考える。交通量の多い通りを渡るといった、強盗にあう前はまったく気にならなかった場面でもRV氏は危険を感じるようになり、襲われた場所を通るのは耐えらないと言って、同僚に従来の配達ルートを代わってくれるように頼んだ。不安と向き合わずにすむように、電話して病休をとったことも何回かある。
+Additional Background Information: RV氏と長い間一緒に住んでいるパートナーによると、RV氏が家から外出したがらないために、最近数ヵ月間、2人の関係はぎくしゃくしてきている。以前は毎週金曜日に、2人でダンスに出かけていた。2人には子どもはいない。    
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette?
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- A diagnosis from a different diagnostic area (e.g. mood disorders, psychotic disorders, personality disorders)
+- No Diagnosis; normal reaction to stressful event(s)
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Post-Traumatic Stress Disorder (PTSD)
+Reasoning: The patient's experience of being robbed at gunpoint and the subsequent development of panic attacks, avoidance of specific locations, and intrusive thoughts about the event are consistent with the diagnostic criteria for PTSD.
+
+Second Most Likely: Adjustment Disorder
+Reasoning: The patient's symptoms, such as anxiety and avoidance, may be considered a normal reaction to an abnormal situation (being robbed) but their persistence and impact on functioning suggest an adjustment disorder.
+
+Third Most Likely: Complex Post-Traumatic Stress Disorder (CPTSD)
+Reasoning: The patient's description of feeling uneasy in certain areas and the long-term impact on their relationship with their partner could suggest CPTSD, which includes symptoms of emotional dysregulation and disturbances in relationships. However, the vignette does not provide enough information to definitively diagnose CPTSD over PTSD.","['Post-Traumatic Stress Disorder (PTSD)', 'Adjustment Disorder', 'Complex Post-Traumatic Stress Disorder (CPTSD)']",Other Disorder Specifically Associated with Stress,False,False,False
+Stress Vignette 1C FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+ Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Disorders Specifically Associated with Stress.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the stress-related diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood or anxiety disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: AT氏は、27歳、既婚の農場作業員で、1歳の娘がいる。村の長がAT氏を地域メンタルヘルスチームに紹介した。5ヵ月前、AT氏が整地していたときに地雷が爆発し、負傷した。彼は、放置された前哨基地がたくさんある畑を、シャベルで掘っていた。爆発で目と体の複数箇所に負傷し、一緒に働いていた作業員がAT氏を病院に運んだ。 
+Presenting Symptoms: AT氏はもともと働き者の農場作業員だが、身体的な負傷から回復するのに爆発から3ヵ月間かかり、その間は働けなかった。AT氏が働けず収入がなかったため、妻が家族を支えるために、代わりに農場の作業に出た。妻は、AT氏にできるだけ早く仕事に戻るように励まし、彼も承諾した。 
+  	AT氏によると、2ヵ月前に仕事に復帰しようとして、シャベルを手にとった瞬間に大量の汗が出て、力が入らずひどい頭痛がしたという。さらに、農場から離れた場所にいるときでも、シャベルを見ると、自分が地面を掘って何かにぶつかり、突然爆発が起きるイメージが目に浮かぶ。そして自分が地面に横たわり、傷から出血しているように感じる。これらのイメージは、実際に起きているかのように、何度も心に浮かんでくる。妻が働きに出かけるよう促したり、地雷の事故が起きた場所の近くを通るときにも、同様の体験が起きる。妻が事故を話題にしても、AT氏は事故について話すことを拒否する。緊張感や焦燥があり、突然の音やドアがバタンと閉まる音でびくっとしてしまう。爆発が起きた畑の近くに行くことや特定の農機具を使うのを避けるようになった。シャベルで掘っているときに地雷が爆発し、重傷を負うという悪夢に見舞われ、突然目が覚めることがしばしばあり、そういうときに身体は震え、大量に発汗している。  	   	これらの症状は、今回の紹介まで過去数ヵ月の間ずっと続いている。これらの困難にもかかわらず、AT氏はけがが治ってからすぐに仕事に復帰し、通常の一家の稼ぎ手としての役割を再開した。以来、毎日継続して働きに出ており、「苦痛ではあるが頑張っている」。
+Additional Background Information: この地方では、地雷事故による多くの負傷や死亡が起きている。爆発後に数日間病院で初期治療を受けてからAT氏は自宅に戻った。医師による再診を受けたところ、身体的な負傷が治癒していることが確認された。妻は一貫して支持的な態度であり、2人の関係は強固なままである。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette?
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- A diagnosis from a different diagnostic area (e.g. mood disorders, psychotic disorders, personality disorders)
+- No Diagnosis; normal reaction to stressful event(s)
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Post-Traumatic Stress Disorder (PTSD)
+Reasoning: The patient's symptoms, such as intrusive thoughts and avoidance behaviors related to the traumatic event, suggest PTSD.
+
+Second Most Likely: Complex Post-Traumatic Stress Disorder (CPTSD)
+Reasoning: The patient's history of prolonged exposure to the traumatic event and the presence of emotional dysregulation and dissociative symptoms could indicate CPTSD.
+
+Third Most Likely: No Diagnosis; normal reaction to stressful event(s)
+Reasoning: The patient's ability to resume work and maintain a strong relationship with their spouse despite the ongoing difficulties suggests that they may be coping effectively with the stressors and do not meet the diagnostic criteria for a mental disorder.","['Post-Traumatic Stress Disorder (PTSD)', 'Complex Post-Traumatic Stress Disorder (CPTSD)', 'No Diagnosis; normal reaction to stressful event(s)']",Post-Traumatic Stress Disorder (PTSD),True,True,True
+Stress Vignette 1D FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+ Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Disorders Specifically Associated with Stress.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the stress-related diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood or anxiety disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: DB氏は、47歳の自営業の株式トレーダーである。DB氏は、１年前の事故の後、突然に始まった生活に大きな悪影響を及ぼす持続的な症状のために、家庭医に紹介された。DB氏は、自分が事故をなぜ簡単に乗り越えられないのか理解できず、メンタルヘルスの専門家にあうのをためらっていた。 
+Presenting Symptoms: 1年前、DB氏が、自宅の大きな食糧庫を修繕していたとき、天井と屋根の一部が崩れた。DB氏は下敷きになり、崩落に伴い舞い上がった大量のほこりで窒息しそうになった。以来、1日中ほとんど神経質な感じであり、公共の場や人混み、戸の開いた食糧庫を避けている。予期しない音ですぐにびっくりする。非常に料理好きであったのに、恐怖は台所にも及び、台所に入るたびに事故を思い出し、事故が再び起きているかのように感じる。以前は妻と交代で料理をしていたが、今では妻に料理を全部やってくれるように要求している。妻はこの一方的な注文に不満を感じ、2人の関係がうまくいかなくなっている。週に1回は閉じ込められる悪夢をみて、恐怖、パニックを感じる。夢から目覚めると、汗びっしょりになっている。エレベーターのような閉じた場所に入ると、事故のときと同じような胸への圧迫感を感じる。これらの問題のために仕事に取り組みづらくなったので、家族の収入はほとんどなくなり、人づきあいも非常に減っている。
+Additional Background Information: DB氏には精神障害の既往はなく、人生で病気にかかったことがないことを誇りにしている。彼は、誰をも恐れない非常にタフな人物として、地域で知られている。妻と３人の子どもがいるが、天井が崩れたとき、家族は誰も家にいなかった。彼は助けを求めて叫んだが、誰かが警報を鳴らしてくれて彼が救出されたのは数時間後であった。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette?
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- A diagnosis from a different diagnostic area (e.g. mood disorders, psychotic disorders, personality disorders)
+- No Diagnosis; normal reaction to stressful event(s)
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Post-Traumatic Stress Disorder (PTSD)
+Reasoning: The patient's symptoms, such as the sudden onset of intense fear or anxiety when reminded of the traumatic event, avoidance of stimuli associated with the event, and intrusive thoughts and nightmares, are consistent with PTSD.
+
+Second Most Likely: Complex Post-Traumatic Stress Disorder (CPTSD)
+Reasoning: The patient's description of feeling overwhelmed and unable to cope with everyday life, avoidance of public places and enclosed spaces, and the impact on relationships suggest the possibility of CPTSD, which includes symptoms of emotional dysregulation and difficulties with attachment and interpersonal relationships.
+
+Third Most Likely: Adjustment Disorder
+Reasoning: The patient's symptoms, such as avoidance of certain places and feelings of anxiety, could potentially be considered an adjustment disorder, as they may be a normal response to a stressful event but are severe enough to interfere with daily functioning. However, the presence of other symptoms, such as intrusive thoughts and nightmares, suggest a more complex diagnosis.
+
+It is important to note that a definitive diagnosis can only be made through a comprehensive clinical evaluation and diagnostic interview with the patient. The information provided in the vignette should be used as a guide and not as a definitive diagnosis.","['Post-Traumatic Stress Disorder (PTSD)', 'Complex Post-Traumatic Stress Disorder (CPTSD)', 'Adjustment Disorder']",Post-Traumatic Stress Disorder (PTSD),True,True,True
+Stress Vignette 2A FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+ Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Disorders Specifically Associated with Stress.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the stress-related diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood or anxiety disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: SKさんは32歳の地元の大学の学生で、1歳半の子どもの母親である。勉学を続けることができなくなり、大学のカウンセリングセンターが、カウンセリングセンターよりも集中的な治療を受けることを勧め、クリニックに紹介された。彼女は今も内戦状態が続いている国の難民で、現在の国には6年間住んでいる。彼女と兄弟が現在の地に移住する前に、母国で彼女の家族全員が逮捕され、迫害を受けた。  
+Presenting Symptoms: SKさんは、ひどく疲弊していた。母国を出て以来よく眠れず、毎晩2～3時間しか睡眠がとれないと述べた。また、自分自身、父親、兄弟の数回にわたる逮捕や彼女自身の投獄体験を再体験するのがつらいと述べた。これらの体験について話すと動揺し、号泣してしまう。悪夢について尋ねられると、週に何回か悪夢があると答えるが、語ることは難しいと言って経験の詳細を語りたがらない。SKさんはいつもいらいらしており、心の平穏を感じることができず、尾行され続けているように感じる。このために、彼女は見知らぬ人は危ないのではないかと感じ、近寄るのを好まない。ほとんどの日は自宅にとどまり、大学の授業にはまったく出席しなくなっている。その結果、どの授業の単位も取得できず、強制退学になりそうである。  	   	彼女は、何の楽しみも感じられないと述べた。それどころか、ほぼいつでも麻痺しているように感じると言う。再び幸せと感じることができないのではないか、何においてもけっして再び成功できないのではないかと恐れている。刑務所で姿を消した愛する父親を救えなかったため、自分を悪い娘だと思い、父親の苦しみを考えると、自分は人間として失敗したと強い罪悪感を抱いている。母親との関係は現在は冷たいものであるが、過去にはそのようなことはなく、葛藤があったという報告も特にない。夫との関係も冷たく、何の感情も伴っていない。そのため、夫は家庭であまり時間を過ごさず、夫の母国からの友達と多くの時間を過ごしている。夫は彼女を支えようとするが、彼女は夫の気持ちを受け入れず、夫が努力していることすら認めようとしない。家庭では、「ほんの小さなこと」をめぐり、怒らせるような言動を夫がとるわけでもないのに夫に怒鳴るので、2人の仲はさらに疎遠になっている。彼女によると、夫は離婚を考えているという。
+Additional Background Information: 彼女は24歳のときから、母国で数回にわたり投獄され、合計18ヵ月を刑務所で過ごした。刑務所の看守による性的虐待については漠然とした言い方で詳細を語りたがらず、「ほとんど毎日あった」と述べている。父親は、彼女自身が逮捕される少し前に逮捕され、その後行方不明になっている。隣国の出身である夫とは、現在の国で出会った。  	  彼女は、小児期および思春期にはきちんと保護され、積極的で能力があったと述べている。母国では友人が多数いたが、移住後の今は、社会的なネットワークは家族のみに限られている。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette?
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- A diagnosis from a different diagnostic area (e.g. mood disorders, psychotic disorders, personality disorders)
+- No Diagnosis; normal reaction to stressful event(s)
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Complex Post-Traumatic Stress Disorder (CPTSD)
+Reasoning: The patient's description of ongoing symptoms related to her traumatic experiences, including insomnia, intrusive thoughts and nightmares, feelings of guilt and worthlessness, and avoidance of people and situations, aligns with the diagnostic criteria for CPTSD.
+
+Second Most Likely Diagnosis: Adjustment Disorder
+Reasoning: The patient's description of feeling irritable and unable to enjoy life, as well as her difficulty in adapting to her new environment and social network, could suggest an adjustment disorder. However, the severity and persistence of her symptoms, as well as the presence of past traumatic experiences, make a more specific stress-related diagnosis, such as CPTSD, a better fit.
+
+Third Most Likely Diagnosis: Depression
+Reasoning: The patient's description of feeling sad, hopeless, and worthless, as well as her lack of interest in activities and difficulty sleeping, could suggest a depressive disorder. However, the presence of stressors and the absence of other symptoms, such as appetite changes or motor symptoms, make this a less likely diagnosis.","['Complex Post-Traumatic Stress Disorder (CPTSD)', 'Adjustment Disorder', 'Depression']",Complex Post-Traumatic Stress Disorder (CPTSD),True,True,True
+Stress Vignette 2B FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+ Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Disorders Specifically Associated with Stress.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the stress-related diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood or anxiety disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: FKは19歳の大学生で、学生寮で2名のルームメイトと生活している。FKは12歳以降、継父によるひどい身体的虐待を受けた。殴られた身体的な負傷のために、2回入院したことがある。13歳のとき、母親が殴られるのを止めようとしたFKは、継父に腕を折られた。2年前、母親が瀕死の重傷を負って病院に運ばれた後、継父は警察に逮捕され、以後ずっと刑務所にいる。FKのルームメイトが、FKの奇妙な行動に気がつき、FKを大学のカウンセラーに紹介した。  	
+Presenting Symptoms: カウンセラーとの面談の際、FKははじめ、来談の理由について話したがらなかった。FKが殴られていたことをルームメイトから聞いているとカウンセラーが言うと、FKは泣き出し、FKと母親が継父によってしばしば殴られていたことを認めたが、過去について話したくないと言い、部屋を出て行こうとした。カウンセラーは、FKに学校での問題について話すように促した。FKは継父のイメージが目の前に繰り返してフラッシュバックするために、授業中集中が困難であると述べた。学校で、FKはしばしばびくびくしがちで、いら立っている。  	夜しばしば、継父から自分を防御している夢をみており、朝はルームメイトが出ていくのを待って、自分の部屋から出てくる。夕方には、FKは非常に緊張し、ルームメイトが酔っぱらっているかもしれないと、しばしば怯え、部屋にこもってドアに鍵をかける。母は数百メートル離れたところに住んでいるが、彼は、母親のアパートをみると、ひどく動揺すると言って、母親をめったに訪問しない。自分と継父または母親と継父が争っているイメージが、頭の中にしばしば浮かぶので、テレビをみたり、コンピュータでゲームをしたりして、気を紛らわそうとする。現在の学年が終わったら退学したいと思っているが、その後何をしたよいのかわかっていない。FKはよく眠れず、学校の成績はとても悪い。これらの症状は、継父が彼を殴るようになって間もなく現れ、継父が家を出た後も続いており、この2年間症状のために日常生活を送ることが困難であると述べた。彼の家庭環境について知っているクラスメイトの何人かとは、親密な関係を維持している。現在の困難は継父のせいであると責め、ためらいなく継父への怒りを表す。自分自身について、非常につらい体験を抱えた善良な人間であると思う、と述べている。一方、自分よりもっとつらい体験をした人が大勢いるとわかっている、とも述べている。彼は、過去の経歴に打ち勝って、仕事や家庭生活で成功できると信じている。
+Additional Background Information:   FKは9歳のときに、車の事故で父親を失った。 彼が11歳のとき、母親は、彼の父親のもとの友人と結婚した。  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette?
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- A diagnosis from a different diagnostic area (e.g. mood disorders, psychotic disorders, personality disorders)
+- No Diagnosis; normal reaction to stressful event(s)
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Complex Post-Traumatic Stress Disorder (CPTSD)
+Reasoning: The patient's history of prolonged physical abuse, the presence of intrusive thoughts and nightmares related to the traumatic events, and the avoidance of reminders of the trauma all suggest a diagnosis of Complex Post-Traumatic Stress Disorder.
+
+Second Most Likely: Adjustment Disorder
+Reasoning: The patient's symptoms, such as difficulty concentrating in school and insomnia, could be considered a normal reaction to stress. However, the severity and duration of these symptoms, as well as the presence of other symptoms like intrusive thoughts and nightmares, suggest that an adjustment disorder may not fully capture the complexity of the patient's presentation.
+
+Third Most Likely: Post-Traumatic Stress Disorder (PTSD)
+Reasoning: While the patient's symptoms are consistent with PTSD, the diagnosis may not fully capture the complexity of the patient's presentation, as the symptoms described suggest a more chronic and pervasive response to trauma. Additionally, the patient's ability to function in some areas, such as their belief in their ability to succeed in work and family life, suggests that they may not meet all of the criteria for a PTSD diagnosis.","['Complex Post-Traumatic Stress Disorder (CPTSD)', 'Adjustment Disorder', 'Post-Traumatic Stress Disorder (PTSD)']",Post-Traumatic Stress Disorder (PTSD),False,False,True
+Stress Vignette 3 FINAL   ,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+ Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Disorders Specifically Associated with Stress.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the stress-related diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood or anxiety disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: CC氏は50歳の父親で, 3人の成人した娘がいるが、妻は4ヵ月前に、地震で死亡した。CC氏が、依然として「悲嘆で麻痺している」ようにみえることを心配して、長女がプライマリケア診療所に連れて来た。地震前は活動的かつ精力的で、妻と一緒に小さな店を経営していた。地震が起きたとき、彼は被災地の外にいたが、店の倒壊で妻は即死した。震災直後には、彼は状況にうまく対応しているようにみえ、家族は母親の葬儀をして埋葬した。娘たちは、そろそろ仕事に戻れるだろうと思っていたが、CC氏は、妻なしで仕事に行くのが耐え難く、仕事に戻ることは今のところ考えられないと言う。1日のほとんど自宅にいて、時にラジオを聴きながら1人で過ごす。娘たちは、彼の体重の減少や亡くなった妻がそこにいるかのようにCC氏が話をしていることも、心配している。  
+Presenting Symptoms: 面接では、CC氏は礼儀正しいが、内にこもっていた。清潔なシャツとズボンをきちんと着て、 静かに座っておだやかに話し、話すスピードは普通である。質問にはすべて答え、妻の死後、本来の自分でないことを認める。「人はこのような状況で『正常』でいられるのでしょうか」と医師に尋ねた。いつも妻のことを考え、長い時間、一緒に過ごした生活を思い出している。これらは幸せな思い出で、CC氏は妻のことを考えているときに、他人に遮られたり、注意をそらされたりすることを嫌う。地震についての、不快で侵襲的な記憶や悪夢はない。夜、妻の夢をみることがあるが、いい夢で、朝、目が覚めて妻がいないことを認識して、悲しく思う。1人でいるときには泣くが、娘にはみせないようにしている。 店を再開するという考えは、現在のところ検討できないほど苦痛で、数年間は働かなくてもよい貯蓄がある。ここ3ヵ月あまり食欲がなく、約5キロ体重が減ったことは認めるが、食べようと努力はしている。その他のことについては自己管理ができている。自殺念慮は否定している。 妻と話していることについて尋ねられると、時々妻の魂が実際に部屋にいるように感じると述べた。現実でないとわかっているが、こういう現象には現実感があり、信仰とも一致するので、妻が訪ねてきて自分を見守っているように感じると述べた。妻と話すのが好きで慰めでもあるので、なぜやめなければいけないのかわからないという。
+Additional Background Information: CC氏は30年間妻と結婚生活を送り、妻と離れて暮らしたことがほとんどない。店は2人で作り上げた生活の糧であり、また生活の一部そのものでもあった。娘たちは皆結婚して親元で暮らしていないが、近所に住み、しばしばCC氏を訪ねている。それほど保守的ではないが、家族はみな信心深い。CC氏は、精神疾患、身体疾患を問わず、重い病気にかかったことはない。診察および血液検査では、体重減少の身体的原因は明らかにならなかった。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette?
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- A diagnosis from a different diagnostic area (e.g. mood disorders, psychotic disorders, personality disorders)
+- No Diagnosis; normal reaction to stressful event(s)
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Prolonged Grief Disorder
+Reasoning: The patient's symptoms, such as persistent preoccupation with the deceased spouse, inability to resume work, and weight loss, suggest a prolonged and intense response to the loss that goes beyond normal grieving.
+
+Second Most Likely: Adjustment Disorder
+Reasoning: The patient's ability to answer questions and acknowledge that they are not their usual self, as well as the absence of symptoms like intrusive thoughts or flashbacks, suggest an adjustment disorder rather than PTSD.
+
+Third Most Likely: No Diagnosis; normal reaction to stressful event(s)
+Reasoning: The patient's ability to function relatively well in their daily life, their recognition that they are not their usual self, and the absence of symptoms like depression or anxiety that would indicate a mood or anxiety disorder, suggest that they are experiencing a normal reaction to a stressful event. However, their symptoms persist for an extended period, which is why Prolonged Grief Disorder is a more likely diagnosis.","['Prolonged Grief Disorder', 'Adjustment Disorder', 'No Diagnosis; normal reaction to stressful event(s)']",No Diagnosis; normal reaction to stressful event(s),False,False,True
+Stress Vignette 4 FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+ Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Disorders Specifically Associated with Stress.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the stress-related diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood or anxiety disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: DDは16歳の少年で、学校の教師からメンタルヘルス診療所に紹介された。DDの兄JDが亡くなってから18カ月間、DDの成績が下がっていること、性格が変わったようにみえることを、教師は心配していた。兄JDは17歳のときに軍人として志願し、進行中の戦争で数週間後に死亡した。兄の死亡後数カ月間、DDはしばしば学校を休み、登校したときも、注意が散漫で、授業に関心がなく、時々涙を流し、レクリエーションにも参加しようとしなかった。兄が死亡する前には、DDは人気者であった。 教師は兄の死後数ヵ月間のDDの反応は理解できていたが、時間が経てば回復すると考えていた。しかし、彼はいまだ回復していない。  	   	兄の死から18ヶ月以上経っても、DDは普段の自分に戻れていない。前よりも授業に注意を向け、学校を休まないようになったが、成績は非常に悪いままである。 もともとの友人のグループと時間を過ごすことがなく、孤立している。学校をやめて兄の部隊に入隊しようと考えたと教師に話したが、父親はこれを許さなかった。 DDは兄のJDを英雄視しており、一緒に軍隊に参加していればよかったと思っている。そうすれば、JDを守れたか、一緒に死ねたかもしれないと言う。 DDは少なくとも1週間に1度葬儀のホームビデオをみている。また、JDのために寝室に小さな祭壇を作った。DDは自分がもともと好きだったサッカーをやめて、JDが好きだったバスケットボールをしている。気持ちが慰められるので、DDはしばしばJDの服を学校に着ていく。  
+Presenting Symptoms: DDは、喜んで精神科医との面談に臨んだ。抵抗なく会話し、知的な青年という印象を与えた。兄について話す機会をもてたことをうれしく思っているようである。面談中のDDの様子、会話、振る舞いは適切なものであるが、兄の武勇伝と死の話題を離れて、彼自身の気持ちについて話すのは難しい。 DDは教師からの情報をすべて認め、両親の喪失を補うためにできるだけ兄のようになろうと決めたのだ、と語った。彼はたいていの時間、悲しんでおり、葬儀をみると涙を流すが、慰めにもなると感じる。学校での成績が悪いこと、重要な試験に落第するかもしれないことは理解している。ただ、それらは今となってはもうあまり重要な感じがしない。今では自分は旧友たちに飽きられていると思い、自分の気持ちを彼らに相談できないため、彼は周囲と付き合わず1人でいる。自殺念慮はない。たいていの日は疲れを感じるが、睡眠および食欲は正常である。 
+Additional Background Information: 両親によると、DDが生まれたときからDDと兄は非常に仲がよかった。 彼らはいつもかばいあい、DDはJDを崇拝していた。JDは入隊を前夜まで秘密にしていたので、JDが軍に入るという決断はDDにとってショックであった。入隊数週間後、JDは死亡した。 両親も長男を崇拝しており、面談中に涙し、どうしたら次男を助けられるかアドバイスを欲しがった。彼らは、葬儀ビデオと祭壇があまりに長く続いていると考えているが、DDの気持ちを乱したくないとも思っている。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette?
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- A diagnosis from a different diagnostic area (e.g. mood disorders, psychotic disorders, personality disorders)
+- No Diagnosis; normal reaction to stressful event(s)
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Post-Traumatic Stress Disorder (PTSD)
+Reasoning: The patient's symptoms, such as re-experiencing the traumatic event through intrusive thoughts and emotions, avoidance of reminders of the event, and negative alterations in mood and cognition, are consistent with PTSD.
+
+Second Most Likely: Complex Post-Traumatic Stress Disorder (CPTSD)
+Reasoning: The patient's history of prolonged exposure to the traumatic event and the resulting symptoms, including emotional dysregulation, dissociation, and interpersonal difficulties, suggest CPTSD.
+
+Third Most Likely: Prolonged Grief Disorder
+Reasoning: The patient's intense and persistent grief response, which includes preoccupation with the deceased brother, avoidance of activities and places that remind him of the brother, and significant impairment in social and occupational functioning, could be indicative of prolonged grief disorder. However, the presence of other PTSD symptoms makes this a less likely diagnosis.
+
+Additional Diagnosis: Adjustment Disorder
+Reasoning: The patient's symptoms, such as sadness, anxiety, and avoidance of activities, could be indicative of an adjustment disorder. However, the presence of more severe and persistent symptoms, such as re-experiencing the traumatic event and avoidance of reminders of the event, make this a less likely diagnosis.
+
+Other Diagnosis: No Diagnosis; normal reaction to stressful event(s)
+Reasoning: While the patient's symptoms are significant, they may be a normal reaction to the traumatic loss of his brother and the resulting stress. However, the presence of persistent symptoms and impairment in functioning suggest that a mental disorder is present.
+
+It is important to note that a definitive diagnosis can only be made through a comprehensive clinical evaluation and diagnostic interview. The information provided in the vignette should be used as a guide and not as a definitive diagnosis.","['Post-Traumatic Stress Disorder (PTSD)', 'Complex Post-Traumatic Stress Disorder (CPTSD)', 'Prolonged Grief Disorder']",Prolonged Grief Disorder,False,False,True
+Stress Vignette 5A FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+ Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Disorders Specifically Associated with Stress.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the stress-related diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood or anxiety disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: SZさんは、46歳の女性で離婚している。かかりつけの一般医から、気分が乱されて家事ができなくなっているという理由で、精神科医に紹介された。  
+Presenting Symptoms: SZさんは、4ヵ月前の離婚以来、極度な不安と落ち込みを感じると訴え、恥をかかされ、だまされたと感じている。子どもの前でしばしば取り乱してしまい、後でひどく自分を責める。結婚生活がうまくいかなかったこと、もめた離婚の過程で前夫に不貞を働いたとなじられた屈辱的な経験のことを、始終考えてしまう。よく眠れないが、食欲には変化はない。夜何回も目を覚ましては、離婚の際に不快で恥をかかせられた感覚を感じる。子どもの世話や家事に困難がある。16歳の娘は家事をするために、しばしば学校を休んでいる。
+Additional Background Information: SZさんは、20年間結婚していて3人の子どもがいるが、結婚生活は幸福なものではなかった。一番下の子は12歳で、喘息のひどい発作がある。前夫は銀行員で、過度に飲酒する傾向があった。彼女によると、前夫は気が短く、責任感がなかった。自分の家族からはあまりサポートを得られず、彼女自身の収入源もなかった。そのため、結婚生活は幸福ではなかったが、彼女は前夫と別れようとは考えていなかった。彼女にとって離婚はショックであり、前夫が彼女が浮気していたと公然となじったため、ショックはさらに深まった。初回の面接の後、彼女は2回支持的な精神療法を受けた。3週間後、彼女は症状が改善し、やらなければいけないことができるようになったという理由で通院を中止した。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette?
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- A diagnosis from a different diagnostic area (e.g. mood disorders, psychotic disorders, personality disorders)
+- No Diagnosis; normal reaction to stressful event(s)
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Complex Post-Traumatic Stress Disorder (CPTSD)
+Reasoning: The patient's symptoms of intense feelings of anxiety, guilt, and shame, as well as her difficulty sleeping and caring for her children, suggest complex post-traumatic stress disorder. The traumatic experience of her husband's infidelity and the resulting divorce, combined with her history of an unhappy marriage and lack of support from her family, make her vulnerable to developing CPTSD.
+
+Second Most Likely Diagnosis: Adjustment Disorder
+Reasoning: The patient's symptoms may also be consistent with an adjustment disorder, as she is having difficulty coping with the stressors of her divorce and caring for her children. However, the severity and persistence of her symptoms, as well as the presence of symptoms such as shame and guilt, suggest a more complex and enduring response to the stressors.
+
+Third Most Likely Diagnosis: Acute Stress Reaction
+Reasoning: The patient's symptoms could also be considered an acute stress reaction, as she is experiencing a strong response to the stressors of her divorce. However, the duration of her symptoms and the presence of symptoms such as shame and guilt suggest that her response is more complex and enduring than an acute stress reaction.
+
+It is important to note that a definitive diagnosis can only be made through a comprehensive clinical evaluation and diagnostic interview with the patient. The information provided in the vignette should be used as a guide and not as a definitive diagnosis.","['Complex Post-Traumatic Stress Disorder (CPTSD)', 'Adjustment Disorder', 'Acute Stress Reaction']",Adjustment Disorder,False,True,True
+Stress Vignette 5B FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+ Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Disorders Specifically Associated with Stress.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the stress-related diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood or anxiety disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: AHさんは45歳の女性で、１週間前に8歳の息子のスクールカウンセラーに会った後、紹介された。彼女の夫が3ヵ月前に自動車の事故で重傷を負ってから「神経衰弱」になったと述べた。大きな車にぶつけられたときに、彼女は夫と一緒に車に乗っていた。夫は、左腕と左足を押しつぶされ、再建手術を受けている。AHさんは事故を目撃したが、負傷はしなかった。事故以来、精一杯努力して最低限の家事を終えるのがやっとで、まったく家事ができないこともしばしばある。  
+Presenting Symptoms: AHさんは常に事故と夫の負傷について考えてしまい、考えが心の中で「ずっと堂々巡りしている」と述べた。しばしば泣いてしまい、泣き止むことができず、息子と一緒にいても、絶望的に感じる。不眠がひどく、休息がとれない。夫が負傷したために、家族は深刻な経済問題をかかえているが、今はひとつのことに集中できる状態ではないので、仕事を探すことはできないと述べた。どんな家事をこなすのも非常に困難になっており、彼女が昼食を用意するのを忘れたために、息子はほかの子どもの昼食を盗んでつかまった。  	自責、自己卑下感、自殺傾向、食欲の変化はないという。 
+Additional Background Information: AHさんには、精神的な問題の既往はない。比較的裕福な家庭で非常によい子ども時代を過ごし、通常の教育を受けたと述べている。初診の後、2週間後に1回だけフォローアップのために受診した。集中力は回復し、「正常に戻った」と感じ始めていると述べた。  	   
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette?
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- A diagnosis from a different diagnostic area (e.g. mood disorders, psychotic disorders, personality disorders)
+- No Diagnosis; normal reaction to stressful event(s)
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Complex Post-Traumatic Stress Disorder (CPTSD)
+Reasoning: The patient's symptoms of persistent thoughts about the traumatic event, frequent crying, and feeling hopeless even when with her child suggest complex PTSD, which includes symptoms of emotional dysregulation and negative self-concept in addition to the core symptoms of PTSD.
+
+Second Most Likely Diagnosis: Adjustment Disorder
+Reasoning: The patient's reported difficulty focusing on work and family responsibilities, as well as her family's economic struggles, could suggest an adjustment disorder, which encompasses symptoms of emotional and behavioral reactions to stressors that are not severe enough to meet the criteria for other diagnoses.
+
+Third Most Likely Diagnosis: No Diagnosis; normal reaction to stressful event(s)
+Reasoning: The patient's reported improvement in concentration and feeling of returning to normalcy after two weeks could suggest that her symptoms are a normal reaction to the stressful event and may not meet the criteria for a mental disorder diagnosis.","['Complex Post-Traumatic Stress Disorder (CPTSD)', 'Adjustment Disorder', 'No Diagnosis; normal reaction to stressful event(s)']",Adjustment Disorder,False,True,True
+Stress Vignette 6 FINAL,Stress,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+ Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Disorders Specifically Associated with Stress.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the stress-related diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood or anxiety disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: OG氏は31歳の男性で、職を失った3ヵ月後に、診察を求めてきた。金融機関で管理職として数年間働いた後、会社のリストラのために突然クビになった。新しい職を探しているが、まだ見つかっていない。職を探していないときは、運動したり、マンションの周りのことをして過ごしている。
+Presenting Symptoms: OG氏は失敗したという感覚、孤独感、徒労感があると述べた。彼が悪かったわけではないが、前の仕事をクビになったので、ほかの金融機関が雇いたがらないのではないか、自分がしたい仕事の分野で職を得ることが不可能ではないかと心配している。時間（特にほかの人が仕事をしている日中の時間）の使い方を組み立て直すのが困難であると述べた。最近3ヵ月の間に、同じように解雇された同僚と何回か会ったところ、同僚たちは前の会社から追加の経済的補てんを要求しようと考えていた。OG氏はこんな漠然とした計画は成功しないだろうと考え、先に進むことにしている。OG氏の貯蓄は減少しており、両親に経済的な援助を仰がなければならなくなるのではないかと、恥ずかしく感じている。  	彼は同じ金融機関で働いているガールフレンドとの関係の悪化を恐れている。彼が「職を失った負け犬」であるという理由で、彼女が去っていくのではないかと恐れているのである。彼女はそんなつもりはなく、2人の関係には変化はないという。彼女は、実際に問題が起きないうちにメンタルヘルスの治療を受けるように、彼に勧めた。  	診察の際、OG氏は過去3ヵ月の間に飲酒量が増えたが、有害な使用というほどではないと述べ、毎日の家事や日課をこなしていると誇らしげに話した。職を失って10日後くらいに、持続時間がよくわからないパニック発作があったという。その後発作は起こらず、将来発作が起きるという恐怖もない。彼は負け犬であると感じ、仕事を失ったことについて自己評価が低下しているが、広汎な抑うつ症状は否定した。  
+Additional Background Information: OG氏は、精神的な問題の既往はない。比較的裕福な家庭で、普通の子ども時代を過ごし、学校や大学での成績にも問題はなかったと述べた。自分は社交的だが、不当な扱いを受けたと感じると、復讐心にかられることが時々あると述べている。
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette?
+- Post-Traumatic Stress Disorder (PTSD)
+- Complex Post-Traumatic Stress Disorder (CPTSD)
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- Other Disorder Specifically Associated with Stress
+- Acute Stress Reaction
+- A diagnosis from a different diagnostic area (e.g. mood disorders, psychotic disorders, personality disorders)
+- No Diagnosis; normal reaction to stressful event(s)
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Adjustment Disorder
+Reasoning: The patient's symptoms, such as feelings of failure, loneliness, and worthlessness, are in response to a stressor (losing a job). These symptoms have persisted for several months, but there is no evidence of persistent or recurrent panic attacks or other symptoms that would suggest PTSD or CPTSD. The patient's functioning in other areas of life, such as maintaining daily routines and relationships, is relatively intact.
+
+Second Most Likely Diagnosis: No Diagnosis; normal reaction to stressful event(s)
+Reasoning: The patient's symptoms may be a normal response to a significant stressor, and they have not met the criteria for any of the other diagnoses presented.
+
+Third Most Likely Diagnosis: Other Disorder Specifically Associated with Stress
+Reasoning: The patient's symptoms could potentially fit under the umbrella of other stress-related disorders, such as Major Depressive Disorder with stressor-related onset or Generalized Anxiety Disorder with stressor-related exacerbation. However, the vignette does not provide enough information to definitively make these diagnoses.","['Adjustment Disorder', 'No Diagnosis; normal reaction to stressful event(s)', 'Other Disorder Specifically Associated with Stress']",No Diagnosis; normal reaction to stressful event(s),False,True,True

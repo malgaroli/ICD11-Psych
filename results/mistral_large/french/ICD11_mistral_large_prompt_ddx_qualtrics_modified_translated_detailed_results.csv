@@ -1,0 +1,632 @@
+Vignette_ID,Category,Prompt,Model_Output,Model_Diagnoses,Ground_Truth_Label,Top_1_Accuracy,Top_2_Accuracy,Top_3_Accuracy
+Anxiety Vignette 1A Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  PK est une femme de 36 ans qui travaille à la fonction publique et vit avec son mari et leurs deux fillettes, âgées de 7 et 10 ans. La semaine dernière, elle est allée chez un gastroentérologue avec une plainte de gastralgies chroniques et elle a reçu un diagnostic d’ulcère. Afin d’identifier les causes potentielles de l’ulcère, le gastroentérologue a interrogé PK sur son niveau de stress. PK évoqua le fait que depuis les deux dernières années, elle se sent extrêmement nerveuse et inquiète, en dépit du fait que rien d’inhabituel ou de terrible ne se soit produit. Le gastroentérologue suggéra que PK parle à un professionnel de la santé mentale pour recevoir de l’aide à gérer son anxiété.
+Presenting Symptoms:  Pendant l’’évaluation en santé mentale, PK admet s’inquiéter presque tout le temps et maintenant elle se préoccupe à l’idée que ses inquiétudes sont dommageables à sa santé.  PK dit qu’elle a toujours été « une anxieuse » et elle pense que cette qualité lui a permis d’être attentive à sa famille et consciencieuse dans son travail. Cependant, elle dit que depuis quelques années, cela est devenu « hors de contrôle » et elle s’inquiète au point de se sentir submergée et épuisée. Quand on lui demande ce qui l’inquiète, elle dit que « ça peut être n’importe quoi –que mes enfants puissent tomber malades, si j’ai verrouillé la porte d’entrée, si je vais finir mon rapport à temps pour le travail - tout ce à quoi je pense peut être un sujet d’inquiétude ». Elle prend pour exemple quand ses filles ont un léger rhume, elle craint que cela puisse devenir sérieux au point de devoir les conduire chez le médecin, bien qu’elle sache qu’elles sont plutôt en bonne santé et que tous les enfants attrapent des rhumes. Comme autre exemple, PK mentionne que son mari est très sociable et qu’il invite souvent ses collègues à diner, ce que PK décrit comme « vraiment angoissant pour elle » car elle s’inquiète à l’idée que le repas  se déroule mal et que cela mette en péril la carrière de son mari.
+  
+ La plupart des jours, elle trouve difficilement le sommeil, et quand elle est étendue dans son lit elle se ressasse toutes les choses qu’elle doit faire le jour suivant et s’inquiète de ne pas réussir à tout faire. Elle se sent très tendue et a souvent de la douleur au niveau des épaules et au haut du dos, et elle reconnaît que ces douleurs sont liées à la tension.
+  
+ PK déclare qu’elle et son mari ont une bonne relation mais qu’ils ont commencé à se disputer récemment sur le fait qu’elle soit toujours tendue et irritable. Son ainée a dit récemment qu’elle ne lui raconterait plus rien car PK « fait une montagne de tout ». PK dit qu’auparavant elle était capable de prendre les choses à la légère et de s’amuser en famille, mais que cela lui est devenu impossible depuis quelques années.  Elle dit que « ça les fatigue autant que moi ».
+Additional Background Information: PK est fille unique. Ses parents ont divorcé quand elle était très jeune et elle a grandi avec sa mère et ses grands-parents. Elle ne prend aucun médicament en dehors des antiacides pour son ulcère. Elle boit très rarement de l’alcool – habituellement juste un verre de vin - et n’a jamais pris de drogue. Son examen médical récent n’a montré aucune anomalie en dehors de son ulcère.  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Most Likely Diagnosis:** Generalized Anxiety Disorder
+**Reasoning:** PK's symptoms of persistent and excessive worry about various aspects of her life, restlessness, fatigue, and sleep disturbances, along with physical symptoms like muscle tension and pain, are all characteristic of Generalized Anxiety Disorder. She also acknowledges that her anxiety is out of control and affecting her daily life and relationships.
+
+**Second Most Likely:** Other Anxiety and Fear-Related Disorder
+**Reasoning:** If her symptoms do not fully meet the criteria for Generalized Anxiety Disorder, it could be an unspecified anxiety disorder, given the significant impact on her life.
+
+**Third Most Likely:** No Diagnosis
+**Reasoning:** While less likely, it is possible that PK's symptoms are a result of stressful life events and do not meet the full criteria for a specific anxiety disorder, although this is less consistent with the severity and duration of her symptoms.","['Generalized Anxiety Disorder', 'Other Anxiety and Fear-Related Disorder', 'No Diagnosis']",Generalized Anxiety Disorder,True,True,True
+Anxiety Vignette 1B Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  TS est une femme de 44 ans, mariée avec trois enfants d’âge scolaire, et travaille en tant qu’avocate.  Elle a décidé de consulter un psychologue « pour obtenir des conseils sur comment conserver un bon équilibre entre sa carrière et sa famille. »
+Presenting Symptoms: Pendant l’entretien initial, TS évoque le fait qu’elle a été par moments « très stressée » au cours de la dernière année, depuis qu’elle a été promue dans le cabinet juridique où elle travaille. TS était enthousiasmée par cette promotion mais trouve maintenant que l’augmentation importante de responsabilités peut être accablante. TS dit qu’elle « s’inquiète beaucoup » à savoir si elle pourra performer à un niveau suffisamment satisfaisant et si elle pourra tout accomplir. Elle se décrit comme étant très pointilleuse sur les détails et « une espèce de maniaque du contrôle », mais dit que ces qualités lui permettent d’atteindre ses échéances et d’assurer un travail de qualité. Cependant, ces derniers temps, elle craint que son niveau de stress interfère avec sa capacité de se concentrer au travail et se répercute sur sa famille. Elle dit que bien que ses évaluations de performance au travail ont été très positives, elle a maintenant moins de temps à consacrer à son mari, et doit souvent faire plusieurs choses à la fois comme faire son propre travail en même temps qu’elle aide ses enfants à faire leurs devoirs.
+  
+ Pendant l’entretien, TS évoque le fait qu’elle ne s’est jamais inquiétée au point d’en devenir « physiquement malade », bien qu’elle se sente parfois très tendue. Quand on lui demande comment elle gère cette tension, elle précise qu’il s’agit « d’une tension de type émotionnelle, et non d’une tension physique ». Elle n’a pas de difficulté à dormir, et avoue qu’ « à la fin de la journée, je me sens si fatiguée que je ne suis pas capable de penser à autre chose qu’à mon lit ». Quand les pensées à propos de tout ce qu’elle doit faire « deviennent trop envahissantes », elle se répète « Respire et persiste ». Ainsi, elle est habituellement capable de se calmer. Le weekend, elle essaie d’éviter de travailler pour passer du temps avec sa famille, bien que cela soit devenu difficile depuis la dernière année.
+  
+ Elle déclare que malgré sa charge de travail et ses soucis, elle gère les choses « plutôt bien, en général » et est capable de faire face à ses impératifs professionnels tout en gérant le quotidien à la maison, quoique son mari l’aide plus qu’avant. TS dit que sa relation avec son mari est « très solide » et qu’elle se sent supportée par lui, mais elle se sent coupable de le négliger depuis qu’elle a débuté son nouveau travail. De plus, TS se plaint de ne pas avoir assez de temps à consacrer « à elle-même ». Par exemple, elle avait l’habitude de faire du sport régulièrement mais n’a plus beaucoup de temps pour cela depuis qu’elle a reçu cette promotion au travail. Elle a peur que son nouveau programme ne l’épuise bientôt, à moins qu’elle « acquière des compétences utiles » pour parvenir à un équilibre et réduire ses inquiétudes liées au travail.
+Additional Background Information:  TS est l’ainée de 4 enfants. Sa mère était professeure d’art et son père était un juge, qu’elle décrit comme étant “brillant et très ambitieux”. Elle boit souvent un verre de vin avec son mari en soirée, mais nie la prise de d’autres substances. Ses récents examens médicaux et tests sanguins de routine n’ont montré aucune anomalie.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Most Likely Diagnosis:** No Diagnosis
+**Reasoning:** TS does not report clinical levels of anxiety or impairment that would warrant a diagnosis. She is managing her stress and responsibilities relatively well, and her symptoms do not meet the criteria for a specific anxiety disorder.
+
+**Second Most Likely:** Other Anxiety and Fear-Related Disorder
+**Reasoning:** If her symptoms worsen or begin to cause significant impairment, this category could capture her presentation, as it allows for anxiety symptoms that do not fit neatly into other diagnoses.
+
+**Third Most Likely:** Generalized Anxiety Disorder
+**Reasoning:** While TS does report worry and stress, these are not excessive or uncontrollable, and she does not exhibit the required physical symptoms or impairment for a GAD diagnosis.","['No Diagnosis', 'Other Anxiety and Fear-Related Disorder', 'Generalized Anxiety Disorder']",No Diagnosis,True,True,True
+Anxiety Vignette 2 Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: MT est une femme de 23 ans qui vit seule et est étudiante dans une université locale. Elle a été référée pour une évaluation psychiatrique par un médecin urgentiste de l’hôpital universitaire, qui l’a prise en charge lors de sa seconde visite aux urgences en l’espace de 2 mois. Selon son dossier médical hospitalier, aux deux visites, MT s’est plainte d’une douleur thoracique sévère, d’étourdissements, d’une sensation de picotements dans les bras et les jambes et était persuadée de faire une crise cardiaque.
+Presenting Symptoms:  Pendant l’évaluation psychiatrique, MT explique que plusieurs changements importants se sont produits dans sa vie récemment. Notamment, sa rupture avec son petit ami et son déménagement il y a 4 mois, pour s’inscrire aux études supérieures.  Cependant, elle indique que ces crises où elle se sent « très angoissée et a l’impression qu’elle va mourir » ont débuté environ 9 mois avant la rupture et le déménagement. La première fois, elle se promenait avec son père et s’est soudain sentie extrêmement angoissée « sans raison ». Dans les minutes qui ont suivi, alors que la sensation empirait, elle a commencé à avoir la tête qui tourne et du mal à respirer. Elle dit que son cœur battait à toute vitesse et que les bouts de ses doigts ont commencé à picoter, puis qu’elle a éprouvé une oppression thoracique. Elle a cru qu’elle faisait une crise cardiaque et qu’elle allait mourir et son père l’a alors rapidement conduite aux urgences. Après 30 minutes dans l’hôpital, elle « se sentait bien à nouveau » mais était bouleversée par ce qui venait de lui arriver. Après plusieurs examens, il est apparu qu’elle était en bonne santé et les médecins n’ont identifié aucune anomalie cardiovasculaire, ou autre cause, à ses symptômes.
+  
+ Depuis lors, MT a eu de nombreux épisodes similaires, caractérisés par des sensations soudaines d’anxiété intense « comme si c’était la fin du monde » et les mêmes sensations physiologiques. Elle n’est pas capable d’identifier d’événement déclencheur pour ces épisodes ; elles sont généralement survenues quand elle se promenait ou quand elle étudiait. De plus, elle indique qu’elle n’était pas en train de penser à un sujet en particulier quand les crises sont survenues. Elle  redoute la survenue d’un nouvel épisode au point d’avoir de grandes difficultés à se concentrer sur ses études.
+  
+ Elle dit que son déménagement l’a rendue encore plus terrifiée à l’idée d’avoir un autre épisode, puisqu’elle redoute que les symptômes soient bien pires du fait qu’elle n’ait ni sa famille ni ses amis proches à ses côtés. Ainsi, lorsqu’elle a eu son premier épisode après le déménagement, elle s’est rendue à l’hôpital universitaire. « Je pensais que j’allais mourir et je ne savais pas quoi faire d’autre ». Lors de son dernier passage aux urgences de l’hôpital universitaire, le médecin l’a reconnue et lui a dit qu’il n’y avait pas de problème avec son cœur et qu’elle devrait aller voir un psychiatre. Elle dit qu’elle a décidé de se soumettre à cette évaluation psychiatrique car, non seulement elle est épuisée par l’impact émotionnel de son trouble, mais qu’en plus le coût croissant de ses visites aux urgences est devenu un tel fardeau qu’elle est désormais incapable de payer ses frais universitaires.
+Additional Background Information:  MT déclare qu’elle boit de l’alcool occasionnellement, deux ou trois verres entre amis les weekends, mais dit qu’elle ne fume pas et ne prend pas d’autres substances. Elle dit qu’elle s’en sort bien à l’université, mais avoue qu’elle craint de devoir quitter l’université pour revenir à la maison si les épisodes continuent. « C’est à dire, s’ils ne me tuent pas. »  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Most Likely Diagnosis:** Panic Disorder
+**Reasoning:** MT presents with recurrent episodes of sudden, intense anxiety accompanied by physical symptoms such as chest pain, dizziness, shortness of breath, and paresthesias. She also exhibits a persistent fear of having another attack, which is impairing her functioning.
+
+**Second Most Likely:** Agoraphobia AND Panic Disorder
+**Reasoning:** Given MT's fear of being away from family and friends and her fear of having another episode in their absence, it suggests a possibility of agoraphobia alongside panic disorder.
+
+**Third Most Likely:** Generalized Anxiety Disorder AND Panic Disorder
+**Reasoning:** While MT's primary symptoms point to panic disorder, her ongoing anxiety about her situation and the impact on her studies could suggest a co-occurring generalized anxiety disorder.","['Panic Disorder', 'Agoraphobia AND Panic Disorder', 'Generalized Anxiety Disorder AND Panic Disorder']",Panic Disorder,True,True,True
+Anxiety Vignette 3A Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: PF est un homme célibataire de 53 ans se présentant pour une évaluation psychiatrique à la Clinique locale de santé mentale. PF est actuellement sans emploi et vit avec son frère, qui accompagne PF à son rendez-vous. Le frère de PF a insisté pour que PF se fasse aider pour sa peur insurmontable de sortir seul de chez lui, celle-ci s’étant empirée au cours des 6 derniers mois.
+Presenting Symptoms:  PF éprouve depuis longtemps une sensation de malaise et d’anxiété dans les endroits bondés, comme les théâtres ou les marchés, et aussi lorsqu’il prend les transports en commun. Il y a environ un an, alors qu’il rentrait chez lui du travail, il est devenu tellement nerveux à cause de tous les gens dans le bus, qu’il a  supplié le conducteur de le laisser descendre entre les arrêts. Il était plutôt secoué après cela et a dû appeler son frère pour qu’il vienne le chercher. Il déclare s’être senti vraiment humilié car « tout le monde me regardait, pensant que je devais être fou ». Après cela, il a arrêté de prendre les transports en commun.
+  
+ Jusqu’à il y a 6 mois, PF travaillait en tant que technicien informatique dans une entreprise locale. Il était alors supposé se rendre dans une autre ville pour assister à une grande convention pour le travail. Il a tenté de convaincre son frère de l’accompagner, mais son frère ne pouvait délaisser son propre travail. Au cours des journées précédant le voyage, PF s’est senti incroyablement anxieux.  Il décrit une sensation d’appréhension à l’idée d’être piégé dans le Centre de Convention bondé, avec aucune échappatoire et personne pour l’aider. Plutôt que d’assister à la convention, il a simplement arrêté d’aller au travail et s’est éventuellement fait renvoyer. Il n’a pas retravaillé depuis. 
+  
+ Ces derniers mois, les déplacements et les activités de PF se sont restreints de manière importante.  PF affirme qu’il peut s’aventurer seul dans son propre quartier, en autant qu’il évite les endroits qui pourraient être bondés, mais son frère le contredit. Selon le frère de PF, PF n’accepte de quitter la maison que sous une grande pression et seulement s’il l’accompagne. Quand on lui demande pourquoi il craint de se rendre dans des endroits bondés ou peu familiers, PF dit « Et si je ne peux pas m’échapper, parce qu’il y a trop de monde, ou que je ne trouve pas d’issue ? Je serai pris au piège. Fait comme un rat. » Il déclare avec insistance qu’il ne veut plus se sentir humilié comme il l’a déjà été dans le bus.
+  
+ En réponse à des questions plus précises sur ses sensations physiques au cours de l’épisode dans le bus et les autres fois où il s’est senti anxieux en se  retrouvant dans des endroits bondés, PF ne se souvient pas d’avoir éprouvé de symptômes tels qu’un rythme cardiaque élevé, des sueurs, ou un essoufflement.
+Additional Background Information:  PF est un fumeur de tabac régulier et un consommateur modéré d’alcool, mais il ne prend pas d’autres substances. PF et son frère ont été élevés par leur mère après que leur père soit décédé d’un cancer alors qu’ils étaient enfants. La mère de PF est décédée il y a 10 ans et PF et son frère continuent de vivre dans la même maison.  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Most Likely Diagnosis:** Agoraphobia
+**Reasoning:** PF's symptoms are centered around a fear of being in crowded places or situations where he might feel trapped, such as public transportation or conventions. He avoids these situations due to fear of not being able to escape, which is a hallmark of agoraphobia.
+
+**Second Most Likely:** Agoraphobia AND Panic Disorder
+**Reasoning:** Although PF does not report typical physical symptoms of panic, his experience on the bus could be considered a panic attack, triggered by the crowded environment.
+
+**Third Most Likely:** Specific Phobia
+**Reasoning:** If PF's fear were more specific, such as only public transportation, a diagnosis of specific phobia might be considered. However, his avoidance of a broad range of situations makes agoraphobia a more likely diagnosis.","['Agoraphobia', 'Agoraphobia AND Panic Disorder', 'Specific Phobia']",Agoraphobia,True,True,True
+Anxiety Vignette 3B Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  AM, une infographiste de 25 ans, a été amenée au centre de santé mentale local par sa meilleure amie, afin d’être évaluée en raison de symptômes anxieux sévères qui la confine à son domicile depuis deux mois.
+Presenting Symptoms: AM insiste pour que son amie reste auprès d’elle pendant l’entretien avec le psychologue. Quand on lui demande ce qui pourrait arriver si son amie la laisse, AM commence à s’agiter, rougit et laisse échapper « Je ne connais pas cet endroit et mon amie est l’unique personne qui puisse m’aider si je me sens mal et que j’ai besoin de sortir. » Son amie la rassure immédiatement que tout ira bien, et suggère qu’AM explique ce qui l’a conduit à être confinée à la maison.  AM retrouve son calme et commence à expliquer qu’elle a toujours ressentie un inconfort lorsqu’elle se retrouve seule dans des lieux publics bondés, tels que les stations de bus et les centres commerciaux.
+  
+ AM révèle qu’il y a deux ans, elle est allée récupérer un colis important à la poste. Quand elle est entrée dans le bureau de poste, « il y avait foule. » Elle a soudainement commencé à se sentir extrêmement anxieuse, « comme si quelque chose de terrible allait se produire. » Son rythme cardiaque s’est accéléré, elle s’est sentie faible, étourdie, nauséeuse et a commencé à hyperventiler. Elle était persuadée qu’elle allait mourir. Elle s’est précipitée dehors et a appelé son cousin, qui habite à proximité, pour qu’il vienne la chercher et la déposer chez elle. Une fois chez elle, elle s’est sentie mieux, mais elle a trouvé l’expérience profondément troublante.
+  
+ Depuis lors, ces « épisodes pénibles » se sont répétés plusieurs fois, le plus souvent lorsqu’elle était amenée à se rendre seule dans un lieu public. AM s’est mise à éprouver une tension constante liée à l’appréhension de la survenue d’une nouvelle « attaque ». Il y a environ deux mois, elle était à la fête d’anniversaire d’une amie proche et l’endroit semblait bondé.  Elle a alors à nouveau ressenti une angoisse intense accompagnée de manifestations physiques similaires à celles qu’elle avait déjà vécues dans le bureau de Poste. Elle dit que « c’était de loin la plus pénible, » et « absolument insupportable » car même être avec son amie ne l’a pas protégée.  Depuis lors, elle dit préférer rester chez elle à la maison.  Elle n’a jamais vécu d’épisode similaire à la maison, même lorsqu’elle reçoit la visite d’un groupe. Elle craint que si elle se sent mal ou faible en dehors de chez elle, elle ne saura pas à qui demander de l’aide et pourra alors s’évanouir ou mourir. Elle déclare qu’ « heureusement, je travaille à domicile et que je peux me faire livrer mes courses, donc il serait absurde de prendre le risque d’avoir une autre crise », qu’elle décrit comme étant « la pire sensation du monde ». Bien qu’AM dise que « ça ne me gêne pas de n’aller nulle part », elle a laissé passer  plusieurs opportunités professionnelles qui exigeaient des entrevues en face-à-face et admet qu’elle commence à éprouver des difficultés sur le plan financier.
+Additional Background Information:  AM est célibataire, mais entretenait une relation sérieuse qui a pris fin il y a un an. Elle ne fume pas et  ne consomme pas de drogues, mais boit de l’alcool quelque fois par semaine. Son dernier examen médical a montré qu’elle était en bonne santé.  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Most Likely Diagnosis:** Agoraphobia AND Panic Disorder
+**Reasoning:** AM's symptoms include fear of being in public places alone, especially crowded areas, and she has experienced multiple panic attacks in these situations. Her anxiety about having another panic attack has led her to avoid leaving home, which is characteristic of agoraphobia.
+
+**Second Most Likely:** Panic Disorder
+**Reasoning:** AM has experienced recurrent unexpected panic attacks, and her fear of having another attack is a prominent feature, which aligns with Panic Disorder. However, this diagnosis alone does not fully capture her avoidance behavior.
+
+**Third Most Likely:** Agoraphobia
+**Reasoning:** AM's avoidance of public places and her fear of being unable to escape or get help if she feels unwell are key features of agoraphobia. However, this diagnosis alone does not account for the panic attacks she has experienced.","['Agoraphobia AND Panic Disorder', 'Panic Disorder', 'Agoraphobia']",Agoraphobia,False,False,True
+Anxiety Vignette 4 Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  MJ est une femme de 19 ans en première année d’université, qui travaille à mi-temps au café du campus. MJ se présente d’elle-même à la clinique car elle se sent « épuisée par sa peur étrange et intense » des éclairs et du tonnerre. MJ déclare qu’aussi loin qu’elle se souvienne, les éclairs, le tonnerre et les vents violents l’ont toujours angoissée. Cependant, cette peur est devenue encore plus intense au cours des 10 derniers mois, depuis qu’elle est déménagée pour ses études dans une ville du littoral où le temps est souvent exécrable.
+Presenting Symptoms: Durant l’entretien initial, MJ se montre aidante et motivée. Elle avoue qu’elle « a sérieusement besoin d’aide » dans la gestion de sa peur intense des tempêtes. Elle dit être toujours angoissée à propos du temps et consulte la météo plusieurs fois par jour. Elle explique que si elle considère que le vent est trop intense, ou s’il y a de l’orage, elle « est juste incapable » de quitter son dortoir. Elle a ainsi manqué plusieurs cours. De plus, elle est actuellement en échec dans une discipline, ayant été absente lors d’un examen se déroulant un jour de bourrasques. Quand on se met à évoquer son absentéisme, MJ paraît angoissée et évite de regarder le thérapeute dans les yeux.
+  
+ MJ a fait partie de l’équipe de football féminin de son ancienne école et a manqué plusieurs matchs à cause des conditions climatiques, mais cela ne s’est jamais vraiment remarqué car « dans ce cas, la plupart du temps, le match est annulé ». Elle dit qu’elle continue d’apprécier être dehors par temps clair. Elle va courir et aime sortir avec ses amis. En cas d’intempéries, la plupart du temps, ses amis acceptent de l’accompagner dehors, « mais ça en reste toujours aussi flippant pour moi ». Il y a environ une semaine, elle a été obligée de quitter le dortoir pendant une tempête car l’alarme s’est déclenchée. Cela fut très pénible pour elle et elle a été absolument terrorisée tout le temps qu’elle fut dehors (environ 30 minutes). Environ une heure après être retournée dans sa chambre, MJ se sentait un peu mieux mais a eu besoin que sa colocataire reste à ses côtés jusqu’à ce qu’elle s’endorme. Elle dit que ses amis ne comprennent pas vraiment pourquoi elle a si peur des tempêtes et certains d’entre eux semblent de plus en plus exaspérés de devoir continuellement prendre soin d’elle.  Quand on lui demande à quelle fréquence cela se produit, MJ détourne le regard vers le plancher.  Après quelques minutes, elle dit « je suis juste épuisée d’avoir peur. Je veux aller mieux »
+Additional Background Information:  MJ a deux petits frères. Ses parents sont divorcés. Elle a grandi dans une ville où les intempéries sont rares. Quand on le lui demande, MJ déclare que ni elle ni aucune de ses connaissances n’a jamais été blessée lors d’une tempête. Elle a récemment eu un examen médical de routine à la clinique universitaire et tout était normal. Elle ne consomme ni drogue ni alcool, mais admet fumer quelques cigarettes par semaine « pour calmer mes nerfs ».  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Most Likely Diagnosis:** Specific Phobia
+**Reasoning:** MJ presents with a persistent and intense fear of thunder, lightning, and strong winds, which she has had since childhood. This fear has significantly impacted her functioning, causing her to miss classes and social events, and is not better explained by another disorder.
+
+**Second Most Likely:** Agoraphobia
+**Reasoning:** MJ's avoidance of leaving her dorm during storms and her need for accompaniment could suggest agoraphobia, but this is more likely due to her specific fear of storms rather than a fear of open spaces or public places.
+
+**Third Most Likely:** Generalized Anxiety Disorder
+**Reasoning:** While MJ experiences anxiety about her situation, it is focused solely on storms and not a range of events or activities, making GAD less likely.","['Specific Phobia', 'Agoraphobia', 'Generalized Anxiety Disorder']",Specific Phobia,True,True,True
+Anxiety Vignette 5A Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: TM est un étudiant de 16 ans qui vit avec sa mère et sa petite sœur. TM a été amené par sa mère à la clinique psychiatrique universitaire pour une consultation, car elle s’inquiète des absences répétées de TM à l’école.
+Presenting Symptoms:  Durant l’évaluation, TM a du mal à regarder le clinicien dans les yeux et reste silencieux durant la première partie de l’entretien. La mère de TM déclare que TM a toujours été un « enfant timide mais adorable ». Il a commencé à éviter aller à l’école au début de l’année scolaire, il y a environ 8 mois, après qu’ils aient déménagés et qu’il ait commencé à fréquenter une nouvelle école.
+  
+ La plupart des matins de jours d’école, TM la supplie de le laisser rester à la maison. La mère de TM tente de le raisonner, mais avoue que « parfois je capitule parce que c’est juste trop ». Elle a commencé à s’inquiéter sérieusement lorsque l’école l’a contacté pour l’informer d’absences dont elle n’avait pas connaissance. TM n’a pas de bons résultats scolaires car, en plus de ses nombreuses absences, quand le professeur l’interroge, il dit « je suis juste pétrifié. Même si je connais la réponse, je n’arrive pas à parler. Je deviens juste tout rouge et j’ai l’air d’un idiot ».
+  
+ TM admet qu’il a toujours eu du mal à parler aux gens qu’il ne connaît pas bien. Il avait quelques amis dans son ancienne école car  « J’ai toujours été dans la même école et tout le monde se connaissait ». Il lui est très difficile de se faire des amis dans sa nouvelle école car il craint que les autres enfants ne le prennent pour « un gros loser ». TM y pense tout le temps et dit qu’il a du mal à dormir à cause de cela. Il aimerait avoir des amis, être populaire, et souhaiterait être capable d’être suffisamment détendu et confiant pour pouvoir interagir avec de nouvelles personnes.
+  
+ La mère de TM mentionne que TM passe la plupart de ses soirées ainsi que ses  weekends à lire ou à jouer à des jeux vidéos dans sa chambre, activités qui selon ses dires lui procurent un réel plaisir. TM jouait au foot dans son ancienne école et était considéré comme étant un bon joueur. Cependant, il a été incapable de se présenter à l’entraineur de sa nouvelle école afin de faire un essai pour intégrer l’équipe, car il aurait été obligé de le faire devant les autres joueurs. Il a craint que le stress ne l’empêche de se montrer à la hauteur lors du test et que les autres joueurs ne le snobent pour ne pas être suffisamment talentueux. La mère de TM déclare qu’elle s’inquiétait tout d’abord qu’il soit victime d’harcèlement à l’école, mais après en avoir parlé avec ses professeurs et les parents de ses camarades, elle n’a décelé aucune preuve de harcèlement. TM finit par déclarer,  « Non, ce n’est pas eux, c’est moi. »
+Additional Background Information:  Les parents de TM sont divorcés et son père vit dans une autre ville, mais ils s’appellent toutes les semaines. Une fois sa mère sortie de la pièce, TM déclare qu’il ne consomme pas de drogues, mais admet boire de l’alcool occasionnellement et avoir déjà fumé une cigarette. Lors d’un examen récent, le médecin traitant de TM l’a trouvé en bonne santé.   
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Most Likely Diagnosis:** Social Anxiety Disorder
+**Reasoning:** TM's symptoms of avoiding school, fear of speaking in class, difficulty making friends, and fear of being judged negatively by others are all indicative of Social Anxiety Disorder. His persistent fear of social situations and their impact on his daily life support this diagnosis.
+
+**Second Most Likely:** Specific Phobia
+**Reasoning:** TM's avoidance of school and other social situations could also suggest a Specific Phobia, although this is less likely because his fears are broadly social rather than focused on a single specific situation or object.
+
+**Third Most Likely:** Generalized Anxiety Disorder
+**Reasoning:** While TM exhibits anxiety symptoms, they are more specifically social rather than the broad, pervasive worries typical of Generalized Anxiety Disorder.","['Social Anxiety Disorder', 'Specific Phobia', 'Generalized Anxiety Disorder']",Social Anxiety Disorder,True,True,True
+Anxiety Vignette 5B Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  JL, 28 ans, est mère de 2 jeunes enfants, et est référée par son médecin traitant pour une consultation  psychiatrique en lien avec des épisodes d’anxiété extrême qui rendent difficile l’accomplissement de ses tâches quotidiennes.
+Presenting Symptoms:  Pendant l’entretien, JL déclare qu’elle est heureuse dans son mariage et fière de se consacrer totalement à l’éducation de sa fille et son fils, âgés de 2 et 8 ans. Elle indique qu’elle travaille fort afin d’assurer le bien-être de sa famille, accomplissant ses tâches ménagères avec zèle et dévouement (p. ex. en achetant de la nourriture saine et en préparant des repas équilibrés, en cherchant des activités intéressantes à réaliser avec ses enfants et en rangeant la maison à tous les jours).
+  
+ JL dit que ses troubles ont débuté lorsque son fils a intégré l’école primaire il y a deux ans et que sa routine quotidienne a été dérangée car elle devait aller le récupérer à la sortie l’école en fin de journée. Quand le psychiatre demande à JL en quoi cela était dérangeant, elle répond qu’elle doit souvent attendre son fils au milieu des autres parents et « faire la discussion ». Elle indique qu’elle  « appréhende » ces bavardages car elle a l’impression que les autres parents trouvent que ce qu’elle dit est « stupide ». Cependant, quand on le lui demande, elle ne parvient pas à trouver d’exemple de propos blessants qu’elle aurait pu recevoir de la part des autres parents.
+  
+ Le fils de JL est inscrit dans une école où les parents sont supposés faire du bénévolat et JL veut s’impliquer dans cela pour « être une bonne mère ». Depuis le milieu de l’année scolaire, JL a participé comme aide au déjeuner deux fois par semaine avec quelques autres parents. Elle décrit cette activité comme étant « l’enfer sur terre » et déclare que lors d’un certain nombre d’occasions elle a ressenti « la pire des angoisses imaginables ». Elle raconte qu’à plusieurs reprises, alors qu’elle discutait avec d’autres parents, elle a ressenti plusieurs symptômes « bouleversants » se manifestant brusquement, tels des tremblements, une faiblesse, des palpitations et la sensation d’être « hors de son corps ». Désormais, elle appréhende d’avoir une nouvelle crise et se sent angoissée dès son réveil les jours où elle est bénévole à l’école. Elle remarque que  « je ne veux pas continuer à me faire subir cela ». À plusieurs occasions, elle a appelé l’école pour dire qu’elle ne se sentait pas bien et qu’elle ne pourrait pas venir. Elle craint que cela n’exacerbe les critiques à son égard.  Elle précise qu’elle ne ressent ces symptômes d’anxiété extrême que lorsqu’elle interagit avec les autres parents.
+  
+ JL dit qu’elle préfère rester à la maison et s’occuper des enfants. Elle éprouve du plaisir à passer du temps avec son petit groupe d’amis qu’elle connaît depuis de longues années, mais quand elle va à des fêtes, ou d’autres événements sociaux, elle dit « Je ne m’amuse pas vraiment. Je n’aime pas avoir à parler à des gens que je ne connais pas. Je ne sais jamais quoi dire et ils pensent probablement que je suis stupide ».
+Additional Background Information:  JL déclare qu’elle a toujours été en bonne santé, en dehors d’une appendicectomie il y a 10 ans. Elle ne fume ni ne boit d’alcool et n’a jamais consommé de substances.    
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Most Likely Diagnosis:** Social Anxiety Disorder AND Panic Disorder
+**Reasoning:** JL's symptoms are triggered primarily by social situations where she feels judged or scrutinized, indicating Social Anxiety Disorder. The sudden onset of symptoms such as trembling, weakness, palpitations, and depersonalization (""feeling out of her body"") during these interactions suggests Panic Disorder.
+
+**Second Most Likely:** Agoraphobia AND Panic Disorder
+**Reasoning:** JL's avoidance of situations where she might experience anxiety or panic, such as calling in sick for volunteering, could suggest Agoraphobia, but the primary trigger being social situations makes Social Anxiety Disorder more likely.
+
+**Third Most Likely:** Panic Disorder
+**Reasoning:** While JL experiences panic symptoms, the diagnosis of Panic Disorder alone does not account for her specific fear of social situations and interactions.","['Social Anxiety Disorder AND Panic Disorder', 'Agoraphobia AND Panic Disorder', 'Panic Disorder']",Social Anxiety Disorder,False,False,False
+Anxiety Vignette 5C Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: JV est une étudiante de 22 ans. Elle s’est rendue au centre de consultation universitaire en raison des difficultés auxquelles elle est confrontée dans le cadre de son cours d’art oratoire.
+Presenting Symptoms:  Lors de son premier entretien, JV explique qu’elle est angoissée à l’idée d’avoir à faire un discours devant la classe. L’université exige qu’elle complète un cours d’art oratoire pour être diplômée ; elle dit qu’elle a reporté son inscription au cours jusqu’à sa dernière année universitaire car cela la terrifiait. Cependant, elle est consciente qu’elle doit trouver un moyen de le compléter afin d’obtenir sa licence. Elle est venue au centre de consultation dans l’espoir de trouver un moyen de gérer sa peur de parler en public. Elle explique qu’elle a toujours été une personne timide, et qu’elle se sent mal à l’aise lorsqu’elle se retrouve au centre de l’attention.
+  
+ Les professeurs de JV la décrivent comme une étudiante silencieuse mais douée. Elle dit qu’elle lève rarement la main en classe, mais qu’elle répond si on l’interroge. Elle a dû faire de courtes présentations dans d’autres cours et a été finalement capable d’y parvenir, mais cela l’a toujours rendue inconfortable.  Elle déclare qu’elle se sent très nerveuse avant une présentation, avec « des papillons dans l’estomac », mais qu’elle se calme rapidement dès que c’est terminé. Cependant, elle n’a jamais eu à donner de présentation devant un groupe aussi grand que celui du cours d’art oratoire avec un retentissement aussi important.  Elle se sent particulièrement anxieuse à l’idée de ne pas être à la hauteur, et de ce fait, ne pas réussir à obtenir son diplôme.
+  
+ JV déclare qu’elle a un groupe d’amis mais n’a jamais été « la bavarde ». JV aime être avec le groupe, mais s’exprime rarement car elle trouve cela difficile de s’introduire dans une conversation. Généralement, elle préfère écouter. Quand le clinicien demande à JV si elle ressent de l’anxiété en ce moment durant l’entretien, elle répond que tout va bien. Elle explique qu’elle est à l’aise face à une seule personne et que l’inconfort commence à se manifester seulement quand le groupe s’élargit, « quand il y a de plus de 5 ou 6 personnes ». Elle a un petit ami et déclare que tout se passe bien entre eux. Elle dit qu’il a lui aussi une préférence pour les petits groupes et les activités calmes. Quand le clinicien demande si elle souhaiterait travailler sur sa timidité, JV déclare que d’habitude cela ne lui pose aucun problème et qu’elle se plait comme telle. Elle met l’accent sur le fait que sa seule préoccupation est de réussir le cours d’art oratoire requis. Elle dit qu’elle est prête à s’attaquer au problème, mais pour cela elle a besoin d’aide et des conseils sur la manière de s’y prendre.
+Additional Background Information:  JV est fille unique. Ses parents l’ont eue relativement tard dans leur vie et habitent dans une ville limitrophe. Elle décrit sa vie de famille comme étant « posée mais banale ». Elle nie consommer des drogues mais déclare qu’elle boit occasionnellement une à deux boissons alcoolisées avec son petit ami durant les weekends. Un examen physique récent n’a montré aucune anomalie.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Most Likely Diagnosis:** Social Anxiety Disorder
+**Reasoning:** JV's symptoms are centered around the fear of public speaking and being the center of attention, which are classic symptoms of social anxiety disorder. She has avoided the course due to this fear, and her anxiety is not generalized to all situations but specifically triggered by social performance situations.
+
+**Second Most Likely:** Specific Phobia
+**Reasoning:** If her fear is highly specific to public speaking and not other social situations, then a diagnosis of specific phobia might be considered.
+
+**Third Most Likely:** No Diagnosis
+**Reasoning:** Given that JV's symptoms are relatively mild and she functions well in other areas of her life, it could be argued that her concerns do not reach the threshold for a clinical diagnosis.","['Social Anxiety Disorder', 'Specific Phobia', 'No Diagnosis']",No Diagnosis,False,False,True
+Anxiety Vignette 6A Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  VK est une écolière de 10 ans. Elle a été amenée pour une consultation à la clinique par sa mère, qui déclare que VK pique de sévères crises de colère et devient en détresse excessive dès que sa mère s’éloigne d’elle. Ce comportement n’a fait qu’empirer au cours de cette dernière année, au point que les parents de VK sont épuisés et ne savent pas comment faire pour aider leur fille. L’infirmière scolaire de VK a suggéré que VK soit vue par un conseiller. 
+Presenting Symptoms:  La mère de VK indique que le comportement de VK a été problématique depuis qu’elle a commencé l’école il y a 5 ans.  Durant cette période, VK pleurait presque tous les matins d’école, parce qu’elle voulait rester avec sa mère. On devait la porter « pleurant et hurlant » jusqu’au bus scolaire. Pendant les vacances scolaires, VK passait parfois la journée chez ses grands-parents mais demandait constamment d’aller au travail avec sa mère. Quand sa mère l’obligeait à rester avec ses grands-parents, VK continuait à pleurer et à hurler pendant près d’une heure, et insistait pour appeler sa mère plusieurs fois par jour afin de lui parler.
+  
+ Aujourd’hui, VK demeure anxieuse quand elle monte dans le bus scolaire et elle se plaint souvent de se sentir nauséeuse et malade les matins d’école. Elle demande régulièrement pour se rendre à l’infirmerie car elle a mal au ventre ou envie de vomir et dit qu’elle a besoin que sa mère vienne la chercher. VK insiste pour appeler sa mère au travail depuis le secrétariat de l’école environ 2 à 3 fois par jour. Si sa mère est en retard de quelques minutes pour la récupérer à l’école, VK devient très anxieuse, a peur, et se met souvent à pleurer. VK a récemment refusé de participer à une sortie avec sa classe qui impliquait de passer une nuit hors de chez elle. Elle refuse de jouer avec des amis sur l’aire de jeux en l’absence de sa mère. C’est pourquoi elle a peu d’amis en dehors de ses cousins. Elle prend plaisir à être avec sa tante maternelle et ses cousins, mais refuse de dormir chez eux, loin de sa mère. 
+  
+ VK déclare qu’elle adore son père et ses grands-parents mais se sent « très proche » de sa mère. Quand on lui demande pourquoi c’est si difficile d’être séparée de sa mère, VK murmure, « parce que quelque chose pourrait lui arriver et elle ne reviendrait plus à la maison ».  Elle ne ressent pas de telles peurs lorsque sa mère est à ses côtés.
+Additional Background Information:  VK est fille unique. La mère de VK déclare que VK a atteint dans les temps toutes les étapes du développement psychomoteur mais qu’elle était un enfant « collant ». Les habitudes liées au sommeil ont été particulièrement difficiles car VK insistait pour dormir avec ses parents. VK n’a pas eu d’autres problèmes de santé est ne prend aucun médicament.  Les parents de VK ont toujours été en bonne santé.  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Most Likely Diagnosis:** Separation Anxiety Disorder
+**Reasoning:** VK exhibits excessive distress when separated from her mother, with symptoms such as severe tantrums, constant need for contact, and physical complaints like nausea and stomach aches. This behavior has been persistent since starting school and impacts her social and academic functioning.
+
+**Second Most Likely:** Generalized Anxiety Disorder
+**Reasoning:** VK's worries about her mother's well-being and her persistent anxiety could also suggest a broader pattern of generalized anxiety, although this is less likely given the specific focus on separation.
+
+**Third Most Likely:** Specific Phobia
+**Reasoning:** VK's refusal to participate in activities without her mother could be indicative of a specific phobia related to being away from her mother, but this does not fully capture the range of her symptoms and distress.","['Separation Anxiety Disorder', 'Generalized Anxiety Disorder', 'Specific Phobia']",Separation Anxiety Disorder,True,True,True
+Anxiety Vignette 6B Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  AG et sa femme ont été référés à un psychologue par leur médecin traitant pour une thérapie de couple. Ils ont tous les deux 35 ans et sont mariés depuis 9 ans. Ils n’ont pas d’enfants. La femme d’AG a confié à son médecin qu’elle s‘inquiète à propos de la détérioration de la relation avec son mari, parce qu’elle a l’impression qu’« il l’étouffe » et qu’il refuse « de la laisser vivre sa vie ».
+Presenting Symptoms:  AG et sa femme assistent ensemble à leur première consultation et apparaissent tendus. La femme d’AG commence à énumérer ses plaintes à propos du comportement de son mari, indiquant que tout aurait commencé il y a 3 ans quand elle a quitté son travail pour un poste dans la vente qui impliquait des déplacements plusieurs fois par mois. Après plusieurs déplacements sans incident, AG a commencé à insister pour que sa femme l’appelle à la maison immédiatement après avoir atterri, puis encore une fois lorsqu’arrivée à l’hôtel. La femme d’AG se plaint qu’avant chaque déplacement, AG la supplie de ne pas partir. Elle trouve cela très injuste de sa part car il savait qu’elle serait amenée à voyager dans le cadre de son nouveau travail et ils en avaient discuté avant qu’elle accepte le poste. La femme d’AG dit que le comportement de son mari est tellement intrusif qu’elle pense qu’elle va devoir rechercher un autre poste qui ne nécessite pas de voyager. Elle pense que son comportement est excessif et elle lui en veut de chambouler ses plans de carrière.
+  
+ AG explique au psychologue que bien qu’il sache que c’est irrationnel, il est terrifié à l’idée que sa femme soit blessée ou tuée quand elle part pour le travail. Quand elle est loin, il déclare qu’il peut à peine dormir la nuit et qu’il se réveille souvent « avec des sueurs froides ». Plusieurs fois, il a appelé sa chambre d’hôtel au milieu de la nuit pour vérifier qu’elle était toujours vivante. Même quand elle ne voyage pas, AG envoi des messages à sa femme plusieurs fois par jour pour vérifier qu’elle va bien. Si elle ne répond pas tout de suite, il l’appelle répétitivement au bureau et sur son portable jusqu’à ce qu’elle réponde.
+  
+ La femme d’AF décrit sa relation avec son mari comme ayant toujours été très passionnée et au début elle a interprété ce comportement comme un signe de son profond attachement. AG l’interrompt et dit « Tu sais à quel point je t’aime. Je ne veux juste pas te perdre. » La femme d’AG réplique « Comment peux-tu me perdre alors que tu ne me laisses pas quitter ton champs de vision ! ».  La femme d’AG dit qu’au cours de leur relation, AG a toujours voulu qu’ils passent tout leur temps libre ensemble et qu’il a toujours eu tendance à éprouver un sentiment d’insécurité, mais que c’est maintenant devenu hors de contrôle. En même temps, la femme d’AG indique qu’il lui a toujours été aisé de prendre des décisions concernant sa propre vie et qu’elle n’a pas l’impression qu’AG s’immisce dans toutes ses décisions ou ses actions sauf lorsqu’elles sont en rapport avec le fait d’être éloigné d’elle. AG déclare qu’il sait que sa femme est irritée par le comportement qu’il a lorsqu’ elle voyage. Il ne veut pas l’énerver, mais il ne peut pas s’en empêcher car il a si peur que quelque chose puisse lui arriver. Il déclare qu’il entretient  une bonne relation avec sa femme, mais qu’il s’inquiète du retentissement à long terme des tensions que génèrent ses voyages.
+Additional Background Information:  AG est un photographe professionnel. Il est propriétaire d’un studio photo qui marche bien et il est très apprécié par ses employés. AG a eu deux autres relations amoureuses importantes avant de rencontrer sa femme. Il ne se souvient pas s’être inquiété autant à leur propos. AG a quelques proches amis qu’il connaît de longue date. Il ne boit pas d’alcool et ne consomme aucune autre substance. Il est un peu en surpoids et souffre d’hypertension, mais ne prend aucun médicament pour cela.  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Most Likely Diagnosis:** Separation Anxiety Disorder AND Panic Disorder
+**Reasoning:** AG's symptoms are centered around excessive fear and anxiety about his wife's safety when she is away, which is indicative of Separation Anxiety Disorder. Additionally, his symptoms of waking up with ""sweats"" and intense fear for his wife's safety suggest Panic Disorder.
+
+**Second Most Likely:** Generalized Anxiety Disorder AND Panic Disorder
+**Reasoning:** AG's persistent worry about his wife's well-being could also be interpreted as generalized anxiety, coupled with panic symptoms.
+
+**Third Most Likely:** Agoraphobia AND Panic Disorder
+**Reasoning:** Although less likely, AG's fear of his wife traveling could be seen as a manifestation of agoraphobia, combined with his panic symptoms. However, this does not fully fit as his fear is more specific to his wife's separation rather than a general fear of open or public spaces.","['Separation Anxiety Disorder AND Panic Disorder', 'Generalized Anxiety Disorder AND Panic Disorder', 'Agoraphobia AND Panic Disorder']",Separation Anxiety Disorder,False,False,False

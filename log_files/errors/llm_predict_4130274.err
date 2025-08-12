@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 169, in <module>
+    main()
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 145, in main
+    results_folder = base_bath.joinpath("results",llm_model,language_vignette)
+UnboundLocalError: local variable 'language_vignette' referenced before assignment

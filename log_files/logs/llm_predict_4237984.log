@@ -1,0 +1,37 @@
+GPU Memory - Total: 81152.75 MB, Reserved: 0.00 MB, Allocated: 0.00 MB, Free: 0.00 MB
+Detailed results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results_languages/llama31_8B/french/ICD11_llama31_8B_prompt_ddx_qualtrics_modified_detailed_results.csv
+
+Anxiety Accuracies:
+Top-1: 0.27
+Top-2: 0.27
+Top-3: 0.45
+Top-1 Average Accuracy: 0.27 (±nan)
+Top-2 Average Accuracy: 0.27 (±nan)
+Top-3 Average Accuracy: 0.45 (±nan)
+Results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results_languages/llama31_8B/french/ICD11_llama31_8B_prompt_ddx_qualtrics_modified_performance.csv
+GPU Memory - Total: 81152.75 MB, Reserved: 2188.00 MB, Allocated: 1953.78 MB, Free: 234.22 MB
+GPU Memory - Total: 81152.75 MB, Reserved: 2188.00 MB, Allocated: 1953.78 MB, Free: 234.22 MB
+Detailed results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results_languages/gemma3/french/ICD11_gemma3_prompt_ddx_qualtrics_modified_detailed_results.csv
+
+Anxiety Accuracies:
+Top-1: 0.82
+Top-2: 0.82
+Top-3: 0.82
+Top-1 Average Accuracy: 0.82 (±nan)
+Top-2 Average Accuracy: 0.82 (±nan)
+Top-3 Average Accuracy: 0.82 (±nan)
+Results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results_languages/gemma3/french/ICD11_gemma3_prompt_ddx_qualtrics_modified_performance.csv
+GPU Memory - Total: 81152.75 MB, Reserved: 12864.00 MB, Allocated: 9080.31 MB, Free: 3783.69 MB
+GPU Memory - Total: 81152.75 MB, Reserved: 12864.00 MB, Allocated: 9080.31 MB, Free: 3783.69 MB
+Detailed results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results_languages/mistral_7B/french/ICD11_mistral_7B_prompt_ddx_qualtrics_modified_detailed_results.csv
+
+Anxiety Accuracies:
+Top-1: 0.27
+Top-2: 0.27
+Top-3: 0.27
+Top-1 Average Accuracy: 0.27 (±nan)
+Top-2 Average Accuracy: 0.27 (±nan)
+Top-3 Average Accuracy: 0.27 (±nan)
+Results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results_languages/mistral_7B/french/ICD11_mistral_7B_prompt_ddx_qualtrics_modified_performance.csv
+GPU Memory - Total: 81152.75 MB, Reserved: 12788.00 MB, Allocated: 1790.87 MB, Free: 10997.13 MB
+GPU Memory - Total: 81152.75 MB, Reserved: 12788.00 MB, Allocated: 1790.87 MB, Free: 10997.13 MB

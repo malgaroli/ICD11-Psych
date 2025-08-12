@@ -1,0 +1,2 @@
+mean_top_1_accuracy,std_top_1_accuracy,mean_top_2_accuracy,std_top_2_accuracy,mean_top_3_accuracy,std_top_3_accuracy,Anxiety_top_1_accuracy,Anxiety_top_2_accuracy,Anxiety_top_3_accuracy,Mood_top_1_accuracy,Mood_top_2_accuracy,Mood_top_3_accuracy
+0.6038961038961039,0.04591602475237323,0.6731601731601732,0.07652670792062202,0.7878787878787878,0.17141982574219336,0.6363636363636364,0.7272727272727273,0.9090909090909091,0.5714285714285714,0.6190476190476191,0.6666666666666666

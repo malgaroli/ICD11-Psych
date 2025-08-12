@@ -26,10 +26,11 @@ class PromptBuilder:
         Prepare prompts with chain-of-thought instructions for each vignette.
         """
         cot_text = {
-            "Anxiety": self.prompt_dict['cot_anxiety'],
-            "Mood": self.prompt_dict['cot_mood'],
-            "Stress": self.prompt_dict['cot_stress']
-        }.get(category, "No specific diagnostic steps for this category.")
+            "Anxiety": self.prompt_dict.get('cot_anxiety'),
+            "Mood": self.prompt_dict.get('cot_mood'),
+            "Stress": self.prompt_dict.get('cot_stress')
+        }.get(category, "No specific diagnostic steps for this category.") or "No specific diagnostic steps for this category."
+
 
         df_cat = self.df_vignettes[self.df_vignettes["Category"] == category]
 

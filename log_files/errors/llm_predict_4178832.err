@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 170, in <module>
+    main()
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 156, in main
+    prompt_builder = PromptBuilder(df_vignettes=data, prompts_path=prompt_path, prompt_id=prompt_id, language=language)
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/PromptBuilder.py", line 9, in __init__
+    self.prompt_dict = self.load_json(prompts_path.joinpath("prompts.json"))[language][prompt_id]
+KeyError: 'prompt_ddx_qualtrics_modified_translated'

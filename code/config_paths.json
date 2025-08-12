@@ -17,7 +17,8 @@
         "Qwen25_72B_path":"Qwen/Qwen2.5-72B-Instruct",
         "Qwen25_32B_path":"Qwen/Qwen2.5-32B-Instruct",
         "Qwen25_72B_GPTQInt4_path" : "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int4",
-        "Qwen3_32B_path" : "Qwen/Qwen3-32B"
+        "Qwen3_2507_path" : "Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "openai_20B_path" : "openai/gpt-oss-20b"
 
     },
     "laptop" : {

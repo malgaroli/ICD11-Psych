@@ -1,0 +1,1733 @@
+Vignette_ID,Category,Prompt,Model_Output,Model_Diagnoses,Ground_Truth_Label,Top_1_Accuracy,Top_2_Accuracy,Top_3_Accuracy
+Mood Vignette 1A FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  КФ – 38-летний инженер-конструктор, обратившийся в районный центр психического здоровья. Он жалуется на трудности в засыпании, которые он испытывает в последние две недели и которые мешают ему сосредоточиться на работе.
+Presenting Symptoms:  На консультации КФ выглядит уставшим, но в целом опрятным. По его словам, в последние две недели он каждую ночь просыпается посреди ночи, после чего ему трудно снова заснуть. В итоге он весь день чувствует себя измотанным, и ему чрезвычайно трудно сконцентрироваться на том, что входит в его обязанности. Поскольку в его работе так важно внимание к деталям, он боится совершить ошибку, которая может привести к серьезным проблемам при строительстве моста, который он проектирует. КФ жалуется на беспокойство и напряжение, которые он испытывает на рабочем месте, снова и снова обдумывая, не допустил ли он в чем-либо ошибку, а также на общую встревоженность, причины которой он не понимает. По словам пациента, по возвращении домой ему трудно расслабиться, и весь вечер его беспокоит расстройство желудка. Обычно после работы ему нравилось смотреть телевизор или играть в компьютерные игры, но в последнее время ему не хватает на это сил – или, скорее, эти привычные занятия уже не доставляют такой радости, как раньше. У его жены растет недовольство, т.к. он перестал выполнять свою часть обязанностей по дому, жалуясь на усталость. Со слезами на глазах он делится своим ощущением, что его рабочая и личная жизнь разваливается. За последнюю неделю он не сдал вовремя два задания, хотя начальник дал ему отсрочку, чтобы тот успел все завершить. Растущие проблемы навели КФ на мысль, что ему нужна помощь, что и привело его на консультацию.
+Additional Background Information:  КФ  живет в счастливом браке 15 лет. До сих пор он всегда демонстрировал высокие результаты в работе. Ранее у него не было психических расстройств, и, по его словам, он никогда прежде не испытывал таких ощущений, как теперь.   КФ  утверждает, что не употребляет алкоголь или наркотические вещества. В ходе медицинских обследований, предшествовавших его обращению в центр психического здоровья, не было выявлено никаких нарушений, способных объяснить его нынешнее состояние.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Single Episode Depressive Disorder  
+Reasoning: КФ проявляет симптомы депрессии, такие как потериа интереса к деятельности, настроение и трудности со сном, что соответствуют критериям сингл-эпизода депрессивного расстройства. Отсутствие других симптомов, как изменения в весе или аппетите, и отсутствие предыдущих эпизод, делает этот диагноз наиболее подходящим.
+
+Second Most Likely: Generalized Anxiety Disorder  
+Reasoning: Общая тревога и беспокойство, влияющие на сон и работу, могут соответствовать тревожному расстройству.
+
+Third Most Likely: Adjustment Disorder  
+Reasoning: Проблемы на работе и дома могут быть связаны с адаптацией на стрессоры, что характерно для адаптационного расстройства.","['Single Episode Depressive Disorder', 'Generalized Anxiety Disorder', 'Adjustment Disorder']",Single Episode Depressive Disorder,True,True,True
+Mood Vignette 1B FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  НС – 43-летняя школьная учительница, живущая с мужем, 19-летней дочерью и 14-летним сыном. На консультацию ее направил лечащий врач в связи с ее жалобами на сниженное настроение и неспособность работать.
+Presenting Symptoms:  Во время беседы с пациенткой становится заметна сниженность   аффекта, ее тихий монотонный голос едва различим. По ее словам, проблемы начались 7 месяцев назад, когда она стала постоянно просыпаться в 4 утра после 5 часов сна и не могла вновь заснуть. Несмотря на то, что ей больше не спалось, у женщины не хватало энергии или желания готовить завтрак и собираться в школу. По словам НС, поначалу она осознавала, что «скатывается в очередную негативную фазу» и пыталась бороться со своим состоянием, но с течением времени это становилось все труднее. Все чаще по утрам она оставалась в постели, размышляя о своей работе в школе и о проблемах своей дочери. НС говорит, что в последние 7 месяцев днем и по вечерам силы отчасти возвращаются, и тогда ей удается сделать что-то по дому. Около двух месяцев назад пациентка начала пропускать утренние уроки и, в конце концов,  вообще перестала ходить на работу. По ее словам, ей ничего не хочется делать, поскольку «все это кажется каким-то бессмысленным». Раньше в свободное время НС ходила по магазинам, готовила и общалась с друзьями, но вот уже несколько недель избегает дружеских встреч: приносившие когда-то радость оживленные разговоры теперь лишь утомляют и даются с трудом. Раньше она испытывала приятное удовлетворение от приготовления нового блюда для семьи, а теперь говорит, что ничто в ее жизни не приносит ей никакой радости. Беседующий с пациенткой врач отмечает, что ее движения и речь необычно замедлены и словно даются ей с усилием. Отвечая на вопрос, типичен ли для нее такой темп разговора, она признается, что у нее такое ощущение, будто она пробирается через плотную глину. В сравнении с прошлым годом НС ест очень мало и потеряла 6,8 кг (15 фунтов) с тех пор, как появились нынешние симптомы. Женщина выражает опасения, что уже никогда не восстановится и не сможет больше работать. Она говорит, что чувствует себя виноватой, что стала бременем для других и что лучше умереть, чем дожить до таких плохих времен. Однако, по ее словам, сил не хватает даже на то, чтобы привести свои мысли в исполнение.
+Additional Background Information:  За последние 15 лет у  НС  было три похожих эпизода, два из которых были спровоцированы обострениями расстройства пищевого поведения ее 19-летней дочери. Первые два эпизода полностью поддались лечению и прошли в течение двух месяцев, а последний, случившийся 2 года назад, продлился полгода. У пациентки никогда не наблюдалось периодов неадекватно приподнятого настроения, повышенной активности или самооценки. Медицинский осмотр не выявил нарушений, которые бы объясняли описанные симптомы. Никаких следов злоупотребления алкоголем или   ПАВ  не замечено.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder  
+Reasoning: The patient has a history of three depressive episodes, two of which were triggered by her daughter's eating disorder. The current episode has persisted for 7 months, with symptoms including low mood, anhedonia, and significant functional impairment, indicating a recurrent pattern.
+
+Second Most Likely: Single Episode Depressive Disorder  
+Reasoning: The current episode could be considered a single episode if this is the first occurrence, though her history suggests recurrence.
+
+Third Most Likely: Dysthymic Disorder  
+Reasoning: The chronic nature of symptoms could suggest dysthymia, but the severity and impact are more consistent with major depression.","['Recurrent Depressive Disorder', 'Single Episode Depressive Disorder', 'Dysthymic Disorder']",Recurrent Depressive Disorder,True,True,True
+Mood Vignette 1C FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  РВ, 39-летняя домохозяйка, обратилась в районную амбулаторную психиатрическую клинику с жалобами на сниженное настроение и апатию, которые она испытывала последние 3 месяца. На консультацию она пришла с мужем и 12-летним сыном.
+Presenting Symptoms:  Симптомы начались около трех месяцев назад, когда РВ с небольшим отрывом проиграла на региональных политических выборах. Она баллотировалась в депутаты городского муниципального совета и всего на несколько голосов проиграла своему оппоненту. РВ обратила внимание, что в последующие недели ее настроение начало ухудшаться. По словам пациентки, с тех пор, как прошли выборы, она продолжает обдумывать свою предвыборную стратегию и пытается понять, могла ли она что-то сделать лучше. Значительную часть дня РВ проводит в мыслях о причинах своего поражения и к концу дня сильно устает. В течение ночи она часто просыпается, а наутро встает позже, чем обычно. По словам ее мужа, ему тяжело видеть жену такой расстроенной из-за выборов, ведь раньше она была так бодра и полна сил. Теперь же РВ перестала принимать участие в привычных занятиях, таких как встречи книжного клуба или религиозные собрания, в которых она раньше играла роль организатора. Ни один из ее прежних способов досуга больше не приносит ей радости, и она все забросила. Теперь РВ редко выходит из дома, что создало сложности для семьи, т.к. именно она раньше была главной ответственной за покупку продуктов и всего необходимого для хозяйства. По словам пациентки, хотя она целыми днями дома, она не чувствует в себе сил на выполнение хоть каких-то домашних обязанностей. Вместо этого она проводит время, сидя на диване, уставившись в стену и поедая нездоровую пищу. РВ начала полнеть, а вследствие этого ругать себя за недостаток силы воли. Недавно она стала обвинять себя за поражение в выборах, предполагая, что общество считает ее «неудачницей». Обсуждая проблему с семьей, пациентка чувствует себя еще менее уверенно, так что она стала избегать общения с близким, что создает напряжение в отношениях с мужем и сыном. Временами РВ теряет веру в будущее и начинает думать, что ее родным было бы легче, если бы ее не было в живых, чем иметь дело с ее болезнью. У нее была мысль выпить целую упаковку болеутоляющих таблеток за один раз, но она еще не успела осуществить свое намерение.
+Additional Background Information:  РВ  пережила сходный эпизод меньшей тяжести 5 лет назад, когда она с семьей переехала в новый район. В результате лечения за 2 месяца наступило полное улучшение.  У пациентки никогда не наблюдалось периодов неадекватно приподнятого настроения, повышенной активности или завышенной самооценки. Медицинский осмотр не обнаружил нарушений, которые бы объясняли описанные симптомы. Признаков злоупотребления алкоголем или ПАВ  не выявлено.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Single Episode Depressive Disorder  
+Reasoning: The patient exhibits symptoms of depressed mood, anhedonia, and reduced energy, which have persisted for three months. These meet the criteria for a single episode of depression.
+
+Second Most Likely: Recurrent Depressive Disorder  
+Reasoning: The patient has a history of a similar episode five years ago, suggesting a possible recurrent pattern.
+
+Third Most Likely: Adjustment Disorder  
+Reasoning: The symptoms followed a significant life event (election loss), suggesting an adjustment disorder.","['Single Episode Depressive Disorder', 'Recurrent Depressive Disorder', 'Adjustment Disorder']",Recurrent Depressive Disorder,False,True,True
+Mood Vignette 1D FINAL 2016 01 14,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  ИС, 36-летнюю женщину,  фармацевта по профессии, направил к психиатру ее гинеколог. Пятью неделями раньше она родила своего первого ребенка, и ее настроение начало ухудшаться. Консультация проходила в амбулаторной клинике.
+Presenting Symptoms:  Во время консультации ИС тихо плачет. По словам пациентки, они с мужем очень ждали своего первенца, хоть беременность и не была  запланированной. Однако вскоре после его появления на свет женщина поймала себя на том, что в течение дня периодически начинает плакать, непонятно отчего. ИС думала, что общение с малышом будет доставлять ей радость, но вместо этого она чувствует глубокую печаль. Спустя несколько дней после рождения ребенка ей стало трудно засыпать, даже в перерывах между кормлением, которое происходит каждые 3-4 часа и на время которых муж приносит ей ребенка в постель. По словам пациентки, в результате она чувствует сильную слабость в течение дня. Когда муж на работе, ИС проводит большую часть дня в постели и поднимается только когда слышит плач ребенка. Когда она все-таки встает, ей трудно сосредоточиться на повседневных делах. Например, на прошлой неделе, меняя сыну подгузник, она вышла из комнаты выбросить использованный подгузник, а чистый надеть   ребенку  забыла и спохватилась лишь через 15 минут. Женщина больше не читает, не слушает музыку и не делает все то, что раньше ей нравилось, т.к. теперь это не приносит ей радости. Ее аппетит не изменился,   и съедает она столько  же, как обычно, но говорит, что ей уже не хватает сил и концентрации для того, чтобы готовить здоровую пищу, к  которой они с мужем привыкли. Муж пытается помочь, но по его словам, ему трудно нести весь груз забот  одному. ИС пессимистична в отношении   будущего и боится, что станет ужасной матерью. Она чувствует себя виноватой за свои ощущения, т.к. по ее мнению она должна переживать приятное волнение, но ничего не может с собой поделать. На вопрос о суицидальных намерениях пациентка отвечает, что у нее не было мыслей или побуждений причинить вред себе или ребенку. Гинеколог объяснил ей, что после родов иногда бывает подавленное настроение, но женщина обеспокоена, т.к. такое  состояние длится уже больше месяца.
+Additional Background Information:  По словам пациентки, в течение жизни у нее преобладало устойчивое и хорошее настроение. В ее анамнезе отсутствуют эпизоды, сходные с нынешним, или какие-либо другие проблемы с психическим здоровьем. Сведений об употреблении наркотических средств нет.   ИС сообщает, что до беременности она обычно могла выпить бокал вина один-два раза в неделю, но забеременев, она прекратила употреблять алкоголь и не пьет его до сих пор, т.к. кормит ребенка грудью. По словам гинеколога, у пациентки не выявлено медицинских проблем, способных объяснить ее нынешние симптомы.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Single Episode Depressive Disorder  
+Reasoning: The patient exhibits symptoms of depressed mood, tearfulness, difficulty sleeping, loss of interest in previously enjoyable activities, and feelings of guilt, which have persisted for over a month. These symptoms align with a single episode of depression, particularly postpartum depression given the onset after childbirth.
+
+Second Most Likely: Adjustment Disorder  
+Reasoning: The patient's symptoms may also fit an adjustment disorder, as they are coping with a significant life change, the birth of her first child, which can trigger emotional distress.
+
+Third Most Likely: Dysthymic Disorder  
+Reasoning: Although less likely, dysthymic disorder could be considered if the symptoms persist long-term, but typically requires a longer duration than the current presentation.","['Single Episode Depressive Disorder', 'Adjustment Disorder', 'Dysthymic Disorder']",Recurrent Depressive Disorder,False,False,False
+Mood Vignette 1E FINAL 2016 01 14,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  АЛ, 28-летняя женщина, преподаватель, обратилась на консультацию в связи с недавним супружеским конфликтом. 4 недели назад она родила ребенка, и сразу после родов у нее ухудшилось настроение. Результатом сниженного настроения стал конфликт с мужем, что и привело женщину на консультацию.
+Presenting Symptoms:  На момент консультации АЛ чувствует себя «немного уставшей от постоянных пробуждений посреди ночи, но в остальном все нормально». Из роддома ее выписали в хорошем состоянии, после того, как она без осложнений естественным путем родила своего второго ребенка. Тем не менее, в последующие несколько дней АЛ чувствовала себя подавленно, особенно пока привыкала заботиться о двух детях сразу. Она была раздражительнее обычного, придираясь к мужу по мелочам. Кроме того, она уставала больше, чем после рождения первого ребенка. Пациентка говорит, что чувствовала себя изможденной и с трудом успевала заботиться о новорожденной дочери и пятилетнем сыне. Она просила мужа больше помогать с детьми, жалуясь, что ей не хватает его поддержки. Муж не придал ситуации большого значения и сказал, что она прекрасно со всем справляется. У них было несколько бурных ссор, после которых АЛ чувствовала себя недооцененной и непонятой. Однажды ночью муж услышал, как его жена плачет (она думала, что он спит). На следующий день он попросил тещу приехать пожить с ними, помочь по дому. Через неделю после приезда матери АЛ почувствовала себя лучше, как прежде. Ее настроение улучшилось, а сил прибавилось, несмотря на то, что для нее по-прежнему сложно заботиться о двух детях сразу. Женщина считает, что рождение второго ребенка выявило неразрешенные конфликты ее брака и что она хочет заняться их решением ради детей, пока проблемы не разрослись.
+Additional Background Information:  По словам пациентки, 5 лет назад, после рождения первого ребенка, у нее не было таких трудностей, как сейчас. В анамнезе АЛ отсутствует упоминание о каких-либо серьезных психиатрических проблемах. О злоупотреблении алкоголем или употреблении наркотических средств сведений нет.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Adjustment Disorder  
+Reasoning: The patient's symptoms, including irritability, fatigue, and emotional distress, appear to be a response to the recent stressful life event of having a second child and the resulting marital conflict. These symptoms are situational and have developed in response to identifiable stressors, fitting the criteria for Adjustment Disorder.
+
+Second Most Likely: Single Episode Depressive Disorder  
+Reasoning: The patient exhibits symptoms such as depressed mood, irritability, and fatigue, which could align with a depressive episode. However, the duration and severity may not meet the full criteria for a depressive disorder.
+
+Third Most Likely: Mixed Depressive and Anxiety Disorder  
+Reasoning: There are elements of both depressive and anxiety symptoms, but they may not meet the full diagnostic requirements for this disorder.","['Adjustment Disorder', 'Single Episode Depressive Disorder', 'Mixed Depressive and Anxiety Disorder']",No Diagnosis; symptoms and behaviours are within normal limits,False,False,False
+Mood Vignette 1F FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  Пациентке МЖ   42-года, она работает бухгалтером, живет с 15-летним сыном и 13-летней дочерью. Чуть больше года назад ее муж, с которым она была в браке 17 лет, умер от рака. Ее направили на консультацию, потому что в течение последнего месяца она стала чувствовать, что с ней что-то не так, и обеспокоена тем, что могут возникнуть проблемы с работой и она больше не сможет обеспечивать своих детей.
+Presenting Symptoms:  После смерти мужа МЖ ушла в неоплачиваемый отпуск, потому что ей было трудно сконцентрироваться. В настоящее время женщина с облегчением вернулась к работе после того, как «замечательная группа поддержки»  помогла ей  пережить утрату. МЖ очень скучает по мужу, но теперь, по прошествии некоторого времени, чувствует, что смирилась со случившимся. По словам пациентки, для детей тоже было тяжело справиться с потерей отца, но сейчас у них все в порядке с учебой, они принимают участие в школьных спортивных мероприятиях и проводят время с друзьями.
+  
+ Около месяца назад МЖ получила сложное задание по работе, и в последние две недели ее стали одолевать сомнения. По словам пациентки, она недостаточно хорошо справляется с работой и вследствие этого мысль о том, что придется вставать  утром  каждый раз ужасает ее. Концентрация и целеустремленность, которые женщина утратила после смерти мужа и которые вернулись было снова, когда она справилась с горем, опять покидают ее, и ей трудно на чем-либо сосредоточиться. Она раздражается на своих детей-подростков, и лишь изредка что-то доставляет ей радость. Думая о своей жизни, МЖ приходит к выводу, что она – сплошное разочарование. Она вспоминает случаи, когда огорчала своего мужа, и все ошибки, совершенные на работе, и эти мысли особенно досаждают ей по ночам. В результате ей трудно уснуть. Пациентка осознает, что муж сказал бы ей, что она слишком много думает и прекрасно может справиться с новым заданием по работе. Однако осознание этого не уменьшает ее критического отношения к себе. Тем не менее, женщина старается делать свою работу максимально хорошо, несмотря на усталость,  и не получала  негативных замечаний  ни от начальства, ни от коллег.
+Additional Background Information:  МЖ – старшая из четырех детей в семье. По ее словам, взаимоотношения родителей были конфликтными, они часто ссорились. Отец был жестким и требовательным и часто говорил, что из МЖ ничего не выйдет. У пациентки были близкие отношения с бабушкой по материнской линии, которая жила вместе с ними и утешала внучку, когда та была напугана или чувствовала безысходность. После смерти бабушки у МЖ случился депрессивный эпизод (на тот момент ей было 15 лет). Первые серьезные отношения у нее появились в 17 лет, когда она окончила школу и начала работать. Тогда МЖ впервые почувствовала себя по-настоящему счастливой: она сама зарабатывала деньги, и в ее жизни был значимый человек. Она поступила в местный  колледж и закончила его с дипломом бухгалтера, но вскоре после окончания ее парень расстался с ней, и она снова на несколько месяцев погрузилась в депрессию, не спала, утратила силы и всякий интерес к привычным делам, не могла ни на чем сосредоточиться. Ей прописали лекарство, которое, как казалось, неплохо помогало. С тех пор у нее не было других подобных  эпизодов. Пациентка говорит, что не употребляет ни алкоголь, ни наркотики. Медицинский осмотр не выявил никаких нарушений, способных объяснить описанные симптомы.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Adjustment Disorder  
+Reasoning: The patient's symptoms, such as feelings of inadequacy, work-related worries, and concentration difficulties, began after a significant life stressor (her husband's death) and have persisted for a month. These align with an adjustment disorder,which is triggered by a specific stressor and is time-limited.
+
+Second Most Likely: Single Episode Depressive Disorder  
+Reasoning: The patient has a history of previous depressive episodes and current symptoms like concentration difficulties and self-criticism could indicate a depressive episode. However,the functionality and the time frame make adjustment disorder more likely.
+
+Third Most Likely: Mixed Depressive and Anxiety Disorder  
+Reasoning: The presence of both depressive and anxiety symptoms suggests this diagnosis,but the functionality and stressor-related onset make adjustment disorder more appropriate.","['Adjustment Disorder', 'Single Episode Depressive Disorder', 'Mixed Depressive and Anxiety Disorder']",Recurrent Depressive Disorder,False,False,False
+Mood Vignette 1G FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  РК – 50-летний инженер, который был направлен на консультацию в связи с чувством сильного отчаяния. Он согласился обратиться за помощью, т.к.    чувства апатии и ненависти к себе были уже невыносимы и одолевали его почти все время. 5 месяцев назад его жена погибла в автокатастрофе; пациенту казалось, что он уже смирился с кончиной супруги, но потом его стали переполнять вышеописанные ощущения. У него двое взрослых детей, живущих неподалеку со своими семьями.
+Presenting Symptoms:  После смерти жены РК взял отгул на некоторое время и вернулся к работе около трех месяцев назад. На протяжении последнего месяца он чувствовал себя очень подавленным. Обычно мужчина был общительным и жизнерадостным, а теперь чувствует печаль и пустоту. Даже самым энергичным из его друзей не удается вытащить его из дома. Более того, пациент сердится на тех, кто пытается его ободрить, потому что от этого чувствует себя еще хуже. В последний месяц РК прекратил проводить время со своими детьми и внуками, поскольку общение с ними стало для него трудно и утомительно. Мужчина стал искать предлоги, чтобы видеть их как можно реже, что беспокоит обоих его сыновей. Хотя он и осознает, что сыновья желают ему добра, их вопросы только раздражают его, и, в конце концов, он перестал отвечать на их звонки.
+  
+ Продуктивность пациента на работе за последний месяц снизилась до такой степени, что начальник пригрозил ему увольнением, при том, что РК работает в этой компании уже больше двадцати лет и регулярно получал повышения. Пациент сообщает, что ему трудно сконцентрироваться, и часто ловит себя на том, что перечитывает одну и ту же страницу снова и снова. Работа кажется ему скучной и бессмысленной, а дома он проводит время за просмотром телевизионных шоу, не вникая в  их сюжет. По словам РК, ему не удается заставить себя чем-то заняться или куда-то сходить, сил и мотивации не хватает даже на выполнение мелких работ по дому, которые прежде вызывали у него чувство удовлетворения. Пациент сообщает, что за последний месяц набрал около четырех килограммов и объясняет это значительным снижением активности.
+  
+ РК заявляет, что чувствует себя изможденным. Он с трудом засыпает, ночью по многу раз просыпается и не чувствует себя отдохнувшим после тех нескольких часов, на время которых удается заснуть. В течение дня пациент испытывает беспокойство и нервное напряжение, и в то же время у него такое ощущение, будто он движется как в замедленной съемке. По словам РК, его руки и ноги словно налиты свинцом. Также он сообщает, что в последнее время любой пустяк выводит его из себя. Так, две недели назад, во время одной из редких встреч со своей семьей, он был груб со своей пятилетней внучкой и довел ее до слез, хотя она не сделала ничего плохого и «просто вела себя как ребенок».
+  
+ Оглядываясь назад, РК приходит к выводу, что за всю жизнь так и не сделал ничего стоящего и что ему нечего ждать от будущего. Мужчина осознает, что его мысли возвращаются к тому времени, когда еще была жива жена, но утверждает, что мысли о тщетности жизни не связаны с ее потерей. Пациент признается, что испытывает сильное желание «заснуть и больше не просыпаться» и думает, что всем стало бы от этого лучше. Его часто посещают мысли о том, чтобы выпить разом большое количество диазепама (валиум), который прописал ему семейный врач.
+Additional Background Information:  РК вспоминает, что раньше с ним уже бывали подобные эпизоды подавленного  настроения. Первый случай был в подростковом возрасте, еще несколько – в зрелые годы. Это были периоды вялости и апатии длительностью около одного-двух месяцев. В это время пациент терял аппетит, испытывал сложности с концентрацией и был к себе критичнее обычного. Его никогда не посещали продолжительные (неделю или больше) эпизоды чрезмерно приподнятого настроения или повышенной энергии. С женой РК познакомился в институте в начале последнего курса, и 8 месяцев спустя они поженились. В их супружеской жизни часто случались ссоры из-за злоупотребления алкоголем со стороны жены. 5 месяцев назад автокатастрофа произошла как раз из-за того, что она села за руль в нетрезвом состоянии и врезалась в дерево. РК говорит, что скучает по жене, но сердится на нее за то, что она была такой безответственной, и винит себя за то, что не смог убедить ее бросить пить. В молодости он тоже пил вместе с женой, но перестал, когда увидел, «как это на ней отражается». В настоящее время пациент не употребляет алкоголь или наркотические средства. Медицинский осмотр не выявил нарушений, которые объясняли бы описанные симптомы.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Single Episode Depressive Disorder  
+Reasoning: The patient exhibits symptoms of severe depression, including sadness, emptiness, loss of interest, social withdrawal, and suicidal ideation, which have persisted for a month. These symptoms are consistent with a single episode of depression.
+
+Second Most Likely: Recurrent Depressive Disorder  
+Reasoning: The patient has a history of previous depressive episodes, and the current symptoms have been present for a month, which could indicate a recurrent pattern.
+
+Third Most Likely: Prolonged Grief Disorder  
+Reasoning: The symptoms are related to the loss of a loved one, but they have persisted beyond the typical grieving period.","['Single Episode Depressive Disorder', 'Recurrent Depressive Disorder', 'Prolonged Grief Disorder']",Recurrent Depressive Disorder,False,True,True
+Mood Vignette 1H FINAL 2016 01 14,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  ГT – 42-летняя домохозяйка, детей нет. Обратилась за помощью после переезда в другой город. Ее муж военный, поэтому они часто переезжают. По словам пациентки, в этот раз ей особенно трудно адаптироваться, т.к. она чувствует себя одинокой в новой обстановке и пока не нашла для себя круг общения.
+Presenting Symptoms:  ГT говорит, что после переезда на новое место жительства чувствует себя одинокой и обособленной. Поскольку муж весь день на работе, женщина остается дома одна, и ей совершенно нечем заняться. В том городе, где они жили раньше, у нее были подруги примерно ее возраста, с которыми она регулярно ходила вместе обедать и выполняла волонтерскую работу в военном городке. Мужья подруг тоже были военными, и у ГT было чувство сопричастности. Нынешние же соседи гораздо моложе, у них маленькие дети, и женщина не чувствует себя своей среди них. Она говорит, что ей   скучно до такой степени, что уже ничто не доставляет радости. Днем она часто ложится вздремнуть, а по утрам не слышит будильник. В последние три недели пациентка с удивлением стала замечать, что в течение дня периодически плачет без особой причины. Муж жалуется, что жена просто слоняется по дому и не всегда выполняет обязанности по хозяйству, такие как готовка и уборка – работа, которую она обычно завершала к его приходу. Женщина признается, что не может сконцентрироваться на чем-либо дольше, чем на несколько минут. Целыми днями она все время что-нибудь ест и за последние две недели набрала около двух кг, что ее очень расстраивает.
+Additional Background Information:  Пациентка сообщает, что в прошлом у нее уже было несколько похожих эпизодов, начиная с подросткового возраста. По ее словам, эпизоды «сниженного» или «грустного»  настроения длились от двух недель до двух месяцев и, как правило, сопровождались такими же симптомами: она много спала, ела больше обычного, и ей было трудно сосредоточиться. Но со временем все проходило, и женщина возвращалась в свое привычное жизнерадостное состояние. Во время двух эпизодов она проходила психотерапевтическое лечение в военной клинике. По словам ГT, это очень помогало, но в этот раз ей стало сложно выполнять рекомендации своего терапевта. Медосмотр не выявил нарушений, способных объяснить описанные симптомы. Сведений об употреблении алкоголя или наркотиков нет.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder  
+Reasoning: The patient has a history of previous depressive episodes with similar symptoms, including increased sleep, appetite changes, and concentration difficulties, which resolved with psychotherapy. Current symptoms such as feelings of loneliness, anhedonia, frequent crying, and weight gain suggest a recurrent depressive episode.
+
+Second Most Likely: Single Episode Depressive Disorder  
+Reasoning: The current symptoms could represent a single depressive episode,Third Most Likely: Adjustment Disorder  
+Reasoning: The symptoms may be related to the recent move and adaptation difficulties, which could indicate an adjustment disorder.","['Recurrent Depressive Disorder', 'Single Episode Depressive Disorder', 'Adjustment Disorder']",Recurrent Depressive Disorder,True,True,True
+Mood Vignette 1J FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  EЛ – домохозяйка, вдова, 61 год. В прошлом психическими расстройствами не страдала. Ее трое сыновей обратили внимание на то, что в последние несколько недель женщина выглядит несчастной, утратила интерес к привычным делам и сидит дома больше, чем обычно. Они посоветовали матери обратиться к семейному врачу, а тот, в свою очередь, направил пациентку на консультацию к психиатру.
+Presenting Symptoms:  На протяжении последнего месяца EЛ почти все время чувствовала себя несчастной и подавленной. Женщина жалуется на плохой сон: ей трудно заснуть, и несколько раз за ночь она просыпается. По ночам ей кажется, что «этому нет конца», а на следующий день она чувствует себя «вымотанной». EЛ больше не выполняет работу по дому и вместо этого только и делает, что смотрит телевизор. По ее словам, она постоянно чувствует такой упадок сил, что просто не способна ни на что другое. Сыновья пациентки обеспокоены тем, что ее дом стал непривычно запущенным и что мать не следит за собой так, как раньше. Когда EЛ все же находит в себе силы сделать что-либо, это не приносит ей прежней радости. Обычно женщина любила вязать свитера и вышивать (особенно для внуков), но за последние несколько недель практически не прикасалась к рукоделию. Ее подруги перестали звонить ей, т.к. она стала избегать общения с ними.
+  
+ В довершение всего пациентка убедила себя, что со времени смерти мужа, случившейся 4 года назад, ей не удается правильно распоряжаться семейными финансами. На вопрос о том, что побуждает ее так думать, она отвечает, что цены на бирже упали и что процентные ставки невысоки. В ответ на возражение, что эти факторы ей неподвластны, женщина настаивает, что «лишь она виновата» в том, что финансовая ситуация в ее семье   «катится в пропасть».  EЛ утверждает, что она «не приносит пользы» семье и «в целом тоже бесполезна». Сыновья же, напротив, говорят, что финансовое положение семьи в порядке и что после смерти их отца мать прекрасно управляется с семейным состоянием. На дальнейшие расспросы пациентка продолжает заявлять, что ее семья находится в бедственном положении и что всему виной ее неверные действия. Женщина утверждает, что сыновья говорят неправду, чтобы не расстраивать ее. Все эти разногласия по финансовым вопросам не раз приводили к ссорам с ее детьми. Единственный выход из ситуации пациентка видит в том, чтобы убить себя в целях получения страховки. Сыновья не знают об этом, но  EЛ рассказывает о своем плане утопиться в озере недалеко от дома, устроив все так, чтобы ее смерть выглядела как несчастный случай, а сыновьям выплатили бы страховку за ее жизнь.
+Additional Background Information: Женщина очень скучает по мужу, но говорит, что смирилась с его кончиной. Несколько месяцев она была в трауре, но потом постепенно вернулась к своей привычной деятельности дома и в своей общине.    Когнитивное обследование показало, что память и в целом  когнитивные функции пациентки находятся в хорошем состоянии для ее возраста. Эти данные соотносятся со словами ее сыновей о том, какой она была еще недавно. По информации семейного врача EЛ, медицинских нарушений, способных объяснить описанные симптомы, не выявлено. Пациентка употребляет алкоголь в минимальных количествах, о злоупотреблении лекарствами или   психоактивными веществами сведений нет.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Single Episode Depressive Disorder  
+Reasoning: The patient exhibits persistent feelings of sadness,loss of interest in usual activities, and sleep disturbances over the past month, which aligns with a single episode of depression.  
+
+Second Most Likely: Recurrent Depressive Disorder  
+Reasoning: Although there is no prior history of depressive episodes, the chronic nature of her symptoms could suggest a recurrent pattern.  
+
+Third Most Likely: Adjustment Disorder  
+Reasoning: Her symptoms might be related to adjustment issues following her husband's death and financial concerns, though this is less likely.","['Single Episode Depressive Disorder', 'Recurrent Depressive Disorder', 'Adjustment Disorder']",No Diagnosis; symptoms and behaviours are within normal limits,False,False,False
+Mood Vignette 1K FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  РГ – 35-летний государственный служащий, женат, имеет двоих маленьких детей. Жалуется на подавленное настроение и апатию, беспокоится насчет своей способности компетентно выполнять свою работу. Шесть месяцев назад мужчину перевели на новую должность из отдаленного городка, в котором они жили до этого. Жена пациента отвела мужа к терапевту, после того как РГ выразил опасение быть ложно обвиненным в   финансовых махинациях и арестованным. Терапевт, в свою очередь, перенаправил его к психиатру.
+Presenting Symptoms:  В начале консультации РГ говорит в основном о своих опасениях, связанных с работой. Когда его перевели на текущую должность, он очень беспокоился, что новые коллеги отнесутся к нему недоброжелательно, поскольку он пришел на смену очень популярному в офисе сотруднику. Приступив к работе, он укрепился в своем мнении, и вскоре ему стало трудно сосредотачиваться на работе. Прежде РГ никогда не занимал руководящие должности и теперь сомневается в себе, т.к. его предшественника все обожали. Пациент боится, что никогда не сможет соответствовать ожиданиям коллег, потому что он «самый обыкновенный».   Он стал утрачивать свою привычную уверенность и все чаще   перекладывать на других принятие решений даже по незначительным вопросам. Мужчина признает, что на него это не похоже, ведь он всегда считал себя амбициозным и успешным.
+  
+ По мере беседы выясняется, что в последний месяц пациенту стало казаться, будто коллеги сговорились сместить его с должности. РГ считает, что они найдут информацию о его инвестициях и используют ее для ложного обвинения в несоответствии между его доходами и финансовыми средствами и что в результате его арестуют. Пациент признает, что у него нет доказательств таким предположениям, если не считать слухов о причинах, по которым был уволен его предшественник, – однако он совершенно уверен в своей правоте. «Какой был смысл усердно работать всю жизнь, – расстроенно говорит РГ, – если все должно вот так закончиться?» Мужчина утверждает, что в итоге всех подведет и что из-за него жизнь его семьи будет разрушена.
+  
+ Дома РГ чувствует себя очень расстроенным и  подавленным и легко может заплакать. По его словам, в последнее время он ест и спит меньше обычного, но ему все еще удается каждый день ходить на работу. Пациент говорит, что в конце рабочего дня ощущает непривычно сильную усталость. Тем не менее, мужчина продолжает регулярные занятия спортом, и его настроение улучшается, когда он проводит свободное время вместе с семьей или говорит по телефону с родителями, братьями и сестрами, которые живут в городе, откуда он  уехал.
+Additional Background Information:  Со слов жены пациента, он всегда очень ответственно относился к своей работе, и за ним никогда прежде не замечалось такого упадка духа или «иррациональных» идей, как сейчас. РГ никогда не страдал серьезными заболеваниями, и медосмотр показал, что его здоровье в отличном состоянии. По словам жены, пациент употребляет алкоголь в незначительных  количествах (не более одного бокала вина за ужином три-четыре раза в неделю) и никогда не употреблял наркотики.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Хм, но, возможно, я неправильно оценил, что Adjustment Disorder. Может быть, что это Single Episode Depressive Disorder, так как симптомы сохраняются дольше месяца и соответствуют критериям для депрессии. Тогда Adjustment Disorder обычно для более краткосрочных стрессоров, а здесь ситуация более стабильная.
+
+Первый диагноз: Single Episode Depressive Disorder, так как симптомы сохраняются шесть месяцев и соответствуют критериям для эпизодического депрессивного расстройства.
+
+Второй диагноз: Adjustment Disorder, так как стрессор связан с изменением работы.
+
+Третий-наиболейший диагноз: Mixed Depressive and Anxiety Disorder, так как есть и депрессия, и тревога.
+","['NO_MATCH_FOUND', 'NO_MATCH_FOUND', 'NO_MATCH_FOUND']",Single Episode Depressive Disorder,False,False,False
+Mood Vignette 2 FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  AC – 24-летняя женщина, обратившаяся к своему лечащему врачу с жалобой на головные боли, боль в спине и трудности в засыпании. Она работает продавцом в местном торговом центре и жалуется на стресс на работе, связанный с требовательностью ее начальника.
+Presenting Symptoms:  По словам пациентки, за последние 4 недели ей было непривычно грустно, хотя ей все же удавалось получать удовольствие в  выходные дни. Она сообщает, что пониженное настроение то наступает, то проходит и редко длится весь день. Кроме того, на работе она чувствует себя встревоженной, что сопровождается тошнотой и беспокойством. Тем не менее, когда в торговом центре не так много людей, AC удается удерживать контроль над своим состоянием. Ее головные боли и боль в пояснице усиливаются во время волнения. По ее словам, у ее начальника очень высокие требования, и он часто критикует ее работу. Бывает, AC часами беспокоится о том, что начальник может ее уволить. Эти мысли расстраивают ее, т.к. у нее неполное среднее образование и поэтому не надеется получить работу получше. Когда торговый центр переполнен, она порой ощущает запредельное напряжение, и головные боли вынуждают ее брать отгул. Пациентка утверждает, что не испытывает потери аппетита и что ее не посещали суицидальные мысли.
+Additional Background Information:  По словам AC, в подростковом возрасте она чувствовала себя довольно несчастной. В школе она все время испытывала беспокойство, волнуясь за свои оценки и переживая по поводу отношений с окружающими, которые складывались не так хорошо, как ей хотелось бы. В настоящее время она в большей степени беспокоится о работе, чем о других сторонах жизни. У нее хорошие друзья и близкие отношения с мужчиной, с которым она встречается 2 года. Стандартное медицинское обследование не выявило причин, которые объясняли бы ее симптомы, в частности, боль в спине. AC сообщает, что употребляет в среднем два алкогольных напитка в неделю (как правило, когда они с молодым человеком идут на вечеринку) и не употребляет наркотических средств.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Generalized Anxiety Disorder  
+Reasoning: The patient presents with symptoms of excessive worry, tension, and heightened anxiety, particularly in the workplace, which aligns with the criteria for Generalized Anxiety Disorder. Her physical complaints, such as headaches and back pain, are common somatic manifestations of anxiety.
+
+Second Most Likely: Mixed Depressive and Anxiety Disorder  
+Reasoning: She experiences both depressed mood and anxiety, which could indicate a mixed presentation, though the duration and severity may not fully meet the criteria for a distinct mood disorder.
+
+Third Most Likely: Adjustment Disorder  
+Reasoning: Her symptoms appear to be triggered by workplace stress, suggesting an adjustment disorder, though the focus on anxiety symptoms leans more towards Generalized Anxiety Disorder.","['Generalized Anxiety Disorder', 'Mixed Depressive and Anxiety Disorder', 'Adjustment Disorder']",Mixed Depressive and Anxiety Disorder,False,True,True
+Mood Vignette 3 FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  CT – сорокалетняя замужняя женщина, работает в небольшой компании бухгалтером. Она обратилась к своему лечащему с жалобами на различные симптомы со стороны желудочно-кишечного тракта, такие как периодический понос, а также мышечные боли.
+Presenting Symptoms:  При более подробных расспросах CT признает, что всегда слишком много беспокоилась и что во время беспокойства она испытывает ряд физиологических симптомов, включая головные боли, мышечное напряжение в плечах и шее, диарею. Женщина отмечает, что беспокойство начинается с раннего утра, не отступая и ночью, часто мешая ей уснуть. По мнению  пациентки беспокойство – это часть ее личности,  и порой это может быть даже полезно. CT поясняет, что волнение побуждает ее принимать меры, помогающие поддерживать ее здоровье и здоровье ее семьи в хорошем состоянии. Аналогичным образом, благодаря ее тревожному стремлению хорошо выполнять свою работу, а также благодаря ее беспокойству по финансовым вопросам, учетные записи ее компании в порядке, а ее семье удалось скопить наличные средства. В то же время она признает, что уровень ее беспокойства очень часто мешает ей в отношениях с людьми. Порой она очень раздражительна, что приводит к ссорам с мужем и детьми. Кроме того, она временами звонит детям убедиться, что с ними все в порядке, так часто, что их это начинает раздражать. Также она утверждает, что беспокойство занимает по нескольку часов в день и что недавно она отказалась от возможности взять на себя более ответственную работу, волнуясь, что не сможет должным образом выполнять новые обязанности и что ее встревоженность помешает ей сосредотачиваться. Временами она задумывается о том, как беспокойство осложняет ей жизнь, и тогда ее настроение ухудшается. Следующие несколько дней она чувствует себя подавленной и ворчливой. Эти периоды спада настроения очень не нравятся пациентке, но по ее словам, они никогда не длятся дольше нескольких дней.
+Additional Background Information:  CT говорит, что всегда, сколько себя помнит, тревожилась по тому или иному поводу. В возрасте 20-29 лет она иногда безуспешно пыталась контролировать тревогу с помощью алкоголя, но уже не пьет с тех пор, как вышла замуж и родила детей. Другие психоактивные  вещества не употребляет. Медосмотр не выявил нарушений, способных объяснить описанные симптомы.  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Generalized Anxiety Disorder  
+Reasoning: The patient's symptoms of excessive worry, physical complaints, and impaired functioning are consistent with generalized anxiety disorder. She experiences persistent worry starting early in the morning, physical symptoms like muscle tension and diarrhea, and her worry interferes with relationships and work, which aligns with this diagnosis.
+
+Second Most Likely: Recurrent Depressive Disorder  
+Reasoning: She reports periods of feeling down and irritable for several days, which could indicate recurrent depressive episodes, though they are brief and not meeting the full criteria for recurrent depressive disorder.
+
+Third Most Likely: Mixed Depressive and Anxiety Disorder  
+Reasoning: Her symptoms of worry and physical complaints, along with periods of feeling down, could suggest a mixed presentation, though the primary issue seems to be anxiety.","['Generalized Anxiety Disorder', 'Recurrent Depressive Disorder', 'Mixed Depressive and Anxiety Disorder']",Generalized Anxiety Disorder,True,True,True
+Mood Vignette 4 FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  БC – 67-летний пенсионер, который проходил обследование в центре психического здоровья в связи с острым недомоганием и возрастающей изоляцией от общества. Все началось 13 месяцев назад после смерти его жены. Пациент говорит, что «никогда не сможет смириться с кончиной супруги».
+Presenting Symptoms:  По ощущениям БC, в его жизни наступила всепоглощающая пустота. Просыпаясь по утрам, он чувствует оцепенение. Мысли о жене вызывают у него невыносимую печаль. Пациент ощущает себя «опустошенным» и не может справиться со своим состоянием. По его словам, он все время думает о жене, и эти мысли его очень расстраивают. У него такое чувство, словно «сердце вынули из груди». В последнее время БC в основном сидит дома, поскольку после смерти жены он отдалился от своего привычного окружения, общение с которым доставляло им с женой радость многие годы. По словам пациента, сначала друзья очень поддерживали его, но с течением времени начали терять терпение, поскольку с их точки зрения ему уже давно пора перестать горевать и продолжить жить. Мужчина признается, что в глубине души  он чувствует досаду  на своих ближайших друзей за то, что их жены живы.
+  
+ БC навещает могилу своей жены почти ежедневно. Он проводит там пару часов, разговаривает с ней, иногда плачет. За ужином он накрывает отдельный прибор для жены: так ему становится легче. Каждый вечер он говорит с женой, по меньшей мере, час, рассказывая, как прошел день. Иногда БC ходит в местную церковь, но не часто, т.к. они с женой многие годы ходили туда, и обстановка вызывает у него болезненные воспоминания. По словам пациента, он живет просто  в ожидании смерти. При этом он продолжает готовить, почти каждый день ходит в местный магазин купить газету и продукты, ухаживает за садом.
+  
+ У БC трое взрослых детей, которые живут отдельно. Хотя  с двумя он встречается несколько раз в неделю и регулярно видит своих четверых внуков, мужчина признается, что общение с ними не доставляет ему радости с тех пор, как умерла его  жена. Его дети обеспокоены тем, что он до сих пор не справился с потерей, и расстроены, поскольку ожидали, что к этому времени отцу уже станет легче.
+Additional Background Information:  По словам пациента, у него были очень близкие отношения с женой. Они были в браке 41 год, и жена «была всем» для него. Он говорит, что они почти никогда не расставались и, не считая работы, все делали вместе. На недавнем медосмотре врач сказал, что здоровье пациента в отличной форме, но выразил обеспокоенность его эмоциональным состоянием. БC не употребляет алкоголь или наркотики, не получает какие-либо лекарства, и у него никогда не было психических расстройств.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Prolonged Grief Disorder  
+Reasoning: The patient's symptoms align with prolonged grief disorder, characterized by persistent and intense grief, social withdrawal, and preoccupation with the deceased, persisting beyond expected time frames. His daily visits to the cemetery, rituals, and emotional pain fit this diagnosis.
+
+Second Most Likely: Single Episode Depressive Disorder  
+Reasoning: The patient's profound sadness, social isolation, and ruminative thoughts about his wife could indicate a major depressive episode, though the duration and context suggest prolonged grief.
+
+Third Most Likely: Recurrent Depressive Disorder  
+Reasoning: The chronic nature of his symptoms might suggest a recurrent depressive disorder, though the context of grief complicates this diagnosis.","['Prolonged Grief Disorder', 'Single Episode Depressive Disorder', 'Recurrent Depressive Disorder']",Prolonged Grief Disorder,True,True,True
+Mood Vignette 5 FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  TM – 58-летний школьный учитель. На консультацию его направил лечащий врач для оценки психологического состояния после плановой медицинской проверки. По словам врача, пациент очень расстроен смертью жены, которая умерла 6 недель назад после продолжительной борьбы с лейкемией.
+Presenting Symptoms:  TM признается, что с тех пор, как 6 недель назад умерла его жена, он очень тяжело переживает свое горе. Мужчина глубоко опечален, жизнь для него утратила смысл. Говоря о жене, он заметно расстраивается и часто плачет во время беседы. По словам пациента, жена была самым главным в его жизни и ему очень ее не хватает. В последнее время TM думает о ней «практически постоянно», и эти мысли обычно заканчиваются приступами плача, стоит ему представить свою дальнейшую жизнь без нее. Иногда ему слышится ее голос, что лишь напоминает ему о том, что жены больше нет, и это еще больше усиливает его одиночество. Пациент признается, что больше не видит смысла в жизни, объясняя это тем, что последние три года болезни супруги все время заботился о ней вплоть до ее кончины и теперь ощущает пустоту.
+  
+ По словам TM, зачастую он остается в постели целыми днями, думает о жене и не отвечает на телефон, потому что не хочет ни с кем говорить. По утверждению пациента, люди не понимают его горя. Он сердится, слыша от них банальности типа «время все лечит». Пятеро детей TM живут неподалеку и регулярно навещают отца, но ему тяжело с ними находиться, в основном потому, что они тоже переживают. Дети покупают ему продукты, и такой образ жизни – противоположность той поре, когда пациент заботился о своей жене и был постоянно занят обеспечением ее многочисленных потребностей.
+  
+ Две недели назад – то есть через месяц после смерти жены – TM попытался вернуться к работе, но не смог сосредоточиться ни на составлении учебного плана, ни на проведении занятий. Однажды, когда мужчина заплакал прямо посреди урока, тема которого напомнила ему о жене, он решил взять отпуск до конца учебного года. TM сомневается, что сможет вернуться к своей работе в школе, потому что не представляет, как можно продолжать жить, словно ничего не случилось. «Будущее видится мне в мрачном свете, - говорит пациент. – Не могу представить, как я смогу жить без нее».
+Additional Background Information:  В прошлом у TM не было проблем с психическим здоровьем. Со своей женой он прожил 30 лет и был очень счастлив в браке. Его лечащий врач сообщает, что здоровье пациента в хорошем состоянии, но отмечает, что тот похудел на 2,5 кг. TM не употребляет алкоголь или наркотические средства.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Prolonged Grief Disorder  
+Reasoning: TM experiences intense grief, persistent thoughts of his deceased wife, hearing her voice, and significant impairment in daily functioning, which aligns with prolonged grief disorder criteria. His symptoms have been present for six weeks, and while not yet reaching six months, they are severe and persistent.
+
+Second Most Likely: Single Episode Depressive Disorder  
+Reasoning: TM exhibits depressive symptoms like sadness, loss of meaning, and crying spells, which could indicate a depressive episode. However, the duration is only six weeks, and the intensity may not yet meet full criteria for a major depressive episode.
+
+Third Most Likely: Adjustment Disorder  
+Reasoning: TM's symptoms could be seen as an adjustment disorder due to the significant life stressor of losing his wife, but the severity and nature of his symptoms lean more towards prolonged grief rather than adjustment disorder.","['Prolonged Grief Disorder', 'Single Episode Depressive Disorder', 'Adjustment Disorder']",No Diagnosis; symptoms and behaviours are within normal limits,False,False,False
+Mood Vignette 6 FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  БM – 58-летний преподаватель университета, обратившийся за помощью после недавнего развода. Его 33-летняя жена ушла, заявив, что просто не может больше справляться с негативным настроем мужа.
+Presenting Symptoms:  Беседа протекает медленно, т.к. темп речи пациента снижен и он делает долгие паузы. Под глазами у него заметны темные круги. На вопрос о своем настроении мужчина пожимает плечами и говорит, что оно такое же, как  было и всегда: скорее пониженное, чем повышенное. По его словам, ничто не доставляет ему особенной радости. БM говорит, что не винит бывшую жену в том, что оставила его, ведь у него преобладает негативный настрой и с ним не особенно весело. Если он вовлекается в какое-либо занятие, например, игру или верховую езду, то только потому, что этого ждут от него другие,  и было бы труднее отказать, чем сделать. По словам пациента, уже многие годы студенты в своих отзывах пишут, что в его лекциях не хватает энергии и энтузиазма. БM утверждает, что таким он был всегда, сколько себя помнит, или по меньшей мере лет с двадцати. На вопрос о том, были ли в его жизни периоды, когда он чувствовал себя более счастливым или энергичным, пациент отвечает, что были радостные события, такие как рождение дочери (сейчас она уже подросток), но радость редко длилась дольше одного-двух дней, после чего к нему возвращалось   ощущение подавленности . БM признается, что его сдержанный и самокритичный характер вредил его личным и профессиональным отношениям. Его редко приглашают на встречи коллег, такие как дни рождения или походы в ночной клуб. Теперь, после расставания с женой, мужчина осознал, что потерял самое главное из-за своей манеры поведения. Он надеется, что лечение вернет ему способность радоваться жизни и он сможет уговорить жену вернуться.
+Additional Background Information: Несмотря на описанные проблемы, пациенту удалось добиться успеха в научной карьере. Хотя он и не самый популярный сотрудник на факультете, но в своей теме он пользуется уважением как исследователь. Медосмотр установил, что здоровье пациента в хорошем состоянии, все показатели анализа крови в пределах нормы. По словам БM, он может иногда по особым случаям выпить бокал шампанского или кружку  пива, но в целом почти не пьет. Наркотические вещества не употребляет.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder  
+Reasoning: The patient exhibits persistent depressive symptoms such as low mood, reduced speech tempo, and lack of joy, which have been present for many years. These symptoms align with recurrent depressive disorder.
+
+Second Most Likely: Dysthymic Disorder  
+Reasoning: The patient's symptoms of persistent negative mood and anhedonia could also suggest dysthymic disorder, characterized by long-term mild depressive symptoms.
+
+Third Most Likely: Mixed Depressive and Anxiety Disorder  
+Reasoning: The presence of both depressive and anxiety symptoms might indicate a mixed disorder, though it's less likely than the first two options.","['Recurrent Depressive Disorder', 'Dysthymic Disorder', 'Mixed Depressive and Anxiety Disorder']",Dysthymic Disorder,False,True,True
+Mood Vignette 7 FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  СВ – 33-летний одинокий мужчина, работающий фотографом в крупном торговом центре. К психиатру он обратился по настоянию сестры, обеспокоенной его раздражительностью и резкими сменами настроения в последнее время.
+Presenting Symptoms:  Две недели назад сестра СВ обратила внимание, что брат стал  гораздо энергичнее обычного. Он сообщил ей, что планирует поездку на экзотический остров, где хочет фотографировать редких птиц и впоследствии продавать снимки газетам и рекламным агентствам за внушительные суммы денег,  как он предполагал.  Когда сестра пациента возразила ему, что было бы безответственно предпринимать такое дорогостоящее путешествие при его ограниченном бюджете и не заручившись контрактом с будущим покупателем фотографий, мужчина стал раздражаться и отказался продолжать с ней разговор на эту тему. На консультацию с врачом он согласился только потому, что ждет «подтверждение от профессионала, что с ним все в порядке», чтобы он мог «передать эту информацию своей дорогой сестре».
+ 
+ В начале беседы СВ заявляет о своем намерении жить «более счастливой жизнью». Он ощущает приятное волнение и хочет в полной мере воспользоваться этим приливом энергии. Все новые и новые идеи интересных  фотографий приходят к нему «стремительно, одна за другой». Поэтому мужчина решил отправиться в экзотическое путешествие, где надеется сделать необычные снимки птиц в их естественных условиях обитания. За последние две недели он по три-четыре раза в неделю ходил в бары, поскольку ему очень нравится разговаривать с женщинами, которых он там встречает. Раньше он не ходил в бары вообще. С некоторыми из этих женщин пациент вступил в интимную связь, что для него нетипично. Вместе с тем это не отразилось на его профессиональной деятельности: он продолжает ходить на работу и выполняет все свои обязательства.
+  
+ СВ утверждает, что не принимает никаких наркотических средств, но сообщает, что в последнее время пьет больше алкоголя, чем обычно, потому что у него «просто ощущение праздника». При этом он поясняет, что «больше обычного» для него означает до трех алкогольных напитков за несколько часов, проведенных в баре. «Это просто часть моего нового, более общительного «я»», – говорит пациент, добавляя, что все началось с тех пор, как он стал чувствовать себя более уверенным в себе.
+Additional Background Information:  В прошлом у  СВ  было два ярко выраженных эпизода сниженного настроения и тревоги, которые сопровождались нарушениями сна. Эти эпизоды следовали за периодами финансовых проблем. Мужчина начинал есть меньше обычного, чувствовал спад энергии, терял уверенность в своих силах и очень критично относился к своим фотографиям. Впервые это случилось около двух лет назад. Каждый эпизод длился примерно полтора месяца, после чего пациент возвращался к нормальной жизни. Медицинский осмотр не выявил нарушений, способных объяснить описанные симптомы.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Bipolar Type I Disorder  
+Reasoning: The patient exhibits elevated energy, reduced need for sleep, increased goal-directed activity, and excessive optimism, which are characteristic of a manic episode. His recent increase in social activities and risky decisions align with manic symptoms.
+
+Second Most Likely: Bipolar Type II Disorder  
+Reasoning: The history of two episodes of depressed mood and anxiety could suggest a bipolar II disorder, but current symptoms lean more towards mania.
+
+Third Most Likely: Dysthymic Disorder  
+Reasoning: The patient's history of depressed episodes could suggest dysthymia, but current presentation is more manic.","['Bipolar Type I Disorder', 'Bipolar Type II Disorder', 'Dysthymic Disorder']",Bipolar Type II Disorder,False,True,True
+Mood Vignette 8 FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  CД – 45-летний врач. На консультацию приходит в сопровождении своей жены: она настояла на визите к специалисту, чтобы получить профессиональное мнение психиатра и выяснить, все ли в порядке с мужем. CД  же считает, что не нуждается в помощи и что озабоченность супруги относятся лишь  к тому, какой он есть. По словам жены пациента, у него случаются резкие смены настроения, что негативным образом сказывается на отношениях с их сыновьями-подростками. Сложнее всего с ним по выходным и праздникам, когда он не работает и больше времени проводит с семьей. Мужчина признает за собой перепады настроения, но утверждает, что неплохо с ними справляется, добавляя про насыщенный график в своей довольно успешной клинической практике.
+Presenting Symptoms:  На консультацию CД приходит аккуратно одетым и ведет себя приветливо. Он говорит, что иногда у него бывают периоды сниженного настроения, но длятся они не более нескольких дней подряд, в крайнем случае – неделю, поэтому он никогда не обращается за помощью. В это  время мужчине требуются усилия, чтобы выполнять привычные дела, т.к. он чувствует беспричинную усталость и с трудом встает с постели по утрам. Несмотря на это, у него получается не сбавлять интенсивные темпы работы семейного врача. Пациент также сообщает, что иногда у него, наоборот, много энергии, и тогда ему требуется меньше сна и удается сделать больше, чем обычно. В такие периоды он чувствует нетерпение и раздражение, хотя, как правило, успешно скрывает это от остальных, в том числе от пациентов. За годы совместной работы коллеги привыкли к его состояниям и метко прозвали его «Доктор Маятник». По словам CД, перепады настроения были ему свойственны большую часть его взрослой жизни. Жена, с которой они вместе уже 20 лет, подтверждает его слова. Несмотря на эту проблему, супруги называют свой брак удачным. Однако жена обеспокоена тем, что, по ее ощущениям, склонность мужа к резким сменам настроения в последние два года усилилась. CД соглашается, что, действительно, с возрастом оба его полярные состояния стали более проблемными и создают еще больше сложностей в общении: так, участились ссоры с женой, сыновьями и коллегами по работе. На вопрос о том, повлияли ли как-то перепады настроения на другие аспекты его жизни, после минутного раздумья мужчина признается, что, по его мнению, он не реализовал полностью свой потенциал в профессиональном плане.
+Additional Background Information:  В прошлом пациент не проходил психиатрического лечения. Физическое здоровье у него в порядке, алкоголем или наркотиками не злоупотребляет.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Bipolar Type II Disorder  
+Reasoning: The patient exhibits periods of both hypomanic and manic symptoms, such as increased energy, irritability, and reduced need for sleep, which are characteristic of hypomania. He also experiences depressive episodes with low mood and fatigue, fitting the criteria for depressive symptoms. These patterns have been present for a long time, suggesting a mood disorder. The absence of severe manic episodes and the ability to function highly in his career align with Bipolar Type II Disorder.
+
+Second Most Likely: Dysthymic Disorder  
+Reasoning: The patient's depressive symptoms, such as low mood and fatigue, have been persistent and recurrent, which could indicate dysthymic disorder. However, the presence of hypomanic symptoms complicates this diagnosis.
+
+Third Most Likely: Single Episode Depressive Disorder  
+Reasoning: The patient experiences depressive episodes lasting up to a week, but the presence of hypomanic symptoms makes this diagnosis less likely.","['Bipolar Type II Disorder', 'Dysthymic Disorder', 'Single Episode Depressive Disorder']",Cyclothymic Disorder,False,False,False
+Mood Vignette 9A FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  СE – 37-летний флорист, в браке последние 13 лет. В клинику психического здоровья обратился в связи с подавленным настроением, жалуясь, что «ничто не приносит радости».
+Presenting Symptoms:  Во время беседы СE рассказывает, что за последний месяц заметно утратил интерес почти ко всем приятным занятиям, в том числе к игре в карты с друзьями и к чтению научной фантастики. Раньше мужчине очень нравилась его работа, но сейчас она кажется ему утомительной и монотонной, «словно каждый букет или композиция – это один и тот же заказ снова и снова». Его руководитель всегда отмечал энергичность и позитивный настрой своего подчиненного, а теперь СE каждый день чувствует себя так, словно приходится продираться через что-то. Он начал пропускать рабочие дни, оставаясь вместо этого дома в постели. По словам пациента, он стал больше спать по ночам, а утром ему становится все труднее подняться с кровати. С его слов, жена как-то раз сказала ему, что он не так уверен в себе,    как прежде, и   постоянно сомневается, правильно ли он поступает, обращаясь к ней за поддержкой. Мужчине стало казаться, что он недостоин супружеской любви и что жене было бы лучше найти себе другого мужа. В результате таких мыслей СE стал переедать, особенно налегая на сладости, от которых, как он говорит, ему хотя бы на несколько минут становится лучше. Описанные симптомы начались поздней осенью, сменив длительный период времени (начавшийся ранним летом), в течение которого у пациента наблюдалась повышенная  умственная активность, экспансивность, раздражительность, сниженная потребность во сне, энергичность и повышенное сексуальное возбуждение.
+Additional Background Information:  СE описывает себя как очень активного, продуктивного и общительного человека. Симптомы тревоги и проблемы со сном впервые начались у него в 21 год и периодически повторялись в течение последующих лет. С 24 лет в осенне-зимнее время у пациента несколько раз наблюдались эпизоды, во время которых заметно возрастал аппетит и потребность во сне, падала самооценка, не хватало энергии и мотивации, было трудно сосредоточиться и удерживать внимание. Мужчина сравнивает себя с медведем, которому нужно уйти в спячку на зиму, чтобы весной и летом быть в форме. Через два-три месяца ситуация, как правило, улучшается, и СE снова активен и продуктивен. Весной и летом у него иногда бывают периоды повышенной умственной активности, экспансивности, раздражительности, сниженной потребности во сне и повышенной энергии. Один из таких эпизодов закончился кратковременной госпитализацией. Плановые анализы крови, медицинский осмотр и кардиологическое обследование не выявили никаких патологий. Пациент не злоупотребляет алкоголем и говорит, что не употребляет наркотических средств.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder  
+Reasoning: The patient exhibits persistent depressive symptoms such as loss of interest, anhedonia, and social withdrawal, which have been ongoing for a month. These symptoms align with a recurrent depressive disorder.
+
+Second Most Likely: Bipolar Type II Disorder  
+Reasoning: The patient has a history of hypomanic episodes, increased energy, and reduced need for sleep, which are characteristic of hypomania in bipolar type II disorder.
+
+Third Most Likely: Cyclothymic Disorder  
+Reasoning: The patient's history includes periods of both depressive and hypomanic episodes, suggesting cyclothymic disorder.","['Recurrent Depressive Disorder', 'Bipolar Type II Disorder', 'Cyclothymic Disorder']",Bipolar Type I Disorder,False,False,False
+Mood Vignette 9B FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  EФ – 39-летний женатый мужчина, сам обратившийся за помощью в связи с «ужасным» самочувствием. Его жена потребовала развода, ссылаясь на случай многолетней давности, с которым она «никак не может смириться». На консультацию она не пришла. EФ ходит к семейному психотерапевту, но результат его не устраивает.   Сначала они ходили вместе с женой на супружескую терапию, но потом она отказалась участвовать в этом.
+Presenting Symptoms:  EФ вступает в беседу, но выглядит подавленным и печальным. У него свободный стиль одежды и ухоженный вид. Пациент жалуется на усталость и сниженное настроение. Ничто не радует его, и ему даже не хочется проводить время с детьми, что для него нетипично. EФ хочет весь день оставаться в постели и спать. По словам пациента, ему надо бы сердиться на жену за то, что она махнула рукой на их брак, но даже на эту эмоцию ему не хватает сил. За последние три недели мужчина набрал 4 кг, т.к. злоупотреблял «нездоровой пищей». Недавно он несколько дней не ходил на работу, а когда присутствует там, руководителю не нравится, как EФ выполняет свои обязанности. Пациент спрашивает себя, есть ли от него хоть какая-то польза и не лучше ли было бы его семье без него. Вместе с тем, мужчина не говорил о намерении лишить себя жизни и не высказывал каких-то определенных намерений. Особенное уныние вызывает у него тот факт, что у него уже было много похожих  эпизодов, начиная с 24 лет, примерно раз в год, и он в отчаянии от того, что приходится переживать очередной болезненный период.
+Additional Background Information:  3 года назад EФ был госпитализирован в результате «досадного случая». Как-то раз, провожая детей в школу, он встретился глазами с женщиной – матерью другого ученика – и влюбился в нее. Он стал преследовать ее, звонить ей и однажды разделся перед ее домом, пытаясь «привлечь ее внимание». В тот период мужчина ощущал прилив сил, спал меньше двух часов в сутки и чувствовал себя так, словно может все, что угодно. В больнице ему прописали стабилизатор настроения, и через пару месяцев пациенту стало лучше. Похожий эпизод произошел с ним в годы учебы в институте, во втором семестре. Его мать и дед по материнской линии были также госпитализировались  по причине  «нервных срывов». Медицинский осмотр не выявил нарушений, способных объяснить описанные симптомы. Об употреблении алкоголя или наркотиков в прошлом или настоящем сведений нет.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Recurrent Depressive Disorder  
+Reasoning: The patient has a history of recurrent depressive episodes starting from age 24, occurring approximately once a year, and current symptoms such as depressed mood, fatigue, loss of interest, and weight gain are consistent with a depressive disorder. The presence of recurrent episodes strongly suggests Recurrent Depressive Disorder.
+
+Second Most Likely: Bipolar Type II Disorder  
+Reasoning: The patient's history of a manic episode three years ago, characterized by increased energy, decreased sleep, and impulsive behavior, suggests a possible Bipolar Type II Disorder, though the current symptoms do not meet the full criteria for a manic episode.
+
+Third Most Likely: Cyclothymic Disorder  
+Reasoning: The patient's history of mood episodes and the presence of depressive symptoms could also suggest Cyclothymic Disorder, but the recurrent nature of episodes is more indicative of Recurrent Depressive Disorder.","['Recurrent Depressive Disorder', 'Bipolar Type II Disorder', 'Cyclothymic Disorder']",Bipolar Type I Disorder,False,False,False
+Mood Vignette 9C FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  ГХ – 44-летняя замужняя женщина с тремя детьми подросткового возраста. В больницу ее доставили  родственники в связи с ее все более странным поведением. По словам членов ее семьи, ГХ все время кричит на них, вступает в споры с посторонними людьми и в ярости разбрасывает предметы. По ночам она не спит и бродит по дому, утомляя всю семью.  Местный психиатр прописал пациентке лекарства, но та отказывается их принимать. За прошлую неделю женщина дважды исчезала из дома, и ее находили в кафе за политической дискуссией с незнакомыми людьми, при том, что   раньше она не интересовалась политикой.
+Presenting Symptoms:  На консультацию ГХ приходит растрепанной, слегка возбужденной и часто перебивает родственников, когда те описывают произошедшие события. Пациентка говорит, что пребывает в «прекрасном, замечательном» настроении, хотя в течение беседы легко раздражается. Она признает, что в последнее время сама на себя не похожа, но утверждает, что на самом деле ей даже «лучше», чем раньше. Женщина разговаривает громко, за ходом ее мыслей сложно уследить. Родственники сообщают, что ее состояние беспокоит их уже на протяжении года и что ее дважды госпитализировали с похожими симптомами. По их словам, за последний год у пациентки было несколько эпизодов и другого характера: тогда она была подавлена, замкнута, слишком много спала, отказывалась от еды, винила себя во всех семейных проблемах и говорила про суицид и уход из жизни. Такие периоды сниженного настроения продолжались, как правило, две-три недели. Ее родные говорят, что «в промежутках между неблагоприятными периодами она на несколько недель снова становится собой – матерью и женой, которую мы так любим».
+Additional Background Information:  ГХ никогда не употребляла ни алкоголь, ни наркотики. Невзирая на описанные проблемы, близкие продолжают поддерживать женщину, поскольку она «просто чудесный человек, когда хорошо себя чувствует». Пациентка росла в семье с шестью детьми, один из ее братьев страдает биполярным расстройством. Медицинский осмотр не выявил нарушений, способных объяснить описанные симптомы.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Bipolar Type I Disorder  
+Reasoning: The patient exhibits manic symptoms such as increased irritability, reduced need for sleep, excessive talking, and engaging in arguments, which are characteristic of a manic episode in Bipolar Type I Disorder. Her history of episodic mood swings between mania and depression further supports this diagnosis.
+
+Second Most Likely: Bipolar Type II Disorder  
+Reasoning: The patient's history of episodic mood swings, including depressive episodes, could also suggest Bipolar Type II Disorder, though the current presentation leans more towards manic symptoms.
+
+Third Most Likely: Recurrent Depressive Disorder  
+Reasoning: The patient has a history of depressive episodes, but the current symptoms are more indicative of a manic episode rather than depression.","['Bipolar Type I Disorder', 'Bipolar Type II Disorder', 'Recurrent Depressive Disorder']",Bipolar Type I Disorder,True,True,True
+Mood Vignette 9D FINAL 2015 05 31,Mood,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Development of ICD-11 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Mood Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the Mood Disorders or other diagnoses presented to you, no diagnosis, or a diagnosis that you feel best describes the person in the vignette but is not one of the choices available.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  TР – 28-летняя незамужняя учительница младших классов, обратилась   за медицинской помощью после эпизода, приведшего к ее госпитализации.
+Presenting Symptoms:  Родители пациентки, с которыми она живет на данный момент, тоже пришли с ней и присутствуют на консультации. Поначалу TР выглядит замкнутой и раздражительной и с трудом выдерживает ситуацию расспроса. 15 минут спустя она становится очень разговорчивой, но вместо того, чтобы прямо отвечать на вопросы, женщина начинает рассказывать о своих последних отношениях в излишне откровенных деталях, несмотря на очевидный дискомфорт со стороны родителей. По их словам, за последние три недели у дочери было много конфликтов с коллегами, и однажды она ушла из школы посреди учебного дня и не вернулась, не договорившись с кем-то из других учителей о замене. TР винит в случившемся отношение к ней со стороны коллег.
+  
+ Родители пациентки сообщают, что в последние три недели у дочери часто случались резкие спады настроения, вплоть до суицидальных мыслей. Женщина чувствовала себя бесполезной и часами плакала. По словам матери, TР не могла уснуть и ночью по несколько часов проводила за компьютером. Она не разрешает родителям заходить к ней комнату и очень сердится, если они пытаются зайти. Отец пациентки говорит, что дочь хотела провести прошлую неделю за границей. TР планировала взять отцовскую машину и поехать за сотни километров на популярный курорт, хотя у нее нет ни водительских прав, ни серьезного опыта вождения. Родители с трудом удержали женщину дома, и в итоге им пришлось спрятать от нее ключи от машины. В последующие несколько дней TР с горечью говорила о том, что не может продолжать жить в таких страданиях. Она запиралась в своей комнате, отказывалась от еды, и в течение дня было слышно, как она плачет.
+  
+ Пациентка, судя по всему, не осознает болезненность  своего состояния и очень остро реагирует на идею о том, чтобы начать прием новых психотропных препаратов: когда врач высказал такое предложение, женщина чуть не покинула кабинет.
+Additional Background Information:  По словам ее родителей, у TР был сходный эпизод в 23 года, что также закончилось госпитализацией. У нее резко понизились настроение и самооценка, возникли сложности в общении, стало трудно засыпать, она просыпалась посреди ночи, в течение дня чувствовала сильную усталость и задумывалась об уходе из жизни. Несколько недель она не могла ходить на работу. Спустя месяц родители привели дочь в больницу, и ее госпитализировали в связи с выраженными суицидальными мыслями.
+ 
+ В семье пациентки не было случаев психических заболеваний. Медицинский осмотр не выявил нарушений, способных объяснить описанные симптомы. Об употреблении алкоголя или наркотиков в прошлом или настоящем сведений нет.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Single Episode Depressive Disorder
+- Recurrent Depressive Disorder
+- Dysthymic Disorder
+- Mixed Depressive and Anxiety Disorder
+- Bipolar Type I Disorder
+- Bipolar Type II Disorder
+- Cyclothymic Disorder
+- Other Mood Disorder
+- Generalized Anxiety Disorder
+- Prolonged Grief Disorder
+- Adjustment Disorder
+- A different diagnosis not listed above
+- No Diagnosis; symptoms and behaviours are within normal limits
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Bipolar Type I Disorder  
+Reasoning: The patient exhibits symptoms such as irritability, increased talkativeness, and grandiose ideas (planning to drive without a license), which are indicative of manic episodes. Her history of severe depressive episodes and suicidal thoughts further supports this diagnosis.
+
+Second Most Likely: Recurrent Depressive Disorder  
+Reasoning: The patient has a history of recurrent depressive episodes, including a previous hospitalization, which suggests a pattern of recurring depression.
+
+Third Most Likely: Dysthymic Disorder  
+Reasoning: The patient's symptoms include persistent irritability and mood swings, which could align with dysthymic disorder, but the severity and history of suicidal thoughts make Bipolar Type I more likely.","['Bipolar Type I Disorder', 'Recurrent Depressive Disorder', 'Dysthymic Disorder']",Bipolar Type I Disorder,True,True,True
+Anxiety Vignette 1A Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  Пациентка ПК – 36-летняя женщина, которая живет с мужем и двумя маленькими дочерьми, 7 и 10 лет, и работает в госучреждении. На прошлой неделе, она обратилась к гастроэнтерологу с жалобами на хроническую боль в животе, и ей был поставлен диагноз язвенной болезни. Чтобы выяснить потенциальные причины   язвенной болезни, гастроэнтеролог спросил пациентку, каков уровень ее стресса. ПК отметила, что она чувствует сильную нервозность и волнение на протяжении последних нескольких лет, хотя ничего необычного или плохого не случалось. Гастроэнтеролог предположил, что ПК следует поговорить со специалистом в области психического здоровья, чтобы   ей помогли справиться с тревогой.  
+Presenting Symptoms:  Во время первичной оценки психического статуса, ПК признает, что она тревожится почти все время, и теперь она обеспокоена тем, что ее тревожность вредит ее здоровью. ПК говорит, что она всегда была ""беспокойной"", и по ее мнению,  это качество помогало ей быть внимательной к своей семье и добросовестной в   работе. Тем не менее, она говорит, что в течение последних нескольких лет тревожность «вышла из-под контроля», и доводит ее до того, что она чувствует себя подавленной и измученной. Когда ее спросили, о чем она беспокоится, она ответила: ""Это может быть что угодно, например, что мои дети могут заболеть, заперла ли я входную дверь, смогу ли я вовремя закончить отчет для работы – всё, о чем бы я ни думала, может стать причиной тревоги». Она приводит в пример ситуацию, когда у ее дочерей была легкая простуда, но она настолько беспокоилась, что болезнь перейдет во что-то более серьезное, что повела детей к врачу, хотя знала, что у них в целом хорошее здоровье и что всем детям свойственно простужаться. В качестве другого примера, ПК рассказывает, что ее муж, будучи очень общительным,   часто приглашает своих коллег на ужин, что, по словам ПК, ""действительно сильно ее напрягает"", потому что она боится, что блюда плохо получатся, и что это каким-то образом повредит карьере ее мужа.
+ 
+ Большую часть дней, пациентке очень трудно уснуть, в то время как она лежит в постели, думая о вещах, которые ей предстоит сделать в течение следующего дня, и волнуется, что ей не удастся все это сделать. Она чувствует себя очень напряженной, и часто испытывает болевые ощущения в плечах и верхней части спины, которые она признает следствием напряжения.
+    
+ПК сообщает, что у нее с мужем хорошие отношения, но в последнее время они ссорятся  из-за того, что она находится в напряжении и «на грани». Ее старшая дочь недавно сказала, что она больше не собирается ни о чем рассказывать ПК, потому что та «из всего делает проблему».  ПК говорит, что раньше ей удавалось выбрасывать проблемы из головы и беззаботно  проводить  время со своей семьей, но в течение последних нескольких лет это стало невозможным. Она говорит: ""Они также устали от этого, как и я».  
+Additional Background Information:  ПК росла единственным ребенком в семье. Ее родители развелись, когда она была совсем маленькой, и она воспитывалась матерью, бабушкой и дедушкой. Она не принимает других медикаментов, кроме антацидов для лечения язвенной болезни. Она очень редко употребляет алкоголь - обычно только один бокал вина – и никогда не принимала наркотики. Ее недавнее медицинское обследование не выявило никакой другой патологии, кроме язвенной болезни.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Generalized Anxiety Disorder  
+Reasoning: The patient exhibits excessive anxiety and worry about multiple aspects of life, such as her children's health, work tasks, and minor concerns like locking doors. These worries are pervasive and have been ongoing for several years, which aligns with the criteria for Generalized Anxiety Disorder.
+
+Second Most Likely: Unspecified Anxiety and Fear-Related Disorder  
+Reasoning: While the patient's symptoms primarily fit Generalized Anxiety Disorder, the absence of specific panic attacks or avoidant behaviors leaves room for considering an unspecified anxiety diagnosis.
+
+Third Most Likely: Panic Disorder  
+Reasoning: Although the patient does not report discrete panic attacks, her chronic worry and physical symptoms like shoulder and spine pain could suggest underlying panic-related issues.","['Generalized Anxiety Disorder', 'Unspecified Anxiety and Fear-Related Disorder', 'Panic Disorder']",Generalized Anxiety Disorder,True,True,True
+Anxiety Vignette 1B Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  ТС - 44-летняя женщина,   замужем, имеет троих детей школьного возраста и работает адвокатом. Она обратилась за консультацией к психологу, ""чтобы получить совет о том, как ей сохранять здоровый баланс между карьерой и семьей.""  
+Presenting Symptoms:  Во время первичного осмотра, ТС сообщает, что на протяжении прошлого года она время от времени испытывала «довольно сильный стресс», с тех пор как ее  повысили в должности в юридической компании, в которой она работает. ТС была обрадована повышением, но вскоре поняла, что ее значительно возросшие обязанности могут ее перегружать. Т.С. говорит, что она "" много переживает"" о том, будет ли она в состоянии делать свою работу на достаточно высоком уровне и в срок. Она описывает себя как ""человека, повернутого на контроле"" и чрезвычайно внимательного к деталям, но говорит, что эти качества помогают ей укладываться в сроки и выполнять работу на высоком уровне. Однако в последнее время пациентка была обеспокоена тем, что уровень ее стресса возможно мешает сосредотачиваться на работе и негативно отражается на семье. Она говорит, что, в то время как ее работоспособность в компании оценивается очень высоко, у нее теперь остается меньше времени, чтобы провести его с мужем, и часто приходится делать несколько дел одновременно, например, заниматься своими рабочими делами и в то же время помогать детям с домашними заданиями.  
+
+ Во время расспроса, ТС сообщает, что она никогда не беспокоилась настолько, чтобы ей становилось «физически плохо», хотя порой она чувствует себя очень напряженной. На вопрос о том, как пациентка ощущает напряжение, она уточняет, что это ""больше эмоциональное напряжение, а не физическое"". У нее нет проблем со сном, и, как она утверждает: ""В конце дня, я чувствую себя настолько уставшей, что не в состоянии думать о чем-либо еще, кроме как о своей постели». Когда мыслей обо всем, что ей необходимо сделать «становится слишком много», она повторяет себе: «Просто дыши и прорвешься!» Ей, как правило, удается успокоиться таким образом . По выходным она старается избегать работы для того, чтобы провести время со своей семьей, хотя за прошедший год таких возможностей стало меньше.
+    
+   
+Она сообщает, что, несмотря на ее рабочие нагрузки и заботы, в целом ей удается «довольно хорошо» справляться с делами, и она может выполнять и рабочие задания и обязанности по дому, хотя ее мужу приходится помогать ей больше, чем раньше. ТС говорит, что у нее с мужем «очень крепкие» отношения, и что он поддерживает её, но она переживает, что не оказывает мужу достаточно внимания, с тех пор как начала работать в новой должности. Кроме того, ТС жалуется, что у нее не остается достаточно времени ""на саму себя"". Например, она привыкла регулярно выполнять физические упражнения, но теперь у нее гораздо меньше времени на это, с тех пор как она получила повышение в должности. Она боится, что новый график вскоре измотает ее, если она ""не приобретет некоторые полезные навыки"", чтобы сбалансировать жизнь и уменьшить свое волнение, связанное с работой.  
+Additional Background Information:  ТС - старшая из четырех детей. Ее мать была учителем рисования, а отец   судьей,   Т.С.   описывает его как ""выдающегося и очень амбициозного человека"".  По вечерам   она может выпить бокал вина с мужем, но отрицает  употребление каких-либо других психоактивных веществ. Ее недавние плановые анализы крови и медицинские обследования не выявили никаких отклонений.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Generalized Anxiety Disorder  
+Reasoning: The patient exhibits persistent and excessive worry about multiple aspects of her life, including her career and family, which is a hallmark of Generalized Anxiety Disorder. She describes feeling overwhelmed by her responsibilities and has difficulty concentrating, which are common symptoms of this condition.
+
+Second Most Likely: A different diagnosis  
+Reasoning: While her symptoms are significant, they may not meet the full criteria for Generalized Anxiety Disorder,Third Most Likely: Other Anxiety and Fear-Related Disorder  
+Reasoning: Her symptoms could also align with other anxiety-related conditions, though they are less likely than Generalized Anxiety Disorder.","['Generalized Anxiety Disorder', 'A different diagnosis', 'Other Anxiety and Fear-Related Disorder']",No Diagnosis,False,False,False
+Anxiety Vignette 2 Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  МТ - 23-летняя молодая женщина, живущая одна. Она   учится в магистратуре местного университета, и была направлена на консультацию к психиатру врачом отделения неотложной помощи в университетской больнице, который наблюдал пациентку во время её уже второго за 2-месячный период визита.  Согласно записям в медицинской карте,   в обоих случаях МТ жаловалась на сильные боли в груди, головокружение, ощущения покалывания в руках и ногах и думала, что у нее сердечный приступ.  
+Presenting Symptoms:  Во время осмотра психиатром, МТ. объясняет, что она недавно пережила несколько больших изменений в жизни, включая расставание с молодым человеком  и переезд в новый город для  обучения в магистратуре 4 месяца назад. Тем не менее, она сообщает, что эпизоды, когда она ""была крайне напугана и чувствовала, как будто умирает"" начали возникать примерно 9 месяцев назад, еще до расставания и переезда. Впервые это возникло, когда она была на прогулке с отцом, и внезапно ее охватил страх и испуг ""без причины"". В течение следующих нескольких минут по мере ухудшения состояния  у нее возникло головокружение и появились проблемы с дыханием. Она говорит, что возникло сердцебиение, и в кончиках пальцев появилось покалывание, и она почувствовала стеснение в груди. Она подумала, что у нее сердечный приступ и она умрет, в связи с чем ее отец быстро доставил ее в ближайшее отделение неотложной помощи. Через 30 минут пребывания в больнице она ""снова почувствовала себя в порядке», но была потрясена тем, что произошло. После ряда обследований было установлено, что она физически здорова, врачи не выявили какой-либо сердечно-сосудистой патологии, или другой причины ее симптомов.
+    
+   
+С тех пор у МТ было несколько подобных эпизодов внезапного, интенсивного чувства тревоги, ""как будто надвигается конец света"", с теми же физиологическими ощущениями. Пациентка не может указать на какие-либо события, провоцирующие эти приступы; они, как правило, происходили, когда она была на прогулке или занималась учебой. Она уточняет, что не думала о чем-либо конкретном перед тем, как возникали приступы. Она считает, что беспокоится о  возникновении очередного приступа до такой степени, что испытывает большие трудности сконцентрироваться на учебе.
+    
+   
+Она говорит, что после переезда стала еще больше бояться возникновения нового приступа, и что последствия будут еще более серьезными, так как рядом нет ни семьи, ни близких друзей. Так что, когда у нее возник первый приступ после переезда, она обратилась в университетскую клинику. ""Я думала, что умираю, и не знала, что еще мне сделать"". Во время ее самого последнего поступления в отделение неотложной помощи университетской клиники, лечащий врач узнал ее и сказал ей, что с ее сердцем все в порядке и что ей нужно обратиться к психиатру. Она заявляет, что решила проконсультироваться у психиатра не только потому, что измотана силой эмоциональных переживаний во время   таких  состояний, но и тем, что растущие затраты на посещение отделения неотложной помощи стали настолько обременительными, что она не в состоянии оплачивать свои занятия в университете.  
+Additional Background Information:  МТ сообщает, что она эпизодически употребляет алкоголь, выпивая два или три бокала с друзьями по выходным, но говорит, что   не курит и не употребляет другие психоактивные вещества. У пациентки хорошая успеваемость, но она боится, что ей придется оставить учебу и вернуться домой, если приступы будут продолжаться: ""Это в том случае, если они не добьют меня окончательно""
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Panic Disorder  
+Reasoning: The patient experiences recurrent panic attacks with intense fear, physical symptoms like dizziness, breathing issues, paresthesia, and chest tightness. These episodes started without clear triggers and have led to emergency visits, with no medical cause found, indicating panic disorder.
+
+Second Most Likely: Generalized Anxiety Disorder  
+Reasoning: She worries about future episodes and their consequences, affecting her studies, which is a sign of generalized anxiety.
+
+Third Most Likely: Agoraphobia  
+Reasoning: She fears being alone in new places without family, which might suggest agoraphobia, though it's less clear.","['Panic Disorder', 'Generalized Anxiety Disorder', 'Agoraphobia']",Panic Disorder,True,True,True
+Anxiety Vignette 3A Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  ПФ - 53-летний неженатый мужчина, обратился за консультацией  в местную психиатрическую клинику. ПФ в настоящее время безработный и живет со своим братом, в сопровождении  которого пришел на прием к врачу. Брат ПФ настоял, чтобы ПФ обратился за помощью из-за бесконтрольного страха выходить из дома в одиночку, который усилился за последние 6 месяцев.
+Presenting Symptoms:  ПФ уже в течение длительного времени испытывал чувство беспокойства и тревоги в людных местах, таких как театры или рынки, а также при пользовании общественным транспортом. Около года назад, когда он возвращался домой с работы, он так нервничал из-за большого количества людей в автобусе, что упросил водителя автобуса, чтобы тот позволил ему выйти между остановками. Затем он был в таком смятении, что ему пришлось вызвать своего брата, чтобы тот приехал и забрал его. Он утверждает, что эпизод был крайне унизительным для него, потому что ""все смотрели на меня, думая, что я должно быть сумасшедший"". После этого он перестал пользоваться общественным транспортом.
+    
+   
+После этого ПФ   работал еще в течение  6 месяцев    компьютерным техником в местной компании. В тот период времени он должен был поехать в другой город, чтобы присутствовать на большом собрании, связанном с его работой. Он пытался убедить своего брата поехать с ним, но тот не мог оставить свою работу. За несколько дней до предстоящей поездки ПФ чувствовал выраженную тревогу, связанную с ней. Он описывает чувство страха при мысли оказаться в ловушке в переполненном конгресс-центре, без возможности покинуть помещение и доступной помощи. Вместо того, чтобы поехать на встречу, он просто перестал ходить на работу, и, в конце концов,  его уволили. С тех пор он не работал.  
+   
+В последние месяцы передвижения и деятельность ПФ стали все более ограниченными. В то время как ПФ заявляет, что  может рискнуть выйти из дома в одиночку в своем районе, если избегать людных мест,  брат ПФ это оспаривает. По словам брата, ПФ покидает дом только по принуждению, и только если он его сопровождает.
+ 
+ На вопрос о том, чего он опасается при посещении людных или незнакомых мест, ПФ говорит, ""Что, если я не смогу выйти, потому что будет слишком много людей, или я не буду знать, как это сделать? Я окажусь в ловушке. Пойманный, как крыса"". Он решительно заявляет, что не хочет быть вновь униженным, как в тот раз в автобусе.
+    
+   
+В ответ на более подробные расспросы о его физических ощущениях во время эпизода в автобусе, и во время других эпизодов, когда он чувствовал беспокойство, находясь в местах массового скопления людей, ПФ не мог припомнить,   испытывал ли он в этих ситуациях такие симптомы, как учащение пульса, потливость, или затрудненное дыхание.  
+Additional Background Information:  ПФ систематически курит сигареты и умеренно употребляет алкоголь, но не использует другие психоактивные вещества. ПФ и его брат  воспитывались матерью после того, как от рака умер их отец, когда они были еще детьми. Мать ПФ умерла 10 лет назад, и ПФ и его брат продолжают жить в этом же доме.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Agoraphobia  
+Reasoning: The patient's symptoms of fear of being in crowded places, avoidance of public transportation, and dependence on his brother for accompaniment align with agoraphobia. He avoids situations where he might feel trapped, which is characteristic of this disorder.
+
+Second Most Likely: Panic Disorder  
+Reasoning: The patient experienced panic episodes, such as the incident on the bus, which suggests panic disorder. However, the primary issue seems to be avoidance behavior typical of agoraphobia.
+
+Third Most Likely: Generalized Anxiety Disorder  
+Reasoning: The patient has generalized worry and anxiety across various situations, but the primary symptoms are more specific to agoraphobia and panic disorder features.","['Agoraphobia', 'Panic Disorder', 'Generalized Anxiety Disorder']",Agoraphobia,True,True,True
+Anxiety Vignette 3B Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  АМ., 25-летняя дизайнер веб-сайтов, обратилась в районный   медицинский центр   по инициативе и в сопровождении своей ближайшей подруги из-за выраженных симптомов тревоги, которые не позволяли  AM выйти из дома в течение последних двух месяцев.
+Presenting Symptoms:  АМ настаивает, чтобы ее подруга осталась с ней во время беседы с психологом. При вопросе о том, что могло бы случиться, если бы ее подруга ушла, АМ становится очень взволнованной, краснеет и моментально отвечает: «Мне здесь все незнакомо, и моя подруга единственный человек, который может мне помочь, если я плохо себя почувствую и мне надо будет выйти». Ее подруга сразу успокаивает ее, говоря, что с ней все будет в порядке, и просит, чтобы АМ объяснила, что заставило ее сидеть дома. АМ успокаивается и начинает объяснять, что ей всегда было дискомфортно находиться одной в людных общественных местах, таких как автовокзалы и торговые центры.
+    
+   
+АМ сообщает, что 2 года назад, она пошла на почту, чтобы забрать важную посылку. Когда она добралась до почтового отделения, ""там было много людей"". Она вдруг почувствовала сильную тревогу «как будто должно было случиться что-то плохое». Ее сердцебиение участилось, она почувствовала головокружение, дурноту, тошноту и начала часто дышать. Она говорит, что была уверена, что умрет. Она немедленно в слезах выбежала на улицу и позвонила двоюродному брату, который живет рядом, чтобы он приехал за ней и отвез ее домой. После того, как она вернулась домой, она почувствовала себя лучше, но была обеспокоена произошедшим с ней.  
+   
+С тех пор у АМ было еще несколько таких «плохих эпизодов», как правило, когда она была вынуждена появиться в общественном месте в одиночку. АМ начала чувствовать постоянную нервозность, что эти ""срывы"" будут повторяться. Около 2 месяцев назад она была на вечеринке по случаю дня рождения близкого друга и сочла, что там слишком многолюдно. Ей снова стало страшно, и появились все те физические симптомы, которые она испытала в почтовом отделении. Она говорит, что ""это было худшим эпизодом до сих пор,"" и вообще ""запредельным"", потому что даже то, что вокруг были друзья, не уберегло ее. С тех пор она предпочитает не выходить из дома. У нее никогда не было аналогичных эпизодов дома, даже когда в гостях была группа людей.  Она очень обеспокоена тем, что, если она почувствует дурноту и головокружение вдалеке от дома, она не будет знать, к кому обратиться за помощью, и в результате может упасть в обморок или умереть. Она заявляет, что «к счастью, имеет возможность работать из дома и заказывать продукты домой, так что на самом деле у нее нет никакой необходимости подвергать себя риску возникновения очередного приступа», который является «худшим ощущением на свете». Хотя АМ говорит, что ее «на самом деле устраивает никуда не выходить», она упустила несколько вариантов работы, требующих очных собеседований, и признает, что начинает испытывать финансовые трудности.  
+Additional Background Information:  АМ не замужем, но имела серьезные отношения, которые закончилась год назад. Она не курит, не принимает наркотики, но употребляет алкоголь несколько раз в неделю. Ее последнее медицинское обследование показало, что она соматически здорова.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Agoraphobia AND Panic Disorder  
+Reasoning: The patient exhibits symptoms of panic attacks and avoidance of public places, especially when alone, which aligns with agoraphobia. She also experiences panic disorder symptoms, making this the most appropriate dual diagnosis.
+
+Second Most Likely: Agoraphobia  
+Reasoning: Her avoidance of public places and reliance on her friend are classic signs of agoraphobia, though panic symptoms are also present.
+
+Third Most Likely: Panic Disorder  
+Reasoning: The recurrent panic attacks and fear of having more episodes are key indicators of panic disorder, though agoraphobic avoidance is also a factor.","['Agoraphobia AND Panic Disorder', 'Agoraphobia', 'Panic Disorder']",Agoraphobia,False,True,True
+Anxiety Vignette 4 Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  МЮ - 19-летняя студентка первого курса университета, помимо учебы она  работает на условиях неполной занятости в кафе, расположенном на территории университета. МЮ обратилась в клинику, потому что она ""измотана своим нелепым и сильным страхом» молний и грозы. МЮ сообщает, что, насколько она помнит, она всегда нервничала во время молний, грома и сильного ветра. Тем не менее, этот страх стал гораздо более интенсивным за последние 10 месяцев, так как она поступила в университет, находящийся в городе на побережье, где часто бывает плохая погода.  
+Presenting Symptoms:  Во время первичного осмотра МЮ беседует охотно и заинтересованно. Она указывает, что «основная помощь», которая ей нужна, это научиться совладать с выраженным страхом грозы. Пациентка сообщает, что она постоянно беспокоится о погоде и узнает прогноз по несколько раз в день. Она отмечает, что, если ветер кажется ей слишком сильным, или сверкают молнии и гремит гром, то она ""просто не может"" выйти на улицу. Из-за этого она пропустила несколько занятий, и в настоящее время не сдала один из предметов, потому что пропустила экзамен, который  пришелся на день, когда была гроза. При обсуждении пропущенных занятий МЮ выглядит огорченной и тревожной , и избегает смотреть в глаза врачу.
+    
+Еще в   школе, когда  МЮ играла в женской футбольной команде,  она несколько раз   пропускала матчи из-за неблагоприятного прогноза погоды, но это не было заметно для окружающих, потому что ""обычно матч и так заранее отменяли"". Пациентка говорит, что ей по-прежнему нравится находиться на улице, когда погода ясная. Она совершает пробежки и любит гулять с подругами. Когда погода плохая, ее друзья часто соглашаются сопровождать ее, «но, тем не менее, подобные ситуации напрягают». Около недели назад, она была вынуждена покинуть общежитие во время грозы, поскольку сработала пожарная сигнализация. Это ей было очень тяжело сделать, и она испытывала выраженный страх все то время, пока находилась на улице (около 30 минут). Примерно через час после возвращения в свою комнату, МЮ почувствовала себя немного лучше, но все же ей понадобилось, чтобы соседка по комнате находилась рядом с ней, пока она не уснула. Она говорит, что ее друзья на самом деле не понимают, почему она так боится гроз, а некоторых из них, кажется, начинает раздражать, что им приходится все время ""нянчиться"" с ней. Когда её спросили о том, как часто это происходит, МЮ опустила глаза. Через несколько мгновений, она говорит: «Я просто устала бояться. Я хочу, чтобы мне стало лучше».
+Additional Background Information:  У МЮ есть два младших брата. Ее родители в разводе. Она выросла в городе, где редко бывала плохая погода. При расспросе МЮ сообщает, что ни она, ни один ее знакомый никогда не пострадал во время сильной грозы. Она недавно прошла плановый медосмотр в студенческой поликлинике, который не выявил каких-либо отклонений от нормы. Она не употребляет алкоголь или наркотики, но признается, что выкуривает несколько сигарет в неделю, «чтобы успокоить нервы».
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Specific Phobia
+Reasoning: The patient exhibits a specific fear of thunderstorms, which has been persistent and causes significant distress,
+interfering with her daily life and academic performance. She avoids going out during bad weather and checks the weather
+forecast multiple times a day, which aligns with specific phobia criteria.
+
+Second Most Likely: Specific Phobia AND Panic Disorder
+Reasoning: She experiences panic attacks during thunderstorms, indicating panic disorder comorbidity.
+
+Third Most Likely: Agoraphobia
+Reasoning: Her avoidance of going out in bad weather could be mistaken for agoraphobia.","['Specific Phobia', 'Specific Phobia AND Panic Disorder', 'Agoraphobia']",Specific Phobia,True,True,True
+Anxiety Vignette 5A Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  ТМ  - 16-летний студент, который живет с матерью и младшей сестрой. ТМ пришел в университетскую психиатрическую клинику на консультацию вместе с матерью, которая обеспокоена тем, что ТМ часто прогуливает учебные  занятия.  
+Presenting Symptoms:  Во время диагностической беседы ТМ неохотно переводит взгляд  на врача   и остается молчаливым на протяжении первой половины беседы. Мать ТМ сообщает, что он всегда был «застенчивым, но милым ребенком». Его нежелание посещать школу появилось в начале текущего учебного года, около 8 месяцев назад, после того, как семья переехала, и он перешел в новую школу.
+    
+   
+Наиболее часто по утрам ТМ просит, чтобы мать  позволила ему остаться дома. Она  пытается заставить его пойти в школу, но сообщает, что «иногда это просто самая настоящая война». Серьезная обеспокоенность появилась у нее, когда школа прислала ей уведомление, что ее сын пропустил несколько учебных дней, в то время, как она думала, что он ходил в школу. ТМ не очень хорошо учится, потому что в дополнение к большому количеству прогулов, когда учитель вызывает его, ТМ описывает следующее: ""Я как замороженный. Даже если я знаю ответ, то не могу вымолвить ни слова. Я просто становлюсь весь красный и выгляжу идиотом».
+    
+   
+ТМ признает, что ему всегда было трудно разговаривать с людьми, которых он плохо знает. У него было несколько друзей в его бывшей школе, потому что он «был в одной и той же школе всю свою жизнь, и там все знали друг друга». Он с большим трудом заводит знакомства в новой школе, потому что он боится, что другие дети считают его «полным неудачником». ТМ постоянно думает об этом, и говорит, что не может из-за этого уснуть. Он хотел бы иметь друзей и пользоваться популярностью, и сожалеет, что не может быть более расслабленным и достаточно уверенным, чтобы контактировать с новыми людьми.
+    
+   
+Мать ТМ отмечает, что он проводит большинство вечеров и выходных, читая или играя в видеоигры в своей комнате, занимаясь, как он говорит, тем, чем он полностью наслаждается. ТМ занимался футболом  в своей прежней школе, и считался хорошим игроком. Тем не менее, он не смог представиться и рассказать о себе тренеру в новой школе, и попробовать свои силы в команде, потому что это пришлось бы сделать в присутствии других игроков. Он беспокоится, что покажет плохие результаты во время тренировки из-за нервозности, и другие игроки будут смотреть на него свысока, как на недостаточно хорошего.
+ 
+ Мать ТМ сообщает, что изначально она была обеспокоена тем, что над ТМ могут издеваться в школе, но после разговора с учителями и родителями одноклассников, она не нашла никаких признаков того, что он подвергался унижениям. В конце концов,  ТМ говорит: «Дело не в них, а во мне».  
+Additional Background Information:  Родители ТМ разведены, отец живет в другом городе, но они разговаривают по телефону несколько раз в неделю. После того, как мать пациента попросили покинуть помещение, ТМ сообщает, что он не употребляет наркотики, но признает, что он  несколько раз по разным  поводам пил алкоголь и один раз курил сигарету. Во время недавнего медицинского осмотра семейный врач счел ТМ   здоровым.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Social Anxiety Disorder  
+Reasoning: The patient exhibits significant social withdrawal, fear of negative evaluation by peers, and avoidance of social interactions, which are hallmark symptoms of social anxiety disorder. His difficulty speaking in class, blushing, and avoidance of new social situations strongly suggest social anxiety.
+
+Second Most Likely: Panic Disorder  
+Reasoning: The patient's description of feeling ""frozen"" and inability to speak, along with significant anxiety, could indicate panic attacks, though this is less prominent than social anxiety symptoms.
+
+Third Most Likely: Separation Anxiety Disorder  
+Reasoning: The patient lives with his mother and sister, and his avoidance of school might partially stem from separation concerns, though this is less likely than social anxiety.","['Social Anxiety Disorder', 'Panic Disorder', 'Separation Anxiety Disorder']",Social Anxiety Disorder,True,True,True
+Anxiety Vignette 5B Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  ДЛ - 28-летняя мать двоих маленьких детей, которая была направлена семейным врачом на психиатрическую консультацию из-за жалоб на эпизоды выраженной тревоги, которые затрудняют выполнение повседневных дел.
+Presenting Symptoms:  Во время консультации, ДЛ сообщает, что она счастлива в браке и гордится тем, что полностью посвящает себя заботе о своих дочери и сыне, 2-х и 8-ми лет. Она подчеркивает, что прикладывает все силы, для того, чтобы быть уверенной, что ее семья окружена заботой, что выполняет свои домашние обязанности, уделяя особое внимание и думая о благе близких (например, покупает здоровые продукты и готовит полезные блюда, придумывает интересные формы досуга для детей, ежедневно выполняет домашнюю уборку).
+    
+   
+ДЛ сообщает, что ее нынешние проблемы начались два года назад, когда ее сын начал учебу в начальной школе, и ее регулярный распорядок дня был нарушен, потому что приходилось забирать его в конце учебного дня. Когда психиатр спросил ДЛ, почему это было столь тяжело для нее, она ответила, что ей часто приходилось   ждать сына вместе с другими родителями и вести «пустые разговоры». Она отмечает, что она боится вести такие беседы, потому что чувствует, что другие родители расценивают ее как «глупую». Тем не менее, когда ее попросили, она не смогла привести конкретный пример негативных оценочных суждений о себе со стороны других родителей.
+    
+   
+Сын ДЛ посещает школу, где от родителей ждут, что они будут добровольно помогать, и ДЛ хочет делать это, «чтобы быть хорошей матерью». С середины учебного года, ДЛ дважды в неделю вместе с несколькими другими родителями выступала в качестве контролера во время завтраков. Она называет это занятие   «кромешным адом» и сообщает, что в ряде случаев она испытала «худшее беспокойство, которое только можно вообразить». Она утверждает, что несколько раз, во время бесед с другими родителями, у нее внезапно появлялись «мучительные» симптомы, в том числе внутренняя дрожь, ощущение слабости, учащенное сердцебиение, и ощущение, что она находится «за пределами своего тела». Теперь, она начала сильно опасаться с самого утра в дни дежурств, что у нее возникнет очередной  эпизод, и пациентка говорит, ""Я не хочу проходить через это». Несколько раз она звонила в школу, чтобы сказать, что она плохо себя чувствует и не сможет прийти. Она считает, что это заставит других осуждать ее еще больше. Она отмечает, что испытывает эти симптомы крайнего беспокойства только при взаимодействии с другими родителями.
+    
+   
+ДЛ говорит, что она предпочитает оставаться дома и заботиться о детях. Она с удовольствием проводит время со своей небольшой группой друзей, которых она знает в течение многих лет, но когда она посещает вечеринки или другие светские мероприятия, она говорит, что «На самом деле я не получаю удовольствия. Мне просто не нравится необходимость разговаривать с людьми, которых не знаю. И я никогда не знаю, что сказать, и они, вероятно, думают, что я глупая».  
+Additional Background Information:  ДЛ сообщает, что она всегда отличалась хорошим здоровьем, за исключением операции в связи с аппендицитом  10 лет назад. Она не курит, не пьет алкоголь и никогда не употребляла  каких-либо наркотических веществ.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Most Likely Diagnosis:** Panic Disorder  
+**Reasoning:** The patient experiences recurrent panic attacks characterized by intense fear, physical symptoms such as trembling, weakness, palpitations, and depersonalization, which occur in specific situations involving interactions with other parents. These episodes are consistent with panic disorder criteria.
+
+**Second Most Likely:** Social Anxiety Disorder  
+**Reasoning:** The patient's fear of being judged by others and avoidance of social interactions, particularly in unfamiliar settings, suggests social anxiety disorder features.
+
+**Third Most Likely:** Generalized Anxiety Disorder  
+**Reasoning:** Her persistent worry about various aspects of her life and excessive concern about being a good mother may indicate generalized anxiety disorder traits.","['Panic Disorder', 'Social Anxiety Disorder', 'Generalized Anxiety Disorder']",Social Anxiety Disorder,False,True,True
+Anxiety Vignette 5C Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  ДВ - 22-летняя студентка университета. Она обратилась в консультативный центр своего университета из-за трудностей, которые она испытывает во время публичных выступлений в аудитории.
+Presenting Symptoms:  Во время первой консультации ДВ объясняет, что она очень обеспокоена необходимостью выступать   перед аудиторией. Учеба в университете требует обязательного прохождения курса ораторского искусства; она говорит, что намеренно отложила прохождение этого курса на последний год обучения, так как сама идея о нем вселяет в нее ужас. Тем не менее, она знает, что ей нужно найти способ пройти курс, чтобы завершить обучение и получить степень. Она обратилась в консультативный центр в надежде найти способ справиться со своей тревогой по поводу публичных выступлений. Она объясняет, что всегда была застенчивым человеком, и чувствует себя некомфортно, находясь в центре внимания.
+    
+   
+Преподаватели считают   ДВ незметной, но способной студенткой. Она говорит, что сама редко поднимает руку на занятиях, но будет отвечать, если ее вызовут и  спросят. Ей приходилось делать короткие презентации в прежних местах учебы, и как-то удавалось с этим справляться, но это всегда было для нее дискомфортным. Она сообщает, что сильно нервничает перед презентацией, испытывает ощущением «бабочек в животе», но быстро успокаивается вскоре после её завершения. Тем не менее, ей никогда не приходилось выступать перед такой большой аудиторией как на курсах ораторского искусства, да еще и с такими важными последствиями, и ее существенно тревожит то, что у неё может не получится выступить удовлетворительно и, в результате, она не сможет окончить учебное заведение.  
+
+ ДВ сообщает, что у нее есть группа друзей, но она никогда не была «разговорчивой». ДВ любит коллективную деятельность, но редко высказывается, потому что ей трудно вступить в разговор. Обычно она предпочитает слушать. Когда врач спрашивает ДВ, испытывает ли она какое-либо беспокойство во время текущей консультации, она отвечает, что чувствует себя прекрасно. ДВ уточняет, что она, как правило, успешно справляется в ситуациях, где она «один-на-один» с другим человеком, но начинает чувствовать себя неуютно, когда группа становится больше, «например, более 5 или 6 человек». У нее есть молодой человек, и она оценивает их взаимоотношения как хорошие. По ее словам, он также предпочитает общение в малых группах и спокойные виды деятельности. Когда врач спрашивает, хотела бы пациентка преодолеть свою застенчивость, ДВ говорит, что, как правило, она   не тяготится этим  и ей нравится быть  такой, какая она есть.  Она подчеркивает, что единственное, что ее заботит, это необходимость пройти курс ораторского искусства. Она говорит, что готова решать эту проблему, но хотела бы получить некоторую поддержку и рекомендации, как это сделать.  
+Additional Background Information:  ДВ единственный и поздний ребенок, ее родители живут в соседнем городе. Она описывает жизнь своей семьи как «спокойную, нормальную». Она отрицает употребление каких-либо наркотических веществ, но сообщает, что время от времени выпивает один   или два бокала легкого алкоголя со своим другом в выходные. Недавнее медицинское  обследование не выявило никаких отклонений.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Social Anxiety Disorder  
+Reasoning: The patient exhibits significant anxiety in social situations, particularly when speaking in front of a large audience, avoiding public speaking, and feeling discomfort in groups larger than . These symptoms align with social anxiety disorder.
+
+Second Most Likely: Specific Phobia  
+Reasoning: Her fear is specifically related to public speaking, which could be classified as a specific phobia.
+
+Third Most Likely: Panic Disorder  
+Reasoning: She experiences physical symptoms like ""butterflies"" before presentations, which might suggest panic symptoms, though they don't meet the full criteria for panic disorder.","['Social Anxiety Disorder', 'Specific Phobia', 'Panic Disorder']",No Diagnosis,False,False,False
+Anxiety Vignette 6A Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  ВК - 10-летняя школьница. Её привела на психологическую консультацию мать, которая сообщила, что ВК устраивает истерики и сильно переживает, когда матери нужно оставить ее на некоторое время. Такое поведение обострилось в течение последнего года до такой степени, что родители ВК измучались и не знают, как помочь дочери. Школьная медсестра посоветовала, чтобы ВК сводили  на консультацию к психологу.
+Presenting Symptoms:  Мать ВК рассказывает, что поведение дочери было проблемным с тех пор, как она пошла в школу 5 лет назад. В то время ВК плакала каждое утро, когда надо было идти в школу, не желая расставаться с матерью. Её «плачущую и визжащую» приходилось буквально на руках относить в школьный автобус. Во время школьных каникул ВК иногда оставалась с бабушкой и дедушкой в течение дня, но постоянно просилась пойти на работу с матерью. Когда мать заставляла её остаться с бабушкой и дедушкой, ВК продолжала плакать и кричать в течение часа и несколько раз в день настаивала на телефонных звонках матери, чтобы поговорить с ней.
+    
+   
+В настоящее время, ВК по-прежнему демонстрирует тревогу, когда за ней приходит школьный автобус, и часто жалуется на чувство тошноты и разбитости, когда надо отправляться в школу. Иногда она просит, чтобы ее направили в школьный мед кабинет из-за боли в животе или ощущения, что ее сейчас вырвет, и говорит, что мать должна приехать и забрать ее. ВК настаивает, чтобы ей 2-3 раза в день разрешали позвонить из школы на работу матери. Если мать опаздывает на несколько минут забрать ее из школы, то ВК становится крайне тревожной, испуганной и часто плачет. Недавно ВК отказалась от экскурсии вместе с классом, потому что поездка предполагала ночевку вне дома. Она не играет с друзьями на детской площадке, если мать не находится рядом. В результате у нее мало друзей, помимо двоюродных братьев и сестер. Она любит быть с тетей по материнской линии и двоюродными братьями и сестрами, но отказывается спать в их доме вдали от матери.
+    
+   
+ВК заявляет, что любит отца и бабушку с дедушкой, но чувствует «особенную близость» с матерью. Когда её спросили, почему ей так трудно быть вдали от матери, ВК ответила шепотом: «Потому что с мамой может что-то случиться, и она не вернется домой». У нее не возникает таких опасений, когда мать находится рядом с ней.  
+Additional Background Information:  ВК является единственным ребенком в семье. Мать ВК сообщает, что девочка  развивалась нормально, но была «прилипчивым» ребенком.  Особенно трудным было приучить ВК засыпать одной, потому что она настаивала на том, чтобы спать с родителями. У ВК не было никаких других проблем со здоровьем, и она не принимает каких-либо медикаментов. Оба родителя ВК полностью здоровы.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Separation Anxiety Disorder  
+Reasoning: The child exhibits significant distress when separated from her mother, refuses to stay away from her, and shows excessive anxiety about potential harm to her mother, which are key features of separation anxiety disorder.
+
+Second Most Likely: Separation Anxiety Disorder AND Panic Disorder  
+Reasoning: The child's symptoms include panic-like episodes when separated from her mother, such as intense crying and distress, which could indicate comorbid panic disorder.
+
+Third Most Likely: Agoraphobia  
+Reasoning: The child's avoidance of school and reliance on her mother could also suggest agoraphobia, but separation anxiety is more prominent.","['Separation Anxiety Disorder', 'Separation Anxiety Disorder AND Panic Disorder', 'Agoraphobia']",Separation Anxiety Disorder,True,True,True
+Anxiety Vignette 6B Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  АГ и его жена были направлены к психологу семейным врачом для супружеской консультации. Им обоим около 35 лет,  и они женаты в течение 9 лет. Детей у них нет. Жена АГ пожаловалась врачу, что ее отношения с мужем ухудшились, потому что она чувствует, что он «притесняет ее» и отказывается «дать ей пространство».
+Presenting Symptoms:  АГ и его жена присутствуют на первой встрече  вместе и выглядят напряженными. Жена АГ начинает рассказывать о своих переживаниях, связанных с поведением мужа, сообщая, что проблема возникла 3 года назад, когда она начала работать в отделе продаж, что потребовало совершать поездки несколько раз в месяц. После нескольких первых деловых поездок, которые обошлись без происшествий, АГ начал настаивать, чтобы его жена звонила домой сразу после приземления в месте назначения, а затем еще раз по прибытию в отель. Жена АГ жалуется, что перед каждой поездкой, АГ умоляет ее не ехать. Она считает, что это крайне несправедливо, потому что он знал, что поездки были одним из условий ее новой работы, и они обсуждали это перед ее трудоустройством. Жена АГ говорит, что поведение мужа настолько невыносимо, что она думает, ей придется найти другую работу, которая не потребует командировок. Она считает его поведение необоснованным, и ее возмущает, что он лишает ее возможности делать карьеру, чего ей  всегда хотелось.
+    
+   
+АГ объясняет психологу, что, хотя он знает, что это иррационально, он все равно опасается, что жена получит травму или погибнет, находясь в командировке. В то время, когда она в отъезде, он едва ли может спать в течение ночи и часто просыпается «в холодном поту». Несколько раз он звонил ей в отель посреди ночи, чтобы убедиться, что она все еще жива. Даже когда она не путешествует, АГ несколько раз в день посылает ей сообщения на мобильный телефон, чтобы убедиться, что она в порядке. Если она не отвечает сразу, то он звонит ей в офис и на мобильный телефон до тех пор, пока она не ответит.
+    
+   
+Жена АГ сообщает, что её отношения с мужем всегда были полны любви и сначала она считала такое его  поведение признаком его глубокой привязанности. При этих словах АГ прерывает её и говорит: «Ты знаешь, как сильно я тебя люблю. Я просто не хочу потерять тебя». Жена AГ быстро реагирует, говоря: «Как ты можешь потерять меня, когда ты никогда не упускал меня из виду!» Жена AГ сообщает, что на протяжении их отношений АГ всегда хотел, чтобы они проводили всё своё свободное время вместе, и что он всегда чувствовал некоторую небезопасность, но теперь это вышло из-под контроля. В то же время, она говорит, что он всегда был уверен в принятии решений, касающихся своей собственной жизни, и она не чувствовала, что АГ контролирует ее решения и поведение, за исключением случаев, которые связаны с ее отъездами. АГ сообщает, что знает, насколько расстраивает  жену его поведение, когда она уезжает. Он не хочет злить ее, но не может остановиться, потому что  очень боится, что с ней может что-то случиться. Он говорит, что у него хорошие отношения с женой, но он обеспокоен тем, что они могут серьезно  ухудшиться из-за его  напряжения, связанного с ее поездками.  
+Additional Background Information:  АГ является профессиональным успешным фотографом. У него своя    фотостудия, и у него хорошие отношения с подчиненными. У АГ дважды были    серьезные  романтические отношения, прежде чем он встретил свою будущую жену. Он не помнит, чтобы он волновался в предыдущих отношениях  столько, сколько волнуется сейчас о своей жене. У АГ есть несколько давних близких друзей. АГ не употребляет алкоголь и другие психоактивные вещества. У него слегка избыточный вес и повышенное артериальное давление, но в настоящее время он не принимает лекарств по этому поводу.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Most Likely Diagnosis: Generalized Anxiety Disorder  
+Reasoning: The patient exhibits excessive worry about his wife's safety during her trips, frequent checking behaviors, and significant distress, which are consistent with generalized anxiety disorder. His symptoms are pervasive and not limited to specific situations, indicating a broader anxiety issue.
+
+Second Most Likely: Separation Anxiety Disorder  
+Reasoning: His excessive concern and frequent checking when his wife is away could also suggest separation anxiety, though it's less likely than generalized anxiety as his anxiety seems more generalized.
+
+Third Most Likely: Panic Disorder  
+Reasoning: His nighttime waking and frequent calls might indicate panic attacks, though the primary issue seems to be generalized anxiety rather than panic-focused.","['Generalized Anxiety Disorder', 'Separation Anxiety Disorder', 'Panic Disorder']",Separation Anxiety Disorder,False,True,True

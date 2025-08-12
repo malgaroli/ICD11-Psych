@@ -1,0 +1,85 @@
+GPU Memory - Total: 81152.75 MB, Reserved: 0.00 MB, Allocated: 0.00 MB, Free: 0.00 MB
+Detailed results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/gemma3/spanish/ICD11_gemma3_prompt_ddx_qualtrics_modified_translated_detailed_results.csv
+
+Anxiety Accuracies:
+Top-1: 0.73
+Top-2: 0.73
+Top-3: 0.82
+
+Mood Accuracies:
+Top-1: 0.29
+Top-2: 0.29
+Top-3: 0.29
+
+Stress Accuracies:
+Top-1: 0.64
+Top-2: 0.64
+Top-3: 0.64
+Top-1 Average Accuracy: 0.55 (±0.23)
+Top-2 Average Accuracy: 0.55 (±0.23)
+Top-3 Average Accuracy: 0.58 (±0.27)
+Results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/gemma3/spanish/ICD11_gemma3_prompt_ddx_qualtrics_modified_translated_performance.csv
+GPU Memory - Total: 81152.75 MB, Reserved: 12908.00 MB, Allocated: 9004.20 MB, Free: 3903.80 MB
+GPU Memory - Total: 81152.75 MB, Reserved: 12908.00 MB, Allocated: 9004.20 MB, Free: 3903.80 MB
+Detailed results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/gemma3/french/ICD11_gemma3_prompt_ddx_qualtrics_modified_translated_detailed_results.csv
+
+Anxiety Accuracies:
+Top-1: 0.64
+Top-2: 0.64
+Top-3: 0.82
+Top-1 Average Accuracy: 0.64 (±nan)
+Top-2 Average Accuracy: 0.64 (±nan)
+Top-3 Average Accuracy: 0.82 (±nan)
+Results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/gemma3/french/ICD11_gemma3_prompt_ddx_qualtrics_modified_translated_performance.csv
+GPU Memory - Total: 81152.75 MB, Reserved: 23138.00 MB, Allocated: 9060.71 MB, Free: 14077.29 MB
+GPU Memory - Total: 81152.75 MB, Reserved: 23138.00 MB, Allocated: 9060.71 MB, Free: 14077.29 MB
+Detailed results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/gemma3/chinese/ICD11_gemma3_prompt_ddx_qualtrics_modified_translated_detailed_results.csv
+
+Anxiety Accuracies:
+Top-1: 0.45
+Top-2: 0.45
+Top-3: 0.55
+Top-1 Average Accuracy: 0.45 (±nan)
+Top-2 Average Accuracy: 0.45 (±nan)
+Top-3 Average Accuracy: 0.55 (±nan)
+Results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/gemma3/chinese/ICD11_gemma3_prompt_ddx_qualtrics_modified_translated_performance.csv
+GPU Memory - Total: 81152.75 MB, Reserved: 23142.00 MB, Allocated: 8976.81 MB, Free: 14165.19 MB
+GPU Memory - Total: 81152.75 MB, Reserved: 23142.00 MB, Allocated: 8976.81 MB, Free: 14165.19 MB
+Detailed results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/gemma3/russian/ICD11_gemma3_prompt_ddx_qualtrics_modified_translated_detailed_results.csv
+
+Anxiety Accuracies:
+Top-1: 0.45
+Top-2: 0.45
+Top-3: 0.55
+
+Mood Accuracies:
+Top-1: 0.29
+Top-2: 0.38
+Top-3: 0.38
+Top-1 Average Accuracy: 0.37 (±0.12)
+Top-2 Average Accuracy: 0.42 (±0.05)
+Top-3 Average Accuracy: 0.46 (±0.12)
+Results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/gemma3/russian/ICD11_gemma3_prompt_ddx_qualtrics_modified_translated_performance.csv
+GPU Memory - Total: 81152.75 MB, Reserved: 23142.00 MB, Allocated: 9996.56 MB, Free: 13145.44 MB
+GPU Memory - Total: 81152.75 MB, Reserved: 23142.00 MB, Allocated: 9996.56 MB, Free: 13145.44 MB
+Detailed results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/gemma3/japanese/ICD11_gemma3_prompt_ddx_qualtrics_modified_translated_detailed_results.csv
+
+Anxiety Accuracies:
+Top-1: 0.36
+Top-2: 0.36
+Top-3: 0.45
+
+Mood Accuracies:
+Top-1: 0.43
+Top-2: 0.48
+Top-3: 0.48
+
+Stress Accuracies:
+Top-1: 0.45
+Top-2: 0.55
+Top-3: 0.55
+Top-1 Average Accuracy: 0.42 (±0.05)
+Top-2 Average Accuracy: 0.46 (±0.09)
+Top-3 Average Accuracy: 0.49 (±0.05)
+Results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/gemma3/japanese/ICD11_gemma3_prompt_ddx_qualtrics_modified_translated_performance.csv
+GPU Memory - Total: 81152.75 MB, Reserved: 25994.00 MB, Allocated: 8999.38 MB, Free: 16994.62 MB
