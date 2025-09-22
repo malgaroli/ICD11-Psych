@@ -28,6 +28,9 @@ def free_memory():
 
 
 def extract_ranked_diagnoses(response, language):
+    if not response:
+        return ["NO_MATCH_FOUND"]*3
+
     diagnoses = []
     if language == "english":
         pattern1 = r"\*\*\s*(?:1\.|First|Most Likely) Diagnosis:\s*([^\*\n]+)\*\*"

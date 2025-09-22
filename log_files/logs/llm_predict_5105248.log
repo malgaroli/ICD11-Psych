@@ -1,0 +1,22 @@
+GPU Memory - Total: 81152.75 MB, Reserved: 0.00 MB, Allocated: 0.00 MB, Free: 0.00 MB
+Detailed results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/gpt_20B/english/ICD11_gpt_20B_prompt_ddx_qualtrics_modified_detailed_results.csv
+
+Anxiety Accuracies:
+Top-1: 0.00
+Top-2: 0.00
+Top-3: 0.00
+
+Mood Accuracies:
+Top-1: 0.00
+Top-2: 0.00
+Top-3: 0.00
+
+Stress Accuracies:
+Top-1: 0.00
+Top-2: 0.00
+Top-3: 0.00
+Top-1 Average Accuracy: 0.00 (±0.00)
+Top-2 Average Accuracy: 0.00 (±0.00)
+Top-3 Average Accuracy: 0.00 (±0.00)
+Results saved to  /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/results/gpt_20B/english/ICD11_gpt_20B_prompt_ddx_qualtrics_modified_performance.csv
+GPU Memory - Total: 81152.75 MB, Reserved: 25174.00 MB, Allocated: 19957.10 MB, Free: 5216.90 MB

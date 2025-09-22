@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 198, in <module>
+    main()
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 190, in main
+    model = LLMModel(model_path, max_new_tokens=max_new_tokens)
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/LLMModel.py", line 48, in __init__
+    self.model = AutoModelForCausalLM.from_pretrained(
+  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 600, in from_pretrained
+    return model_class.from_pretrained(
+  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/transformers/modeling_utils.py", line 316, in _wrapper
+    return func(*args, **kwargs)
+  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4865, in from_pretrained
+    config.quantization_config = AutoHfQuantizer.merge_quantization_configs(
+  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/transformers/quantizers/auto.py", line 224, in merge_quantization_configs
+    loading_attr_dict = quantization_config_from_args.get_loading_attributes()
+AttributeError: 'BitsAndBytesConfig' object has no attribute 'get_loading_attributes'

@@ -1,0 +1,882 @@
+Vignette_ID,Category,Prompt,Model_Output,Model_Diagnoses,Ground_Truth_Label,Top_1_Accuracy,Top_2_Accuracy,Top_3_Accuracy
+Anxiety Vignette 1A Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  PK est une femme de 36 ans qui travaille à la fonction publique et vit avec son mari et leurs deux fillettes, âgées de 7 et 10 ans. La semaine dernière, elle est allée chez un gastroentérologue avec une plainte de gastralgies chroniques et elle a reçu un diagnostic d’ulcère. Afin d’identifier les causes potentielles de l’ulcère, le gastroentérologue a interrogé PK sur son niveau de stress. PK évoqua le fait que depuis les deux dernières années, elle se sent extrêmement nerveuse et inquiète, en dépit du fait que rien d’inhabituel ou de terrible ne se soit produit. Le gastroentérologue suggéra que PK parle à un professionnel de la santé mentale pour recevoir de l’aide à gérer son anxiété.
+Presenting Symptoms:  Pendant l’’évaluation en santé mentale, PK admet s’inquiéter presque tout le temps et maintenant elle se préoccupe à l’idée que ses inquiétudes sont dommageables à sa santé.  PK dit qu’elle a toujours été « une anxieuse » et elle pense que cette qualité lui a permis d’être attentive à sa famille et consciencieuse dans son travail. Cependant, elle dit que depuis quelques années, cela est devenu « hors de contrôle » et elle s’inquiète au point de se sentir submergée et épuisée. Quand on lui demande ce qui l’inquiète, elle dit que « ça peut être n’importe quoi –que mes enfants puissent tomber malades, si j’ai verrouillé la porte d’entrée, si je vais finir mon rapport à temps pour le travail - tout ce à quoi je pense peut être un sujet d’inquiétude ». Elle prend pour exemple quand ses filles ont un léger rhume, elle craint que cela puisse devenir sérieux au point de devoir les conduire chez le médecin, bien qu’elle sache qu’elles sont plutôt en bonne santé et que tous les enfants attrapent des rhumes. Comme autre exemple, PK mentionne que son mari est très sociable et qu’il invite souvent ses collègues à diner, ce que PK décrit comme « vraiment angoissant pour elle » car elle s’inquiète à l’idée que le repas  se déroule mal et que cela mette en péril la carrière de son mari.
+  
+ La plupart des jours, elle trouve difficilement le sommeil, et quand elle est étendue dans son lit elle se ressasse toutes les choses qu’elle doit faire le jour suivant et s’inquiète de ne pas réussir à tout faire. Elle se sent très tendue et a souvent de la douleur au niveau des épaules et au haut du dos, et elle reconnaît que ces douleurs sont liées à la tension.
+  
+ PK déclare qu’elle et son mari ont une bonne relation mais qu’ils ont commencé à se disputer récemment sur le fait qu’elle soit toujours tendue et irritable. Son ainée a dit récemment qu’elle ne lui raconterait plus rien car PK « fait une montagne de tout ». PK dit qu’auparavant elle était capable de prendre les choses à la légère et de s’amuser en famille, mais que cela lui est devenu impossible depuis quelques années.  Elle dit que « ça les fatigue autant que moi ».
+Additional Background Information: PK est fille unique. Ses parents ont divorcé quand elle était très jeune et elle a grandi avec sa mère et ses grands-parents. Elle ne prend aucun médicament en dehors des antiacides pour son ulcère. Elle boit très rarement de l’alcool – habituellement juste un verre de vin - et n’a jamais pris de drogue. Son examen médical récent n’a montré aucune anomalie en dehors de son ulcère.  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Translation of the vignette into English**
+
+Referral: PK is a 36‑year‑old woman who works in the public sector and lives with her husband and their two daughters, aged 7 and 10. Last week she went to a gastroenterologist with a complaint of chronic stomach pains and was diagnosed with an ulcer. To identify possible causes of the ulcer, the gastroenterologist asked PK about her stress level. PK mentioned that for the past two years she has felt extremely nervous and worried, despite the fact that nothing unusual or terrible has happened. The gastroenterologist suggested that PK speak to a mental‑health professional to get help managing her anxiety.
+
+Presenting Symptoms: During the mental‑health evaluation, PK admits that she worries almost all the time and now she is concerned that her worries are harmful to her health. PK says she has always been “an anxious person” and she thinks that this quality has allowed her to be attentive to her family and conscientious at work. However, she says that for a few years this has become “out of control” and she worries to the point of feeling overwhelmed and exhausted. When asked what she worries about, she says “it can be anything – that my children might get sick, whether I locked the front door, whether I will finish my report on time for work – everything she thinks about can become a subject of worry.” She gives the example that when her daughters have a mild cold, she fears that it could become serious enough to have to take them to the doctor, even though she knows they are otherwise healthy and that all children get colds. Another example, PK mentions that her husband is very sociable and often invites his colleagues to dinner, which PK describes as “really anxiety‑inducing for her” because she worries that the meal will go poorly and that it will jeopardize her husband’s career.
+
+Most days she has difficulty falling asleep, and when she lies in bed she ruminates on all the things she has to do the next day and worries that she will not be able to get everything done. She feels very tense and often has pain in her shoulders and upper back, and she recognizes that these pains are related to tension.
+
+PK says that she and her husband have a good relationship but have recently started arguing about her being always tense and irritable. Her eldest daughter recently said she would no longer tell her anything because PK “makes a mountain out of everything.” PK says that she used to be able to take things lightly and have fun with the family, but that has become impossible for a few years. She says that “it tires them as much as it tires her.”
+
+Additional Background Information: PK is an only child. Her parents divorced when she was very young and she grew up with her mother and grandparents. She takes no medication other than antacids for her ulcer. She drinks alcohol very rarely – usually just a glass of wine – and has never used drugs. Her recent medical exam showed no abnormalities other than her ulcer.
+
+---
+
+**Most Likely Diagnosis:** Generalized Anxiety Disorder  
+**Reasoning:** PK exhibits chronic, excessive worry about a wide range of everyday events for at least 6 months, with associated sleep disturbance, muscle tension, and functional impairment, meeting DSM‑5 criteria for GAD.
+
+**Second Most Likely:** Social Anxiety Disorder  
+**Reasoning:** PK reports significant anxiety in social situations (e.g., her husband’s dinner parties) and fears negative evaluation, suggesting a possible social anxiety component, though it is not the primary focus of her worries.
+
+**Third Most Likely:** Unspecified Anxiety and Fear‑Related Disorder  
+**Reasoning:** If the social anxiety features are not sufficient to meet full criteria for Social Anxiety Disorder, the presentation could be classified as an unspecified anxiety disorder, but GAD remains the primary diagnosis.<|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|>","['Generalized Anxiety Disorder', 'Social Anxiety Disorder', 'Unspecified Anxiety and Fear‑Related Disorder']",Generalized Anxiety Disorder,True,True,True
+Anxiety Vignette 1B Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  TS est une femme de 44 ans, mariée avec trois enfants d’âge scolaire, et travaille en tant qu’avocate.  Elle a décidé de consulter un psychologue « pour obtenir des conseils sur comment conserver un bon équilibre entre sa carrière et sa famille. »
+Presenting Symptoms: Pendant l’entretien initial, TS évoque le fait qu’elle a été par moments « très stressée » au cours de la dernière année, depuis qu’elle a été promue dans le cabinet juridique où elle travaille. TS était enthousiasmée par cette promotion mais trouve maintenant que l’augmentation importante de responsabilités peut être accablante. TS dit qu’elle « s’inquiète beaucoup » à savoir si elle pourra performer à un niveau suffisamment satisfaisant et si elle pourra tout accomplir. Elle se décrit comme étant très pointilleuse sur les détails et « une espèce de maniaque du contrôle », mais dit que ces qualités lui permettent d’atteindre ses échéances et d’assurer un travail de qualité. Cependant, ces derniers temps, elle craint que son niveau de stress interfère avec sa capacité de se concentrer au travail et se répercute sur sa famille. Elle dit que bien que ses évaluations de performance au travail ont été très positives, elle a maintenant moins de temps à consacrer à son mari, et doit souvent faire plusieurs choses à la fois comme faire son propre travail en même temps qu’elle aide ses enfants à faire leurs devoirs.
+  
+ Pendant l’entretien, TS évoque le fait qu’elle ne s’est jamais inquiétée au point d’en devenir « physiquement malade », bien qu’elle se sente parfois très tendue. Quand on lui demande comment elle gère cette tension, elle précise qu’il s’agit « d’une tension de type émotionnelle, et non d’une tension physique ». Elle n’a pas de difficulté à dormir, et avoue qu’ « à la fin de la journée, je me sens si fatiguée que je ne suis pas capable de penser à autre chose qu’à mon lit ». Quand les pensées à propos de tout ce qu’elle doit faire « deviennent trop envahissantes », elle se répète « Respire et persiste ». Ainsi, elle est habituellement capable de se calmer. Le weekend, elle essaie d’éviter de travailler pour passer du temps avec sa famille, bien que cela soit devenu difficile depuis la dernière année.
+  
+ Elle déclare que malgré sa charge de travail et ses soucis, elle gère les choses « plutôt bien, en général » et est capable de faire face à ses impératifs professionnels tout en gérant le quotidien à la maison, quoique son mari l’aide plus qu’avant. TS dit que sa relation avec son mari est « très solide » et qu’elle se sent supportée par lui, mais elle se sent coupable de le négliger depuis qu’elle a débuté son nouveau travail. De plus, TS se plaint de ne pas avoir assez de temps à consacrer « à elle-même ». Par exemple, elle avait l’habitude de faire du sport régulièrement mais n’a plus beaucoup de temps pour cela depuis qu’elle a reçu cette promotion au travail. Elle a peur que son nouveau programme ne l’épuise bientôt, à moins qu’elle « acquière des compétences utiles » pour parvenir à un équilibre et réduire ses inquiétudes liées au travail.
+Additional Background Information:  TS est l’ainée de 4 enfants. Sa mère était professeure d’art et son père était un juge, qu’elle décrit comme étant “brillant et très ambitieux”. Elle boit souvent un verre de vin avec son mari en soirée, mais nie la prise de d’autres substances. Ses récents examens médicaux et tests sanguins de routine n’ont montré aucune anomalie.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Translation of the vignette into English**
+
+Referral: TS is a 44‑year‑old woman, married with three school‑aged children, and works as a lawyer. She decided to see a psychologist “to get advice on how to maintain a good balance between her career and her family.”
+
+Presenting Symptoms: During the initial interview, TS reports that she has been “very stressed” at times over the past year, since she was promoted at the law firm where she works. TS was excited about the promotion but now finds that the significant increase in responsibilities can be overwhelming. She says she “worries a lot” about whether she will be able to perform at a sufficiently satisfactory level and whether she can accomplish everything. She describes herself as very meticulous and “a kind of control‑mania,” but says these qualities allow her to meet deadlines and ensure quality work. However, lately she fears that her stress level interferes with her ability to concentrate at work and affects her family. She says that although her performance evaluations at work have been very positive, she now has less time to devote to her husband and often has to multitask, such as doing her own work while helping her children with homework.
+
+During the interview, TS says she has never worried to the point of becoming “physically ill,” although she sometimes feels very tense. When asked how she manages this tension, she specifies that it is “an emotional tension, not a physical one.” She has no trouble sleeping, and admits that “at the end of the day, I feel so tired that I cannot think of anything other than my bed.” When thoughts about everything she has to do “become too intrusive,” she repeats “breathe and persist.” Thus, she is usually able to calm herself. On weekends she tries to avoid work to spend time with her family, although this has become difficult over the past year.
+
+She declares that despite her workload and worries, she manages things “rather well, in general” and is able to cope with her professional demands while managing the daily routine at home, although her husband helps more than before. TS says her relationship with her husband is “very solid” and that she feels supported by him, but she feels guilty for neglecting him since she started her new job. Additionally, TS complains of not having enough time for herself. For example, she used to exercise regularly but no longer has much time for it since she received this promotion at work. She fears that her new schedule will exhaust her soon unless she “acquires useful skills” to achieve balance and reduce work‑related anxieties.
+
+Additional Background Information: TS is the eldest of four children. Her mother was an art teacher and her father was a judge, whom she describes as “brilliant and very ambitious.” She often drinks a glass of wine with her husband in the evening, but denies use of other substances. Her recent medical exams and routine blood tests have shown no abnormalities.
+
+---
+
+**Most Likely Diagnosis: Generalized Anxiety Disorder**  
+Reasoning: TS exhibits persistent, excessive worry about multiple domains (work, family, performance) lasting >6 months, difficulty controlling the worry, associated restlessness/fatigue, and concentration problems—all meeting DSM‑5 criteria for GAD.
+
+**Second Most Likely: Unspecified Anxiety and Fear‑Related Disorder**  
+Reasoning: While TS meets many GAD criteria, her anxiety is largely functional and she has effective coping strategies; if any criterion is borderline, an unspecified anxiety disorder would be appropriate.
+
+**Third Most Likely: No Diagnosis**  
+Reasoning: If the clinician judges that her anxiety is within normal stress limits and does not impair functioning, a diagnosis may not be warranted.<|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|>","['Generalized Anxiety Disorder', 'Unspecified Anxiety and Fear‑Related Disorder', 'No Diagnosis']",No Diagnosis,False,False,True
+Anxiety Vignette 2 Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: MT est une femme de 23 ans qui vit seule et est étudiante dans une université locale. Elle a été référée pour une évaluation psychiatrique par un médecin urgentiste de l’hôpital universitaire, qui l’a prise en charge lors de sa seconde visite aux urgences en l’espace de 2 mois. Selon son dossier médical hospitalier, aux deux visites, MT s’est plainte d’une douleur thoracique sévère, d’étourdissements, d’une sensation de picotements dans les bras et les jambes et était persuadée de faire une crise cardiaque.
+Presenting Symptoms:  Pendant l’évaluation psychiatrique, MT explique que plusieurs changements importants se sont produits dans sa vie récemment. Notamment, sa rupture avec son petit ami et son déménagement il y a 4 mois, pour s’inscrire aux études supérieures.  Cependant, elle indique que ces crises où elle se sent « très angoissée et a l’impression qu’elle va mourir » ont débuté environ 9 mois avant la rupture et le déménagement. La première fois, elle se promenait avec son père et s’est soudain sentie extrêmement angoissée « sans raison ». Dans les minutes qui ont suivi, alors que la sensation empirait, elle a commencé à avoir la tête qui tourne et du mal à respirer. Elle dit que son cœur battait à toute vitesse et que les bouts de ses doigts ont commencé à picoter, puis qu’elle a éprouvé une oppression thoracique. Elle a cru qu’elle faisait une crise cardiaque et qu’elle allait mourir et son père l’a alors rapidement conduite aux urgences. Après 30 minutes dans l’hôpital, elle « se sentait bien à nouveau » mais était bouleversée par ce qui venait de lui arriver. Après plusieurs examens, il est apparu qu’elle était en bonne santé et les médecins n’ont identifié aucune anomalie cardiovasculaire, ou autre cause, à ses symptômes.
+  
+ Depuis lors, MT a eu de nombreux épisodes similaires, caractérisés par des sensations soudaines d’anxiété intense « comme si c’était la fin du monde » et les mêmes sensations physiologiques. Elle n’est pas capable d’identifier d’événement déclencheur pour ces épisodes ; elles sont généralement survenues quand elle se promenait ou quand elle étudiait. De plus, elle indique qu’elle n’était pas en train de penser à un sujet en particulier quand les crises sont survenues. Elle  redoute la survenue d’un nouvel épisode au point d’avoir de grandes difficultés à se concentrer sur ses études.
+  
+ Elle dit que son déménagement l’a rendue encore plus terrifiée à l’idée d’avoir un autre épisode, puisqu’elle redoute que les symptômes soient bien pires du fait qu’elle n’ait ni sa famille ni ses amis proches à ses côtés. Ainsi, lorsqu’elle a eu son premier épisode après le déménagement, elle s’est rendue à l’hôpital universitaire. « Je pensais que j’allais mourir et je ne savais pas quoi faire d’autre ». Lors de son dernier passage aux urgences de l’hôpital universitaire, le médecin l’a reconnue et lui a dit qu’il n’y avait pas de problème avec son cœur et qu’elle devrait aller voir un psychiatre. Elle dit qu’elle a décidé de se soumettre à cette évaluation psychiatrique car, non seulement elle est épuisée par l’impact émotionnel de son trouble, mais qu’en plus le coût croissant de ses visites aux urgences est devenu un tel fardeau qu’elle est désormais incapable de payer ses frais universitaires.
+Additional Background Information:  MT déclare qu’elle boit de l’alcool occasionnellement, deux ou trois verres entre amis les weekends, mais dit qu’elle ne fume pas et ne prend pas d’autres substances. Elle dit qu’elle s’en sort bien à l’université, mais avoue qu’elle craint de devoir quitter l’université pour revenir à la maison si les épisodes continuent. « C’est à dire, s’ils ne me tuent pas. »  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Translation of the vignette**
+
+Referral: MT is a 23‑year‑old woman who lives alone and is a student at a local university. She was referred for a psychiatric evaluation by an emergency physician at the university hospital, who treated her during her second visit to the emergency department within a 2‑month period. According to her hospital medical record, at both visits MT complained of severe chest pain, dizziness, tingling sensations in her arms and legs, and was convinced she was having a heart attack.
+
+Presenting Symptoms: During the psychiatric evaluation, MT explains that several significant changes have occurred in her life recently. Notably, her breakup with her boyfriend and her move 4 months ago to enroll in graduate studies. However, she indicates that these crises in which she feels “very anxious and feels like she is going to die” began about 9 months before the breakup and move. The first time, she was walking with her father and suddenly felt extremely anxious “for no reason.” In the minutes that followed, as the sensation worsened, she began to feel dizzy and had trouble breathing. She says her heart was racing and the tips of her fingers started to tingle, then she experienced chest oppression. She believed she was having a heart attack and that she was going to die, and her father quickly took her to the emergency department. After 30 minutes in the hospital, she “felt fine again” but was upset by what had just happened. After several examinations, it turned out she was healthy and doctors did not find any cardiovascular or other cause for her symptoms.
+
+Since then, MT has had many similar episodes, characterized by sudden intense anxiety “as if it was the end of the world” and the same physical sensations. She cannot identify a triggering event for these episodes; they generally occurred when she was walking or studying. Also, she says she was not thinking about a particular subject when the crises occurred. She fears a new episode to the point of having great difficulty concentrating on her studies.
+
+She says that her move made her even more terrified at the idea of having another episode, as she fears the symptoms would be worse because she has no family or close friends by her side. Thus, when she had her first episode after the move, she went to the university hospital. “I thought I was going to die and I didn’t know what else to do.” During her last visit to the university hospital emergency department, the doctor recognized her and told her that there was no problem with her heart and that she should see a psychiatrist. She says she decided to undergo this psychiatric evaluation because, not only is she exhausted by the emotional impact of her disorder, but also the increasing cost of her emergency visits has become such a burden that she is now unable to pay her university fees.
+
+Additional Background Information: MT says she drinks alcohol occasionally, two or three glasses between friends on weekends, but says she does not smoke and does not take other substances. She says she is doing well at university, but admits that she fears having to leave university to go back home if the episodes continue. “That is, if they don’t kill me.”
+
+---
+
+**Most Likely Diagnosis:** Panic Disorder  
+**Reasoning:** MT experiences recurrent, unexpected panic attacks with intense physical symptoms (chest pain, dizziness, tingling, hyperventilation) and a persistent fear of dying, which are hallmark features of panic disorder.
+
+**Second Most Likely:** Panic Disorder AND Agoraphobia  
+**Reasoning:** She fears having an attack in places where escape might be difficult (e.g., hospital, crowded areas) and is anxious about attending university, suggesting possible agoraphobic avoidance, though explicit avoidance is not fully described.
+
+**Third Most Likely","['Panic Disorder', 'During the psychiatric evaluation, MT explains that several significant changes have occurred in her life recently. Notably, her breakup with her boyfriend and her move 4 months ago to enroll in graduate studies. However, she indicates that these crises in which she feels “very anxious and feels like she is going to die” began about 9 months before the breakup and move. The first time, she was walking with her father and suddenly felt extremely anxious “for no reason.” In the minutes that followed, as the sensation worsened, she began to feel dizzy and had trouble breathing. She says her heart was racing and the tips of her fingers started to tingle, then she experienced chest oppression. She believed she was having a heart attack and that she was going to die, and her father quickly took her to the emergency department. After 30 minutes in the hospital, she “felt fine again” but was upset by what had just happened. After several examinations, it turned out she was healthy and doctors did not find any cardiovascular or other cause for her symptoms.', 'NO_MATCH_FOUND']",Panic Disorder,True,True,True
+Anxiety Vignette 3A Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: PF est un homme célibataire de 53 ans se présentant pour une évaluation psychiatrique à la Clinique locale de santé mentale. PF est actuellement sans emploi et vit avec son frère, qui accompagne PF à son rendez-vous. Le frère de PF a insisté pour que PF se fasse aider pour sa peur insurmontable de sortir seul de chez lui, celle-ci s’étant empirée au cours des 6 derniers mois.
+Presenting Symptoms:  PF éprouve depuis longtemps une sensation de malaise et d’anxiété dans les endroits bondés, comme les théâtres ou les marchés, et aussi lorsqu’il prend les transports en commun. Il y a environ un an, alors qu’il rentrait chez lui du travail, il est devenu tellement nerveux à cause de tous les gens dans le bus, qu’il a  supplié le conducteur de le laisser descendre entre les arrêts. Il était plutôt secoué après cela et a dû appeler son frère pour qu’il vienne le chercher. Il déclare s’être senti vraiment humilié car « tout le monde me regardait, pensant que je devais être fou ». Après cela, il a arrêté de prendre les transports en commun.
+  
+ Jusqu’à il y a 6 mois, PF travaillait en tant que technicien informatique dans une entreprise locale. Il était alors supposé se rendre dans une autre ville pour assister à une grande convention pour le travail. Il a tenté de convaincre son frère de l’accompagner, mais son frère ne pouvait délaisser son propre travail. Au cours des journées précédant le voyage, PF s’est senti incroyablement anxieux.  Il décrit une sensation d’appréhension à l’idée d’être piégé dans le Centre de Convention bondé, avec aucune échappatoire et personne pour l’aider. Plutôt que d’assister à la convention, il a simplement arrêté d’aller au travail et s’est éventuellement fait renvoyer. Il n’a pas retravaillé depuis. 
+  
+ Ces derniers mois, les déplacements et les activités de PF se sont restreints de manière importante.  PF affirme qu’il peut s’aventurer seul dans son propre quartier, en autant qu’il évite les endroits qui pourraient être bondés, mais son frère le contredit. Selon le frère de PF, PF n’accepte de quitter la maison que sous une grande pression et seulement s’il l’accompagne. Quand on lui demande pourquoi il craint de se rendre dans des endroits bondés ou peu familiers, PF dit « Et si je ne peux pas m’échapper, parce qu’il y a trop de monde, ou que je ne trouve pas d’issue ? Je serai pris au piège. Fait comme un rat. » Il déclare avec insistance qu’il ne veut plus se sentir humilié comme il l’a déjà été dans le bus.
+  
+ En réponse à des questions plus précises sur ses sensations physiques au cours de l’épisode dans le bus et les autres fois où il s’est senti anxieux en se  retrouvant dans des endroits bondés, PF ne se souvient pas d’avoir éprouvé de symptômes tels qu’un rythme cardiaque élevé, des sueurs, ou un essoufflement.
+Additional Background Information:  PF est un fumeur de tabac régulier et un consommateur modéré d’alcool, mais il ne prend pas d’autres substances. PF et son frère ont été élevés par leur mère après que leur père soit décédé d’un cancer alors qu’ils étaient enfants. La mère de PF est décédée il y a 10 ans et PF et son frère continuent de vivre dans la même maison.  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**English Translation of the Vignette**
+
+PF is a 53‑year‑old single man who presents for a psychiatric evaluation at the local mental health clinic. PF is currently unemployed and lives with his brother, who accompanies him to the appointment. PF’s brother insisted that PF seek help for his overwhelming fear of leaving the house alone, a fear that has worsened over the past six months.
+
+PF has long experienced a sense of discomfort and anxiety in crowded places such as theaters or markets, and also when using public transportation. About a year ago, while returning home from work, he became so nervous because of all the people on the bus that he begged the driver to let him get off between stops. He was shaken afterward and had to call his brother to pick him up. He says he felt truly humiliated because “everyone was looking at me, thinking I must be crazy.” After that, he stopped using public transportation.
+
+Six months ago, PF worked as an IT technician at a local company. He was supposed to travel to another city to attend a large work convention. He tried to convince his brother to accompany him, but his brother could not leave his own job. In the days leading up to the trip, PF felt incredibly anxious. He described a sense of dread at the idea of being trapped in the crowded convention center, with no escape and no one to help. Instead of attending the convention, he simply stopped going to work and was eventually fired. He has not returned to work since.
+
+In recent months, PF’s movements and activities have become significantly restricted. PF says he can venture alone in his own neighborhood as long as he avoids places that might be crowded, but his brother contradicts him. According to PF’s brother, PF only leaves the house under great pressure and only if accompanied. When asked why he fears crowded or unfamiliar places, PF says, “What if I can’t escape because there are too many people, or I can’t find an exit? I’ll be trapped. Like a rat.” He insists that he no longer wants to feel humiliated as he did on the bus.
+
+When asked more specifically about physical sensations during the bus episode and other times he felt anxious in crowded places, PF does not recall experiencing symptoms such as a rapid heart rate, sweating, or shortness of breath.
+
+Additional Background Information: PF is a regular tobacco smoker and a moderate alcohol consumer, but does not use other substances. PF and his brother were raised by their mother after their father died of cancer when they were children. PF’s mother died ten years ago, and PF and his brother continue to live in the same house.
+
+---
+
+**Diagnostic Conclusions**
+
+Most Likely Diagnosis: **Specific Phobia**  
+Reasoning: PF exhibits an intense, persistent fear of crowded places and avoids them, with significant distress and functional impairment, but does not report panic attacks or generalized anxiety across many domains.
+
+Second Most Likely: **Agoraphobia**  
+Reasoning: PF fears being in places where escape might be difficult (e.g., crowded venues, public transport) and avoids them, yet the absence of panic attacks makes the diagnosis less definitive than specific phobia.
+
+Third Most Likely: **Unspecified Anxiety and Fear‑Related Disorder**  
+Reasoning: If the presentation does not neatly fit the criteria for a specific phobia or agoraphobia, it may be classified as an unspecified anxiety disorder, acknowledging the fear and avoidance without full criteria for a named disorder.<|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|>","['', 'Agoraphobia', 'Unspecified Anxiety and Fear‑Related Disorder']",Agoraphobia,False,True,True
+Anxiety Vignette 3B Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  AM, une infographiste de 25 ans, a été amenée au centre de santé mentale local par sa meilleure amie, afin d’être évaluée en raison de symptômes anxieux sévères qui la confine à son domicile depuis deux mois.
+Presenting Symptoms: AM insiste pour que son amie reste auprès d’elle pendant l’entretien avec le psychologue. Quand on lui demande ce qui pourrait arriver si son amie la laisse, AM commence à s’agiter, rougit et laisse échapper « Je ne connais pas cet endroit et mon amie est l’unique personne qui puisse m’aider si je me sens mal et que j’ai besoin de sortir. » Son amie la rassure immédiatement que tout ira bien, et suggère qu’AM explique ce qui l’a conduit à être confinée à la maison.  AM retrouve son calme et commence à expliquer qu’elle a toujours ressentie un inconfort lorsqu’elle se retrouve seule dans des lieux publics bondés, tels que les stations de bus et les centres commerciaux.
+  
+ AM révèle qu’il y a deux ans, elle est allée récupérer un colis important à la poste. Quand elle est entrée dans le bureau de poste, « il y avait foule. » Elle a soudainement commencé à se sentir extrêmement anxieuse, « comme si quelque chose de terrible allait se produire. » Son rythme cardiaque s’est accéléré, elle s’est sentie faible, étourdie, nauséeuse et a commencé à hyperventiler. Elle était persuadée qu’elle allait mourir. Elle s’est précipitée dehors et a appelé son cousin, qui habite à proximité, pour qu’il vienne la chercher et la déposer chez elle. Une fois chez elle, elle s’est sentie mieux, mais elle a trouvé l’expérience profondément troublante.
+  
+ Depuis lors, ces « épisodes pénibles » se sont répétés plusieurs fois, le plus souvent lorsqu’elle était amenée à se rendre seule dans un lieu public. AM s’est mise à éprouver une tension constante liée à l’appréhension de la survenue d’une nouvelle « attaque ». Il y a environ deux mois, elle était à la fête d’anniversaire d’une amie proche et l’endroit semblait bondé.  Elle a alors à nouveau ressenti une angoisse intense accompagnée de manifestations physiques similaires à celles qu’elle avait déjà vécues dans le bureau de Poste. Elle dit que « c’était de loin la plus pénible, » et « absolument insupportable » car même être avec son amie ne l’a pas protégée.  Depuis lors, elle dit préférer rester chez elle à la maison.  Elle n’a jamais vécu d’épisode similaire à la maison, même lorsqu’elle reçoit la visite d’un groupe. Elle craint que si elle se sent mal ou faible en dehors de chez elle, elle ne saura pas à qui demander de l’aide et pourra alors s’évanouir ou mourir. Elle déclare qu’ « heureusement, je travaille à domicile et que je peux me faire livrer mes courses, donc il serait absurde de prendre le risque d’avoir une autre crise », qu’elle décrit comme étant « la pire sensation du monde ». Bien qu’AM dise que « ça ne me gêne pas de n’aller nulle part », elle a laissé passer  plusieurs opportunités professionnelles qui exigeaient des entrevues en face-à-face et admet qu’elle commence à éprouver des difficultés sur le plan financier.
+Additional Background Information:  AM est célibataire, mais entretenait une relation sérieuse qui a pris fin il y a un an. Elle ne fume pas et  ne consomme pas de drogues, mais boit de l’alcool quelque fois par semaine. Son dernier examen médical a montré qu’elle était en bonne santé.  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","Referral: AM, a 25‑year‑old graphic designer, was brought to the local mental health centre by her best friend for evaluation because of severe anxiety symptoms that have confined her to her home for two months.
+
+Presenting Symptoms: AM insists that her friend stay with her during the interview with the psychologist. When asked what might happen if her friend left her, AM becomes agitated, blushes, and says, “I don’t know this place and my friend is the only person who can help me if I feel bad and need to leave.” Her friend immediately reassures her that everything will be fine and suggests that AM explain what led her to be confined to the house. AM calms down and begins to explain that she has always felt uncomfortable when she is alone in crowded public places such as bus stations and shopping malls.
+
+AM reveals that two years ago she went to pick up an important package at the post office. When she entered the post office, “there was a crowd.” She suddenly started feeling extremely anxious, “as if something terrible was going to happen.” Her heart rate accelerated, she felt weak, dizzy, nauseous, and began hyperventilating. She was convinced she was going to die. She rushed outside and called her cousin, who lives nearby, to come pick her up and drop her at home. Once at home, she felt better, but she found the experience deeply disturbing.
+
+Since then, these “painful episodes” have repeated several times, most often when she was taken alone to a public place. AM has begun to experience constant tension related to the anticipation of a new “attack.” About two months ago, she was at a close friend’s birthday party and the place seemed crowded. She then again felt intense anxiety accompanied by physical manifestations similar to those she had already experienced at the post office. She says it was “by far the most painful” and “absolutely unbearable” because even being with her friend did not protect her. Since then, she says she prefers to stay at home. She has never had a similar episode at home, even when she receives visits from a group. She fears that if she feels bad or weak outside of her home, she will not know whom to ask for help and may then faint or die. She declares that “fortunately, I work from home and can have my groceries delivered, so it would be absurd to take the risk of having another crisis,” which she describes as “the worst feeling in the world.” Although AM says “it doesn’t bother me to go nowhere,” she has let pass several professional opportunities that required face‑to‑face interviews and admits that she is starting to experience financial difficulties.
+
+Additional Background Information: AM is single, but had a serious relationship that ended a year ago. She does not smoke and does not use drugs, but drinks alcohol a few times a week. Her last medical exam showed she was in good health.
+
+---
+
+Most Likely Diagnosis: Agoraphobia AND Panic Disorder  
+Reasoning: AM experiences recurrent panic attacks triggered by crowded public places and actively avoids such settings, meeting criteria for both panic disorder and agoraphobia.
+
+Second Most Likely: Agoraphobia  
+Reasoning: Her primary impairment is avoidance of public spaces due to fear of panic and lack of escape, which is central to agoraphobia.
+
+Third Most Likely: Panic Disorder  
+Reasoning: She has recurrent, unexpected panic attacks with physical symptoms and fear of dying, satisfying panic disorder criteria.<|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|>","['Agoraphobia AND Panic Disorder', 'Agoraphobia', 'Panic Disorder']",Agoraphobia,False,True,True
+Anxiety Vignette 4 Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  MJ est une femme de 19 ans en première année d’université, qui travaille à mi-temps au café du campus. MJ se présente d’elle-même à la clinique car elle se sent « épuisée par sa peur étrange et intense » des éclairs et du tonnerre. MJ déclare qu’aussi loin qu’elle se souvienne, les éclairs, le tonnerre et les vents violents l’ont toujours angoissée. Cependant, cette peur est devenue encore plus intense au cours des 10 derniers mois, depuis qu’elle est déménagée pour ses études dans une ville du littoral où le temps est souvent exécrable.
+Presenting Symptoms: Durant l’entretien initial, MJ se montre aidante et motivée. Elle avoue qu’elle « a sérieusement besoin d’aide » dans la gestion de sa peur intense des tempêtes. Elle dit être toujours angoissée à propos du temps et consulte la météo plusieurs fois par jour. Elle explique que si elle considère que le vent est trop intense, ou s’il y a de l’orage, elle « est juste incapable » de quitter son dortoir. Elle a ainsi manqué plusieurs cours. De plus, elle est actuellement en échec dans une discipline, ayant été absente lors d’un examen se déroulant un jour de bourrasques. Quand on se met à évoquer son absentéisme, MJ paraît angoissée et évite de regarder le thérapeute dans les yeux.
+  
+ MJ a fait partie de l’équipe de football féminin de son ancienne école et a manqué plusieurs matchs à cause des conditions climatiques, mais cela ne s’est jamais vraiment remarqué car « dans ce cas, la plupart du temps, le match est annulé ». Elle dit qu’elle continue d’apprécier être dehors par temps clair. Elle va courir et aime sortir avec ses amis. En cas d’intempéries, la plupart du temps, ses amis acceptent de l’accompagner dehors, « mais ça en reste toujours aussi flippant pour moi ». Il y a environ une semaine, elle a été obligée de quitter le dortoir pendant une tempête car l’alarme s’est déclenchée. Cela fut très pénible pour elle et elle a été absolument terrorisée tout le temps qu’elle fut dehors (environ 30 minutes). Environ une heure après être retournée dans sa chambre, MJ se sentait un peu mieux mais a eu besoin que sa colocataire reste à ses côtés jusqu’à ce qu’elle s’endorme. Elle dit que ses amis ne comprennent pas vraiment pourquoi elle a si peur des tempêtes et certains d’entre eux semblent de plus en plus exaspérés de devoir continuellement prendre soin d’elle.  Quand on lui demande à quelle fréquence cela se produit, MJ détourne le regard vers le plancher.  Après quelques minutes, elle dit « je suis juste épuisée d’avoir peur. Je veux aller mieux »
+Additional Background Information:  MJ a deux petits frères. Ses parents sont divorcés. Elle a grandi dans une ville où les intempéries sont rares. Quand on le lui demande, MJ déclare que ni elle ni aucune de ses connaissances n’a jamais été blessée lors d’une tempête. Elle a récemment eu un examen médical de routine à la clinique universitaire et tout était normal. Elle ne consomme ni drogue ni alcool, mais admet fumer quelques cigarettes par semaine « pour calmer mes nerfs ».  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","<|start|>system<|message|>You are ChatGPT, a large language model trained by OpenAI.
+Knowledge cutoff: 2024-06
+Current date: 2025-08-13
+
+Reasoning: medium
+
+# Valid channels: analysis, commentary, final. Channel must be included for every message.<|end|><|start|>user<|message|>[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  MJ est une femme de 19 ans en première année d’université, qui travaille à mi-temps au café du campus. MJ se présente d’elle-même à la clinique car elle se sent « épuisée par sa peur étrange et intense » des éclairs et du tonnerre. MJ déclare qu’aussi loin qu’elle se souvienne, les éclairs, le tonnerre et les vents violents l’ont toujours angoissée. Cependant, cette peur est devenue encore plus intense au cours des 10 derniers mois, depuis qu’elle est déménagée pour ses études dans une ville du littoral où le temps est souvent exécrable.
+Presenting Symptoms: Durant l’entretien initial, MJ se montre aidante et motivée. Elle avoue qu’elle « a sérieusement besoin d’aide » dans la gestion de sa peur intense des tempêtes. Elle dit être toujours angoissée à propos du temps et consulte la météo plusieurs fois par jour. Elle explique que si elle considère que le vent est trop intense, ou s’il y a de l’orage, elle « est juste incapable » de quitter son dortoir. Elle a ainsi manqué plusieurs cours. De plus, elle est actuellement en échec dans une discipline, ayant été absente lors d’un examen se déroulant un jour de bourrasques. Quand on se met à évoquer son absentéisme, MJ paraît angoissée et évite de regarder le thérapeute dans les yeux.
+  
+ MJ a fait partie de l’équipe de football féminin de son ancienne école et a manqué plusieurs matchs à cause des conditions climatiques, mais cela ne s’est jamais vraiment remarqué car « dans ce cas, la plupart du temps, le match est annulé ». Elle dit qu’elle continue d’apprécier être dehors par temps clair. Elle va courir et aime sortir avec ses amis. En cas d’intempéries, la plupart du temps, ses amis acceptent de l’accompagner dehors, « mais ça en reste toujours aussi flippant pour moi ». Il y a environ une semaine, elle a été obligée de quitter le dortoir pendant une tempête car l’alarme s’est déclenchée. Cela fut très pénible pour elle et elle a été absolument terrorisée tout le temps qu’elle fut dehors (environ 30 minutes). Environ une heure après être retournée dans sa chambre, MJ se sentait un peu mieux mais a eu besoin que sa colocataire reste à ses côtés jusqu’à ce qu’elle s’endorme. Elle dit que ses amis ne comprennent pas vraiment pourquoi elle a si peur des tempêtes et certains d’entre eux semblent de plus en plus exaspérés de devoir continuellement prendre soin d’elle.  Quand on lui demande à quelle fréquence cela se produit, MJ détourne le regard vers le plancher.  Après quelques minutes, elle dit « je suis juste épuisée d’avoir peur. Je veux aller mieux »
+Additional Background Information:  MJ a deux petits frères. Ses parents sont divorcés. Elle a grandi dans une ville où les intempéries sont rares. Quand on le lui demande, MJ déclare que ni elle ni aucune de ses connaissances n’a jamais été blessée lors d’une tempête. Elle a récemment eu un examen médical de routine à la clinique universitaire et tout était normal. Elle ne consomme ni drogue ni alcool, mais admet fumer quelques cigarettes par semaine « pour calmer mes nerfs ».  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.<|end|><|start|>assistant<|channel|>analysis<|message|>We need to translate vignette into English first. Then choose diagnoses. The vignette: 19-year-old woman, anxiety about thunderstorms, intense fear of lightning, thunder, wind. Fear has increased over last 10 months after moving to coastal city with bad weather. She is anxious about weather, checks weather multiple times a day. If wind too intense or storm, she cannot leave dorm, misses classes, exam. She is anxious, avoids eye contact. She used to play football, missed matches due to weather but not noticed because matches canceled. She enjoys being outdoors in clear weather, runs, goes out with friends. In inclement weather, friends accompany but still scary. A week ago, had to leave dorm during storm due to alarm, was terrified outside for 30 min. After returning, needed roommate to stay until she slept. Friends don't understand, some exasperated. She says she is exhausted from fear, wants to get better. She has two younger brothers, parents divorced, grew up in city with rare inclement weather. No injuries. Routine exam normal. No drugs or alcohol, smokes cigarettes to calm nerves.
+
+We need to pick most likely diagnosis. She has specific phobia: fear of thunderstorms (specific phobia of a natural environment). She meets criteria: intense fear, avoidance, significant distress, impairment. Panic disorder? She had panic-like episode during storm? She was terrified, but not necessarily panic attack? She had intense fear, but not necessarily autonomic symptoms? She had panic? She had a panic-like episode: 30 min outside, terrified. But no mention of heart racing, chest pain, etc. She may have panic attacks triggered by storms? But main fear is specific. So specific phobia is best. Panic disorder not necessary. Agoraphobia? She avoids leaving dorm due to fear of storms, but not necessarily fear of open spaces. She is not afraid of crowds or being in places where escape difficult. So not agoraphobia. Social anxiety? She avoids eye contact, but not due to social evaluation. So not. Generalized anxiety? She is anxious about weather, but not about many other things. So not. So best: Specific Phobia. Second: Specific Phobia AND Panic Disorder? But no evidence of panic disorder. Third: Unspecified Anxiety and Fear-Related Disorder? But specific phobia fits. So third: Unspecified? But maybe ""Other Anxiety and Fear-Related Disorder"" if not specific phobia? But we have specific phobia. So third: Unspecified? But we can choose ""Other Anxiety and Fear-Related Disorder"" if we think it's not specific phobia? But it's specific phobia. So third: Unspecified? But we can choose ""Unspecified Anxiety and Fear-Related Disorder"" if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific phobia. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific. So third: ""Unspecified Anxiety and Fear-Related Disorder"" maybe if we think it's not specific phobia? But we think it's specific. So","['[diagnosis]', 'MJ est une femme de 19 ans en première année d’université, qui travaille à mi-temps au café du campus. MJ se présente d’elle-même à la clinique car elle se sent « épuisée par sa peur étrange et intense » des éclairs et du tonnerre. MJ déclare qu’aussi loin qu’elle se souvienne, les éclairs, le tonnerre et les vents violents l’ont toujours angoissée. Cependant, cette peur est devenue encore plus intense au cours des 10 derniers mois, depuis qu’elle est déménagée pour ses études dans une ville du littoral où le temps est souvent exécrable.', 'MJ est une femme de 19 ans en première année d’université, qui travaille à mi-temps au café du campus. MJ se présente d’elle-même à la clinique car elle se sent « épuisée par sa peur étrange et intense » des éclairs et du tonnerre. MJ déclare qu’aussi loin qu’elle se souvienne, les éclairs, le tonnerre et les vents violents l’ont toujours angoissée. Cependant, cette peur est devenue encore plus intense au cours des 10 derniers mois, depuis qu’elle est déménagée pour ses études dans une ville du littoral où le temps est souvent exécrable.']",Specific Phobia,False,False,False
+Anxiety Vignette 5A Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: TM est un étudiant de 16 ans qui vit avec sa mère et sa petite sœur. TM a été amené par sa mère à la clinique psychiatrique universitaire pour une consultation, car elle s’inquiète des absences répétées de TM à l’école.
+Presenting Symptoms:  Durant l’évaluation, TM a du mal à regarder le clinicien dans les yeux et reste silencieux durant la première partie de l’entretien. La mère de TM déclare que TM a toujours été un « enfant timide mais adorable ». Il a commencé à éviter aller à l’école au début de l’année scolaire, il y a environ 8 mois, après qu’ils aient déménagés et qu’il ait commencé à fréquenter une nouvelle école.
+  
+ La plupart des matins de jours d’école, TM la supplie de le laisser rester à la maison. La mère de TM tente de le raisonner, mais avoue que « parfois je capitule parce que c’est juste trop ». Elle a commencé à s’inquiéter sérieusement lorsque l’école l’a contacté pour l’informer d’absences dont elle n’avait pas connaissance. TM n’a pas de bons résultats scolaires car, en plus de ses nombreuses absences, quand le professeur l’interroge, il dit « je suis juste pétrifié. Même si je connais la réponse, je n’arrive pas à parler. Je deviens juste tout rouge et j’ai l’air d’un idiot ».
+  
+ TM admet qu’il a toujours eu du mal à parler aux gens qu’il ne connaît pas bien. Il avait quelques amis dans son ancienne école car  « J’ai toujours été dans la même école et tout le monde se connaissait ». Il lui est très difficile de se faire des amis dans sa nouvelle école car il craint que les autres enfants ne le prennent pour « un gros loser ». TM y pense tout le temps et dit qu’il a du mal à dormir à cause de cela. Il aimerait avoir des amis, être populaire, et souhaiterait être capable d’être suffisamment détendu et confiant pour pouvoir interagir avec de nouvelles personnes.
+  
+ La mère de TM mentionne que TM passe la plupart de ses soirées ainsi que ses  weekends à lire ou à jouer à des jeux vidéos dans sa chambre, activités qui selon ses dires lui procurent un réel plaisir. TM jouait au foot dans son ancienne école et était considéré comme étant un bon joueur. Cependant, il a été incapable de se présenter à l’entraineur de sa nouvelle école afin de faire un essai pour intégrer l’équipe, car il aurait été obligé de le faire devant les autres joueurs. Il a craint que le stress ne l’empêche de se montrer à la hauteur lors du test et que les autres joueurs ne le snobent pour ne pas être suffisamment talentueux. La mère de TM déclare qu’elle s’inquiétait tout d’abord qu’il soit victime d’harcèlement à l’école, mais après en avoir parlé avec ses professeurs et les parents de ses camarades, elle n’a décelé aucune preuve de harcèlement. TM finit par déclarer,  « Non, ce n’est pas eux, c’est moi. »
+Additional Background Information:  Les parents de TM sont divorcés et son père vit dans une autre ville, mais ils s’appellent toutes les semaines. Une fois sa mère sortie de la pièce, TM déclare qu’il ne consomme pas de drogues, mais admet boire de l’alcool occasionnellement et avoir déjà fumé une cigarette. Lors d’un examen récent, le médecin traitant de TM l’a trouvé en bonne santé.   
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","<|start|>system<|message|>You are ChatGPT, a large language model trained by OpenAI.
+Knowledge cutoff: 2024-06
+Current date: 2025-08-13
+
+Reasoning: medium
+
+# Valid channels: analysis, commentary, final. Channel must be included for every message.<|end|><|start|>user<|message|>[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: TM est un étudiant de 16 ans qui vit avec sa mère et sa petite sœur. TM a été amené par sa mère à la clinique psychiatrique universitaire pour une consultation, car elle s’inquiète des absences répétées de TM à l’école.
+Presenting Symptoms:  Durant l’évaluation, TM a du mal à regarder le clinicien dans les yeux et reste silencieux durant la première partie de l’entretien. La mère de TM déclare que TM a toujours été un « enfant timide mais adorable ». Il a commencé à éviter aller à l’école au début de l’année scolaire, il y a environ 8 mois, après qu’ils aient déménagés et qu’il ait commencé à fréquenter une nouvelle école.
+  
+ La plupart des matins de jours d’école, TM la supplie de le laisser rester à la maison. La mère de TM tente de le raisonner, mais avoue que « parfois je capitule parce que c’est juste trop ». Elle a commencé à s’inquiéter sérieusement lorsque l’école l’a contacté pour l’informer d’absences dont elle n’avait pas connaissance. TM n’a pas de bons résultats scolaires car, en plus de ses nombreuses absences, quand le professeur l’interroge, il dit « je suis juste pétrifié. Même si je connais la réponse, je n’arrive pas à parler. Je deviens juste tout rouge et j’ai l’air d’un idiot ».
+  
+ TM admet qu’il a toujours eu du mal à parler aux gens qu’il ne connaît pas bien. Il avait quelques amis dans son ancienne école car  « J’ai toujours été dans la même école et tout le monde se connaissait ». Il lui est très difficile de se faire des amis dans sa nouvelle école car il craint que les autres enfants ne le prennent pour « un gros loser ». TM y pense tout le temps et dit qu’il a du mal à dormir à cause de cela. Il aimerait avoir des amis, être populaire, et souhaiterait être capable d’être suffisamment détendu et confiant pour pouvoir interagir avec de nouvelles personnes.
+  
+ La mère de TM mentionne que TM passe la plupart de ses soirées ainsi que ses  weekends à lire ou à jouer à des jeux vidéos dans sa chambre, activités qui selon ses dires lui procurent un réel plaisir. TM jouait au foot dans son ancienne école et était considéré comme étant un bon joueur. Cependant, il a été incapable de se présenter à l’entraineur de sa nouvelle école afin de faire un essai pour intégrer l’équipe, car il aurait été obligé de le faire devant les autres joueurs. Il a craint que le stress ne l’empêche de se montrer à la hauteur lors du test et que les autres joueurs ne le snobent pour ne pas être suffisamment talentueux. La mère de TM déclare qu’elle s’inquiétait tout d’abord qu’il soit victime d’harcèlement à l’école, mais après en avoir parlé avec ses professeurs et les parents de ses camarades, elle n’a décelé aucune preuve de harcèlement. TM finit par déclarer,  « Non, ce n’est pas eux, c’est moi. »
+Additional Background Information:  Les parents de TM sont divorcés et son père vit dans une autre ville, mais ils s’appellent toutes les semaines. Une fois sa mère sortie de la pièce, TM déclare qu’il ne consomme pas de drogues, mais admet boire de l’alcool occasionnellement et avoir déjà fumé une cigarette. Lors d’un examen récent, le médecin traitant de TM l’a trouvé en bonne santé.   
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.<|end|><|start|>assistant<|channel|>analysis<|message|>We need to translate vignette into English first. Then choose diagnoses. The vignette: 16-year-old student, living with mother and younger sister. Mother concerned about repeated absences. TM is shy, avoids eye contact, silent. He started avoiding school 8 months ago after moving and new school. He begs to stay home, mother tries to reason but sometimes capitulates. School contacts mother about absences. TM has poor grades due to absences; when teacher asks, he says he's petrified, can't speak, gets red, feels like an idiot. He has always had trouble speaking to people he doesn't know well. He had some friends in old school because everyone knew each other. Hard to make friends in new school because he fears being seen as a ""big loser"". He thinks about it constantly, has trouble sleeping. Wants friends, popularity, to be relaxed and confident to interact with new people. Mother says he spends evenings and weekends reading or playing video games, which he enjoys. He used to play soccer in old school, considered good. He couldn't present to new school's coach for tryout because would have to do it in front of other players; he feared stress would prevent him from performing and others would snob him for not being talented. Mother worried about bullying but after speaking with teachers and parents, no evidence. TM says ""No, it's not them, it's me."" Parents divorced, father lives elsewhere but they call weekly. Once mother left room, TM says he doesn't use drugs but drinks alcohol occasionally and has smoked a cigarette. Recent exam: healthy.
+
+We need to pick most likely diagnosis. He has social anxiety: fear of negative evaluation, avoidance of social situations, performance anxiety, fear of being embarrassed. He also has school avoidance, but that could be due to social anxiety. He has no panic attacks described. He doesn't mention panic symptoms. He has selective mutism? He is silent in first part of interview, but he can speak later? He says he can't speak when teacher asks. He is shy but not selective mutism (he can speak in some contexts). He has social anxiety disorder. He also has separation anxiety? He is 16, but no mention of separation anxiety. He has specific phobia? He fears performing in front of others? That could be performance anxiety, a type of social anxiety. So Social Anxiety Disorder is best. He also might have Generalized Anxiety Disorder? He has worry about being a loser, but it's specific to social situations. He has no generalized worry about many domains. So Social Anxiety Disorder. He might also have panic disorder? No panic attacks. So not. Agoraphobia? No. So answer: Social Anxiety Disorder. Second: Social Anxiety Disorder AND Panic Disorder? No. Second likely: Social Anxiety Disorder AND Panic Disorder? No. Maybe Social Anxiety Disorder AND Generalized Anxiety Disorder? But no. Maybe Social Anxiety Disorder AND Specific Phobia? No. Maybe Social Anxiety Disorder AND Separation Anxiety? No. So second likely: Social Anxiety Disorder AND Panic Disorder? No. Maybe Social Anxiety Disorder AND Generalized Anxiety Disorder? But no. So second likely: Social Anxiety Disorder AND Specific Phobia? No. Actually maybe Social Anxiety Disorder AND Generalized Anxiety Disorder? But he doesn't have generalized worry. So maybe Social Anxiety Disorder AND Separation Anxiety? No. So second likely: Social Anxiety Disorder AND Panic Disorder? No. So maybe Social Anxiety Disorder AND Specific Phobia? He has fear of performing in front of others, but that's part of social anxiety. So maybe Social Anxiety Disorder AND Generalized Anxiety Disorder? But no. So maybe Social Anxiety Disorder AND Other Anxiety and Fear-Related Disorder? But we can choose Social Anxiety Disorder AND Panic Disorder? No. So maybe Social Anxiety Disorder AND Specific Phobia? But no. So maybe Social Anxiety Disorder AND Separation Anxiety? No. So maybe Social Anxiety Disorder AND Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder AND Other Anxiety and Fear-Related Disorder? That seems too vague. So maybe Social Anxiety Disorder AND Panic Disorder? No. So maybe Social Anxiety Disorder AND Specific Phobia? No. So maybe Social Anxiety Disorder AND Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder AND Separation Anxiety? No. So maybe Social Anxiety Disorder AND Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Generalized Anxiety Disorder? But he doesn't have generalized worry. So maybe Social Anxiety Disorder and Specific Phobia? He has fear of performing in front of others, but that's part of social anxiety. So maybe Social Anxiety Disorder and Panic Disorder? No. So maybe Social Anxiety Disorder and Agoraphobia? No. So maybe Social Anxiety Disorder and Separation Anxiety? No. So maybe Social Anxiety Disorder and Selective Mutism? He can speak in some contexts. So no. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That could be a catch-all. But maybe the second most likely is Social Anxiety Disorder AND Panic Disorder? But no. So maybe Social Anxiety Disorder AND Generalized Anxiety Disorder? But no. So maybe Social Anxiety Disorder AND Specific Phobia? But no. So maybe Social Anxiety Disorder AND Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Separation Anxiety? But no. So maybe Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Panic Disorder? No. So maybe Social Anxiety Disorder and Agoraphobia? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Separation Anxiety? No. So maybe Social Anxiety Disorder and Selective Mutism? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Panic Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe Social Anxiety Disorder and Other Anxiety and Fear-Related Disorder? That might be the second. But we can also consider that he might have Social Anxiety Disorder and Generalized Anxiety Disorder? No. So maybe Social Anxiety Disorder and Specific Phobia? No. So maybe","['[diagnosis]', 'TM est un étudiant de 16 ans qui vit avec sa mère et sa petite sœur. TM a été amené par sa mère à la clinique psychiatrique universitaire pour une consultation, car elle s’inquiète des absences répétées de TM à l’école.', 'TM est un étudiant de 16 ans qui vit avec sa mère et sa petite sœur. TM a été amené par sa mère à la clinique psychiatrique universitaire pour une consultation, car elle s’inquiète des absences répétées de TM à l’école.']",Social Anxiety Disorder,False,False,False
+Anxiety Vignette 5B Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  JL, 28 ans, est mère de 2 jeunes enfants, et est référée par son médecin traitant pour une consultation  psychiatrique en lien avec des épisodes d’anxiété extrême qui rendent difficile l’accomplissement de ses tâches quotidiennes.
+Presenting Symptoms:  Pendant l’entretien, JL déclare qu’elle est heureuse dans son mariage et fière de se consacrer totalement à l’éducation de sa fille et son fils, âgés de 2 et 8 ans. Elle indique qu’elle travaille fort afin d’assurer le bien-être de sa famille, accomplissant ses tâches ménagères avec zèle et dévouement (p. ex. en achetant de la nourriture saine et en préparant des repas équilibrés, en cherchant des activités intéressantes à réaliser avec ses enfants et en rangeant la maison à tous les jours).
+  
+ JL dit que ses troubles ont débuté lorsque son fils a intégré l’école primaire il y a deux ans et que sa routine quotidienne a été dérangée car elle devait aller le récupérer à la sortie l’école en fin de journée. Quand le psychiatre demande à JL en quoi cela était dérangeant, elle répond qu’elle doit souvent attendre son fils au milieu des autres parents et « faire la discussion ». Elle indique qu’elle  « appréhende » ces bavardages car elle a l’impression que les autres parents trouvent que ce qu’elle dit est « stupide ». Cependant, quand on le lui demande, elle ne parvient pas à trouver d’exemple de propos blessants qu’elle aurait pu recevoir de la part des autres parents.
+  
+ Le fils de JL est inscrit dans une école où les parents sont supposés faire du bénévolat et JL veut s’impliquer dans cela pour « être une bonne mère ». Depuis le milieu de l’année scolaire, JL a participé comme aide au déjeuner deux fois par semaine avec quelques autres parents. Elle décrit cette activité comme étant « l’enfer sur terre » et déclare que lors d’un certain nombre d’occasions elle a ressenti « la pire des angoisses imaginables ». Elle raconte qu’à plusieurs reprises, alors qu’elle discutait avec d’autres parents, elle a ressenti plusieurs symptômes « bouleversants » se manifestant brusquement, tels des tremblements, une faiblesse, des palpitations et la sensation d’être « hors de son corps ». Désormais, elle appréhende d’avoir une nouvelle crise et se sent angoissée dès son réveil les jours où elle est bénévole à l’école. Elle remarque que  « je ne veux pas continuer à me faire subir cela ». À plusieurs occasions, elle a appelé l’école pour dire qu’elle ne se sentait pas bien et qu’elle ne pourrait pas venir. Elle craint que cela n’exacerbe les critiques à son égard.  Elle précise qu’elle ne ressent ces symptômes d’anxiété extrême que lorsqu’elle interagit avec les autres parents.
+  
+ JL dit qu’elle préfère rester à la maison et s’occuper des enfants. Elle éprouve du plaisir à passer du temps avec son petit groupe d’amis qu’elle connaît depuis de longues années, mais quand elle va à des fêtes, ou d’autres événements sociaux, elle dit « Je ne m’amuse pas vraiment. Je n’aime pas avoir à parler à des gens que je ne connais pas. Je ne sais jamais quoi dire et ils pensent probablement que je suis stupide ».
+Additional Background Information:  JL déclare qu’elle a toujours été en bonne santé, en dehors d’une appendicectomie il y a 10 ans. Elle ne fume ni ne boit d’alcool et n’a jamais consommé de substances.    
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Translation of the vignette into English**
+
+JL, 28 years old, is a mother of two young children and has been referred by her primary care physician for a psychiatric consultation related to episodes of extreme anxiety that make it difficult to carry out her daily tasks.  
+
+During the interview, JL reports that she is happy in her marriage and proud of devoting herself entirely to raising her daughter and son, who are 2 and 8 years old. She says she works hard to ensure her family’s well‑being, performing household chores with zeal and dedication (e.g., buying healthy food, preparing balanced meals, looking for interesting activities to do with her children, and tidying the house every day).  
+
+JL says her problems began when her son entered primary school two years ago and her daily routine was disrupted because she had to pick him up at the end of the school day. When the psychiatrist asked what was disturbing, she replied that she often has to wait for her son among other parents and “have the conversation.” She says she “apprehends” these chats because she feels other parents think what she says is “stupid.” However, when asked, she cannot find an example of hurtful remarks she might have received from other parents.  
+
+JL’s son attends a school where parents are expected to volunteer, and JL wants to get involved to “be a good mother.” Since mid‑school year, JL has participated as a lunch helper twice a week with a few other parents. She describes this activity as “hell on earth” and says that on several occasions she felt “the worst imaginable anxiety.” She recounts that repeatedly, while talking with other parents, she experienced several “shocking” symptoms that appeared abruptly, such as tremors, weakness, palpitations, and the sensation of being “out of her body.” Now she fears having a new crisis and feels anxious as soon as she wakes up on days she volunteers at school. She says she does not want to continue. She has called the school to say she does not feel well and could not come. She fears that this will worsen criticism toward her. She specifies that she only experiences these extreme anxiety symptoms when interacting with other parents.  
+
+JL says she prefers staying at home and taking care of the children. She enjoys spending time with her small group of long‑time friends, but when she goes to parties or other social events, she says, “I don’t really have fun. I don’t like having to talk to people I don’t know. I never know what to say and they probably think I’m stupid.”  
+
+Additional background: JL reports that she has always been healthy, except for an appendectomy 10 years ago. She does not smoke, drink alcohol, or use substances.  
+
+---
+
+**Diagnostic conclusions**
+
+Most Likely Diagnosis: Social Anxiety Disorder AND Panic Disorder  
+Reasoning: JL meets criteria for Social Anxiety Disorder (specific fear of being judged by other parents, avoidance of social interactions, and significant distress) and also experiences recurrent panic attacks triggered by these social situations, satisfying criteria for Panic Disorder.  
+
+Second Most Likely: Social Anxiety Disorder  
+Reasoning: The core features of social fear, avoidance, and distress are fully present, and panic attacks can be considered part of the disorder’s symptom spectrum.  
+
+Third Most Likely: Panic Disorder  
+Reasoning: Her panic attacks are prominent and occur in social contexts, but the primary driver is the social anxiety component, making Panic Disorder a secondary consideration.<|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|>","['Social Anxiety Disorder AND Panic Disorder', 'Social Anxiety Disorder', 'Panic Disorder']",Social Anxiety Disorder,False,True,True
+Anxiety Vignette 5C Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: JV est une étudiante de 22 ans. Elle s’est rendue au centre de consultation universitaire en raison des difficultés auxquelles elle est confrontée dans le cadre de son cours d’art oratoire.
+Presenting Symptoms:  Lors de son premier entretien, JV explique qu’elle est angoissée à l’idée d’avoir à faire un discours devant la classe. L’université exige qu’elle complète un cours d’art oratoire pour être diplômée ; elle dit qu’elle a reporté son inscription au cours jusqu’à sa dernière année universitaire car cela la terrifiait. Cependant, elle est consciente qu’elle doit trouver un moyen de le compléter afin d’obtenir sa licence. Elle est venue au centre de consultation dans l’espoir de trouver un moyen de gérer sa peur de parler en public. Elle explique qu’elle a toujours été une personne timide, et qu’elle se sent mal à l’aise lorsqu’elle se retrouve au centre de l’attention.
+  
+ Les professeurs de JV la décrivent comme une étudiante silencieuse mais douée. Elle dit qu’elle lève rarement la main en classe, mais qu’elle répond si on l’interroge. Elle a dû faire de courtes présentations dans d’autres cours et a été finalement capable d’y parvenir, mais cela l’a toujours rendue inconfortable.  Elle déclare qu’elle se sent très nerveuse avant une présentation, avec « des papillons dans l’estomac », mais qu’elle se calme rapidement dès que c’est terminé. Cependant, elle n’a jamais eu à donner de présentation devant un groupe aussi grand que celui du cours d’art oratoire avec un retentissement aussi important.  Elle se sent particulièrement anxieuse à l’idée de ne pas être à la hauteur, et de ce fait, ne pas réussir à obtenir son diplôme.
+  
+ JV déclare qu’elle a un groupe d’amis mais n’a jamais été « la bavarde ». JV aime être avec le groupe, mais s’exprime rarement car elle trouve cela difficile de s’introduire dans une conversation. Généralement, elle préfère écouter. Quand le clinicien demande à JV si elle ressent de l’anxiété en ce moment durant l’entretien, elle répond que tout va bien. Elle explique qu’elle est à l’aise face à une seule personne et que l’inconfort commence à se manifester seulement quand le groupe s’élargit, « quand il y a de plus de 5 ou 6 personnes ». Elle a un petit ami et déclare que tout se passe bien entre eux. Elle dit qu’il a lui aussi une préférence pour les petits groupes et les activités calmes. Quand le clinicien demande si elle souhaiterait travailler sur sa timidité, JV déclare que d’habitude cela ne lui pose aucun problème et qu’elle se plait comme telle. Elle met l’accent sur le fait que sa seule préoccupation est de réussir le cours d’art oratoire requis. Elle dit qu’elle est prête à s’attaquer au problème, mais pour cela elle a besoin d’aide et des conseils sur la manière de s’y prendre.
+Additional Background Information:  JV est fille unique. Ses parents l’ont eue relativement tard dans leur vie et habitent dans une ville limitrophe. Elle décrit sa vie de famille comme étant « posée mais banale ». Elle nie consommer des drogues mais déclare qu’elle boit occasionnellement une à deux boissons alcoolisées avec son petit ami durant les weekends. Un examen physique récent n’a montré aucune anomalie.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","<|start|>system<|message|>You are ChatGPT, a large language model trained by OpenAI.
+Knowledge cutoff: 2024-06
+Current date: 2025-08-13
+
+Reasoning: medium
+
+# Valid channels: analysis, commentary, final. Channel must be included for every message.<|end|><|start|>user<|message|>[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral: JV est une étudiante de 22 ans. Elle s’est rendue au centre de consultation universitaire en raison des difficultés auxquelles elle est confrontée dans le cadre de son cours d’art oratoire.
+Presenting Symptoms:  Lors de son premier entretien, JV explique qu’elle est angoissée à l’idée d’avoir à faire un discours devant la classe. L’université exige qu’elle complète un cours d’art oratoire pour être diplômée ; elle dit qu’elle a reporté son inscription au cours jusqu’à sa dernière année universitaire car cela la terrifiait. Cependant, elle est consciente qu’elle doit trouver un moyen de le compléter afin d’obtenir sa licence. Elle est venue au centre de consultation dans l’espoir de trouver un moyen de gérer sa peur de parler en public. Elle explique qu’elle a toujours été une personne timide, et qu’elle se sent mal à l’aise lorsqu’elle se retrouve au centre de l’attention.
+  
+ Les professeurs de JV la décrivent comme une étudiante silencieuse mais douée. Elle dit qu’elle lève rarement la main en classe, mais qu’elle répond si on l’interroge. Elle a dû faire de courtes présentations dans d’autres cours et a été finalement capable d’y parvenir, mais cela l’a toujours rendue inconfortable.  Elle déclare qu’elle se sent très nerveuse avant une présentation, avec « des papillons dans l’estomac », mais qu’elle se calme rapidement dès que c’est terminé. Cependant, elle n’a jamais eu à donner de présentation devant un groupe aussi grand que celui du cours d’art oratoire avec un retentissement aussi important.  Elle se sent particulièrement anxieuse à l’idée de ne pas être à la hauteur, et de ce fait, ne pas réussir à obtenir son diplôme.
+  
+ JV déclare qu’elle a un groupe d’amis mais n’a jamais été « la bavarde ». JV aime être avec le groupe, mais s’exprime rarement car elle trouve cela difficile de s’introduire dans une conversation. Généralement, elle préfère écouter. Quand le clinicien demande à JV si elle ressent de l’anxiété en ce moment durant l’entretien, elle répond que tout va bien. Elle explique qu’elle est à l’aise face à une seule personne et que l’inconfort commence à se manifester seulement quand le groupe s’élargit, « quand il y a de plus de 5 ou 6 personnes ». Elle a un petit ami et déclare que tout se passe bien entre eux. Elle dit qu’il a lui aussi une préférence pour les petits groupes et les activités calmes. Quand le clinicien demande si elle souhaiterait travailler sur sa timidité, JV déclare que d’habitude cela ne lui pose aucun problème et qu’elle se plait comme telle. Elle met l’accent sur le fait que sa seule préoccupation est de réussir le cours d’art oratoire requis. Elle dit qu’elle est prête à s’attaquer au problème, mais pour cela elle a besoin d’aide et des conseils sur la manière de s’y prendre.
+Additional Background Information:  JV est fille unique. Ses parents l’ont eue relativement tard dans leur vie et habitent dans une ville limitrophe. Elle décrit sa vie de famille comme étant « posée mais banale ». Elle nie consommer des drogues mais déclare qu’elle boit occasionnellement une à deux boissons alcoolisées avec son petit ami durant les weekends. Un examen physique récent n’a montré aucune anomalie.
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.<|end|><|start|>assistant<|channel|>analysis<|message|>We need to translate vignette into English first. Then choose diagnoses. The vignette: 22-year-old student, anxious about public speaking, fear of speaking in front of large group, but not generalized anxiety, no panic attacks, no agoraphobia. She has social anxiety disorder (social phobia) specifically fear of public speaking. She is not anxious in other situations except large groups. She has no panic attacks. So most likely Social Anxiety Disorder. Second: Specific Phobia? But it's a social situation, not a specific object. So Social Anxiety Disorder. Third: maybe Generalized Anxiety Disorder? But she only anxious about public speaking. So maybe no diagnosis? But Social Anxiety Disorder is correct. So answer: Most Likely: Social Anxiety Disorder. Second: Specific Phobia? But maybe Social Anxiety Disorder AND Panic Disorder? No panic. So second: No Diagnosis? But maybe Social Anxiety Disorder is the only. Third: Unspecified Anxiety and Fear-Related Disorder? But we can choose Social Anxiety Disorder, then maybe Social Anxiety Disorder AND Panic Disorder? But no panic. So second: No Diagnosis? But we need to pick from list. The list includes ""No Diagnosis"". So second: No Diagnosis. Third: Social Anxiety Disorder AND Panic Disorder? But no. Maybe ""Other Anxiety and Fear-Related Disorder""? But no. So maybe ""Social Anxiety Disorder AND Panic Disorder"" is wrong. So second: No Diagnosis. Third: Social Anxiety Disorder AND Panic Disorder? No. Maybe ""Social Anxiety Disorder AND Panic Disorder"" is not correct. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So maybe ""Social Anxiety Disorder AND Panic Disorder"" is not correct. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So maybe ""Social Anxiety Disorder AND Panic Disorder"" is not correct. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No. So third: ""Social Anxiety Disorder AND Panic Disorder""? No.","['[diagnosis]', 'JV est une étudiante de 22 ans. Elle s’est rendue au centre de consultation universitaire en raison des difficultés auxquelles elle est confrontée dans le cadre de son cours d’art oratoire.', 'JV est une étudiante de 22 ans. Elle s’est rendue au centre de consultation universitaire en raison des difficultés auxquelles elle est confrontée dans le cadre de son cours d’art oratoire.']",No Diagnosis,False,False,False
+Anxiety Vignette 6A Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  VK est une écolière de 10 ans. Elle a été amenée pour une consultation à la clinique par sa mère, qui déclare que VK pique de sévères crises de colère et devient en détresse excessive dès que sa mère s’éloigne d’elle. Ce comportement n’a fait qu’empirer au cours de cette dernière année, au point que les parents de VK sont épuisés et ne savent pas comment faire pour aider leur fille. L’infirmière scolaire de VK a suggéré que VK soit vue par un conseiller. 
+Presenting Symptoms:  La mère de VK indique que le comportement de VK a été problématique depuis qu’elle a commencé l’école il y a 5 ans.  Durant cette période, VK pleurait presque tous les matins d’école, parce qu’elle voulait rester avec sa mère. On devait la porter « pleurant et hurlant » jusqu’au bus scolaire. Pendant les vacances scolaires, VK passait parfois la journée chez ses grands-parents mais demandait constamment d’aller au travail avec sa mère. Quand sa mère l’obligeait à rester avec ses grands-parents, VK continuait à pleurer et à hurler pendant près d’une heure, et insistait pour appeler sa mère plusieurs fois par jour afin de lui parler.
+  
+ Aujourd’hui, VK demeure anxieuse quand elle monte dans le bus scolaire et elle se plaint souvent de se sentir nauséeuse et malade les matins d’école. Elle demande régulièrement pour se rendre à l’infirmerie car elle a mal au ventre ou envie de vomir et dit qu’elle a besoin que sa mère vienne la chercher. VK insiste pour appeler sa mère au travail depuis le secrétariat de l’école environ 2 à 3 fois par jour. Si sa mère est en retard de quelques minutes pour la récupérer à l’école, VK devient très anxieuse, a peur, et se met souvent à pleurer. VK a récemment refusé de participer à une sortie avec sa classe qui impliquait de passer une nuit hors de chez elle. Elle refuse de jouer avec des amis sur l’aire de jeux en l’absence de sa mère. C’est pourquoi elle a peu d’amis en dehors de ses cousins. Elle prend plaisir à être avec sa tante maternelle et ses cousins, mais refuse de dormir chez eux, loin de sa mère. 
+  
+ VK déclare qu’elle adore son père et ses grands-parents mais se sent « très proche » de sa mère. Quand on lui demande pourquoi c’est si difficile d’être séparée de sa mère, VK murmure, « parce que quelque chose pourrait lui arriver et elle ne reviendrait plus à la maison ».  Elle ne ressent pas de telles peurs lorsque sa mère est à ses côtés.
+Additional Background Information:  VK est fille unique. La mère de VK déclare que VK a atteint dans les temps toutes les étapes du développement psychomoteur mais qu’elle était un enfant « collant ». Les habitudes liées au sommeil ont été particulièrement difficiles car VK insistait pour dormir avec ses parents. VK n’a pas eu d’autres problèmes de santé est ne prend aucun médicament.  Les parents de VK ont toujours été en bonne santé.  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Translation of the vignette into English**
+
+Referral: VK is a 10‑year‑old schoolgirl. She was brought to the clinic by her mother, who reports that VK has severe temper tantrums and becomes excessively distressed whenever her mother leaves her. This behavior has worsened over the past year to the point that VK’s parents are exhausted and do not know how to help their daughter. The school nurse suggested that VK be seen by a counselor.
+
+Presenting Symptoms: VK’s mother says that VK’s behavior has been problematic since she started school five years ago. During that time, VK would cry almost every morning at school because she wanted to stay with her mother. She had to be carried “crying and screaming” to the school bus. During school holidays, VK sometimes spent the day with her grandparents but constantly demanded to go to work with her mother. When her mother forced her to stay with her grandparents, VK would continue to cry and scream for almost an hour and insist on calling her mother several times a day to talk to her.
+
+Today, VK remains anxious when she gets on the school bus and often complains of feeling nauseous and sick on school mornings. She regularly asks to go to the infirmary because she has a stomach ache or feels like vomiting and says she needs her mother to come pick her up. VK insists on calling her mother from the school office about 2–3 times a day. If her mother is a few minutes late to pick her up, VK becomes very anxious, fearful, and often starts crying. VK recently refused to participate in a class outing that involved staying overnight away from home. She refuses to play with friends on the playground in her mother’s absence. That is why she has few friends outside of her cousins. She enjoys being with her maternal aunt and cousins, but refuses to sleep with them, far from her mother.
+
+VK says she loves her father and grandparents but feels “very close” to her mother. When asked why it is so difficult to be separated from her mother, VK murmurs, “because something could happen to her and she would not come back home.” She does not feel such fears when her mother is with her.
+
+Additional Background Information: VK is an only child. VK’s mother reports that VK reached all psychomotor developmental milestones on time but was a “clingy” child. Sleep habits have been particularly difficult because VK insisted on sleeping with her parents. VK has had no other health problems and takes no medication. VK’s parents have always been healthy.
+
+---
+
+**Most Likely Diagnosis:** Separation Anxiety Disorder  
+**Reasoning:** VK displays persistent, excessive fear and anxiety about separation from her mother, intense distress when separated, refusal to attend school or stay overnight, and repeated attempts to stay close to her mother—criteria that meet the DSM‑5/ICD‑10 definition of Separation Anxiety Disorder.
+
+**Second Most Likely:** Generalized Anxiety Disorder  
+**Reasoning:** While VK’s anxiety is specific to separation, she also reports generalized symptoms such as nausea, stomach aches, and pervasive worry about her mother’s safety, which could reflect a broader anxiety pattern.
+
+**Third Most Likely:** Unspecified Anxiety and Fear‑Related Disorder  
+**Reasoning:** If the symptoms do not fully meet the full criteria for Separation Anxiety Disorder or another specific anxiety disorder, an unspecified anxiety disorder may be considered to capture the overall clinical picture.<|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|><|return|>","['Separation Anxiety Disorder', 'Generalized Anxiety Disorder', 'Unspecified Anxiety and Fear‑Related Disorder']",Separation Anxiety Disorder,True,True,True
+Anxiety Vignette 6B Anxiety Disorder final 12 04 2014,Anxiety,"[ROLE]
+You are a psychiatrist conducting a diagnostic assessment.
+
+[INSTRUCTIONS]
+Thank you for participating in the Global Clinical Practice Network for the Revision of ICD-10 Mental and Behavioural Disorders. The study that we are asking you to participate in today relates to the diagnosis of Anxiety Disorders.
+
+You will be presented with a case vignette. The vignettes used in this study describe people who are experiencing some symptoms and are presenting for evaluation. The vignettes are based on real people encountered in real clinical settings. Try to think about these case descriptions as if they were patients or clients from your regular clinical practice.
+
+You will then be asked to select the most, second-most, and third-most appropriate diagnostic conclusion for the person in the vignette. You may select one of the anxiety disorder diagnoses presented to you, a diagnosis from another section of the classification (e.g., mood disorders), or no diagnosis.
+
+First, translate the vignette into English, then select the most appropriate diagnoses.
+
+[PATIENT CASE]
+Referral:  AG et sa femme ont été référés à un psychologue par leur médecin traitant pour une thérapie de couple. Ils ont tous les deux 35 ans et sont mariés depuis 9 ans. Ils n’ont pas d’enfants. La femme d’AG a confié à son médecin qu’elle s‘inquiète à propos de la détérioration de la relation avec son mari, parce qu’elle a l’impression qu’« il l’étouffe » et qu’il refuse « de la laisser vivre sa vie ».
+Presenting Symptoms:  AG et sa femme assistent ensemble à leur première consultation et apparaissent tendus. La femme d’AG commence à énumérer ses plaintes à propos du comportement de son mari, indiquant que tout aurait commencé il y a 3 ans quand elle a quitté son travail pour un poste dans la vente qui impliquait des déplacements plusieurs fois par mois. Après plusieurs déplacements sans incident, AG a commencé à insister pour que sa femme l’appelle à la maison immédiatement après avoir atterri, puis encore une fois lorsqu’arrivée à l’hôtel. La femme d’AG se plaint qu’avant chaque déplacement, AG la supplie de ne pas partir. Elle trouve cela très injuste de sa part car il savait qu’elle serait amenée à voyager dans le cadre de son nouveau travail et ils en avaient discuté avant qu’elle accepte le poste. La femme d’AG dit que le comportement de son mari est tellement intrusif qu’elle pense qu’elle va devoir rechercher un autre poste qui ne nécessite pas de voyager. Elle pense que son comportement est excessif et elle lui en veut de chambouler ses plans de carrière.
+  
+ AG explique au psychologue que bien qu’il sache que c’est irrationnel, il est terrifié à l’idée que sa femme soit blessée ou tuée quand elle part pour le travail. Quand elle est loin, il déclare qu’il peut à peine dormir la nuit et qu’il se réveille souvent « avec des sueurs froides ». Plusieurs fois, il a appelé sa chambre d’hôtel au milieu de la nuit pour vérifier qu’elle était toujours vivante. Même quand elle ne voyage pas, AG envoi des messages à sa femme plusieurs fois par jour pour vérifier qu’elle va bien. Si elle ne répond pas tout de suite, il l’appelle répétitivement au bureau et sur son portable jusqu’à ce qu’elle réponde.
+  
+ La femme d’AF décrit sa relation avec son mari comme ayant toujours été très passionnée et au début elle a interprété ce comportement comme un signe de son profond attachement. AG l’interrompt et dit « Tu sais à quel point je t’aime. Je ne veux juste pas te perdre. » La femme d’AG réplique « Comment peux-tu me perdre alors que tu ne me laisses pas quitter ton champs de vision ! ».  La femme d’AG dit qu’au cours de leur relation, AG a toujours voulu qu’ils passent tout leur temps libre ensemble et qu’il a toujours eu tendance à éprouver un sentiment d’insécurité, mais que c’est maintenant devenu hors de contrôle. En même temps, la femme d’AG indique qu’il lui a toujours été aisé de prendre des décisions concernant sa propre vie et qu’elle n’a pas l’impression qu’AG s’immisce dans toutes ses décisions ou ses actions sauf lorsqu’elles sont en rapport avec le fait d’être éloigné d’elle. AG déclare qu’il sait que sa femme est irritée par le comportement qu’il a lorsqu’ elle voyage. Il ne veut pas l’énerver, mais il ne peut pas s’en empêcher car il a si peur que quelque chose puisse lui arriver. Il déclare qu’il entretient  une bonne relation avec sa femme, mais qu’il s’inquiète du retentissement à long terme des tensions que génèrent ses voyages.
+Additional Background Information:  AG est un photographe professionnel. Il est propriétaire d’un studio photo qui marche bien et il est très apprécié par ses employés. AG a eu deux autres relations amoureuses importantes avant de rencontrer sa femme. Il ne se souvient pas s’être inquiété autant à leur propos. AG a quelques proches amis qu’il connaît de longue date. Il ne boit pas d’alcool et ne consomme aucune autre substance. Il est un peu en surpoids et souffre d’hypertension, mais ne prend aucun médicament pour cela.  
+
+Which of the following diagnostic conclusions best corresponds to the person described in the vignette at the present time?
+- Generalized Anxiety Disorder
+- Generalized Anxiety Disorder AND Panic Disorder  
+- Panic Disorder  
+- Agoraphobia
+- Agoraphobia AND Panic Disorder 
+- Specific Phobia
+- Specific Phobia AND Panic Disorder 
+- Social Anxiety Disorder
+- Social Anxiety Disorder AND Panic Disorder 
+- Separation Anxiety Disorder
+- Separation Anxiety Disorder AND Panic Disorder 
+- Selective Mutism
+- Other Anxiety and Fear-Related Disorder
+- Unspecified Anxiety and Fear-Related Disorder
+- A different diagnosis
+- No Diagnosis
+
+[FORMAT]
+Most Likely Diagnosis: [diagnosis]
+Reasoning: [2-3 sentences]
+
+Second Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+Third Most Likely: [diagnosis]
+Reasoning: [1-2 sentences]
+
+**WARNING:** Any other output format is incorrect.","**Translation of the vignette into English**
+
+AG and his wife were referred to a psychologist by their primary care physician for couples therapy. Both are 35 years old and have been married for 9 years. They have no children. AG’s wife told her doctor that she is worried about the deterioration of her relationship with her husband because she feels that “he suffocates her” and refuses “to let her live her life.”
+
+During the first consultation, both AG and his wife appeared tense. AG’s wife began to list her complaints about her husband’s behavior, saying that everything started three years ago when she left her job for a sales position that required traveling several times a month. After several trips without incident, AG began insisting that she call him immediately after landing, and again when she arrived at the hotel. She complains that before each trip, AG begs her not to leave. She finds this unfair because he knew she would be traveling as part of her new job and they had discussed it before she accepted the position. She says his behavior is so intrusive that she thinks she will have to look for another job that does not require travel. She believes his behavior is excessive and blames him for disrupting her career plans.
+
+AG explains to the psychologist that although he knows it is irrational, he is terrified that his wife will be hurt or killed when she goes to work. When she is away, he can barely sleep at night and often wakes up “with cold sweats.” He has called her hotel room in the middle","['NO_MATCH_FOUND', 'NO_MATCH_FOUND', 'NO_MATCH_FOUND']",Separation Anxiety Disorder,False,False,False

@@ -1,8 +1,8 @@
 {
-    "llm_model" : ["Qwen3_2507"],
-    "prompt_id" : "prompt_ddx_qualtrics_modified",
+    "llm_model" : ["mistral_large","llama31_8B","llama33_70B","mistral_7B","gemma3", "Qwen25_32B"],
+    "prompt_id" : "prompt_ddx_qualtrics_modified_translated",
     "language" : "english",
-    "languages_vignette" : "english",
+    "languages_vignette" : ["russian","chinese","french"],
     "batch_size" : 16,
     "max_new_tokens" : 512
 }

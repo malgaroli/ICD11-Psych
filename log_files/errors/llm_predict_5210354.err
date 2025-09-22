@@ -1,0 +1,37 @@
+MXFP4 quantization requires triton >= 3.4.0 and triton_kernels installed, we will default to dequantizing the model to bf16
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [02:01<04:02, 121.29s/it]Fetching 3 files: 100%|██████████| 3/3 [02:01<00:00, 40.46s/it] 
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:05<00:10,  5.34s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:10<00:05,  5.00s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:14<00:00,  4.51s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:14<00:00,  4.67s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+INFO:root:Output length: 22821
+100%|██████████| 1/1 [02:29<00:00, 149.42s/it]100%|██████████| 1/1 [02:29<00:00, 149.42s/it]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:03,  2.00s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:03<00:01,  1.99s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.78s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.84s/it]
+  0%|          | 0/3 [00:00<?, ?it/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+ERROR:root:Batch processing error: CUDA out of memory. Tried to allocate 4.00 GiB. GPU 
+ 33%|███▎      | 1/3 [00:00<00:01,  1.14it/s]ERROR:root:Batch processing error: CUDA out of memory. Tried to allocate 3.49 GiB. GPU 
+INFO:root:Output length: 24846
+100%|██████████| 3/3 [02:23<00:00, 53.11s/it]100%|██████████| 3/3 [02:23<00:00, 47.88s/it]
+Traceback (most recent call last):
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 198, in <module>
+    main()
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 194, in main
+    evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm, results_folder, prompt_id, language)
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 91, in evaluate_model_outputs
+    df["Model_Diagnoses"] = df["Response"].apply(extract_ranked_diagnoses, args=(language,))
+  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/pandas/core/series.py", line 4935, in apply
+    ).apply()
+  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/pandas/core/apply.py", line 1422, in apply
+    return self.apply_standard()
+  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/pandas/core/apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/pandas/core/base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/pandas/core/algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/pandas/core/apply.py", line 1491, in curried
+    return func(x, *self.args, **self.kwargs)
+  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 58, in extract_ranked_diagnoses
+    match = re.search(p1, response, re.IGNORECASE | re.DOTALL) or re.search(p2, response, re.IGNORECASE | re.DOTALL)
+  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/re.py", line 200, in search
+    return _compile(pattern, flags).search(string)
+TypeError: expected string or bytes-like object
