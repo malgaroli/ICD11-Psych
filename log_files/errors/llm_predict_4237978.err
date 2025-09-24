@@ -1,61 +1,0 @@
-WARNING:accelerate.utils.other:Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:07<00:22,  7.56s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:16<00:16,  8.40s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:24<00:08,  8.41s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:25<00:00,  5.41s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:25<00:00,  6.44s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-INFO:root:Output length: 9264
-100%|██████████| 1/1 [01:11<00:00, 71.64s/it]100%|██████████| 1/1 [01:11<00:00, 71.64s/it]
-WARNING:accelerate.utils.other:Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
-Loading checkpoint shards:   0%|          | 0/12 [00:00<?, ?it/s]Loading checkpoint shards:   8%|▊         | 1/12 [00:06<01:13,  6.70s/it]Loading checkpoint shards:  17%|█▋        | 2/12 [00:11<00:58,  5.80s/it]Loading checkpoint shards:  25%|██▌       | 3/12 [00:17<00:51,  5.74s/it]Loading checkpoint shards:  33%|███▎      | 4/12 [00:23<00:45,  5.70s/it]Loading checkpoint shards:  42%|████▏     | 5/12 [00:28<00:39,  5.66s/it]Loading checkpoint shards:  50%|█████     | 6/12 [00:34<00:33,  5.64s/it]Loading checkpoint shards:  58%|█████▊    | 7/12 [00:40<00:28,  5.68s/it]Loading checkpoint shards:  67%|██████▋   | 8/12 [00:45<00:22,  5.66s/it]Loading checkpoint shards:  75%|███████▌  | 9/12 [00:51<00:16,  5.62s/it]Loading checkpoint shards:  83%|████████▎ | 10/12 [00:57<00:11,  5.68s/it]Loading checkpoint shards:  92%|█████████▏| 11/12 [01:02<00:05,  5.66s/it]Loading checkpoint shards: 100%|██████████| 12/12 [01:03<00:00,  4.07s/it]Loading checkpoint shards: 100%|██████████| 12/12 [01:03<00:00,  5.26s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
-/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `64` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-INFO:root:Output length: 10783
-100%|██████████| 1/1 [04:25<00:00, 265.10s/it]100%|██████████| 1/1 [04:25<00:00, 265.10s/it]
-WARNING:accelerate.utils.other:Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:07<00:14,  7.11s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:15<00:07,  7.84s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:22<00:00,  7.60s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:22<00:00,  7.59s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
-INFO:root:Output length: 7194
-100%|██████████| 1/1 [01:01<00:00, 61.74s/it]100%|██████████| 1/1 [01:01<00:00, 61.74s/it]
-Could not set the permissions on the file '/gpfs/home/muellv01/.cache/huggingface/hub/models--Qwen--Qwen2.5-32B-Instruct/blobs/20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0.incomplete'. Error: [Errno 2] No such file or directory: '/gpfs/home/muellv01/.cache/huggingface/hub/models--Qwen--Qwen2.5-32B-Instruct/blobs/20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0.incomplete'.
-Continuing without setting permissions.
-WARNING:huggingface_hub.file_download:Could not set the permissions on the file '/gpfs/home/muellv01/.cache/huggingface/hub/models--Qwen--Qwen2.5-32B-Instruct/blobs/20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0.incomplete'. Error: [Errno 2] No such file or directory: '/gpfs/home/muellv01/.cache/huggingface/hub/models--Qwen--Qwen2.5-32B-Instruct/blobs/20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0.incomplete'.
-Continuing without setting permissions.
-Could not set the permissions on the file '/gpfs/home/muellv01/.cache/huggingface/hub/models--Qwen--Qwen2.5-32B-Instruct/blobs/443909a61d429dff23010e5bddd28ff530edda00.incomplete'. Error: [Errno 2] No such file or directory: '/gpfs/home/muellv01/.cache/huggingface/hub/models--Qwen--Qwen2.5-32B-Instruct/blobs/443909a61d429dff23010e5bddd28ff530edda00.incomplete'.
-Continuing without setting permissions.
-WARNING:huggingface_hub.file_download:Could not set the permissions on the file '/gpfs/home/muellv01/.cache/huggingface/hub/models--Qwen--Qwen2.5-32B-Instruct/blobs/443909a61d429dff23010e5bddd28ff530edda00.incomplete'. Error: [Errno 2] No such file or directory: '/gpfs/home/muellv01/.cache/huggingface/hub/models--Qwen--Qwen2.5-32B-Instruct/blobs/443909a61d429dff23010e5bddd28ff530edda00.incomplete'.
-Continuing without setting permissions.
-Traceback (most recent call last):
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2302, in _from_pretrained
-    tokenizer = cls(*init_inputs, **init_kwargs)
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/models/qwen2/tokenization_qwen2_fast.py", line 120, in __init__
-    super().__init__(
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 117, in __init__
-    fast_tokenizer = TokenizerFast.from_file(fast_tokenizer_file)
-Exception: trailing characters at line 303282 column 2
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 198, in <module>
-    main()
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 190, in main
-    model = LLMModel(model_path, max_new_tokens=max_new_tokens)
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/LLMModel.py", line 16, in __init__
-    self.tokenizer = AutoTokenizer.from_pretrained(model_path, token=HF_TOKEN) #, use_fast=True)
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 1009, in from_pretrained
-    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2062, in from_pretrained
-    return cls._from_pretrained(
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2303, in _from_pretrained
-    except import_protobuf_decode_error():
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 87, in import_protobuf_decode_error
-    raise ImportError(PROTOBUF_IMPORT_ERROR.format(error_message))
-ImportError: 
- requires the protobuf library but it was not found in your environment. Checkout the instructions on the
-installation page of its repo: https://github.com/protocolbuffers/protobuf/tree/master/python#installation and follow the ones
-that match your environment. Please note that you may need to restart your runtime after installation.
-

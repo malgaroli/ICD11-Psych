@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 198, in <module>
-    main()
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 190, in main
-    model = LLMModel(model_path, max_new_tokens=max_new_tokens)
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/LLMModel.py", line 18, in __init__
-    self._is_gpt_oss = "gpt-oss" in (model_path or "").lower()
-AttributeError: 'PosixPath' object has no attribute 'lower'. Did you mean: 'owner'?

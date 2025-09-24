@@ -1,44 +1,0 @@
-WARNING:accelerate.utils.other:Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
-Loading checkpoint shards:   0%|          | 0/17 [00:00<?, ?it/s]Loading checkpoint shards:   6%|▌         | 1/17 [00:18<04:55, 18.49s/it]Loading checkpoint shards:  12%|█▏        | 2/17 [00:28<03:21, 13.43s/it]Loading checkpoint shards:  18%|█▊        | 3/17 [00:30<01:52,  8.04s/it]Loading checkpoint shards:  24%|██▎       | 4/17 [00:39<01:54,  8.78s/it]Loading checkpoint shards:  29%|██▉       | 5/17 [00:49<01:50,  9.20s/it]Loading checkpoint shards:  35%|███▌      | 6/17 [00:59<01:44,  9.51s/it]Loading checkpoint shards:  41%|████      | 7/17 [01:10<01:37,  9.70s/it]Loading checkpoint shards:  47%|████▋     | 8/17 [01:19<01:27,  9.75s/it]Loading checkpoint shards:  53%|█████▎    | 9/17 [01:29<01:17,  9.74s/it]Loading checkpoint shards:  59%|█████▉    | 10/17 [01:39<01:08,  9.82s/it]Loading checkpoint shards:  65%|██████▍   | 11/17 [01:49<00:59,  9.88s/it]Loading checkpoint shards:  71%|███████   | 12/17 [02:00<00:50, 10.09s/it]Loading checkpoint shards:  76%|███████▋  | 13/17 [02:10<00:40, 10.12s/it]Loading checkpoint shards:  82%|████████▏ | 14/17 [02:21<00:30, 10.27s/it]Loading checkpoint shards:  88%|████████▊ | 15/17 [02:30<00:19,  9.93s/it]Loading checkpoint shards:  94%|█████████▍| 16/17 [02:40<00:09,  9.99s/it]Loading checkpoint shards: 100%|██████████| 17/17 [02:53<00:00, 10.96s/it]Loading checkpoint shards: 100%|██████████| 17/17 [02:53<00:00, 10.21s/it]
-  0%|          | 0/43 [00:00<?, ?it/s]/gpfs/home/muellv01/.conda/envs/icd11/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/gpfs/home/muellv01/.conda/envs/icd11/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-INFO:root:Output length: 6573
-  2%|▏         | 1/43 [01:33<1:05:10, 93.11s/it]INFO:root:Output length: 7216
-  5%|▍         | 2/43 [03:02<1:02:03, 90.81s/it]INFO:root:Output length: 7098
-  7%|▋         | 3/43 [04:31<59:57, 89.95s/it]  INFO:root:Output length: 7054
-  9%|▉         | 4/43 [06:00<58:13, 89.56s/it]INFO:root:Output length: 6540
- 12%|█▏        | 5/43 [07:28<56:20, 88.97s/it]INFO:root:Output length: 7662
- 14%|█▍        | 6/43 [08:57<55:02, 89.24s/it]INFO:root:Output length: 8623
- 16%|█▋        | 7/43 [10:29<53:59, 89.99s/it]INFO:root:Output length: 6936
- 19%|█▊        | 8/43 [11:56<51:57, 89.07s/it]INFO:root:Output length: 7622
- 21%|██        | 9/43 [13:26<50:36, 89.30s/it]INFO:root:Output length: 7506
- 23%|██▎       | 10/43 [14:55<49:09, 89.39s/it]INFO:root:Output length: 6292
- 26%|██▌       | 11/43 [16:23<47:21, 88.80s/it]INFO:root:Output length: 6527
- 28%|██▊       | 12/43 [17:51<45:47, 88.62s/it]INFO:root:Output length: 7175
- 30%|███       | 13/43 [19:20<44:22, 88.74s/it]INFO:root:Output length: 7006
- 33%|███▎      | 14/43 [20:49<42:57, 88.87s/it]INFO:root:Output length: 6577
- 35%|███▍      | 15/43 [22:18<41:23, 88.70s/it]INFO:root:Output length: 6934
- 37%|███▋      | 16/43 [23:47<39:58, 88.82s/it]INFO:root:Output length: 6478
- 40%|███▉      | 17/43 [25:15<38:23, 88.60s/it]INFO:root:Output length: 6910
- 42%|████▏     | 18/43 [26:44<36:56, 88.65s/it]INFO:root:Output length: 6789
- 44%|████▍     | 19/43 [28:12<35:26, 88.59s/it]INFO:root:Output length: 6260
- 47%|████▋     | 20/43 [29:39<33:49, 88.22s/it]INFO:root:Output length: 7281
- 49%|████▉     | 21/43 [31:08<32:24, 88.38s/it]INFO:root:Output length: 7502
- 51%|█████     | 22/43 [32:38<31:03, 88.74s/it]INFO:root:Output length: 7643
- 53%|█████▎    | 23/43 [34:07<29:39, 88.96s/it]INFO:root:Output length: 7839
- 56%|█████▌    | 24/43 [35:37<28:14, 89.19s/it]INFO:root:Output length: 7142
- 58%|█████▊    | 25/43 [37:06<26:45, 89.18s/it]INFO:root:Output length: 7304
- 60%|██████    | 26/43 [38:35<25:17, 89.26s/it]INFO:root:Output length: 7279
- 63%|██████▎   | 27/43 [40:05<23:47, 89.24s/it]INFO:root:Output length: 7305
- 65%|██████▌   | 28/43 [41:34<22:19, 89.28s/it]INFO:root:Output length: 7546
- 67%|██████▋   | 29/43 [43:03<20:50, 89.30s/it]INFO:root:Output length: 7455
- 70%|██████▉   | 30/43 [44:33<19:20, 89.26s/it]INFO:root:Output length: 6956
- 72%|███████▏  | 31/43 [45:56<17:29, 87.45s/it]INFO:root:Output length: 8118
- 74%|███████▍  | 32/43 [47:26<16:11, 88.29s/it]INFO:root:Output length: 5894
- 77%|███████▋  | 33/43 [48:53<14:39, 87.94s/it]INFO:root:Output length: 5897
- 79%|███████▉  | 34/43 [50:20<13:08, 87.65s/it]INFO:root:Output length: 6668
- 81%|████████▏ | 35/43 [51:48<11:41, 87.70s/it]INFO:root:Output length: 6200
- 84%|████████▎ | 36/43 [53:13<10:09, 87.01s/it]INFO:root:Output length: 7359
- 86%|████████▌ | 37/43 [54:43<08:46, 87.69s/it]slurmstepd-a100-4026: error: *** JOB 64259840 ON a100-4026 CANCELLED AT 2025-06-04T12:51:44 DUE TO TIME LIMIT ***

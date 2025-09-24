@@ -1,4 +1,0 @@
-MXFP4 quantization requires triton >= 3.4.0 and triton_kernels installed, we will default to dequantizing the model to bf16
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:07<00:14,  7.17s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:13<00:06,  6.87s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:17<00:00,  5.58s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:17<00:00,  5.96s/it]
-  0%|          | 0/3 [00:00<?, ?it/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
-slurmstepd-a100-4002: error: *** JOB 5213012 ON a100-4002 CANCELLED AT 2025-08-13T09:15:02 ***

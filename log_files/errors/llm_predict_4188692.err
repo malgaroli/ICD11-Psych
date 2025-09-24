@@ -1,29 +1,0 @@
-WARNING:accelerate.utils.other:Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:28,  9.41s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:19<00:19,  9.74s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:29<00:09,  9.86s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:30<00:00,  6.33s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:30<00:00,  7.57s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-INFO:root:Output length: 10491
-100%|██████████| 1/1 [01:36<00:00, 96.13s/it]100%|██████████| 1/1 [01:36<00:00, 96.13s/it]
-/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py:91: FutureWarning: the convert_dtype parameter is deprecated and will be removed in a future version.  Do ``ser.astype(object).apply()`` instead if you want ``convert_dtype=False``.
-  df["Model_Diagnoses"] = df["Response"].apply(extract_ranked_diagnoses, language)
-Traceback (most recent call last):
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 190, in <module>
-    main()
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 186, in main
-    evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm_model, results_folder, prompt_id, language)
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 91, in evaluate_model_outputs
-    df["Model_Diagnoses"] = df["Response"].apply(extract_ranked_diagnoses, language)
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/pandas/core/series.py", line 4924, in apply
-    ).apply()
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/pandas/core/apply.py", line 1427, in apply
-    return self.apply_standard()
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/pandas/core/apply.py", line 1507, in apply_standard
-    mapped = obj._map_values(
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/pandas/core/base.py", line 921, in _map_values
-    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/pandas/core/algorithms.py", line 1743, in map_array
-    return lib.map_infer(values, mapper, convert=convert)
-  File "lib.pyx", line 2972, in pandas._libs.lib.map_infer
-TypeError: extract_ranked_diagnoses() missing 1 required positional argument: 'language'

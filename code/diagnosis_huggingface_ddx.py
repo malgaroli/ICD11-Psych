@@ -6,6 +6,7 @@ from PromptBuilder import PromptBuilder
 import json
 import torch
 import gc
+import subprocess
 
 DEPLOYMENT_TYPE = "hpc"
 
@@ -150,6 +151,9 @@ def calculate_performance_across_categories(df):
 
     return pd.DataFrame([stats])
 
+def load_api_key(path="huggingface_key.txt") -> str:
+    with open(path, "r", encoding="utf-8") as f:
+        return f.read().strip()
     
 def main():
     # set prompt and pipeline parameters
@@ -160,12 +164,16 @@ def main():
     languages_vignette = pipeline_params.get('languages_vignette', 'english')
     batch_size     = pipeline_params.get('batch_size', 1)
     max_new_tokens = pipeline_params.get('max_new_tokens', 512)
+    
 
     # set paths
     config_dict = load_config(file=Path(__file__).parent.joinpath("config_paths.json"))[DEPLOYMENT_TYPE]
     base_bath = Path(config_dict['base_path'])
     prompt_path = base_bath.joinpath("code")
-    results_folder_tmp = "results" if language == "english" else "results_languages"
+    results_folder_tmp = "results_new" if language == "english" else "results_languages"
+
+    # Load huggingface api key
+    api_key_huggingface = load_api_key(path=base_path.parent.joinpath('huggingface_key.txt'))
     
     # Check model 
     llm_model = [llm_model] if isinstance(llm_model, str) else llm_model
@@ -182,7 +190,7 @@ def main():
             else:
                 data_path = base_bath.joinpath("data","multi-languages",f"{language_vignette}",f"Data_final_{language_vignette}.csv")
             data = pd.read_csv(data_path, encoding='utf-8')
-            
+            # data = data[data.gpt_translated]
             # Generate prompts for each category
             prompt_builder = PromptBuilder(df_vignettes=data, prompts_path=prompt_path, prompt_id=prompt_id, language=language)
             all_prompts, index_mapping = generate_prompts(data, prompt_builder)
@@ -190,12 +198,16 @@ def main():
             # Initialize model & process prompts in batches
             free_memory()
             model_path = Path(config_dict[f"{llm}_path"])
-            model = LLMModel(model_path, max_new_tokens=max_new_tokens)
+            model = LLMModel(model_path, max_new_tokens=max_new_tokens, api_key_huggingface=api_key_huggingface)
             responses = model.process_all_batches(all_prompts, batch_size=batch_size)
 
             # Evaluate model output for top 3 results
             evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm, results_folder, prompt_id, language)
             free_memory()
+        # Delete downloaded model from cache
+        subprocess.run("rm -rf ~/.cache/huggingface/*", shell=True, check=True)
+
+        
 
 if __name__ == "__main__":
     main()

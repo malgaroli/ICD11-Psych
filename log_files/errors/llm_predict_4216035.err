@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 196, in <module>
-    main()
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 187, in main
-    model_path = Path(config_dict[f"{llm_model}_path"])
-KeyError: 'openai_20B_path'

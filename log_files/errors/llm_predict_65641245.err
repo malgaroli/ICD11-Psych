@@ -1,27 +1,0 @@
-WARNING:accelerate.utils.other:Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
-Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-WARNING:huggingface_hub.file_download:Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-WARNING:huggingface_hub.file_download:Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-Fetching 2 files:  50%|█████     | 1/2 [01:33<01:33, 93.13s/it]Fetching 2 files: 100%|██████████| 2/2 [01:33<00:00, 46.57s/it]
-INFO:accelerate.utils.modeling:Based on the current allocation process, no modules could be assigned to the following devices due to insufficient memory:
-  - 0: 838339584.0 bytes required
-  - 1: 788004864 bytes required
-These minimum requirements are specific to this allocation attempt and may vary. Consider increasing the available memory for these devices to at least the specified minimum, or adjusting the model config.
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.94s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.52s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.88s/it]
-Traceback (most recent call last):
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/huggingface_implementation/diagnosis_huggingface_ddx.py", line 162, in <module>
-    main()
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/huggingface_implementation/diagnosis_huggingface_ddx.py", line 155, in main
-    model = LLMModel(model_path)
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/huggingface_implementation/LLMModel.py", line 49, in __init__
-    self.model = self.accelerator.prepare(self.model)
-  File "/gpfs/home/muellv01/.conda/envs/icd11/lib/python3.10/site-packages/accelerate/accelerator.py", line 1446, in prepare
-    result = tuple(
-  File "/gpfs/home/muellv01/.conda/envs/icd11/lib/python3.10/site-packages/accelerate/accelerator.py", line 1447, in <genexpr>
-    self._prepare_one(obj, first_pass=True, device_placement=d) for obj, d in zip(args, device_placement)
-  File "/gpfs/home/muellv01/.conda/envs/icd11/lib/python3.10/site-packages/accelerate/accelerator.py", line 1289, in _prepare_one
-    return self.prepare_model(obj, device_placement=device_placement)
-  File "/gpfs/home/muellv01/.conda/envs/icd11/lib/python3.10/site-packages/accelerate/accelerator.py", line 1559, in prepare_model
-    raise ValueError(
-ValueError: You can't train a model that has been loaded in 8-bit or 4-bit precision on a different device than the one you're training on. Make sure you loaded the model on the correct device using for example `device_map={'':torch.cuda.current_device()}` or `device_map={'':torch.xpu.current_device()}`

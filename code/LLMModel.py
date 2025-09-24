@@ -9,11 +9,10 @@ logging.basicConfig(level=logging.INFO)
 
 class LLMModel:
     
-    def __init__(self, model_path, use_gpu=True,  max_new_tokens=512):
+    def __init__(self, model_path, use_gpu=True,  max_new_tokens=512, api_key_huggingface=None):
         self._max_new_tokens = max_new_tokens
-        HF_TOKEN = "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"
         # Load tokenizer
-        self.tokenizer = AutoTokenizer.from_pretrained(model_path, token=HF_TOKEN) #, use_fast=True)
+        self.tokenizer = AutoTokenizer.from_pretrained(model_path, token=api_key_huggingface) #, use_fast=True)
         self._eos_token_id = self.tokenizer.eos_token_id
         self._is_gpt_oss = "gpt-oss" in (str(model_path) or "").lower()
 
@@ -30,7 +29,7 @@ class LLMModel:
                 # GPT-OSS path: no accelerate, no bnb; rely on native dtype + device_map
                 self.model = AutoModelForCausalLM.from_pretrained(
                     str(model_path),
-                    token=HF_TOKEN,
+                    token=api_key_huggingface,
                     torch_dtype=torch.bfloat16, # "auto" lets HF pick bf16 on capable GPUs
                     device_map="auto",
                     trust_remote_code=True,
@@ -74,7 +73,7 @@ class LLMModel:
                     quantization_config=bnb_config,
                     torch_dtype=torch.float16,
                     low_cpu_mem_usage=True,
-                    token=HF_TOKEN
+                    token=api_key_huggingface
                 )
 
                 # Prepare model with accelerator

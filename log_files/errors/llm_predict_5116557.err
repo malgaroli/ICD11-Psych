@@ -1,30 +1,0 @@
-MXFP4 quantization requires triton >= 3.4.0 and triton_kernels installed, we will default to dequantizing the model to bf16
-Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:06<01:25,  6.09s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:11<01:12,  5.58s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:13<00:48,  4.05s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:18<00:50,  4.59s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:21<00:38,  3.87s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:23<00:28,  3.13s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:28<00:29,  3.66s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:30<00:22,  3.24s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:33<00:18,  3.09s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:35<00:13,  2.80s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:36<00:18,  3.65s/it]
-Traceback (most recent call last):
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 198, in <module>
-    main()
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 190, in main
-    model = LLMModel(model_path, max_new_tokens=max_new_tokens)
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/LLMModel.py", line 31, in __init__
-    self.model = AutoModelForCausalLM.from_pretrained(
-  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 600, in from_pretrained
-    return model_class.from_pretrained(
-  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/transformers/modeling_utils.py", line 316, in _wrapper
-    return func(*args, **kwargs)
-  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/transformers/modeling_utils.py", line 5061, in from_pretrained
-    ) = cls._load_pretrained_model(
-  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/transformers/modeling_utils.py", line 5524, in _load_pretrained_model
-    _error_msgs, disk_offload_index, cpu_offload_index = load_shard_file(args)
-  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/transformers/modeling_utils.py", line 974, in load_shard_file
-    disk_offload_index, cpu_offload_index = _load_state_dict_into_meta_model(
-  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/transformers/modeling_utils.py", line 882, in _load_state_dict_into_meta_model
-    hf_quantizer.create_quantized_param(
-  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/transformers/quantizers/quantizer_mxfp4.py", line 221, in create_quantized_param
-    dequantize(module, param_name, param_value, target_device, dq_param_name, **shard_kwargs)
-  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/transformers/integrations/mxfp4.py", line 326, in dequantize
-    dequantized = convert_moe_packed_tensors(getattr(module, blocks_attr), getattr(module, scales_attr))
-  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/transformers/integrations/mxfp4.py", line 119, in convert_moe_packed_tensors
-    idx_lo = (blk & 0x0F).to(torch.long)
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 4.00 GiB. GPU 

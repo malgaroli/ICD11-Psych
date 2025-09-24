@@ -1,22 +1,0 @@
-WARNING:accelerate.utils.other:Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
-Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:   0%|          | 0/3 [00:01<?, ?it/s]
-Traceback (most recent call last):
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 170, in <module>
-    main()
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 162, in main
-    model = LLMModel(model_path, max_new_tokens=max_new_tokens)
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/LLMModel.py", line 39, in __init__
-    self.model = AutoModelForCausalLM.from_pretrained(
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
-    return model_class.from_pretrained(
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 279, in _wrapper
-    return func(*args, **kwargs)
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4260, in from_pretrained
-    checkpoint_files, sharded_metadata = _get_resolved_checkpoint_files(
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/modeling_utils.py", line 1152, in _get_resolved_checkpoint_files
-    checkpoint_files, sharded_metadata = get_checkpoint_shard_files(
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/utils/hub.py", line 1115, in get_checkpoint_shard_files
-    cached_filenames = cached_files(
-  File "/gpfs/home/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/transformers/utils/hub.py", line 517, in cached_files
-    raise EnvironmentError(
-OSError: mistralai/Mistral-7B-Instruct-v0.2 does not appear to have files named ('model-00001-of-00003.safetensors', 'model-00002-of-00003.safetensors', 'model-00003-of-00003.safetensors'). Checkout 'https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2/tree/main'for available files.

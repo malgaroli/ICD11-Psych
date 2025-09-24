@@ -1,30 +1,0 @@
-MXFP4 quantization requires triton >= 3.4.0 and triton_kernels installed, we will default to dequantizing the model to bf16
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.17s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:04<00:02,  2.37s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:06<00:00,  2.00s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:06<00:00,  2.08s/it]
-  0%|          | 0/3 [00:00<?, ?it/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
-INFO:root:Output length: 24863
- 33%|███▎      | 1/3 [03:05<06:10, 185.42s/it]INFO:root:Output length: 18723
- 67%|██████▋   | 2/3 [06:02<03:00, 180.49s/it]INFO:root:Output length: 24846
-100%|██████████| 3/3 [08:26<00:00, 163.67s/it]100%|██████████| 3/3 [08:26<00:00, 168.70s/it]
-Traceback (most recent call last):
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 201, in <module>
-    main()
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 197, in main
-    evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm, results_folder, prompt_id, language)
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 94, in evaluate_model_outputs
-    df["Model_Diagnoses"] = df["Response"].apply(extract_ranked_diagnoses, args=(language,))
-  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/pandas/core/series.py", line 4935, in apply
-    ).apply()
-  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/pandas/core/apply.py", line 1422, in apply
-    return self.apply_standard()
-  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/pandas/core/apply.py", line 1502, in apply_standard
-    mapped = obj._map_values(
-  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/pandas/core/base.py", line 925, in _map_values
-    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
-  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/pandas/core/algorithms.py", line 1743, in map_array
-    return lib.map_infer(values, mapper, convert=convert)
-  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
-  File "/gpfs/home/muellv01/.conda/envs/icd11_gpt2/lib/python3.10/site-packages/pandas/core/apply.py", line 1491, in curried
-    return func(x, *self.args, **self.kwargs)
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 31, in extract_ranked_diagnoses
-    if not resonse:
-NameError: name 'resonse' is not defined. Did you mean: 'response'?

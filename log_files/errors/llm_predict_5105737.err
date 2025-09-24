@@ -1,7 +1,0 @@
-MXFP4 quantization requires triton >= 3.4.0 and triton_kernels installed, we will default to dequantizing the model to bf16
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:06<00:13,  6.80s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:13<00:06,  6.76s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:17<00:00,  5.50s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:17<00:00,  5.85s/it]
-  0%|          | 0/3 [00:00<?, ?it/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
-INFO:root:Output length: 17863
- 33%|███▎      | 1/3 [02:15<04:30, 135.39s/it]INFO:root:Output length: 21564
- 67%|██████▋   | 2/3 [05:07<02:36, 156.86s/it]INFO:root:Output length: 18071
-100%|██████████| 3/3 [07:04<00:00, 138.89s/it]100%|██████████| 3/3 [07:04<00:00, 141.60s/it]

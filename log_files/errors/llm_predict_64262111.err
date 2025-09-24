@@ -1,50 +1,0 @@
-WARNING:accelerate.utils.other:Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
-Loading checkpoint shards:   0%|          | 0/17 [00:00<?, ?it/s]Loading checkpoint shards:   6%|▌         | 1/17 [00:11<03:09, 11.85s/it]Loading checkpoint shards:  12%|█▏        | 2/17 [00:22<02:48, 11.22s/it]Loading checkpoint shards:  18%|█▊        | 3/17 [00:24<01:35,  6.85s/it]Loading checkpoint shards:  24%|██▎       | 4/17 [00:35<01:50,  8.51s/it]Loading checkpoint shards:  29%|██▉       | 5/17 [00:45<01:49,  9.12s/it]Loading checkpoint shards:  35%|███▌      | 6/17 [00:56<01:46,  9.72s/it]Loading checkpoint shards:  41%|████      | 7/17 [01:09<01:48, 10.87s/it]Loading checkpoint shards:  47%|████▋     | 8/17 [01:20<01:38, 10.97s/it]Loading checkpoint shards:  53%|█████▎    | 9/17 [01:31<01:27, 10.96s/it]Loading checkpoint shards:  59%|█████▉    | 10/17 [01:42<01:15, 10.85s/it]Loading checkpoint shards:  65%|██████▍   | 11/17 [01:52<01:04, 10.68s/it]Loading checkpoint shards:  71%|███████   | 12/17 [02:03<00:53, 10.68s/it]Loading checkpoint shards:  76%|███████▋  | 13/17 [02:12<00:40, 10.25s/it]Loading checkpoint shards:  82%|████████▏ | 14/17 [02:23<00:30, 10.33s/it]Loading checkpoint shards:  88%|████████▊ | 15/17 [02:33<00:20, 10.48s/it]Loading checkpoint shards:  94%|█████████▍| 16/17 [02:45<00:10, 10.71s/it]Loading checkpoint shards: 100%|██████████| 17/17 [02:47<00:00,  8.24s/it]Loading checkpoint shards: 100%|██████████| 17/17 [02:47<00:00,  9.86s/it]
-  0%|          | 0/43 [00:00<?, ?it/s]/gpfs/home/muellv01/.conda/envs/icd11/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/gpfs/home/muellv01/.conda/envs/icd11/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-INFO:root:Output length: 6620
-  2%|▏         | 1/43 [01:32<1:04:51, 92.66s/it]INFO:root:Output length: 7052
-  5%|▍         | 2/43 [03:01<1:01:58, 90.70s/it]INFO:root:Output length: 7192
-  7%|▋         | 3/43 [04:31<59:57, 89.94s/it]  INFO:root:Output length: 7130
-  9%|▉         | 4/43 [06:00<58:15, 89.62s/it]INFO:root:Output length: 6594
- 12%|█▏        | 5/43 [07:28<56:24, 89.05s/it]INFO:root:Output length: 7645
- 14%|█▍        | 6/43 [08:58<55:06, 89.36s/it]INFO:root:Output length: 8665
- 16%|█▋        | 7/43 [10:29<54:04, 90.12s/it]INFO:root:Output length: 6749
- 19%|█▊        | 8/43 [11:48<50:29, 86.56s/it]INFO:root:Output length: 7813
- 21%|██        | 9/43 [13:18<49:39, 87.63s/it]INFO:root:Output length: 7613
- 23%|██▎       | 10/43 [14:48<48:33, 88.27s/it]INFO:root:Output length: 6250
- 26%|██▌       | 11/43 [16:16<46:58, 88.07s/it]INFO:root:Output length: 6605
- 28%|██▊       | 12/43 [17:44<45:33, 88.17s/it]INFO:root:Output length: 7118
- 30%|███       | 13/43 [19:13<44:14, 88.47s/it]INFO:root:Output length: 7048
- 33%|███▎      | 14/43 [20:42<42:53, 88.73s/it]INFO:root:Output length: 6717
- 35%|███▍      | 15/43 [22:11<41:22, 88.65s/it]INFO:root:Output length: 6930
- 37%|███▋      | 16/43 [23:40<39:58, 88.83s/it]INFO:root:Output length: 6457
- 40%|███▉      | 17/43 [25:08<38:25, 88.65s/it]INFO:root:Output length: 6828
- 42%|████▏     | 18/43 [26:37<36:58, 88.74s/it]INFO:root:Output length: 6813
- 44%|████▍     | 19/43 [28:06<35:28, 88.71s/it]INFO:root:Output length: 6221
- 47%|████▋     | 20/43 [29:34<33:52, 88.36s/it]INFO:root:Output length: 7179
- 49%|████▉     | 21/43 [31:02<32:27, 88.52s/it]INFO:root:Output length: 7497
- 51%|█████     | 22/43 [32:32<31:06, 88.88s/it]INFO:root:Output length: 7519
- 53%|█████▎    | 23/43 [34:02<29:41, 89.10s/it]INFO:root:Output length: 7723
- 56%|█████▌    | 24/43 [35:32<28:17, 89.33s/it]INFO:root:Output length: 7286
- 58%|█████▊    | 25/43 [37:01<26:47, 89.32s/it]INFO:root:Output length: 7340
- 60%|██████    | 26/43 [38:31<25:19, 89.40s/it]INFO:root:Output length: 7343
- 63%|██████▎   | 27/43 [40:00<23:49, 89.37s/it]INFO:root:Output length: 7288
- 65%|██████▌   | 28/43 [41:29<22:21, 89.42s/it]INFO:root:Output length: 7527
- 67%|██████▋   | 29/43 [42:59<20:52, 89.43s/it]INFO:root:Output length: 7474
- 70%|██████▉   | 30/43 [44:28<19:22, 89.40s/it]INFO:root:Output length: 6647
- 72%|███████▏  | 31/43 [45:42<16:57, 84.78s/it]INFO:root:Output length: 8065
- 74%|███████▍  | 32/43 [47:13<15:51, 86.46s/it]INFO:root:Output length: 5916
- 77%|███████▋  | 33/43 [48:40<14:26, 86.69s/it]INFO:root:Output length: 5938
- 79%|███████▉  | 34/43 [50:07<13:01, 86.82s/it]INFO:root:Output length: 6526
- 81%|████████▏ | 35/43 [51:35<11:37, 87.21s/it]INFO:root:Output length: 6069
- 84%|████████▎ | 36/43 [52:57<09:59, 85.63s/it]INFO:root:Output length: 7352
- 86%|████████▌ | 37/43 [54:26<08:40, 86.77s/it]INFO:root:Output length: 7141
- 88%|████████▊ | 38/43 [55:56<07:17, 87.50s/it]INFO:root:Output length: 7266
- 91%|█████████ | 39/43 [57:25<05:52, 88.12s/it]INFO:root:Output length: 7357
- 93%|█████████▎| 40/43 [58:55<04:25, 88.64s/it]INFO:root:Output length: 6147
- 95%|█████████▌| 41/43 [1:00:22<02:56, 88.18s/it]INFO:root:Output length: 6104
- 98%|█████████▊| 42/43 [1:01:49<01:27, 87.88s/it]INFO:root:Output length: 6658
-100%|██████████| 43/43 [1:03:18<00:00, 88.01s/it]100%|██████████| 43/43 [1:03:18<00:00, 88.33s/it]
