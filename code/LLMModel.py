@@ -1,9 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
-
 import torch
 from tqdm import tqdm
 import logging
-import gc
 
 logging.basicConfig(level=logging.INFO)
 
@@ -12,7 +10,7 @@ class LLMModel:
     def __init__(self, model_path, use_gpu=True,  max_new_tokens=512, api_key_huggingface=None):
         self._max_new_tokens = max_new_tokens
         # Load tokenizer
-        self.tokenizer = AutoTokenizer.from_pretrained(model_path, token=api_key_huggingface) #, use_fast=True)
+        self.tokenizer = AutoTokenizer.from_pretrained(model_path, token=api_key_huggingface)
         self._eos_token_id = self.tokenizer.eos_token_id
         self._is_gpt_oss = "gpt-oss" in (str(model_path) or "").lower()
 
@@ -35,23 +33,6 @@ class LLMModel:
                     trust_remote_code=True,
                     low_cpu_mem_usage=True,
                 )
-                # from transformers import BitsAndBytesConfig
-                # # Quantization config with correct compute dtype
-                # bnb_config = BitsAndBytesConfig(
-                #     load_in_4bit=True,
-                #     bnb_4bit_compute_dtype=torch.float16,
-                #     llm_int8_skip_modules=None  # Optional: skip quantization for specific modules
-                # )
-
-                # # Load quantized model
-                # self.model = AutoModelForCausalLM.from_pretrained(
-                #     model_path,
-                #     device_map="auto",
-                #     quantization_config=bnb_config,
-                #     torch_dtype=torch.float16,
-                #     low_cpu_mem_usage=True,
-                #     token=HF_TOKEN
-                # )
             else:
                 from accelerate import Accelerator
                 from transformers import BitsAndBytesConfig

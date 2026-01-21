@@ -60,7 +60,6 @@ def translate_fields(client, model, fields, target_language):
         resp = client.responses.create(
             model=model,
             input=prompt,
-            # response_format={"type": "json_object"},
         )
     except Exception as e:
         if _is_rate_limit_error(e):
@@ -74,6 +73,9 @@ def translate_fields(client, model, fields, target_language):
     parsed = json.loads(out_text)
     return {k: parsed.get(k, "") for k in fields.keys()}
 
+def load_api_key(path="openAI_key.txt") -> str:
+    with open(path, "r", encoding="utf-8") as f:
+        return f.read().strip()
 
 def main(
     base_english: str,
@@ -150,9 +152,6 @@ def main(
     print(f"Filled/added {filled_count} rows, saved to {outpath}")
     return outpath
 
-    def load_api_key(path="openAI_key.txt") -> str:
-        with open(path, "r", encoding="utf-8") as f:
-            return f.read().strip()
 
 
 

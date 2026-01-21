@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py", line 9, in <module>
-    from huggingface_hub import delete_cache
-ImportError: cannot import name 'delete_cache' from 'huggingface_hub' (/gpfs/data/schultebrauckslab/Users/muellv01/.conda/envs/icd11_qwen3/lib/python3.10/site-packages/huggingface_hub/__init__.py)

@@ -1,12 +1,6 @@
 {
-    "computer" : {
-        "base_path" :"C:/Users/MUELLV01/Project/ICD11-Psych",
-        "llama31_path" : "C:/Users/MUELLV01/Project/Meta-Llama-3-1-8B-Instruct",
-        "llama32_path" : "C:/Users/MUELLV01/Project/Meta-Llama-3-2-3B-Instruct",
-        "mistral_path" : "C:/Users/MUELLV01/Project/Mistral-7B-Instruct-v02"
-    },
     "hpc" : {
-        "base_path" :"/gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych",
+        "base_path" :"path/to/ICD11-Psych",
         "llama31_8B_path" : "meta-llama/Llama-3.1-8B-Instruct",
         "llama33_70B_path" : "/gpfs/data/schultebrauckslab/ml_resources/LLM_models/Meta-Llama-3-3-70B-Instruct",
         "llama32_3B_path" : "meta-llama/Llama-3.2-3B-Instruct",
@@ -21,9 +15,5 @@
         "gpt_20B_path" : "openai/gpt-oss-20b",
         "gpt_120B_path" : "openai/gpt-oss-120b"
 
-    },
-    "laptop" : {
-        "base_path" :  "/Users/muellv01/Library/CloudStorage/OneDrive-X/Projects/LLM_predict",
-        "llama3_path" : "/Users/muellv01/Repositories/dl_models/Meta-Llama-3-8B"
     }
 }

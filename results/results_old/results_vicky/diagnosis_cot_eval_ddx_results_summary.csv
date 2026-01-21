@@ -1,2 +1,0 @@
-iteration,Mood_top_1_accuracy,Mood_top_2_accuracy,Mood_top_3_accuracy,Anxiety_top_1_accuracy,Anxiety_top_2_accuracy,Anxiety_top_3_accuracy,Stress_top_1_accuracy,Stress_top_2_accuracy,Stress_top_3_accuracy,overall_top_1_accuracy,overall_top_2_accuracy,overall_top_3_accuracy
-1,55,60,65,81.82,81.82,81.82,63.64,72.73,72.73,66.82,71.51666667,73.18333333

@@ -11,8 +11,8 @@
 
 # Setup conda
 eval "$(conda shell.bash hook)"
-conda activate icd11_qwen3 # icd11_gpt2 #icd11_qwen3 
+conda activate icd11_qwen3
 
 # Your actual job command(s) go here
-python /gpfs/data/schultebrauckslab/Users/muellv01/ICD11-Psych/code/diagnosis_huggingface_ddx.py
+python /path/to/ICD11-Psych/code/run_pipeline.py
 
