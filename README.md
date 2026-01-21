@@ -50,35 +50,6 @@ All prompts used in the experiments are provided in the `prompts.md` file.
 
 ---
 
-## Model Evaluation
-
-The benchmark focuses exclusively on **open-weight LLMs** to preserve vignette confidentiality and minimize the risk of benchmark data contamination.
-
-Evaluation characteristics:
-
-- Zero-shot inference (no examples provided)  
-- Deterministic decoding (greedy decoding, no sampling)  
-- Top-1 accuracy for primary diagnosis  
-- Top-3 accuracy for differential diagnosis quality  
-- Human–LLM agreement measured using Cohen’s kappa  
-- Non-inferiority and equivalence testing relative to clinician performance  
-
-All models were deployed in a HIPAA-compliant environment using the Transformers library on NVIDIA A100 GPUs.
-
----
-
-## Statistical Analysis
-
-- Accuracy comparisons: Wilcoxon signed-rank tests  
-- Model-to-model differences: McNemar’s tests  
-- Diagnostic agreement: Cohen’s kappa  
-- Non-inferiority margin: δ = 0.1  
-- Multiple-comparison correction: Holm step-down procedure  
-
-All statistical analysis scripts are located in the `statistics/` directory.
-
----
-
 ## Intended Use
 
 This repository is intended for:
@@ -101,9 +72,6 @@ This work was supported by the National Institute of Mental Health (NIMH), the N
 ## Citation
 
 If you use this benchmark, data, or codebase, please cite the associated paper.
-
-
-![LLMxPsych_overview](https://github.com/user-attachments/assets/de33552c-e318-4438-8ac6-0104202163bd)
 
 
 ## Contact
