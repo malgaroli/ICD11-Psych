@@ -16,8 +16,21 @@ TOP_K = [1, 2, 3]
 def free_memory():
     """Frees GPU memory if CUDA is available."""
     if torch.cuda.is_available():
+        # Stronger memory reset
+        for obj in gc.get_objects():
+            try:
+                if torch.is_tensor(obj):
+                    del obj
+            except:
+                pass
         gc.collect()
         torch.cuda.empty_cache()
+
+        # Optional: reset peak stats to monitor per-job usage
+        torch.cuda.reset_peak_memory_stats()
+        torch.cuda.empty_cache()
+        torch.cuda.synchronize()
+        
         reserved_memory = torch.cuda.memory_reserved(0)
         allocated_memory = torch.cuda.memory_allocated(0)
         free_memory = reserved_memory - allocated_memory
@@ -27,19 +40,74 @@ def free_memory():
               f"Allocated: {allocated_memory / 1024**2:.2f} MB, "
               f"Free: {free_memory / 1024**2:.2f} MB")
 
+            
+
 
 def extract_ranked_diagnoses(response, language):
     if not response:
         return ["NO_MATCH_FOUND"]*3
 
     diagnoses = []
-    pattern1 = r"\*\*\s*(?:1\.|First|Most Likely) Diagnosis:\s*([^\*\n]+)\*\*"
-    pattern2 = r"\*\*\s*(?:2\.|Second|Second Most Likely).*?:\s*([^\*\n]+)\*\*"
-    pattern3 = r"\*\*\s*(?:3\.|Third|Third Most Likely).*?:\s*([^\*\n]+)\*\*"
+    if language == "english":
+        pattern1 = r"\*\*\s*(?:1\.|First|Most Likely) Diagnosis:\s*([^\*\n]+)\*\*"
+        pattern2 = r"\*\*\s*(?:2\.|Second|Second Most Likely).*?:\s*([^\*\n]+)\*\*"
+        pattern3 = r"\*\*\s*(?:3\.|Third|Third Most Likely).*?:\s*([^\*\n]+)\*\*"
+    
+        alt_pattern1 = r"(?:1\.|First|Most Likely).*?Diagnosis:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
+        alt_pattern2 = r"(?:2\.|Second|Second Most Likely).*?:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
+        alt_pattern3 = r"(?:3\.|Third|Third Most Likely).*?:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
+    elif language == "french":
+        pattern1 = r"\*\*\s*(?:Diagnostic le plus probable|1\. Diagnostic)\s*:\s*([^\*\n]+?)\s*\*\*"
+        pattern2 = r"\*\*\s*(?:Deuxième diagnostic le plus probable|2\.)\s*:\s*([^\*\n]+?)\s*\*\*"
+        pattern3 = r"\*\*\s*(?:Troisième diagnostic le plus probable|3\.)\s*:\s*([^\*\n]+?)\s*\*\*"
 
-    alt_pattern1 = r"(?:1\.|First|Most Likely).*?Diagnosis:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
-    alt_pattern2 = r"(?:2\.|Second|Second Most Likely).*?:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
-    alt_pattern3 = r"(?:3\.|Third|Third Most Likely).*?:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
+        alt_pattern1 = r"(?:Diagnostic le plus probable|1\. Diagnostic)\s*:\s*([^\n]+?)(?=\s*Justification:|\n|$)"
+        alt_pattern2 = r"(?:Deuxième diagnostic le plus probable|2\.)\s*:\s*([^\n]+?)(?=\s*Justification:|\n|$)"
+        alt_pattern3 = r"(?:Troisième diagnostic le plus probable|3\.)\s*:\s*([^\n]+?)(?=\s*Justification:|\n|$)"
+    elif language == "spanish":
+        pattern1 = r"\*\*\s*(?:Diagnóstico más probable|1\.)\s*:\s*([^\*\n]+?)\s*\*\*"
+        pattern2 = r"\*\*\s*(?:Segundo diagnóstico más probable|2\.)\s*:\s*([^\*\n]+?)\s*\*\*"
+        pattern3 = r"\*\*\s*(?:Tercer diagnóstico más probable|3\.)\s*:\s*([^\*\n]+?)\s*\*\*"
+
+        alt_pattern1 = r"(?:Diagnóstico más probable|1\.)\s*:\s*([^\n]+?)(?=\s*Justificación:|\n|$)"
+        alt_pattern2 = r"(?:Segundo diagnóstico más probable|2\.)\s*:\s*([^\n]+?)(?=\s*Justificación:|\n|$)"
+        alt_pattern3 = r"(?:Tercer diagnóstico más probable|3\.)\s*:\s*([^\n]+?)(?=\s*Justificación:|\n|$)" 
+
+    elif language == "russian":
+        pattern1 = r"\*\*\s*(?:Наиболее вероятный диагноз|1\.)\s*:\s*([^\*\n]+?)\s*\*\*"
+        pattern2 = r"\*\*\s*(?:Второй по вероятности диагноз|2\.)\s*:\s*([^\*\n]+?)\s*\*\*"
+        pattern3 = r"\*\*\s*(?:Третий по вероятности диагноз|3\.)\s*:\s*([^\*\n]+?)\s*\*\*"
+
+        alt_pattern1 = r"(?:Наиболее вероятный диагноз|1\.)\s*:\s*([^\n]+?)(?=\s*Обоснование:|\n|$)"
+        alt_pattern2 = r"(?:Второй по вероятности диагноз|2\.)\s*:\s*([^\n]+?)(?=\s*Обоснование:|\n|$)"
+        alt_pattern3 = r"(?:Третий по вероятности диагноз|3\.)\s*:\s*([^\n]+?)(?=\s*Обоснование:|\n|$)"    
+
+    elif language == "chinese":
+        pattern1 = r"(?:最可能的诊断|最有可能的诊断|1\.)\s*[:：]\s*([^\n]+?)(?=\s*理由\s*[:：]|\n|$)"
+        pattern2 = r"(?:第二可能的诊断|第二最可能的诊断|2\.)\s*[:：]\s*([^\n]+?)(?=\s*理由\s*[:：]|\n|$)"
+        pattern3 = r"(?:第三可能的诊断|第三最可能的诊断|3\.)\s*[:：]\s*([^\n]+?)(?=\s*理由\s*[:：]|\n|$)"
+
+        alt_pattern1 = r"(?:最可能的诊断|1\.)\s*：\s*([^\n]+?)(?=\s*理由：|\n|$)"
+        alt_pattern2 = r"(?:第二可能的诊断|2\.)\s*：\s*([^\n]+?)(?=\s*理由：|\n|$)"
+        alt_pattern3 = r"(?:第三可能的诊断|3\.)\s*：\s*([^\n]+?)(?=\s*理由：|\n|$)"   
+
+    elif language == "japanese":
+        pattern1 = r"(?:\*\*)?\s*(?:最も可能性の高い診断|1\.)\s*[:：]\s*(?:\*\*)?\s*([^\n]+?)(?=\s*理由\s*[:：]|\n|$)"
+        pattern2 = r"(?:\*\*)?\s*(?:次に可能性が高い診断|次に可能性の高い診断|2\.)\s*[:：]\s*(?:\*\*)?\s*([^\n]+?)(?=\s*理由\s*[:：]|\n|$)"
+        pattern3 = r"(?:\*\*)?\s*(?:3番目に可能性が高い診断|3番目に可能性の高い診断|3\.)\s*[:：]\s*(?:\*\*)?\s*([^\n]+?)(?=\s*理由\s*[:：]|\n|$)"
+
+        alt_pattern1 = r"(?:最も可能性の高い診断|1\.)\s*：\s*([^\n]+?)(?=\s*理由：|\n|$)"
+        alt_pattern2 = r"(?:次に可能性が高い診断|2\.)\s*：\s*([^\n]+?)(?=\s*理由：|\n|$)"
+        alt_pattern3 = r"(?:3番目に可能性が高い診断|3\.)\s*：\s*([^\n]+?)(?=\s*理由：|\n|$)"   
+
+    else:
+        pattern1 = r"\*\*\s*(?:1\.|First|Most Likely) Diagnosis:\s*([^\*\n]+)\*\*"
+        pattern2 = r"\*\*\s*(?:2\.|Second|Second Most Likely).*?:\s*([^\*\n]+)\*\*"
+        pattern3 = r"\*\*\s*(?:3\.|Third|Third Most Likely).*?:\s*([^\*\n]+)\*\*"
+    
+        alt_pattern1 = r"(?:1\.|First|Most Likely).*?Diagnosis:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
+        alt_pattern2 = r"(?:2\.|Second|Second Most Likely).*?:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
+        alt_pattern3 = r"(?:3\.|Third|Third Most Likely).*?:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
 
     for _, (p1, p2) in enumerate([(pattern1, alt_pattern1), (pattern2, alt_pattern2), (pattern3, alt_pattern3)], 1):
         match = re.search(p1, response, re.IGNORECASE | re.DOTALL) or re.search(p2, response, re.IGNORECASE | re.DOTALL)
@@ -140,7 +208,7 @@ def load_api_key(path="huggingface_key.txt") -> str:
     
 def main():
     # set prompt and pipeline parameters
-    pipeline_params = load_config(Path(__file__).parent.joinpath("pipeline_params.json"))
+    pipeline_params = load_config(Path(__file__).parent.joinpath("pipeline_params_multilingual.json"))
     llm_model      = pipeline_params.get('llm_model', "llama31_8B")
     prompt_id      = pipeline_params.get('prompt_id','prompt_ddx_qualtrics_modified')
     language       = pipeline_params.get('language', 'english')
@@ -148,13 +216,12 @@ def main():
     batch_size     = pipeline_params.get('batch_size', 1)
     max_new_tokens = pipeline_params.get('max_new_tokens', 512)
     
-    print(prompt_id)
 
     # set paths
     config_dict = load_config(file=Path(__file__).parent.joinpath("config_paths.json"))[DEPLOYMENT_TYPE]
     base_path = Path(config_dict['base_path'])
     prompt_path = base_path.joinpath("code")
-    results_folder_tmp = "results_new" # if language == "english" else "results_languages"
+    results_folder_tmp = "results_multilingual_March2026" # "results_new" if language == "english" else "results_languages"
 
     # Load huggingface api key
     api_key_huggingface = load_api_key(path=base_path.parent.joinpath('huggingface_key.txt'))
@@ -164,6 +231,7 @@ def main():
     for llm in llm_model: 
         # Check language 
         languages_vignette = [languages_vignette] if isinstance(languages_vignette, str) else languages_vignette
+        
         for language_vignette in languages_vignette:
             
             results_folder = base_path.joinpath(results_folder_tmp,llm,language_vignette)
@@ -174,11 +242,15 @@ def main():
             else:
                 data_path = base_path.joinpath("data","multi-languages",f"{language_vignette}",f"Data_final_{language_vignette}.csv")
             data = pd.read_csv(data_path, encoding='utf-8')
-            # data = data[data.gpt_translated]
+            # Only none gpt-translated versions
+            if "gpt_translated" in data.columns:
+                data = data.loc[~data.gpt_translated]
+
+            language = language_vignette
+
             # Generate prompts for each category
             prompt_builder = PromptBuilder(df_vignettes=data, prompts_path=prompt_path, prompt_id=prompt_id, language=language)
             all_prompts, index_mapping = generate_prompts(data, prompt_builder)
-            print(all_prompts[0])
             
             # Initialize model & process prompts in batches
             free_memory()

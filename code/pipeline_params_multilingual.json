@@ -1,0 +1,6 @@
+{
+    "llm_model" : ["gpt_51", "claude_opus46", "gemini_25"],
+    "prompt_id" : "prompt_ddx_qualtrics_modified",
+    "language" : "english",
+    "languages_vignette" : ["russian","chinese","spanish","french","japanese"]
+}

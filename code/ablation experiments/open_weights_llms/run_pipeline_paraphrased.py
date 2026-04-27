@@ -33,13 +33,30 @@ def extract_ranked_diagnoses(response, language):
         return ["NO_MATCH_FOUND"]*3
 
     diagnoses = []
-    pattern1 = r"\*\*\s*(?:1\.|First|Most Likely) Diagnosis:\s*([^\*\n]+)\*\*"
-    pattern2 = r"\*\*\s*(?:2\.|Second|Second Most Likely).*?:\s*([^\*\n]+)\*\*"
-    pattern3 = r"\*\*\s*(?:3\.|Third|Third Most Likely).*?:\s*([^\*\n]+)\*\*"
+    if language == "english":
+        pattern1 = r"\*\*\s*(?:1\.|First|Most Likely) Diagnosis:\s*([^\*\n]+)\*\*"
+        pattern2 = r"\*\*\s*(?:2\.|Second|Second Most Likely).*?:\s*([^\*\n]+)\*\*"
+        pattern3 = r"\*\*\s*(?:3\.|Third|Third Most Likely).*?:\s*([^\*\n]+)\*\*"
+    
+        alt_pattern1 = r"(?:1\.|First|Most Likely).*?Diagnosis:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
+        alt_pattern2 = r"(?:2\.|Second|Second Most Likely).*?:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
+        alt_pattern3 = r"(?:3\.|Third|Third Most Likely).*?:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
+    elif language == "french":
+        pattern1 = r"\*\*\s*(?:Diagnostic le plus probable|1\. Diagnostic)\s*:\s*([^\*\n]+?)\s*\*\*"
+        pattern2 = r"\*\*\s*(?:Deuxième diagnostic le plus probable|2\.)\s*:\s*([^\*\n]+?)\s*\*\*"
+        pattern3 = r"\*\*\s*(?:Troisième diagnostic le plus probable|3\.)\s*:\s*([^\*\n]+?)\s*\*\*"
 
-    alt_pattern1 = r"(?:1\.|First|Most Likely).*?Diagnosis:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
-    alt_pattern2 = r"(?:2\.|Second|Second Most Likely).*?:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
-    alt_pattern3 = r"(?:3\.|Third|Third Most Likely).*?:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
+        alt_pattern1 = r"(?:Diagnostic le plus probable|1\. Diagnostic)\s*:\s*([^\n]+?)(?=\s*Justification:|\n|$)"
+        alt_pattern2 = r"(?:Deuxième diagnostic le plus probable|2\.)\s*:\s*([^\n]+?)(?=\s*Justification:|\n|$)"
+        alt_pattern3 = r"(?:Troisième diagnostic le plus probable|3\.)\s*:\s*([^\n]+?)(?=\s*Justification:|\n|$)"
+    else:
+        pattern1 = r"\*\*\s*(?:1\.|First|Most Likely) Diagnosis:\s*([^\*\n]+)\*\*"
+        pattern2 = r"\*\*\s*(?:2\.|Second|Second Most Likely).*?:\s*([^\*\n]+)\*\*"
+        pattern3 = r"\*\*\s*(?:3\.|Third|Third Most Likely).*?:\s*([^\*\n]+)\*\*"
+    
+        alt_pattern1 = r"(?:1\.|First|Most Likely).*?Diagnosis:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
+        alt_pattern2 = r"(?:2\.|Second|Second Most Likely).*?:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
+        alt_pattern3 = r"(?:3\.|Third|Third Most Likely).*?:\s*([^\n]+?)(?=\s*Reasoning:|\n|$)"
 
     for _, (p1, p2) in enumerate([(pattern1, alt_pattern1), (pattern2, alt_pattern2), (pattern3, alt_pattern3)], 1):
         match = re.search(p1, response, re.IGNORECASE | re.DOTALL) or re.search(p2, response, re.IGNORECASE | re.DOTALL)
@@ -140,13 +157,14 @@ def load_api_key(path="huggingface_key.txt") -> str:
     
 def main():
     # set prompt and pipeline parameters
-    pipeline_params = load_config(Path(__file__).parent.joinpath("pipeline_params.json"))
+    pipeline_params = load_config(Path(__file__).parent.joinpath("pipeline_params_paraphrasing.json"))
     llm_model      = pipeline_params.get('llm_model', "llama31_8B")
     prompt_id      = pipeline_params.get('prompt_id','prompt_ddx_qualtrics_modified')
     language       = pipeline_params.get('language', 'english')
     languages_vignette = pipeline_params.get('languages_vignette', 'english')
     batch_size     = pipeline_params.get('batch_size', 1)
     max_new_tokens = pipeline_params.get('max_new_tokens', 512)
+    level          = pipeline_params.get('paraphrasing_level', 'low')
     
     print(prompt_id)
 
@@ -154,43 +172,43 @@ def main():
     config_dict = load_config(file=Path(__file__).parent.joinpath("config_paths.json"))[DEPLOYMENT_TYPE]
     base_path = Path(config_dict['base_path'])
     prompt_path = base_path.joinpath("code")
-    results_folder_tmp = "results_new" # if language == "english" else "results_languages"
 
-    # Load huggingface api key
-    api_key_huggingface = load_api_key(path=base_path.parent.joinpath('huggingface_key.txt'))
-    
-    # Check model 
-    llm_model = [llm_model] if isinstance(llm_model, str) else llm_model
-    for llm in llm_model: 
-        # Check language 
-        languages_vignette = [languages_vignette] if isinstance(languages_vignette, str) else languages_vignette
-        for language_vignette in languages_vignette:
-            
-            results_folder = base_path.joinpath(results_folder_tmp,llm,language_vignette)
-            results_folder.mkdir(parents=True, exist_ok=True)
-            # load vignettes with labels
-            if language_vignette == "english":
-                data_path = base_path.joinpath("data",f"Data_final_updated.csv")
-            else:
-                data_path = base_path.joinpath("data","multi-languages",f"{language_vignette}",f"Data_final_{language_vignette}.csv")
-            data = pd.read_csv(data_path, encoding='utf-8')
-            # data = data[data.gpt_translated]
-            # Generate prompts for each category
-            prompt_builder = PromptBuilder(df_vignettes=data, prompts_path=prompt_path, prompt_id=prompt_id, language=language)
-            all_prompts, index_mapping = generate_prompts(data, prompt_builder)
-            print(all_prompts[0])
-            
-            # Initialize model & process prompts in batches
-            free_memory()
-            model_path = Path(config_dict[f"{llm}_path"])
-            model = LLMModel(model_path, max_new_tokens=max_new_tokens, api_key_huggingface=api_key_huggingface)
-            responses = model.process_all_batches(all_prompts, batch_size=batch_size)
+    for level in ["low","medium","high"]:
 
-            # Evaluate model output for top 3 results
-            evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm, results_folder, prompt_id, language)
-            free_memory()
-        # Delete downloaded model from cache
-        subprocess.run("rm -rf ~/.cache/huggingface/*", shell=True, check=True)
+        results_folder_tmp = f"results_{level}" # if language == "english" else "results_languages"
+
+        # Load huggingface api key
+        api_key_huggingface = load_api_key(path=base_path.parent.joinpath('huggingface_key.txt'))
+        
+        # Check model 
+        llm_model = [llm_model] if isinstance(llm_model, str) else llm_model
+        for llm in llm_model: 
+            # Check language 
+            languages_vignette = [languages_vignette] if isinstance(languages_vignette, str) else languages_vignette
+            for language_vignette in languages_vignette:
+                
+                results_folder = base_path.joinpath(results_folder_tmp,llm,language_vignette)
+                results_folder.mkdir(parents=True, exist_ok=True)
+                # load vignettes with labels
+                data_path = base_path.joinpath("code","paraphrased_outputs",f"Data_final_updated_v1_{level}.csv")
+
+                data = pd.read_csv(data_path, encoding='utf-8')
+                # Generate prompts for each category
+                prompt_builder = PromptBuilder(df_vignettes=data, prompts_path=prompt_path, prompt_id=prompt_id, language=language)
+                all_prompts, index_mapping = generate_prompts(data, prompt_builder)
+                print(all_prompts[0])
+                
+                # Initialize model & process prompts in batches
+                free_memory()
+                model_path = Path(config_dict[f"{llm}_path"])
+                model = LLMModel(model_path, max_new_tokens=max_new_tokens, api_key_huggingface=api_key_huggingface)
+                responses = model.process_all_batches(all_prompts, batch_size=batch_size)
+
+                # Evaluate model output for top 3 results
+                evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm, results_folder, prompt_id, language)
+                free_memory()
+            # Delete downloaded model from cache
+            subprocess.run("rm -rf ~/.cache/huggingface/*", shell=True, check=True)
 
         
 

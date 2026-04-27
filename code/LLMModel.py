@@ -12,7 +12,6 @@ class LLMModel:
         # Load tokenizer
         self.tokenizer = AutoTokenizer.from_pretrained(model_path, token=api_key_huggingface)
         self._eos_token_id = self.tokenizer.eos_token_id
-        self._is_gpt_oss = "gpt-oss" in (str(model_path) or "").lower()
 
         # Ensure a neutral pad token
         if self.tokenizer.pad_token is None:
@@ -23,42 +22,31 @@ class LLMModel:
                 self._eos_token_id = self.tokenizer.convert_tokens_to_ids('[PAD]')
 
         if use_gpu:
-            if self._is_gpt_oss:
-                # GPT-OSS path: no accelerate, no bnb; rely on native dtype + device_map
-                self.model = AutoModelForCausalLM.from_pretrained(
-                    str(model_path),
-                    token=api_key_huggingface,
-                    torch_dtype=torch.bfloat16, # "auto" lets HF pick bf16 on capable GPUs
-                    device_map="auto",
-                    trust_remote_code=True,
-                    low_cpu_mem_usage=True,
-                )
-            else:
-                from accelerate import Accelerator
-                from transformers import BitsAndBytesConfig
+            from accelerate import Accelerator
+            from transformers import BitsAndBytesConfig
 
-                # Initialize accelerator
-                self.accelerator = Accelerator(mixed_precision="bf16")
+            # Initialize accelerator
+            self.accelerator = Accelerator(mixed_precision="bf16")
 
-                # Quantization config with correct compute dtype
-                bnb_config = BitsAndBytesConfig(
-                    load_in_4bit=True,
-                    bnb_4bit_compute_dtype=torch.float16,
-                    llm_int8_skip_modules=None  # Optional: skip quantization for specific modules
-                )
+            # Quantization config with correct compute dtype
+            bnb_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_compute_dtype=torch.float16,
+                llm_int8_skip_modules=None  # Optional: skip quantization for specific modules
+            )
 
-                # Load quantized model
-                self.model = AutoModelForCausalLM.from_pretrained(
-                    model_path,
-                    device_map="auto",
-                    quantization_config=bnb_config,
-                    torch_dtype=torch.float16,
-                    low_cpu_mem_usage=True,
-                    token=api_key_huggingface
-                )
+            # Load quantized model
+            self.model = AutoModelForCausalLM.from_pretrained(
+                model_path,
+                device_map="auto",
+                quantization_config=bnb_config,
+                torch_dtype=torch.float16,
+                low_cpu_mem_usage=True,
+                token=api_key_huggingface
+            )
 
-                # Prepare model with accelerator
-                self.model = self.accelerator.prepare(self.model)
+            # Prepare model with accelerator
+            self.model = self.accelerator.prepare(self.model)
 
         else:
             # Load model for CPU inference

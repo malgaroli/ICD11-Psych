@@ -1,0 +1,111 @@
+# ICD-11 Mood-related Disorders -- Diagnostic Guidelines: Essential Features 
+## L1  Single Episode Depressive Disorder
+- Presence or history of a single Depressive Episode (see above Essential Features).
+ 
+- There is no history of Manic, Mixed, or Hypomanic Episodes, which would indicate the presence of a Bipolar Disorder.
+
+
+## L2  Recurrent Depressive Disorder
+- A history of at least two Depressive Episodes (see above Essential Features), which may include a current episode, separated by several months without significant mood disturbance.
+ 
+- There is no history of Manic, Mixed, or Hypomanic Episodes, which would indicate the presence of a Bipolar Disorder.
+
+
+## L3  Dysthymic Disorder
+- Persistent depressed mood (e.g., lasting 2 years or more), during more of the time than not, as reported by the individual (i.e., feeling down, sad) or as observed (i.e., tearful, defeated appearance).
+ 
+- The depressed mood is accompanied by additional characteristic symptoms such as: 
+    - Markedly diminished interest or pleasure in activities
+    - Reduced energy or fatigue
+    - Reduced concentration and attention or indecisiveness
+    - Beliefs of worthlessness or excessive or inappropriate guilt
+    - Beliefs of hopelessness about the future
+    - Recurrent thoughts of death
+    - Disturbed sleep or increased sleep
+    - Diminished or increased appetite
+    - Psychomotor agitation or retardation
+    - The depressive symptoms result in considerable subjective distress or significant impairment in personal, family, social, educational, occupational, or other important areas of functioning.
+    - There is no history of Manic, Mixed, or Hypomanic Episodes, which would indicate the presence of a Bipolar or related disorder.
+
+
+
+## L4  Mixed Depressive and Anxiety Disorder
+- The presence of both depressive and anxiety symptoms during more of the time than not for a period of two weeks or more.​
+ 
+- Neither the depressive nor the anxiety symptoms, considered separately, are sufficiently severe, numerous, or lasting to justify a diagnosis of another Depressive Disorder or an Anxiety and Fear-Related Disorder.​
+ 
+- Depressive symptoms include depressed mood or markedly diminished interest or pleasure in activities, especially those normally found to be enjoyable to the individual.​
+ 
+- There are multiple anxiety symptoms, which may include feeling nervous, anxious or on edge, not being able to control worrying thoughts, fear that something awful will happen, having trouble relaxing, motor tension, or sympathetic autonomic symptoms.​
+ 
+- There is no history of Manic or Mixed Episodes, which would indicate the presence of a Bipolar Disorder.​
+ 
+- The symptoms result in considerable subjective distress or significant impairment in personal, family, social, educational, occupational, or other important areas of functioning.
+
+
+## L5  Bipolar Type I Disorder
+- A history of at least one Manic or Mixed Episode (see above Essential Features for mood episodes). Although a single Manic or Mixed Episode is sufficient for a diagnosis of Bipolar Type I Disorder, the typical course of the disorder is characterized by recurrent Depressive and Manic or Mixed Episodes. Although some episodes may be Hypomanic, there must be a history of at least one Manic or Mixed episode.
+
+
+## L6  Bipolar Type II Disorder
+- A history of at least one Hypomanic Episode and at least one Depressive Episode (see above Essential Features for mood episodes). The typical course of the disorder is characterized by recurrent Depressive and Hypomanic Episodes. 
+
+
+## L7  Cyclothymic Disorder
+- Over the course of at least 2 years, during more of the time than not, numerous periods of mood instability that include periods of:​
+    - Hypomanic symptomatology that may or may not be sufficiently severe or prolonged to meet the full definitional requirements of a Hypomanic Episode.​
+    - Depressive symptomatology that is not sufficiently severe or prolonged to meet the full definitional requirements of a Depressive Episode.​
+ 
+- The mood symptoms result in considerable subjective distress or significant impairment in personal, family, social, educational, occupational, or other important areas of functioning.​
+ 
+- There is no history of Manic, Mixed, or Depressive Episodes.
+
+
+## L8  Other Mood Disorder
+- The clinical presentation does not satisfy the definitional requirements of any other disorder in the Mood Disorders grouping.​
+ 
+- The symptoms are not better explained by another Mental and Behavioural Disorder (e.g., a Psychotic Disorder, an Anxiety or Fear-Related Disorder, or a Disorder Specifically Associated with Stress).​
+ 
+- The clinical presentation is judged to be a Mental and Behavioural Disorder that shares primary clinical features with other Mood Disorders (e.g., several symptoms occurring together such as depressed or elevated mood, increased or decreased engagement in pleasurable activities, increased or decreased energy levels, disruptions in sleep or eating, etc.).​
+ 
+- The symptoms and behaviours are not developmentally appropriate, culturally sanctioned, or a manifestation of another health condition (e.g., brain tumor).​
+ 
+- The symptoms cause significant distress or significant impairment in personal, family, social, educational, occupational or other important areas of functioning.
+
+
+## N1  Generalized Anxiety Disorder
+- Marked symptoms of anxiety accompanied by either:
+    - general apprehensiveness that is not restricted to any particular environmental circumstance (i.e., “free-floating anxiety”); or
+    - worry (apprehensive expectation) about untoward events occurring in several different aspects of everyday life (e.g., work, finances, health, family).
+​
+- Anxiety and general apprehensiveness or worry are accompanied by additional symptoms, such as:
+    - Muscle tension or motor restlessness.​ 
+    - Sympathetic autonomic overactivity as evidenced by frequent gastrointestinal symptoms such as nausea and/or abdominal distress, heart palpitations, sweating, trembling, shaking, and/or dry mouth.​  
+    - Subjective experience of nervousness, restlessness, or being “on edge”.​  
+    - Difficulties maintaining concentration.​
+    - Irritability.​
+    - Sleep disturbances (difficulty falling or staying asleep, or restless, unsatisfying sleep).​
+ 
+- The symptoms are not transient and persist for at least several months, for more days than not.​
+ 
+- The symptoms are sufficiently severe to result in significant distress about experiencing persistent anxiety symptoms or result in significant impairment in personal, family, social, educational, occupational, or other important areas of functioning.
+
+
+## P1  Prolonged Grief Disorder 
+- History of bereavement following the death of a partner, parent, child, or other person close to the bereaved.​
+ 
+- A persistent and pervasive grief response characterized by longing for the deceased or persistent preoccupation with the deceased accompanied by intense emotional pain (e.g., sadness, guilt, anger, denial, blame, difficulty accepting the death, feeling one has lost a part of one’s self, an inability to experience positive mood, emotional numbness, difficulty in engaging with social or other activities).​
+ 
+- The grief response has persisted for an atypically long period of time following the loss, clearly exceeding expected social, cultural or religious norms for the individual’s culture and context. Grief responses within 6 months of the bereavement, and for longer periods in some cultural contexts, should not be regarded as meeting this requirement.​
+ 
+- The disturbance causes significant impairment in personal, family, social, educational, occupational or other important areas of functioning. If functioning is maintained only through significant additional effort, or is significantly impaired compared to the individual's prior functioning or what would be expected, then he or she would be considered impaired due to the disturbance. 
+
+
+## P2  Adjustment Disorder
+- A maladaptive reaction to an identifiable psychosocial stressor or multiple stressors (e.g., single stressful event, ongoing psychosocial difficulty or a combination of stressful life situations) that usually emerges within a month of the stressor. Examples include divorce, illness or disability, socio-economic problems and conflicts at home or work.​
+ 
+- The reaction to the stressor is characterized by preoccupation with the stressor or its consequences, including excessive worry, recurrent and distressing thoughts about the stressor, or constant rumination about its implications.
+ 
+- Failure to adapt to the stressor causes significant impairment in personal, family, social, educational, occupational or other important areas of functioning. If functioning is maintained only through significant additional effort, or is significantly impaired compared to the individual's prior functioning or what would be expected, then the he or she would be considered impaired due to the disturbance. 
+
+

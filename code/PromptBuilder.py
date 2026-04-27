@@ -7,6 +7,7 @@ class PromptBuilder:
     """
     def __init__(self, df_vignettes=None, prompts_path=None, prompt_id='prompt_ddx', language='en'):
         self.prompt_dict = self.load_json(prompts_path.joinpath("prompts.json"))[language][prompt_id]
+        self.essential_path = prompts_path
         self.df_vignettes = df_vignettes
 
     def load_txt(self, path):
@@ -44,6 +45,10 @@ class PromptBuilder:
             else:
                 instruction_prompt = self.prompt_dict['instruction']
             user_prompt = instruction_prompt.replace('{vignette}', vignette).replace('{cot_text}',cot_text)
+
+            if "{essential_features}" in user_prompt:
+                essential_features = self.load_txt(self.essential_path.joinpath(f"ICD11_{category.lower()}_essentials.txt"))
+                user_prompt = user_prompt.replace("{essential_features}", essential_features)
 
             prompts.append({
                 "id": f"{category}_{vignette_id}",

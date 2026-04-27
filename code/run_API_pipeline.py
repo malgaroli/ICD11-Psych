@@ -70,7 +70,7 @@ def generate_prompts(data, prompt_builder):
     return all_prompts, index_mapping
 
 
-def evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm_model, results_folder, prompt_id, language):
+def evaluate_model_outputs(data, all_prompts, responses, index_mapping, llm_model, results_folder, prompt_id, language):
     # Build results DataFrame
     df = pd.DataFrame(index_mapping, columns=["Category", "DataIndex"])
     df["Prompt"] = [all_prompts[i]["prompt"][0]["content"] for i in range(len(index_mapping))]
@@ -134,30 +134,115 @@ def calculate_performance_across_categories(df):
 
     return pd.DataFrame([stats])
 
-def load_api_key(path="huggingface_key.txt") -> str:
+def load_api_key(path="token.txt") -> str:
     with open(path, "r", encoding="utf-8") as f:
         return f.read().strip()
+
+def run_API_LLM(messages, API_KEY, model_version="gpt-5.1/v1.0.0"):
+    if "gpt" in model_version:
+        return run_gpt(messages, API_KEY, model_version)
+    elif ("sonnet" in model_version) or ("opus" in model_version):
+        return run_claude(messages, API_KEY, model_version)
+    elif "gemini" in model_version:
+        return run_gemini(messages, API_KEY, model_version)
+    else:
+        Warning("No such model")
+        
+    
+def run_gpt(messages, API_KEY, model_version="gpt-5.1/v1.0.0"):
+    # gpt-5.1/v1.0.0, gpt-4o/v1.4.0
+    from openai import OpenAI
+    model_version = "gpt-4o/v1.3.0"
+    ## Select your model by (un)commenting the right line.
+    endpoint = f"https://kong-api.prod1.nyumc.org/{model_version}"
+
+    deployment = "required-but-not-used-by-openai-lib"
+        
+    client = OpenAI(
+        base_url=endpoint,
+        api_key=API_KEY,
+        default_headers={"api-key": API_KEY},
+    )
+    
+    completion = client.chat.completions.create(
+        model=deployment,
+        messages=messages
+    )
+
+    assert completion.choices, "Expected at least one choice in the response."
+    response = completion.choices[0].message.content
+    # response = "test"
+    return response
+
+def run_claude(messages, API_KEY, model_version="opus-4.6/v2.0.0"):
+    # sonnet-4.5/v2.0.0, opus-4.6/v2.0.0
+    from openai import OpenAI
+
+    ## Select your model by (un)commenting the right line.
+    endpoint = f"https://kong-api.prod1.nyumc.org/{model_version}"
+
+    deployment = "required-but-not-used-by-openai-lib"
+        
+    client = OpenAI(
+        base_url=endpoint,
+        api_key=API_KEY,
+        default_headers={"api-key": API_KEY},
+    )
+    
+    completion = client.chat.completions.create(
+        model=deployment,
+        messages=messages
+    )
+
+    assert completion.choices, "Expected at least one choice in the response."
+    response = completion.choices[0].message.content
+    # response = "test"
+    return response
+
+def run_gemini(messages, API_KEY, model_version="gemini-2.5-pro/v1.0.0"):
+
+    # e.g. gemini-2.5-flash-lite/v1.0.0
+
+    from openai import OpenAI
+
+    ## Select your model by (un)commenting the right line.
+    endpoint = f"https://kong-api.prod1.nyumc.org/{model_version}"
+
+    deployment = "required-but-not-used-by-openai-lib"
+        
+    client = OpenAI(
+        base_url=endpoint,
+        api_key=API_KEY,
+        default_headers={"api-key": API_KEY},
+    )
+    
+    completion = client.chat.completions.create(
+        model=deployment,
+        messages=messages
+    )
+
+    assert completion.choices, "Expected at least one choice in the response."
+    response = completion.choices[0].message.content
+    # response = "test"
+    return response
+    
     
 def main():
     # set prompt and pipeline parameters
     pipeline_params = load_config(Path(__file__).parent.joinpath("pipeline_params.json"))
-    llm_model      = pipeline_params.get('llm_model', "llama31_8B")
+    llm_model      = pipeline_params.get('llm_model', "gpt-5.1/v1.0.0")
     prompt_id      = pipeline_params.get('prompt_id','prompt_ddx_qualtrics_modified')
     language       = pipeline_params.get('language', 'english')
     languages_vignette = pipeline_params.get('languages_vignette', 'english')
-    batch_size     = pipeline_params.get('batch_size', 1)
-    max_new_tokens = pipeline_params.get('max_new_tokens', 512)
-    
-    print(prompt_id)
 
     # set paths
     config_dict = load_config(file=Path(__file__).parent.joinpath("config_paths.json"))[DEPLOYMENT_TYPE]
     base_path = Path(config_dict['base_path'])
     prompt_path = base_path.joinpath("code")
-    results_folder_tmp = "results_new" # if language == "english" else "results_languages"
+    results_folder_tmp = "results_new" if language == "english" else "results_languages"
 
     # Load huggingface api key
-    api_key_huggingface = load_api_key(path=base_path.parent.joinpath('huggingface_key.txt'))
+    API_KEY = load_api_key(path=base_path.joinpath('token.txt'))
     
     # Check model 
     llm_model = [llm_model] if isinstance(llm_model, str) else llm_model
@@ -174,24 +259,33 @@ def main():
             else:
                 data_path = base_path.joinpath("data","multi-languages",f"{language_vignette}",f"Data_final_{language_vignette}.csv")
             data = pd.read_csv(data_path, encoding='utf-8')
-            # data = data[data.gpt_translated]
+
             # Generate prompts for each category
             prompt_builder = PromptBuilder(df_vignettes=data, prompts_path=prompt_path, prompt_id=prompt_id, language=language)
             all_prompts, index_mapping = generate_prompts(data, prompt_builder)
-            print(all_prompts[0])
-            
-            # Initialize model & process prompts in batches
-            free_memory()
-            model_path = Path(config_dict[f"{llm}_path"])
-            model = LLMModel(model_path, max_new_tokens=max_new_tokens, api_key_huggingface=api_key_huggingface)
-            responses = model.process_all_batches(all_prompts, batch_size=batch_size)
+            model_version = config_dict[f"{llm}_path"]
+            list_responses = []
+            # Call llm via API & process prompts in batches
+            for vp in all_prompts:
+                id = vp['id']
+                prompt = vp['prompt']
+                
+                # call GPT model with prompt
+                response = run_API_LLM(prompt, API_KEY, model_version)
+                output_json = {
+                    'record_id': id, 
+                    'prompt': prompt[0]['content'],
+                    'output': response}
+                list_responses.append({id : response})
+
+                # Save a backup for each run
+                backup_folder = results_folder.joinpath(f"{llm}_backup")
+                backup_folder.mkdir(exist_ok=True)
+                df_backup = pd.DataFrame([output_json])
+                df_backup.to_csv(backup_folder.joinpath(f"zeroShot_{llm}_{id}.csv"), index=False)
 
             # Evaluate model output for top 3 results
-            evaluate_model_outputs(data, model, all_prompts, responses, index_mapping, llm, results_folder, prompt_id, language)
-            free_memory()
-        # Delete downloaded model from cache
-        subprocess.run("rm -rf ~/.cache/huggingface/*", shell=True, check=True)
-
+            evaluate_model_outputs(data, all_prompts, list_responses, index_mapping, llm, results_folder, prompt_id, language)
         
 
 if __name__ == "__main__":
