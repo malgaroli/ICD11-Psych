@@ -8,11 +8,18 @@ Clean WHO Clinicians Dataset
 
 import pandas as pd
 from pathlib import Path
+import json
 
 # ---------------------------------------------------------------------------
 # Configuration — update paths here
 # ---------------------------------------------------------------------------
-BASE_PATH = Path("/Users/muellv01/Library/CloudStorage/OneDrive-NYULangoneHealth/Projects/ICD11_WHO")
+def load_config(file):
+    with open(file) as f:
+        config_dict = json.load(f)
+    return config_dict
+
+config_dict = load_config(file=Path(__file__).parents[1].joinpath("config_paths.json"))["hpc"]
+BASE_PATH = Path(config_dict['base_path'])
 RESULTS_FOLDER = BASE_PATH / "results_Apr26" / "clinicians" / "cleaned"
 CLINICIAN_FILE = BASE_PATH / "results_Apr26" / "clinicians" / "raw" / "WHO_Clinicians_Dataset.xlsx"
 

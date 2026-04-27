@@ -56,6 +56,7 @@ from icd11_utils import (
     load_results,
     sort_models,
 )
+import json
 from stats_utils import (
     CATEGORIES,
     NI_MARGIN,
@@ -71,7 +72,13 @@ from stats_utils import (
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
-BASE_PATH      = Path("/Users/muellv01/Library/CloudStorage/OneDrive-NYULangoneHealth/Projects/ICD11_WHO")
+def load_config(file):
+    with open(file) as f:
+        config_dict = json.load(f)
+    return config_dict
+
+config_dict = load_config(file=Path(__file__).parents[1].joinpath("config_paths.json"))["hpc"]
+BASE_PATH = Path(config_dict['base_path'])
 RESULTS_FOLDER = BASE_PATH / "results_Apr26"
 
 CLINICIAN_FILE = RESULTS_FOLDER / "_results" / "clinicians" / "clinicians_harmonised.csv"
