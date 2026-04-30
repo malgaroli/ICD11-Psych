@@ -37,6 +37,7 @@ from pathlib import Path
 import pandas as pd
 from sklearn.metrics import classification_report
 import json
+import numpy as np
 
 from icd11_utils import (
     sort_models,
@@ -54,6 +55,21 @@ from icd11_utils import (
     plot_confusion_matrix_pct_fixed
 )
 
+import matplotlib.colors as mcolors
+
+# custom_cmap_llm = mcolors.LinearSegmentedColormap.from_list(
+#     "custom_purple", ["#FFFFFF", "#D0CAF0", "#9287C1"]
+# )
+# custom_cmap_llm = mcolors.LinearSegmentedColormap.from_list(
+#     "custom_purple", custom_cmap_llm(np.linspace(0, 1, 256)**0.5)
+# )
+
+custom_cmap_llm = mcolors.LinearSegmentedColormap.from_list(
+    "custom_purple", ["#FFFFFF", "#D0CAF0", "#6B5FA8"]  # darker endpoint
+)
+custom_cmap_llm = mcolors.LinearSegmentedColormap.from_list(
+    "custom_purple", custom_cmap_llm(np.linspace(0, 1, 256)**0.5)  # stronger gamma
+)
 # ---------------------------------------------------------------------------
 # Configuration — update paths here
 # ---------------------------------------------------------------------------
@@ -64,7 +80,7 @@ def load_config(file):
 
 config_dict = load_config(file=Path(__file__).parents[1].joinpath("config_paths.json"))["hpc"]
 BASE_PATH = Path(config_dict['base_path'])
-RESULTS_FOLDER = BASE_PATH / "results_Apr26"
+RESULTS_FOLDER = BASE_PATH / "results_resubmission"
 FIGURES_FOLDER = RESULTS_FOLDER / "_Figures"
 FIGURES_FOLDER.mkdir(exist_ok=True)
 
@@ -262,7 +278,8 @@ for LANGUAGE in LANGUAGES:
             y_true_cat, y_pred_cat,
             labels=cat_labels,
             title=f"{cat}",
-            save_path=output_dir / f"cm_{cat}_ALL_MODELS_percentage_fixed.png", category=cat, language=LANGUAGE
+            save_path=output_dir / f"cm_{cat}_ALL_MODELS_percentage_fixed_sym_darker2.png", category=cat, language=LANGUAGE, 
+            cmap=custom_cmap_llm
         )
 
     print(f"\nAll outputs saved to {output_dir}/")

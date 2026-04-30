@@ -1,6 +1,6 @@
 {
     "hpc" : {
-        "base_path" :"path/to/ICD11-Psych",
+        "base_path" :"/Users/muellv01/Library/CloudStorage/OneDrive-NYULangoneHealth/Projects/ICD11_WHO",
         "llama31_8B_path" : "meta-llama/Llama-3.1-8B-Instruct",
         "llama33_70B_path" : "/gpfs/data/schultebrauckslab/ml_resources/LLM_models/Meta-Llama-3-3-70B-Instruct",
         "mistral_7B_path" : "mistralai/Mistral-7B-Instruct-v0.2",

@@ -39,8 +39,20 @@ from icd11_utils import (
     plot_confusion_matrix_pct,
     plot_confusion_matrix_pct_fixed
 )
+import matplotlib.colors as mcolors
 
-
+# custom_cmap_cli = mcolors.LinearSegmentedColormap.from_list(
+#     "custom_blue", ["#FFFFFF", "#B2CDE7", "#4A7FAD"]
+# )
+# custom_cmap_cli = mcolors.LinearSegmentedColormap.from_list(
+#     "custom_blue", custom_cmap_cli(np.linspace(0, 1, 256)**0.5)
+# )
+custom_cmap_cli = mcolors.LinearSegmentedColormap.from_list(
+    "custom_blue", ["#FFFFFF", "#B2CDE7", "#2E5F8A"]  # darker endpoint
+)
+custom_cmap_cli = mcolors.LinearSegmentedColormap.from_list(
+    "custom_blue", custom_cmap_cli(np.linspace(0, 1, 256)**0.5)  # stronger gamma
+)
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
@@ -51,7 +63,7 @@ def load_config(file):
 
 config_dict = load_config(file=Path(__file__).parents[1].joinpath("config_paths.json"))["hpc"]
 BASE_PATH = Path(config_dict['base_path'])
-RESULTS_FOLDER = BASE_PATH / "results_Apr26"
+RESULTS_FOLDER = BASE_PATH / "results_resubmission"
 CLINICIAN_FILE = RESULTS_FOLDER / "clinicians" / "cleaned" / "clinicians_cleaned.xlsx"
 
 OUTPUT_DIR = RESULTS_FOLDER / "_results" / "clinicians"
@@ -942,9 +954,10 @@ def main():
             y_pred_cat,
             labels=cat_labels,
             title=f"{cat}",
-            save_path=OUTPUT_DIR / f"cm_{cat}_clinicians_percentage_fixed.png",
+            save_path=OUTPUT_DIR / f"cm_{cat}_clinicians_percentage_fixed_sym_darker2.png",
             category=cat,
             language="english",
+            cmap=custom_cmap_cli
         )
 
     print(f"\nAll outputs saved to {OUTPUT_DIR}/")

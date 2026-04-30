@@ -20,8 +20,8 @@ def load_config(file):
 
 config_dict = load_config(file=Path(__file__).parents[1].joinpath("config_paths.json"))["hpc"]
 BASE_PATH = Path(config_dict['base_path'])
-RESULTS_FOLDER = BASE_PATH / "results_Apr26" / "clinicians" / "cleaned"
-CLINICIAN_FILE = BASE_PATH / "results_Apr26" / "clinicians" / "raw" / "WHO_Clinicians_Dataset.xlsx"
+RESULTS_FOLDER = BASE_PATH / "results_resubmission" / "clinicians" / "cleaned"
+CLINICIAN_FILE = BASE_PATH / "results_resubmission" / "clinicians" / "raw" / "WHO_Clinicians_Dataset.xlsx"
 
 
 check_missingness_1 = "P1_Final_Dx"
@@ -285,6 +285,9 @@ debug_sheets["Multi_Cat_by_Language"] = multi_cat_by_lang
 print(f"  Debug — Multi-category participants: {len(multi_cat)} IDs overall, "
       f"{len(multi_cat_by_lang)} ID×Language combos")
 
+print(f"  Debug — 2-category participants: {len(id_lang_cats[id_lang_cats.Categories.apply(len) == 2])} IDs overall")
+print(f"  Debug — 3-category participants: {len(id_lang_cats[id_lang_cats.Categories.apply(len) == 3])} IDs overall")
+
 # 6) Participants who filled out more than 2 vignettes within a category
 #    (each participant should rate exactly 2 vignettes per category)
 vignette_counts = df_demo.groupby(["ID", "Category", "Language"])["Vignette_ID"].nunique().reset_index()
@@ -437,15 +440,167 @@ print(df_table1_b.to_string())
 print("=" * 80)
 
 # ---------------------------------------------------------------------------
+# Build Table S17: clinician characteristics per study and language
+# Columns = languages; rows = variables; studies appear as bold header rows
+# ---------------------------------------------------------------------------
+
+LANG_ORDER = ["Chinese", "English", "French", "Japanese", "Russian", "Spanish"]
+REGION_ORDER = [
+    "Africa", "Americas-North", "Americas-South", "Eastern Mediterranean",
+    "Europe", "South-East Asia", "Western Pacific-Asia", "Western Pacific-Oceania", "Other",
+]
+SEX_ORDER = ["Male", "Female", "Other"]
+DISC_ORDER = [
+    "Counseling", "Medicine", "Nursing", "Psychology", "Social Work",
+    "Occupational Therapy", "Sex Therapy", "Certified Peer Support Worker", "Other",
+]
+
+
+def compute_lang_col(grp: pd.DataFrame, n: int) -> dict:
+    """Return {variable_label: formatted_value} for one language×study cell."""
+    out = {}
+
+    if "Region" in grp.columns:
+        rc = grp["Region"].value_counts()
+        for r in REGION_ORDER:
+            cnt = rc.get(r, 0)
+            out[f"  {r}"] = f"{cnt} ({cnt/n*100:.1f}%)" if cnt else "0"
+
+    if "Gender" in grp.columns:
+        sc = grp["Gender"].value_counts()
+        for s in SEX_ORDER:
+            cnt = sc.get(s, 0)
+            out[f"  {s}"] = f"{cnt} ({cnt/n*100:.1f}%)" if cnt else "0"
+
+    if "Profession" in grp.columns:
+        dc = grp["Profession"].value_counts()
+        for d in DISC_ORDER:
+            cnt = dc.get(d, 0)
+            out[f"  {d}"] = f"{cnt} ({cnt/n*100:.1f}%)" if cnt else "0"
+
+    if "Age_Current" in grp.columns:
+        age = grp["Age_Current"].dropna()
+        out["Age"] = f"{age.mean():.2f} ({age.std():.2f})" if len(age) else "—"
+
+    if "Years_Exp_Current" in grp.columns:
+        yrs = grp["Years_Exp_Current"].dropna()
+        out["Years of Experience"] = f"{yrs.mean():.2f} ({yrs.std():.2f})" if len(yrs) else "—"
+
+    return out
+
+
+def build_table_s17(df_demo: pd.DataFrame, demo_dedup_cols: list) -> pd.DataFrame:
+    """
+    Build Table S17: rows = variables, columns = languages.
+    Each study (Anxiety, Mood, Stress) is introduced by a bold-label row
+    showing per-language N, followed by the variable rows.
+    """
+    all_rows   = []   # list of dicts {variable, Chinese, English, ...}
+    bold_flags = []   # parallel list: True if this row should be bold
+
+    # Pre-compute per-language overall N (header row of the table)
+    overall_dedup = df_demo[demo_dedup_cols].drop_duplicates(subset=["ID", "Language"], keep="first")
+    lang_overall_n = {
+        lang: len(overall_dedup[overall_dedup["Language"] == lang])
+        for lang in LANG_ORDER
+    }
+
+    # Header row: overall N per language
+    header = {"Study language": "Overall N"}
+    header.update({lang: f"n = {lang_overall_n[lang]}" for lang in LANG_ORDER})
+    all_rows.append(header)
+    bold_flags.append(True)
+
+    # Section rows: Region / Sex / Discipline labels (no values, just labels)
+    section_labels = {
+        "Region": REGION_ORDER,
+        "Sex": SEX_ORDER,
+        "Discipline": DISC_ORDER,
+    }
+
+    for cat in ["Anxiety", "Mood", "Stress"]:
+        cat_data = df_demo.loc[df_demo["Category"] == cat, demo_dedup_cols]
+
+        # --- Study header row (bold) with per-language N ---
+        study_row = {"Study language": f"{cat} Study"}
+        for lang in LANG_ORDER:
+            n = len(cat_data[cat_data["Language"] == lang].drop_duplicates(subset="ID", keep="first"))
+            study_row[lang] = f"n = {n}"
+        all_rows.append(study_row)
+        bold_flags.append(True)
+
+        # --- Section + variable rows ---
+        # Build variable list in display order, prepending section headers
+        var_sections = [
+            ("Region",     REGION_ORDER,  "Region"),
+            ("Sex",        SEX_ORDER,     "Gender"),
+            ("Discipline", DISC_ORDER,    "Profession"),
+        ]
+
+        # Collect per-language data once
+        lang_data = {}
+        lang_n    = {}
+        for lang in LANG_ORDER:
+            grp = cat_data[cat_data["Language"] == lang].drop_duplicates(subset="ID", keep="first")
+            lang_data[lang] = grp
+            lang_n[lang]    = len(grp)
+
+        for section_label, items, col in var_sections:
+            # Section header row (not bold)
+            sec_row = {"Study language": section_label}
+            sec_row.update({lang: "" for lang in LANG_ORDER})
+            all_rows.append(sec_row)
+            bold_flags.append(False)
+
+            for item in items:
+                item_row = {"Study language": f"  {item}"}
+                for lang in LANG_ORDER:
+                    grp = lang_data[lang]
+                    n   = lang_n[lang]
+                    if col == "Region":
+                        cnt = (grp["Region"] == item).sum() if "Region" in grp.columns else 0
+                    elif col == "Gender":
+                        cnt = (grp["Gender"] == item).sum() if "Gender" in grp.columns else 0
+                    else:
+                        cnt = (grp["Profession"] == item).sum() if "Profession" in grp.columns else 0
+                    item_row[lang] = f"{cnt} ({cnt/n*100:.1f}%)" if (cnt and n) else "0"
+                all_rows.append(item_row)
+                bold_flags.append(False)
+
+        # Continuous variables
+        for var_label, col in [("Age", "Age_Current"), ("Years of Experience", "Years_Exp_Current")]:
+            var_row = {"Study language": var_label}
+            for lang in LANG_ORDER:
+                grp = lang_data[lang]
+                vals = grp[col].dropna() if col in grp.columns else pd.Series(dtype=float)
+                var_row[lang] = f"{vals.mean():.2f} ({vals.std():.2f})" if len(vals) else "—"
+            all_rows.append(var_row)
+            bold_flags.append(False)
+
+        # Blank spacer between studies
+        spacer = {"Study language": ""}
+        spacer.update({lang: "" for lang in LANG_ORDER})
+        all_rows.append(spacer)
+        bold_flags.append(False)
+
+    df_s17 = pd.DataFrame(all_rows, columns=["Study language"] + LANG_ORDER)
+    df_s17["_bold"] = bold_flags   # carry bold flag; stripped before saving
+    return df_s17
+
+
+df_s17 = build_table_s17(df_demo, demo_dedup_cols)
+
+# ---------------------------------------------------------------------------
 # Write all sheets
 # ---------------------------------------------------------------------------
+from openpyxl.styles import Font, PatternFill, Alignment
+from openpyxl.utils import get_column_letter
+
 with pd.ExcelWriter(out_demo, engine="openpyxl") as writer:
     # Sheet 1: All ratings (long format, one row per vignette)
     df_demo.to_excel(writer, sheet_name="All_Ratings", index=False)
 
     # Sheet 2: Overall — one row per clinician (ID×Language), collapsing vignettes
-    #          Note: if a clinician did multiple categories, they appear once here
-    #          (first occurrence). The sum of per-category Ns may exceed Total N.
     df_overall = df_demo[demo_dedup_cols].drop_duplicates(
         subset=["ID", "Language"], keep="first"
     )
@@ -466,6 +621,27 @@ with pd.ExcelWriter(out_demo, engine="openpyxl") as writer:
     # Sheet 7: Table 1B — demographics by unique ID, language by ID×Language
     df_table1_b.to_excel(writer, sheet_name="Table1_UniqueID")
 
+    # Sheet 8: Table S17 — per study × language
+    bold_col = df_s17.pop("_bold")
+    df_s17.to_excel(writer, sheet_name="Table_S17", index=False)
+
+    # Apply bold formatting to study-header rows
+    ws = writer.sheets["Table_S17"]
+    header_fill = PatternFill(start_color="D9D9D9", end_color="D9D9D9", fill_type="solid")
+    bold_font   = Font(bold=True)
+    for row_idx, is_bold in enumerate(bold_col, start=2):   # +2: 1-based + header row
+        for cell in ws[row_idx]:
+            if is_bold:
+                cell.font = bold_font
+                cell.fill = header_fill
+    # Auto-width columns
+    for col_idx, col in enumerate(df_s17.columns, start=1):
+        max_len = max(
+            len(str(col)),
+            df_s17.iloc[:, col_idx - 1].astype(str).str.len().max()
+        )
+        ws.column_dimensions[get_column_letter(col_idx)].width = min(max_len + 2, 40)
+
 # Sanity check: compare Table 1 Ns with sheet row counts
 print("\n  Sanity check — Table 1 N vs sheet rows (should match):")
 for cat in ["Anxiety", "Mood", "Stress"]:
@@ -475,6 +651,6 @@ for cat in ["Anxiety", "Mood", "Stress"]:
     print(f"    {cat}: Table1_IDxLang N = {table1_a[cat]['N']}, Table1_UniqueID N = {table1_b[cat]['N']}, sheet rows = {len(cat_dedup)}")
 
 print(f"\n✅  Cleaned dataset saved  → {out_cleaned}  ({len(df_cleaned)} rows)")
-print(f"✅  Demographics saved    → {out_demo}  (7 sheets: All_Ratings, Overall, Anxiety, Mood, Stress, Table1_IDxLang, Table1_UniqueID)")
+print(f"✅  Demographics saved    → {out_demo}  (8 sheets: All_Ratings, Overall, Anxiety, Mood, Stress, Table1_IDxLang, Table1_UniqueID, Table_S17)")
 print(f"✅  Debug file saved      → {out_debug}  ({len(debug_sheets)} sheets: {', '.join(debug_sheets.keys())})")
 print("\nDone.")

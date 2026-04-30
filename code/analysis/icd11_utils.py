@@ -202,97 +202,108 @@ ENGLISH_CM_LABEL_ORDER = {
 }
 
 ANXIETY_X = {
-    "GAD":                                                       "Q1",
-    "Generalized Anxiety Disorder AND Panic Disorder":           "Q1 & Q2",
-    "Panic Disorder":                                            "Q2",
-    "Agoraphobia":                                               "Q3",
-    "Agoraphobia AND Panic Disorder":                            "Q3 & Q2",
-    "Specific Phobia":                                           "Q4",
-    "Specific Phobia AND Panic Disorder":                        "Q4 & Q2",
-    "Social Anxiety Disorder":                                   "Q5",
-    "Social Anxiety Disorder AND Panic Disorder":                "Q5 & Q2",
-    "Separation Anxiety Disorder":                               "Q6",
-    "Separation Anxiety Disorder AND Panic Disorder":            "Q6 & Q2",
-    "Selective Mutism":                                          "Q7",
-    "Other Anxiety and Fear-Related Disorder":                   "Q8",
-    "Unspecified Anxiety and Fear-Related Disorder":             "Q9",
+    "GAD":                                                       "6B00",
+    "Generalized Anxiety Disorder AND Panic Disorder":           "6B00 \n& 6B01",
+    "Panic Disorder":                                            "6B01",
+    "Agoraphobia":                                               "6B02",
+    "Agoraphobia AND Panic Disorder":                            "6B02 \n& 6B01",
+    "Specific Phobia":                                           "6B03",
+    "Specific Phobia AND Panic Disorder":                        "6B03 \n& 6B01",
+    "Social Anxiety Disorder":                                   "6B04",
+    "Social Anxiety Disorder AND Panic Disorder":                "6B04 \n& 6B01",
+    "Separation Anxiety Disorder":                               "6B05",
+    "Separation Anxiety Disorder AND Panic Disorder":            "6B05 \n& 6B01",
+    "Selective Mutism":                                          "6B06",
+    "Other Anxiety and Fear-Related Disorder":                   "6B0Y",
+    "Unspecified Anxiety and Fear-Related Disorder":             "6B0Z",
     "A different diagnosis":                                     "Other",
     "No Diagnosis":                                              "None",
 }
 
 ANXIETY_Y = {
-    "GAD":                                                       "Q1 (GAD)",
-    "Generalized Anxiety Disorder AND Panic Disorder":           "Q1 (GAD) & Q2 (Panic)",
-    "Panic Disorder":                                            "Q2 (Panic)",
-    "Agoraphobia":                                               "Q3 (Agoraphobia)",
-    "Agoraphobia AND Panic Disorder":                            "Q3 (Agoraphobia) & Q2 (Panic)",
-    "Specific Phobia":                                           "Q4 (Specific Phobia)",
-    "Specific Phobia AND Panic Disorder":                        "Q4 (Specific Phobia) & Q2 (Panic)",
-    "Social Anxiety Disorder":                                   "Q5 (Social Anxiety Disorder)",
-    "Social Anxiety Disorder AND Panic Disorder":                "Q5 (Social Anxiety Disorder) & Q2 (Panic)",
-    "Separation Anxiety Disorder":                               "Q6 (Separation)",
-    "Separation Anxiety Disorder AND Panic Disorder":            "Q6 (Separation) & Q2 (Panic)",
-    "Selective Mutism":                                          "Q7 (Selective Mutism)",
-    "Other Anxiety and Fear-Related Disorder":                   "Q8 (Other)",
-    "Unspecified Anxiety and Fear-Related Disorder":             "Q9 (Unspecified)",
-    "A different diagnosis":                                     "Other",
+    "GAD":                                                       "6B00 (GAD)",
+    "Generalized Anxiety Disorder AND Panic Disorder":           "6B00 (GAD) & 6B01 (Panic)",
+    "Panic Disorder":                                            "6B01 (Panic)",
+    "Agoraphobia":                                               "6B02 (Agoraphobia)",
+    "Agoraphobia AND Panic Disorder":                            "6B02 (Agoraphobia) & 6B01 (Panic)",
+    "Specific Phobia":                                           "6B03 (Specific Phobia)",
+    "Specific Phobia AND Panic Disorder":                        "6B03 (Specific Phobia) & 6B01 (Panic)",
+    "Social Anxiety Disorder":                                   "6B04 (Social Anxiety Disorder)",
+    "Social Anxiety Disorder AND Panic Disorder":                "6B04 (Social Anxiety Disorder) & 6B01 (Panic)",
+    "Separation Anxiety Disorder":                               "6B05 (Separation)",
+    "Separation Anxiety Disorder AND Panic Disorder":            "6B05 (Separation) & 6B01 (Panic)",
+    "Selective Mutism":                                          "6B06 (Selective Mutism)",
+    "Other Anxiety and Fear-Related Disorder":                   "6B0Y (Other)",
+    "Unspecified Anxiety and Fear-Related Disorder":             "6B0Z (Unspecified)",
+    "A different diagnosis":                                     "Other (Different Diagnosis)",
     "No Diagnosis":                                              "None (No Diagnosis)",
 }
 
 MOOD_X = {
-    "Single Episode Depressive Disorder":                        "L1",
-    "Recurrent Depressive Disorder":                             "L2",
-    "Dysthymic Disorder":                                        "L3",
-    "Mixed Depressive and Anxiety Disorder":                     "L4",
-    "Bipolar I":                                                 "L5",
-    "Bipolar II":                                                "L6",
-    "Cyclothymic Disorder":                                      "L7",
-    "Other Mood Disorder":                                       "L8",
-    "GAD":                                                       "N1",
-    "PGD":                                                       "P1",
+    "Single Episode Depressive Disorder":                        "6A70",
+    "Recurrent Depressive Disorder":                             "6A71",
+    "Dysthymic Disorder":                                        "6A72",
+    "Mixed Depressive and Anxiety Disorder":                     "6A73",
+    "Bipolar I":                                                 "6A60",
+    "Bipolar II":                                                "6A61",
+    "Cyclothymic Disorder":                                      "6A62",
+    "Other Mood Disorder":                                       "6A8Y",
+    "GAD":                                                       "6B00",
+    "PGD":                                                       "6B42",
     "No Diagnosis":                                              "None",
-    "Adjustment Disorder":                                       "P2",
+    "Adjustment Disorder":                                       "6B43",
     "Different Diagnosis":                                       "Other",
 }
 
 MOOD_Y = {
-    "Single Episode Depressive Disorder":                        "L1 (Single Episode Depressive Disorder)",
-    "Recurrent Depressive Disorder":                             "L2 (Recurrent Depressive Disorder)",
-    "Dysthymic Disorder":                                        "L3 (Dysthymia)",
-    "Mixed Depressive and Anxiety Disorder":                     "L4 (Mixed Dep/Anx)",
-    "Bipolar I":                                                 "L5 (Bipolar I)",
-    "Bipolar II":                                                "L6 (Bipolar II)",
-    "Cyclothymic Disorder":                                      "L7 (Cyclothymia)",
-    "Other Mood Disorder":                                       "L8 (Other Mood)",
-    "GAD":                                                       "N1 (GAD)",
-    "PGD":                                                       "P1 (PGD)",
+    "Single Episode Depressive Disorder":                        "6A70 (Single Episode Depressive Disorder)",
+    "Recurrent Depressive Disorder":                             "6A71 (Recurrent Depressive Disorder)",
+    "Dysthymic Disorder":                                        "6A72 (Dysthymia)",
+    "Mixed Depressive and Anxiety Disorder":                     "6A73 (Mixed Dep/Anx)",
+    "Bipolar I":                                                 "6A60 (Bipolar I)",
+    "Bipolar II":                                                "6A61 (Bipolar II)",
+    "Cyclothymic Disorder":                                      "6A62 (Cyclothymia)",
+    "Other Mood Disorder":                                       "6A8Y (Other Mood)",
+    "GAD":                                                       "6B00 (GAD)",
+    "PGD":                                                       "6B42 (PGD)",
     "No Diagnosis":                                              "None (No Diagnosis)",
-    "Adjustment Disorder":                                       "P2 (Adjustment Disorder)",
-    "Different Diagnosis":                                       "Other",
+    "Adjustment Disorder":                                       "6B43 (Adjustment Disorder)",
+    "Different Diagnosis":                                       "Other (Different Diagnosis)",
 }
 
 STRESS_X = {
-    "PTSD":                                                                                         "A1",
-    "C-PTSD":                                                                                       "A2",
-    "PGD":                                                                                          "A3",
-    "No Diagnosis":                                                                                 "None",
-    "Adjustment Disorder":                                                                          "A4",
-    "Different Stress-related Diagnosis":                                                           "A5",
-    "Acute Stress Reaction":                                                                        "A6",
-    "Different Diagnosis":                                                                          "Other",
+    "PTSD":                                                      "6B40",
+    "C-PTSD":                                                    "6B41",
+    "PGD":                                                       "6B42",
+    "No Diagnosis":                                              "None",
+    "Adjustment Disorder":                                       "6B43",
+    "Different Stress-related Diagnosis":                        "6B4Y",
+    "Acute Stress Reaction":                                     "QE84",
+    "Different Diagnosis":                                       "Other",
 }
 
 STRESS_Y = {
-    "PTSD":                                                                                         "A1 (PTSD)",
-    "C-PTSD":                                                                                       "A2 (C-PTSD)",
-    "PGD":                                                                                          "A3 (PGD)",
-    "No Diagnosis":                                                                                 "None (No Diagnosis)",
-    "Adjustment Disorder":                                                                          "A4 (Adjustment Disorder)",
-    "Different Stress-related Diagnosis":                                                           "A5 (Other Stress-related Diagnosis)",
-    "Acute Stress Reaction":                                                                        "A6 (Acute Stress Reaction)",
-    "Different Diagnosis":                                                                          "Other",
-    
+    "PTSD":                                                      "6B40 (PTSD)",
+    "C-PTSD":                                                    "6B41 (C-PTSD)",
+    "PGD":                                                       "6B42 (PGD)",
+    "No Diagnosis":                                              "None (No Diagnosis)",
+    "Adjustment Disorder":                                       "6B43 (Adjustment Disorder)",
+    "Different Stress-related Diagnosis":                        "6B4Y (Other Stress-related Diagnosis)",
+    "Acute Stress Reaction":                                     "QE84 (Acute Stress Reaction)",
+    "Different Diagnosis":                                       "Other (Different Diagnosis)",
+}
 
+LABEL_ABBREVIATIONS = {
+    "Post-Traumatic Stress Disorder (PTSD)":         "PTSD",
+    "Complex Post-Traumatic Stress Disorder (CPTSD)": "C-PTSD",
+    "Prolonged Grief Disorder":                      "PGD",
+    "Generalized Anxiety Disorder":                  "GAD",
+    "Bipolar Type II Disorder":                      "Bipolar II",
+    "Bipolar Type I Disorder":                       "Bipolar I",
+    "A diagnosis from a different diagnostic area (e.g. mood disorders, psychotic disorders, personality disorders)" : "Different Diagnosis",
+    "A different diagnosis not listed above" : "Different Diagnosis",
+    "Other Disorder Specifically Associated with Stress" : "Different Stress-related Diagnosis",
+    "Major Depressive Disorder" : "Other Mood Disorder"
 }
 
 # Combine into single lookup by category
@@ -857,18 +868,6 @@ def build_topn_sheet(combined: pd.DataFrame) -> pd.DataFrame:
 # ---------------------------------------------------------------------------
 # Plotting
 # ---------------------------------------------------------------------------
-LABEL_ABBREVIATIONS = {
-    "Post-Traumatic Stress Disorder (PTSD)":         "PTSD",
-    "Complex Post-Traumatic Stress Disorder (CPTSD)": "C-PTSD",
-    "Prolonged Grief Disorder":                      "PGD",
-    "Generalized Anxiety Disorder":                  "GAD",
-    "Bipolar Type II Disorder":                      "Bipolar II",
-    "Bipolar Type I Disorder":                       "Bipolar I",
-    "A diagnosis from a different diagnostic area (e.g. mood disorders, psychotic disorders, personality disorders)" : "Different Diagnosis",
-    "A different diagnosis not listed above" : "Different Diagnosis",
-    "Other Disorder Specifically Associated with Stress" : "Different Stress-related Diagnosis",
-    "Major Depressive Disorder" : "MDD"
-}
 
 def _abbreviate(label: str) -> str:
     return LABEL_ABBREVIATIONS.get(label, label)
@@ -1026,7 +1025,7 @@ def plot_confusion_matrix_pct(
         true_set = set(y_true)
         pred_set = set(y_pred)
 
-        row_labels = [l for l in canonical if l in true_set]
+        row_labels = [l for l in canonical if " AND " not in l]
         col_labels = [l for l in canonical if l in pred_set]
         extras = sorted(l for l in pred_set if l not in set(canonical))
         col_labels = col_labels + extras
@@ -1140,6 +1139,7 @@ def plot_confusion_matrix_pct_fixed(
     cell_size: float = 0.55,
     category: str = None,
     language: str = None,
+    cmap="Blues"
 ) -> None:
     """Plot and save a row-normalized confusion matrix heatmap (percentages).
 
@@ -1164,11 +1164,13 @@ def plot_confusion_matrix_pct_fixed(
     if (language == "english") and (category in ENGLISH_CM_LABEL_ORDER):
         canonical = ENGLISH_CM_LABEL_ORDER[category]
 
+        y_pred = ["Other Mood Disorder" if y == "Major Depressive Disorder" else y for y in y_pred]
+
         true_set = set(y_true)
         pred_set = set(y_pred)
 
         row_labels = [l for l in canonical if l in true_set]
-        col_labels = [l for l in canonical if l in pred_set]
+        col_labels = list(canonical)
         extras = sorted(l for l in pred_set if l not in set(canonical))
         col_labels = col_labels + extras
 
@@ -1203,7 +1205,7 @@ def plot_confusion_matrix_pct_fixed(
     # ------------------------------------------------------------------
     row_sums = cm_counts.sum(axis=1, keepdims=True).astype(float)
     with np.errstate(invalid="ignore"):
-        cm_pct = np.where(row_sums > 0, cm_counts / row_sums, np.nan)
+        cm_pct = np.where(row_sums > 0, cm_counts / row_sums, 0.0)
 
     # ------------------------------------------------------------------
     # Wrap long labels
@@ -1238,7 +1240,7 @@ def plot_confusion_matrix_pct_fixed(
         figsize = (n_cols * cell_size + margin_w, n_rows * cell_size + margin_h)
 
     # Annotation font size scales with cell size
-    fontsize_annot = max(7, int(cell_size * 22))  # bigger text relative to box
+    fontsize_annot = max(7, int(cell_size * 30))  # bigger text relative to box
 
     # ------------------------------------------------------------------
     # Build annotation array
@@ -1257,7 +1259,7 @@ def plot_confusion_matrix_pct_fixed(
         cm_pct,
         annot=annot_array,
         fmt="",
-        cmap="Blues",
+        cmap=cmap,
         vmin=0.0,
         vmax=1.0,
         xticklabels=wrapped_cols,
@@ -1268,7 +1270,7 @@ def plot_confusion_matrix_pct_fixed(
     )
     # ax.set_xlabel("Predicted diagnosis", fontsize=fontsize_labels)
     # ax.set_ylabel("True diagnosis", fontsize=fontsize_labels)
-    ax.set_title(title, fontsize=12)
+    # ax.set_title(title, fontsize=12)
     plt.xticks(rotation=0, fontsize=fontsize_labels)
     plt.yticks(rotation=0, fontsize=fontsize_labels)
 
