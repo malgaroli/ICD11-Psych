@@ -40,7 +40,7 @@ def load_config(file):
 
 config_dict = load_config(file=Path(__file__).parents[1].joinpath("config_paths.json"))["hpc"]
 BASE_PATH = Path(config_dict['base_path'])
-RESULTS_FOLDER = BASE_PATH / "results_Apr26" / "ablation"
+RESULTS_FOLDER = BASE_PATH / "results_resubmission" / "ablation"
 CONTAMINATION_DIR = RESULTS_FOLDER / "contamination_tests"
 OUTPUT_DIR = RESULTS_FOLDER / "_results"
 OUTPUT_DIR.mkdir(exist_ok=True)

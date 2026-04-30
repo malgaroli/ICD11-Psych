@@ -70,7 +70,7 @@ def load_config(file):
 
 config_dict = load_config(file=Path(__file__).parents[1].joinpath("config_paths.json"))["hpc"]
 BASE_PATH = Path(config_dict['base_path'])
-RESULTS_FOLDER = BASE_PATH / "results_Apr26"
+RESULTS_FOLDER = BASE_PATH / "results_resubmission"
 OUTPUT_DIR = RESULTS_FOLDER / "_results" / "clinicians"
 
 HARMONISED_CSV = OUTPUT_DIR / "clinicians_harmonised.csv"
