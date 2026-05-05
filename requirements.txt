@@ -1,7 +1,7 @@
 # Important to install the cuda enabled version of pytorch, otherwise you'll encounter an error with bitsandbytes
-transformers==4.52.1
+transformers==4.53
 pandas==2.2.3
-torch==2.7.1-rc1
+torch==2.8
 torchvision==0.18.0+cu118
 torchaudio==2.3.0+cu118
 --extra-index-url https://download.pytorch.org/whl/cu118
