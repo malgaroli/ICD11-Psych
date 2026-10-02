@@ -6,15 +6,8 @@ and save results to Excel workbooks.
 
 Tests run
 ---------
-1. Wilcoxon signed-rank    — per-vignette LLM correctness (0/1) vs. clinician
-                             mean accuracy ([0,1]) — replaces McNemar for
-                             LLM-vs-clinician because clinicians are a proportion,
-                             not a single binary rater
-2. English LLM vs. LLM    — McNemar pairwise (overall + per category)
-3. Non-inferiority + TOST  — one-sided NI test AND two one-sided equivalence test,
-                             both at δ = 0.10, LLM vs. clinician mean accuracy
-4. Top-N vs. random        — proportions z-test per model per category
-5. Multilingual McNemar    — pairwise language comparisons per model
+1. Top-N vs. random        — proportions z-test per model per category
+2. Multilingual McNemar    — pairwise language comparisons per model
 
 Clinician input
 ---------------
@@ -38,9 +31,6 @@ RESULTS_FOLDER/multi-lingual/<model>/<language>/*results.csv
 
 Outputs (saved to RESULTS_FOLDER/_results/statistics/)
 -------------------------------------------------------
-    wilcoxon_llm_vs_clinician.xlsx      — sheets: Overall, Anxiety, Mood, Stress
-    mcnemar_llm_vs_llm.xlsx             — sheets: Overall, Anxiety, Mood, Stress
-    non_inferiority_equivalence.xlsx    — sheets: Overall, Anxiety, Mood, Stress
     topn_vs_random.xlsx                 — sheets: By_Category, Overall
     multilingual_mcnemar.xlsx           — one sheet per model
 """
@@ -61,11 +51,8 @@ from stats_utils import (
     CATEGORIES,
     NI_MARGIN,
     apply_multiple_corrections,
-    build_mcnemar_results,
     build_multilingual_mcnemar_results,
-    build_ni_equivalence_results,
     build_topn_results,
-    build_wilcoxon_results,
     load_clinician_mean_accuracy,
 )
 
@@ -214,78 +201,7 @@ if __name__ == "__main__":
           f"{correctness_en.index.get_level_values('Vignette_ID').nunique()}")
 
     # -----------------------------------------------------------------------
-    # Test 1: Wilcoxon — LLM vs. clinician mean accuracy
-    # -----------------------------------------------------------------------
-    if clinician_mean_acc is not None:
-        print("\n[1/5] Wilcoxon signed-rank: LLM vs. clinician mean accuracy...")
-
-        wilcoxon_results = build_wilcoxon_results(
-            correctness_en,
-            clinician_mean_acc,
-            llm_cols=llm_cols,
-            categories=CATEGORIES,
-        )
-
-        wilcoxon_sheets: dict[str, pd.DataFrame] = {}
-        for scope in ["Overall"] + CATEGORIES:
-            subset = wilcoxon_results[wilcoxon_results["Category"] == scope]
-            if not subset.empty:
-                wilcoxon_sheets[scope] = subset.reset_index(drop=True)
-
-        _save_excel(
-            wilcoxon_sheets,
-            OUTPUT_DIR / "wilcoxon_llm_vs_clinician.xlsx",
-        )
-    else:
-        print("\n[1/5] Skipping Wilcoxon test (no clinician data).")
-
-    # -----------------------------------------------------------------------
-    # Test 2: McNemar — LLM vs. LLM pairwise
-    # -----------------------------------------------------------------------
-    print("\n[2/5] McNemar: LLM vs. LLM pairwise...")
-
-    mcnemar_llm = build_mcnemar_results(correctness_en, categories=CATEGORIES)
-
-    llm_llm_sheets: dict[str, pd.DataFrame] = {}
-    for scope in ["Overall"] + CATEGORIES:
-        subset = mcnemar_llm[mcnemar_llm["Category"] == scope]
-        if not subset.empty:
-            llm_llm_sheets[scope] = subset.reset_index(drop=True)
-
-    _save_excel(
-        llm_llm_sheets,
-        OUTPUT_DIR / "mcnemar_llm_vs_llm.xlsx",
-    )
-
-    # -----------------------------------------------------------------------
-    # Test 3: Non-inferiority + Equivalence (TOST) — LLM vs. clinician
-    # -----------------------------------------------------------------------
-    if clinician_mean_acc is not None:
-        print(f"\n[3/5] Non-inferiority + TOST equivalence (δ = {NI_MARGIN})...")
-
-        ni_eq_results = build_ni_equivalence_results(
-            correctness_en,
-            clinician_mean_acc,
-            llm_cols=llm_cols,
-            margin=NI_MARGIN,
-            categories=CATEGORIES,
-        )
-
-        ni_eq_sheets: dict[str, pd.DataFrame] = {}
-        for scope in ["Overall"] + CATEGORIES:
-            subset = ni_eq_results[ni_eq_results["Category"] == scope]
-            if not subset.empty:
-                ni_eq_sheets[scope] = subset.reset_index(drop=True)
-
-        _save_excel(
-            ni_eq_sheets,
-            OUTPUT_DIR / "non_inferiority_equivalence.xlsx",
-        )
-    else:
-        print("\n[3/5] Skipping NI + TOST tests (no clinician data).")
-
-    # -----------------------------------------------------------------------
-    # Test 4: Top-N vs. random baseline
+    # Test 1: Top-N vs. random baseline
     # -----------------------------------------------------------------------
     print("\n[4/5] Top-N vs. random baseline...")
 
@@ -306,7 +222,7 @@ if __name__ == "__main__":
               "Re-run build_topn_sheet() from icd11_utils to add them first.")
 
     # -----------------------------------------------------------------------
-    # Test 5: Multilingual McNemar (per model, pairwise languages)
+    # Test 2: Multilingual McNemar (per model, pairwise languages)
     # -----------------------------------------------------------------------
     print("\n[5/5] Multilingual McNemar (pairwise languages per model)...")
 
